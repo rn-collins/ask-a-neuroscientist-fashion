@@ -1,0 +1,12 @@
+{
+  "package_id":"AAN-F-002",
+  "title":"Why Does the Right Outfit Feel Like Armor?",
+  "updated":"2026-09-03",
+  "sources":[
+    {"id":"S-A01","claim_ids":["A01"],"title":"Emotion Measurements Through the Touch of Materials Surfaces","authors":"C. Bertheaux et al.","publisher":"Frontiers in Human Neuroscience","date":"2020","url":"https://doi.org/10.3389/fnhum.2019.00455","evidence_class":"experimental material-touch study and background review","limit":"Material samples and pupil response do not establish confidence from worn clothing."},
+    {"id":"S-A02","claim_ids":["A02"],"title":"Whatever Next and Close to My Self—The Transparent Senses and the Second Skin","authors":"Anna Ciaunica et al.","publisher":"Frontiers in Psychology","date":"2021","url":"https://doi.org/10.3389/fpsyg.2021.613587","evidence_class":"philosophical analysis with testable hypotheses","limit":"Not an intervention or clinical trial."},
+    {"id":"S-A03","claim_ids":["A03"],"title":"Dress is a Fundamental Component of Person Perception","authors":"Neil Hester and Eric Hehman","publisher":"Personality and Social Psychology Review","date":"2023","url":"https://doi.org/10.1177/10888683231157961","evidence_class":"integrative literature review","limit":"Social inference may be inaccurate, biased and culturally contingent."},
+    {"id":"S-A04","claim_ids":["A04"],"title":"Styling the Self: Clothing Practices, Personality Traits, and Body Image Among Israeli Women","authors":"Tatiana Stolovy","publisher":"Frontiers in Psychology","date":"2021","url":"https://doi.org/10.3389/fpsyg.2021.719318","evidence_class":"cross-sectional self-report study","limit":"Convenience sample, women only, correlational and culturally specific."},
+    {"id":"S-A05","claim_ids":["A05"],"title":"The Armor Outfit—three-occasion field protocol","authors":"RN Collins / AAN × Fashion","publisher":"AAN × Fashion","date":"2026","url":"/production/package-002-field-notes.md","evidence_class":"private self-observation protocol","limit":"Personal observation; not diagnostic and not population evidence."}
+  ]
+}
