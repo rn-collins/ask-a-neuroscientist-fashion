@@ -10,17 +10,20 @@ const must = [
   "exhibitions/clothes-and-cognition/index.html",
   "exhibitions/outfit-as-armor/index.html",
   "exhibitions/fabric-sensory-world/index.html",
+  "exhibitions/fashion-nostalgia/index.html",
   "objects/index.html",
   "evidence/index.html",
   "ask/index.html",
   "lab/index.html",
   "lab/armor/index.html",
   "lab/textile-sensory-map/index.html",
+  "lab/memory-garment-map/index.html",
   "rights/index.html",
   "method/index.html",
   "deliverables/index.html",
   "deliverables/armor/index.html",
   "deliverables/fabric-sensory-world/index.html",
+  "deliverables/fashion-nostalgia/index.html",
   "404.html",
   "robots.txt",
   "sitemap.xml",
@@ -66,7 +69,7 @@ if (
     .join() !== "C02"
 )
   throw Error("filter behavior failed");
-if (ctx.window.filterEvidence(claims, "all", "all").length !== 16)
+if (ctx.window.filterEvidence(claims, "all", "all").length !== 24)
   throw Error("filter reset behavior failed");
 const manifest = JSON.parse(
   fs.readFileSync("production/source-manifest.json", "utf8"),
@@ -117,6 +120,13 @@ const production = [
   "package-003-social.csv",
   "package-003-rights.csv",
   "package-003-sources.json",
+  "package-004-video-audio-script.md",
+  "package-004-beehiiv.md",
+  "package-004-verticals.md",
+  "package-004-carousels.md",
+  "package-004-social.csv",
+  "package-004-rights.csv",
+  "package-004-sources.json",
 ];
 for (const f of production)
   if (!fs.existsSync(path.join("production", f)))
@@ -224,17 +234,20 @@ for (const route of [
   "/exhibitions/",
   "/exhibitions/outfit-as-armor/",
   "/exhibitions/fabric-sensory-world/",
+  "/exhibitions/fashion-nostalgia/",
   "/objects/",
   "/evidence/",
   "/ask/",
   "/lab/",
   "/lab/armor/",
   "/lab/textile-sensory-map/",
+  "/lab/memory-garment-map/",
   "/rights/",
   "/method/",
   "/deliverables/",
   "/deliverables/armor/",
   "/deliverables/fabric-sensory-world/",
+  "/deliverables/fashion-nostalgia/",
 ])
   if (!app.includes(`"${route}"`) && !app.includes(`'${route}'`))
     throw Error(`route metadata missing ${route}`);
@@ -293,6 +306,7 @@ const routeMap = new Map([
   ["/", "index.html"],
   ["/exhibitions", "exhibitions/index.html"],
   ["/exhibitions/fabric-sensory-world", "exhibitions/fabric-sensory-world/index.html"],
+  ["/exhibitions/fashion-nostalgia", "exhibitions/fashion-nostalgia/index.html"],
   [
     "/exhibitions/clothes-and-cognition",
     "exhibitions/clothes-and-cognition/index.html",
@@ -302,10 +316,12 @@ const routeMap = new Map([
   ["/ask", "ask/index.html"],
   ["/lab", "lab/index.html"],
   ["/lab/textile-sensory-map", "lab/textile-sensory-map/index.html"],
+  ["/lab/memory-garment-map", "lab/memory-garment-map/index.html"],
   ["/rights", "rights/index.html"],
   ["/method", "method/index.html"],
   ["/deliverables", "deliverables/index.html"],
   ["/deliverables/fabric-sensory-world", "deliverables/fabric-sensory-world/index.html"],
+  ["/deliverables/fashion-nostalgia", "deliverables/fashion-nostalgia/index.html"],
 ]);
 const server = http.createServer((req, res) => {
   const clean = (req.url || "/").replace(/\/$/, "") || "/";

@@ -50,6 +50,10 @@ const routeMetadata = {
     title: "Why Can One Fabric Feel Calming and Another Unbearable? — Exhibition 003",
     description: "Touch, textile and context without diagnostic stereotypes.",
   },
+  "/exhibitions/fashion-nostalgia/": {
+    title: "Why Can Fashion Nostalgia Feel So Powerful? — Exhibition 004",
+    description: "Autobiographical memory, cue-dependent recall and cultural nostalgia—without a mythical nostalgia center.",
+  },
   "/objects/": {
     title: "Object Room — AAN × Fashion",
     description:
@@ -79,6 +83,10 @@ const routeMetadata = {
     title: "Sensory Textile Field Map — AAN × Fashion",
     description: "A private, non-diagnostic garment comparison tool.",
   },
+  "/lab/memory-garment-map/": {
+    title: "Memory Garment Field Map — AAN × Fashion",
+    description: "A private, non-diagnostic tool separating cue, remembered experience and corroborated record.",
+  },
   "/rights/": {
     title: "Rights & Provenance",
     description:
@@ -101,6 +109,10 @@ const routeMetadata = {
   "/deliverables/fabric-sensory-world/": {
     title: "Package 003 Production Gallery",
     description: "Finished cross-platform assets for the sensory textile exhibition.",
+  },
+  "/deliverables/fashion-nostalgia/": {
+    title: "Package 004 Production Gallery",
+    description: "Finished cross-platform assets for the fashion nostalgia exhibition.",
   },
 };
 const routePath = location.pathname.endsWith("/")
