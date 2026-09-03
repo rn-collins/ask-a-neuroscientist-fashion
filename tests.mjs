@@ -1,27 +1,338 @@
-import fs from 'node:fs';import path from 'node:path';import vm from 'node:vm';import os from 'node:os';import http from 'node:http';import {spawnSync} from 'node:child_process';
-const must=['index.html','exhibitions/index.html','exhibitions/clothes-and-cognition/index.html','exhibitions/outfit-as-armor/index.html','objects/index.html','evidence/index.html','ask/index.html','lab/index.html','lab/armor/index.html','rights/index.html','method/index.html','deliverables/index.html','deliverables/armor/index.html','404.html','robots.txt','sitemap.xml'];
-for(const f of must)if(!fs.existsSync(f)||!fs.statSync(f).size)throw Error(`missing ${f}`);
-const ctx={window:{}};vm.createContext(ctx);vm.runInContext(fs.readFileSync('data.js','utf8'),ctx);const {objects,claims}=ctx.window.AAN;
-if(objects.length!==12||objects.some(o=>o.license!=='CC0'||!o.alt||!o.record||!o.image||!o.accession))throw Error('object rights/provenance incomplete');
-const accessions=['C.I.45.27a, b','2009.300.6638a, b','2009.300.3330','1988.65.1–.2; 1995.93a, b','53.134','2022.428.5','1992.374','29.154.3','24.179; 26.188.1, .2; 29.158.363a, b','04.3.289','39.121a–n','04.4.2'];if(objects.some((o,i)=>o.accession!==accessions[i]))throw Error('canonical Met accession mismatch');
-if(ctx.window.filterEvidence(claims,'replication','stroop').map(x=>x.id).join()!=='C02')throw Error('filter behavior failed');if(ctx.window.filterEvidence(claims,'all','all').length!==9)throw Error('filter reset behavior failed');
-const manifest=JSON.parse(fs.readFileSync('production/source-manifest.json','utf8'));const mapped=new Set(manifest.sources.flatMap(s=>s.claim_ids));for(const c of claims.filter(x=>x.id.startsWith('C')))if(!mapped.has(c.id))throw Error(`manifest missing ${c.id}`);
-for(const author of ['Devin M. Burns','Elizabeth L. Fox','Michael Greenstein','Gayla R. Olbricht','DeMaris Montgomery'])if(!JSON.stringify(manifest).includes(author))throw Error('replication authorship wrong: '+author);
-if(JSON.stringify(manifest).includes('10.31234/osf.io/cj6kv'))throw Error('preprint DOI must not replace published replication DOI');
-const lab=fs.readFileSync('lab/index.html','utf8');for(const id of ['statusSelect','measureSelect','fitRegion','countRegion','resetButton'])if(!lab.includes(id))throw Error(`explicit binding missing ${id}`);if(/\bstatus\.value/.test(lab))throw Error('implicit status global remains');
-const production=['package-001-kit.md','video-script.md','carousel-copy.md','social-cuts.csv','rights-ledger.csv','source-manifest.json','package-002-video-script.md','package-002-beehiiv.md','package-002-verticals.md','package-002-carousels.md','package-002-social.csv','package-002-field-notes.md','package-002-rights.csv','package-002-sources.json'];for(const f of production)if(!fs.existsSync(path.join('production',f)))throw Error(`missing production/${f}`);
-const armorManifest=JSON.parse(fs.readFileSync('production/package-002-sources.json','utf8'));const armorMapped=new Set(armorManifest.sources.flatMap(s=>s.claim_ids));for(const id of ['A01','A02','A03','A04','A05'])if(!armorMapped.has(id))throw Error(`armor manifest missing ${id}`);if(armorManifest.sources.some(s=>!s.evidence_class||!s.limit||!s.url))throw Error('armor evidence boundary incomplete');
-const armorRights=fs.readFileSync('production/package-002-rights.csv','utf8');for(const id of ['M23205','M27790','M22001','M24671','M22020','EDU001','EDU002'])if(!armorRights.includes(id))throw Error(`armor rights ledger missing ${id}`);if(!armorRights.includes('link only')||!armorRights.includes('Public Domain/CC0'))throw Error('armor asset dispositions incomplete');
-const armorPage=fs.readFileSync('exhibitions/outfit-as-armor/index.html','utf8');for(const token of ['AAN-F-002','download>Download','3D + AUDIO','Link-only','AAN-F-002','Armor Pathway Mapper'])if(!armorPage.includes(token))throw Error(`armor exhibition missing ${token}`);
-const armorLab=fs.readFileSync('lab/armor/index.html','utf8');for(const token of ['nothing is stored','non-diagnostic','aria-live','clearArmor'])if(!armorLab.toLowerCase().includes(token.toLowerCase()))throw Error(`armor mapper missing ${token}`);
-const site=must.filter(x=>x.endsWith('.html')).map(x=>fs.readFileSync(x,'utf8')).join('\n')+fs.readFileSync('app.js','utf8');if(site.includes('corrections@example.com')||site.includes('Contact pending'))throw Error('fake or unresolved correction contact remains');if(!site.includes('https://github.com/rn-collins/ask-a-neuroscientist-fashion/issues/new/choose'))throw Error('authorized correction channel missing');if(!site.includes('planned outputs'))throw Error('deliverables not honestly labelled');
-for(const form of ['.github/ISSUE_TEMPLATE/correction.yml','.github/ISSUE_TEMPLATE/takedown.yml','.github/ISSUE_TEMPLATE/config.yml'])if(!fs.existsSync(form))throw Error(`missing ${form}`);
-if(!fs.readFileSync('index.html','utf8').includes('rel="canonical"')||!fs.readFileSync('index.html','utf8').includes('og:title'))throw Error('homepage metadata incomplete');
-if(!fs.readFileSync('app.js','utf8').includes('<details>')||!fs.readFileSync('app.js','utf8').includes('Skip to content'))throw Error('low-load accessible navigation absent');
-const publicPages=must.filter(x=>x.endsWith('index.html'));for(const file of publicPages){const html=fs.readFileSync(file,'utf8');for(const token of ['<html lang="en">','<meta name="viewport"','<main','<h1','/app.js'])if(!html.includes(token))throw Error(`${file} missing structural ${token}`)}
-const app=fs.readFileSync('app.js','utf8');for(const route of ['/exhibitions/','/exhibitions/outfit-as-armor/','/objects/','/evidence/','/ask/','/lab/','/lab/armor/','/rights/','/method/','/deliverables/','/deliverables/armor/'])if(!app.includes(`'${route}'`))throw Error(`route metadata missing ${route}`);for(const token of ['og:title','og:description','og:url','twitter:card','canonicalLink'])if(!app.includes(token))throw Error(`dynamic metadata missing ${token}`);
-const mobile=fs.readFileSync('mobile-nav.css','utf8');if(!mobile.includes('nth-of-type(3)')||!mobile.includes('nth-of-type(4)')||!mobile.includes('display:inline'))throw Error('Objects and Evidence not directly visible on mobile');
-const headers=JSON.parse(fs.readFileSync('vercel.json','utf8')).headers[0].headers;const csp=headers.find(x=>x.key==='Content-Security-Policy')?.value||'';for(const directive of ["frame-ancestors 'none'",'images.metmuseum.org','fonts.googleapis.com','fonts.gstatic.com'])if(!csp.includes(directive))throw Error(`CSP missing ${directive}`);
-const tmp=fs.mkdtempSync(path.join(os.tmpdir(),'aan-host-'));fs.writeFileSync(path.join(tmp,'robots.txt'),'https://ask-a-neuroscientist-fashion.vercel.app/x');fs.writeFileSync(path.join(tmp,'index.html'),'<link rel="canonical" href="https://ask-a-neuroscientist-fashion.vercel.app/">');const configured=spawnSync(process.execPath,[path.resolve('configure-hostname.mjs'),'aan.example.org'],{cwd:tmp});if(configured.status||fs.readFileSync(path.join(tmp,'robots.txt'),'utf8').includes('vercel.app')||!fs.readFileSync(path.join(tmp,'index.html'),'utf8').includes('aan.example.org'))throw Error('hostname configuration failed');fs.rmSync(tmp,{recursive:true});
-const routeMap=new Map([['/','index.html'],['/exhibitions','exhibitions/index.html'],['/exhibitions/clothes-and-cognition','exhibitions/clothes-and-cognition/index.html'],['/objects','objects/index.html'],['/evidence','evidence/index.html'],['/ask','ask/index.html'],['/lab','lab/index.html'],['/rights','rights/index.html'],['/method','method/index.html'],['/deliverables','deliverables/index.html']]);const server=http.createServer((req,res)=>{const clean=(req.url||'/').replace(/\/$/,'')||'/';const file=routeMap.get(clean);if(!file){res.writeHead(404,{'content-type':'text/html'});return res.end(fs.readFileSync('404.html'))}res.writeHead(200,{'content-type':'text/html; charset=utf-8'});res.end(fs.readFileSync(file))});await new Promise(resolve=>server.listen(0,'127.0.0.1',resolve));try{const origin=`http://127.0.0.1:${server.address().port}`;for(const route of routeMap.keys()){const response=await fetch(origin+route);if(response.status!==200)throw Error(`HTTP ${response.status} ${route}`);const html=await response.text();if(!html.includes('<main')||!html.includes('<h1'))throw Error(`DOM smoke failed ${route}`)}const missing=await fetch(origin+'/not-a-room');if(missing.status!==404)throw Error('HTTP 404 route failed')}finally{await new Promise(resolve=>server.close(resolve))}
-console.log('PASS: routes, canonical accessions, rights fields, claim-manifest mapping, filter/reset behavior, honest production status, correction workflow and hostname rewrite');
+import fs from "node:fs";
+import path from "node:path";
+import vm from "node:vm";
+import os from "node:os";
+import http from "node:http";
+import { spawnSync } from "node:child_process";
+const must = [
+  "index.html",
+  "exhibitions/index.html",
+  "exhibitions/clothes-and-cognition/index.html",
+  "exhibitions/outfit-as-armor/index.html",
+  "exhibitions/fabric-sensory-world/index.html",
+  "objects/index.html",
+  "evidence/index.html",
+  "ask/index.html",
+  "lab/index.html",
+  "lab/armor/index.html",
+  "lab/textile-sensory-map/index.html",
+  "rights/index.html",
+  "method/index.html",
+  "deliverables/index.html",
+  "deliverables/armor/index.html",
+  "deliverables/fabric-sensory-world/index.html",
+  "404.html",
+  "robots.txt",
+  "sitemap.xml",
+];
+for (const f of must)
+  if (!fs.existsSync(f) || !fs.statSync(f).size) throw Error(`missing ${f}`);
+const ctx = { window: {} };
+vm.createContext(ctx);
+vm.runInContext(fs.readFileSync("data.js", "utf8"), ctx);
+const { objects, claims } = ctx.window.AAN;
+if (
+  objects.length !== 16 ||
+  objects.some(
+    (o) =>
+      o.license !== "CC0" || !o.alt || !o.record || !o.image || !o.accession,
+  )
+)
+  throw Error("object rights/provenance incomplete");
+const accessions = [
+  "C.I.45.27a, b",
+  "2009.300.6638a, b",
+  "2009.300.3330",
+  "1988.65.1–.2; 1995.93a, b",
+  "53.134",
+  "2022.428.5",
+  "1992.374",
+  "29.154.3",
+  "24.179; 26.188.1, .2; 29.158.363a, b",
+  "04.3.289",
+  "39.121a–n",
+  "04.4.2",
+  "2003.426a, b",
+  "1993.35.1a–c",
+  "1976.147.1",
+  "1980.409.1a–c",
+];
+if (objects.some((o, i) => o.accession !== accessions[i]))
+  throw Error("canonical Met accession mismatch");
+if (
+  ctx.window
+    .filterEvidence(claims, "replication", "stroop")
+    .map((x) => x.id)
+    .join() !== "C02"
+)
+  throw Error("filter behavior failed");
+if (ctx.window.filterEvidence(claims, "all", "all").length !== 16)
+  throw Error("filter reset behavior failed");
+const manifest = JSON.parse(
+  fs.readFileSync("production/source-manifest.json", "utf8"),
+);
+const mapped = new Set(manifest.sources.flatMap((s) => s.claim_ids));
+for (const c of claims.filter((x) => x.id.startsWith("C")))
+  if (!mapped.has(c.id)) throw Error(`manifest missing ${c.id}`);
+for (const author of [
+  "Devin M. Burns",
+  "Elizabeth L. Fox",
+  "Michael Greenstein",
+  "Gayla R. Olbricht",
+  "DeMaris Montgomery",
+])
+  if (!JSON.stringify(manifest).includes(author))
+    throw Error("replication authorship wrong: " + author);
+if (JSON.stringify(manifest).includes("10.31234/osf.io/cj6kv"))
+  throw Error("preprint DOI must not replace published replication DOI");
+const lab = fs.readFileSync("lab/index.html", "utf8");
+for (const id of [
+  "statusSelect",
+  "measureSelect",
+  "fitRegion",
+  "countRegion",
+  "resetButton",
+])
+  if (!lab.includes(id)) throw Error(`explicit binding missing ${id}`);
+if (/\bstatus\.value/.test(lab)) throw Error("implicit status global remains");
+const production = [
+  "package-001-kit.md",
+  "video-script.md",
+  "carousel-copy.md",
+  "social-cuts.csv",
+  "rights-ledger.csv",
+  "source-manifest.json",
+  "package-002-video-script.md",
+  "package-002-beehiiv.md",
+  "package-002-verticals.md",
+  "package-002-carousels.md",
+  "package-002-social.csv",
+  "package-002-field-notes.md",
+  "package-002-rights.csv",
+  "package-002-sources.json",
+  "package-003-video-audio-script.md",
+  "package-003-beehiiv.md",
+  "package-003-verticals.md",
+  "package-003-carousels.md",
+  "package-003-social.csv",
+  "package-003-rights.csv",
+  "package-003-sources.json",
+];
+for (const f of production)
+  if (!fs.existsSync(path.join("production", f)))
+    throw Error(`missing production/${f}`);
+const armorManifest = JSON.parse(
+  fs.readFileSync("production/package-002-sources.json", "utf8"),
+);
+const armorMapped = new Set(armorManifest.sources.flatMap((s) => s.claim_ids));
+for (const id of ["A01", "A02", "A03", "A04", "A05"])
+  if (!armorMapped.has(id)) throw Error(`armor manifest missing ${id}`);
+if (armorManifest.sources.some((s) => !s.evidence_class || !s.limit || !s.url))
+  throw Error("armor evidence boundary incomplete");
+const armorRights = fs.readFileSync(
+  "production/package-002-rights.csv",
+  "utf8",
+);
+for (const id of [
+  "M23205",
+  "M27790",
+  "M22001",
+  "M24671",
+  "M22020",
+  "EDU001",
+  "EDU002",
+])
+  if (!armorRights.includes(id))
+    throw Error(`armor rights ledger missing ${id}`);
+if (
+  !armorRights.includes("link only") ||
+  !armorRights.includes("Public Domain/CC0")
+)
+  throw Error("armor asset dispositions incomplete");
+const armorPage = fs.readFileSync(
+  "exhibitions/outfit-as-armor/index.html",
+  "utf8",
+);
+for (const token of [
+  "AAN-F-002",
+  "download>Download",
+  "3D + AUDIO",
+  "Link-only",
+  "AAN-F-002",
+  "Armor Pathway Mapper",
+])
+  if (!armorPage.includes(token))
+    throw Error(`armor exhibition missing ${token}`);
+const armorLab = fs.readFileSync("lab/armor/index.html", "utf8");
+for (const token of [
+  "nothing is stored",
+  "non-diagnostic",
+  "aria-live",
+  "clearArmor",
+])
+  if (!armorLab.toLowerCase().includes(token.toLowerCase()))
+    throw Error(`armor mapper missing ${token}`);
+const site =
+  must
+    .filter((x) => x.endsWith(".html"))
+    .map((x) => fs.readFileSync(x, "utf8"))
+    .join("\n") + fs.readFileSync("app.js", "utf8");
+if (
+  site.includes("corrections@example.com") ||
+  site.includes("Contact pending")
+)
+  throw Error("fake or unresolved correction contact remains");
+if (
+  !site.includes(
+    "https://github.com/rn-collins/ask-a-neuroscientist-fashion/issues/new/choose",
+  )
+)
+  throw Error("authorized correction channel missing");
+if (!site.includes("planned outputs"))
+  throw Error("deliverables not honestly labelled");
+for (const form of [
+  ".github/ISSUE_TEMPLATE/correction.yml",
+  ".github/ISSUE_TEMPLATE/takedown.yml",
+  ".github/ISSUE_TEMPLATE/config.yml",
+])
+  if (!fs.existsSync(form)) throw Error(`missing ${form}`);
+if (
+  !fs.readFileSync("index.html", "utf8").includes('rel="canonical"') ||
+  !fs.readFileSync("index.html", "utf8").includes("og:title")
+)
+  throw Error("homepage metadata incomplete");
+if (
+  !fs.readFileSync("app.js", "utf8").includes("<details>") ||
+  !fs.readFileSync("app.js", "utf8").includes("Skip to content")
+)
+  throw Error("low-load accessible navigation absent");
+const publicPages = must.filter((x) => x.endsWith("index.html"));
+for (const file of publicPages) {
+  const html = fs.readFileSync(file, "utf8");
+  for (const token of [
+    '<html lang="en">',
+    '<meta name="viewport"',
+    "<main",
+    "<h1",
+    "/app.js",
+  ])
+    if (!html.includes(token))
+      throw Error(`${file} missing structural ${token}`);
+}
+const app = fs.readFileSync("app.js", "utf8");
+for (const route of [
+  "/exhibitions/",
+  "/exhibitions/outfit-as-armor/",
+  "/exhibitions/fabric-sensory-world/",
+  "/objects/",
+  "/evidence/",
+  "/ask/",
+  "/lab/",
+  "/lab/armor/",
+  "/lab/textile-sensory-map/",
+  "/rights/",
+  "/method/",
+  "/deliverables/",
+  "/deliverables/armor/",
+  "/deliverables/fabric-sensory-world/",
+])
+  if (!app.includes(`"${route}"`) && !app.includes(`'${route}'`))
+    throw Error(`route metadata missing ${route}`);
+for (const token of [
+  "og:title",
+  "og:description",
+  "og:url",
+  "twitter:card",
+  "canonicalLink",
+])
+  if (!app.includes(token)) throw Error(`dynamic metadata missing ${token}`);
+const mobile = fs.readFileSync("mobile-nav.css", "utf8");
+if (
+  !mobile.includes("nth-of-type(3)") ||
+  !mobile.includes("nth-of-type(4)") ||
+  !mobile.includes("display:inline")
+)
+  throw Error("Objects and Evidence not directly visible on mobile");
+const headers = JSON.parse(fs.readFileSync("vercel.json", "utf8")).headers[0]
+  .headers;
+const csp =
+  headers.find((x) => x.key === "Content-Security-Policy")?.value || "";
+for (const directive of [
+  "frame-ancestors 'none'",
+  "images.metmuseum.org",
+  "fonts.googleapis.com",
+  "fonts.gstatic.com",
+])
+  if (!csp.includes(directive)) throw Error(`CSP missing ${directive}`);
+const tmp = fs.mkdtempSync(path.join(os.tmpdir(), "aan-host-"));
+fs.writeFileSync(
+  path.join(tmp, "robots.txt"),
+  "https://ask-a-neuroscientist-fashion.vercel.app/x",
+);
+fs.writeFileSync(
+  path.join(tmp, "index.html"),
+  '<link rel="canonical" href="https://ask-a-neuroscientist-fashion.vercel.app/">',
+);
+const configured = spawnSync(
+  process.execPath,
+  [path.resolve("configure-hostname.mjs"), "aan.example.org"],
+  { cwd: tmp },
+);
+if (
+  configured.status ||
+  fs
+    .readFileSync(path.join(tmp, "robots.txt"), "utf8")
+    .includes("vercel.app") ||
+  !fs
+    .readFileSync(path.join(tmp, "index.html"), "utf8")
+    .includes("aan.example.org")
+)
+  throw Error("hostname configuration failed");
+fs.rmSync(tmp, { recursive: true });
+const routeMap = new Map([
+  ["/", "index.html"],
+  ["/exhibitions", "exhibitions/index.html"],
+  ["/exhibitions/fabric-sensory-world", "exhibitions/fabric-sensory-world/index.html"],
+  [
+    "/exhibitions/clothes-and-cognition",
+    "exhibitions/clothes-and-cognition/index.html",
+  ],
+  ["/objects", "objects/index.html"],
+  ["/evidence", "evidence/index.html"],
+  ["/ask", "ask/index.html"],
+  ["/lab", "lab/index.html"],
+  ["/lab/textile-sensory-map", "lab/textile-sensory-map/index.html"],
+  ["/rights", "rights/index.html"],
+  ["/method", "method/index.html"],
+  ["/deliverables", "deliverables/index.html"],
+  ["/deliverables/fabric-sensory-world", "deliverables/fabric-sensory-world/index.html"],
+]);
+const server = http.createServer((req, res) => {
+  const clean = (req.url || "/").replace(/\/$/, "") || "/";
+  const file = routeMap.get(clean);
+  if (!file) {
+    res.writeHead(404, { "content-type": "text/html" });
+    return res.end(fs.readFileSync("404.html"));
+  }
+  res.writeHead(200, { "content-type": "text/html; charset=utf-8" });
+  res.end(fs.readFileSync(file));
+});
+await new Promise((resolve) => server.listen(0, "127.0.0.1", resolve));
+try {
+  const origin = `http://127.0.0.1:${server.address().port}`;
+  for (const route of routeMap.keys()) {
+    const response = await fetch(origin + route);
+    if (response.status !== 200)
+      throw Error(`HTTP ${response.status} ${route}`);
+    const html = await response.text();
+    if (!html.includes("<main") || !html.includes("<h1"))
+      throw Error(`DOM smoke failed ${route}`);
+  }
+  const missing = await fetch(origin + "/not-a-room");
+  if (missing.status !== 404) throw Error("HTTP 404 route failed");
+} finally {
+  await new Promise((resolve) => server.close(resolve));
+}
+console.log(
+  "PASS: routes, canonical accessions, rights fields, claim-manifest mapping, filter/reset behavior, honest production status, correction workflow and hostname rewrite",
+);

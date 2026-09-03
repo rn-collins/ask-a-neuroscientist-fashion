@@ -1,0 +1,9 @@
+{"package":"AAN-F-003","accessed":"2026-09-03","claims":[
+{"id":"T01","source":"Liljencrantz J, Olausson H. Tactile C fibers and their contributions to pleasant sensations and to tactile allodynia.","year":2014,"url":"https://doi.org/10.3389/fnbeh.2014.00037","type":"peer-reviewed mini-review","limit":"Controlled touch and allodynia evidence does not make a worn textile universally calming."},
+{"id":"T02","source":"Mehta et al. Tactile sensitivity alters textile touch perception.","year":2024,"url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC11410198/","type":"original psychophysical study","limit":"Hand-touch task does not reproduce extended wear."},
+{"id":"T03","source":"Kyriacou et al. Clothes, Sensory Experiences and Autism.","year":2023,"url":"https://doi.org/10.1007/s10803-021-05140-3","type":"mixed-methods study","limit":"Ten autistic adults; not representative of all autistic people."},
+{"id":"T04","source":"Ellingsen et al. The Neurobiology Shaping Affective Touch.","year":2016,"url":"https://doi.org/10.3389/fpsyg.2015.01986","type":"review","limit":"Expectation and social-touch paradigms are not garment trials."},
+{"id":"T05","source":"Lawson et al. Exploring Effects of Sensory Garments on Participation.","year":2022,"url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC9192327/","type":"small feasibility study","limit":"Small pediatric study cannot establish general efficacy."},
+{"id":"T06","source":"Grandits et al. Effect of compression on repetitive behaviors and task participation.","year":2023,"url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC10756671/","type":"small original study","limit":"Does not support universal anxiety or regulation claims."},
+{"id":"T07","source":"MacLennan et al. The Complex Sensory Experiences of Autistic Adults.","year":2022,"url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC9213348/","type":"qualitative original study","limit":"Broad sensory testimony; not a textile-product trial."}
+]}
