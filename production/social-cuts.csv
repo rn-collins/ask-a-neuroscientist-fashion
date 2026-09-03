@@ -1,0 +1,11 @@
+id,format,hook,claim_id,duration,closing_card
+01,vertical,The coat that supposedly changes attention,C01,45s,DISPUTED
+02,vertical,Where does a corset end and body schema begin,C01,60s,HYPOTHESIS
+03,vertical,A uniform changes the room before the brain,C04,45s,SUPPORTED / BOUNDED
+04,vertical,Formalwear does not increase IQ,C01,40s,DOES NOT PROVE
+05,vertical,The color is not simply in the dress,C04,50s,CONTEXT
+06,vertical,The mirror gets dressed,C01,55s,MECHANISM ≠ FINDING
+07,vertical,The replication people omit,C02,60s,REPLICATION
+08,reel,2012 claim versus 2019 replication,C01+C02,60s,READ BOTH
+09,object,Maison Léoty corset close-read,C01,75s,OBJECT ≠ PROOF
+10,text,What did the task actually measure,C01,short,SELECTIVE ATTENTION
