@@ -11,6 +11,7 @@ const must = [
   "exhibitions/outfit-as-armor/index.html",
   "exhibitions/fabric-sensory-world/index.html",
   "exhibitions/fashion-nostalgia/index.html",
+  "exhibitions/fashion-week-nervous-system/index.html",
   "objects/index.html",
   "evidence/index.html",
   "ask/index.html",
@@ -18,12 +19,14 @@ const must = [
   "lab/armor/index.html",
   "lab/textile-sensory-map/index.html",
   "lab/memory-garment-map/index.html",
+  "lab/field-load-recovery/index.html",
   "rights/index.html",
   "method/index.html",
   "deliverables/index.html",
   "deliverables/armor/index.html",
   "deliverables/fabric-sensory-world/index.html",
   "deliverables/fashion-nostalgia/index.html",
+  "deliverables/fashion-week-nervous-system/index.html",
   "404.html",
   "robots.txt",
   "sitemap.xml",
@@ -69,7 +72,7 @@ if (
     .join() !== "C02"
 )
   throw Error("filter behavior failed");
-if (ctx.window.filterEvidence(claims, "all", "all").length !== 24)
+if (ctx.window.filterEvidence(claims, "all", "all").length !== 33)
   throw Error("filter reset behavior failed");
 const manifest = JSON.parse(
   fs.readFileSync("production/source-manifest.json", "utf8"),
@@ -127,6 +130,13 @@ const production = [
   "package-004-social.csv",
   "package-004-rights.csv",
   "package-004-sources.json",
+  "package-005-video-audio-script.md",
+  "package-005-beehiiv.md",
+  "package-005-verticals.md",
+  "package-005-carousels.md",
+  "package-005-social.csv",
+  "package-005-rights.csv",
+  "package-005-sources.json",
 ];
 for (const f of production)
   if (!fs.existsSync(path.join("production", f)))
@@ -235,6 +245,7 @@ for (const route of [
   "/exhibitions/outfit-as-armor/",
   "/exhibitions/fabric-sensory-world/",
   "/exhibitions/fashion-nostalgia/",
+  "/exhibitions/fashion-week-nervous-system/",
   "/objects/",
   "/evidence/",
   "/ask/",
@@ -242,12 +253,14 @@ for (const route of [
   "/lab/armor/",
   "/lab/textile-sensory-map/",
   "/lab/memory-garment-map/",
+  "/lab/field-load-recovery/",
   "/rights/",
   "/method/",
   "/deliverables/",
   "/deliverables/armor/",
   "/deliverables/fabric-sensory-world/",
   "/deliverables/fashion-nostalgia/",
+  "/deliverables/fashion-week-nervous-system/",
 ])
   if (!app.includes(`"${route}"`) && !app.includes(`'${route}'`))
     throw Error(`route metadata missing ${route}`);
@@ -275,6 +288,7 @@ for (const directive of [
   "images.metmuseum.org",
   "fonts.googleapis.com",
   "fonts.gstatic.com",
+  "youtube-nocookie.com",
 ])
   if (!csp.includes(directive)) throw Error(`CSP missing ${directive}`);
 const tmp = fs.mkdtempSync(path.join(os.tmpdir(), "aan-host-"));
@@ -302,11 +316,52 @@ if (
 )
   throw Error("hostname configuration failed");
 fs.rmSync(tmp, { recursive: true });
+const fwClaims = claims.filter((c) => c.id.startsWith("F"));
+if (fwClaims.length !== 9 || fwClaims.some((c) => !c.boundary || !c.doi))
+  throw Error("Package 005 claims or boundaries incomplete");
+const fwManifest = JSON.parse(
+  fs.readFileSync("production/package-005-sources.json", "utf8"),
+);
+const fwMapped = new Set(fwManifest.sources.flatMap((s) => s.claim_ids));
+for (const c of fwClaims)
+  if (!fwMapped.has(c.id)) throw Error(`Package 005 manifest missing ${c.id}`);
+if (
+  !fwManifest.scope_note.includes("No located study") ||
+  fwManifest.sources.some((s) => !s.transfer_limit || !s.evidence_class)
+)
+  throw Error("Package 005 transfer limits incomplete");
+const fwPage = fs.readFileSync(
+  "exhibitions/fashion-week-nervous-system/index.html",
+  "utf8",
+);
+for (const token of [
+  "Fashion Week is not one stimulus",
+  "youtube-nocookie.com/embed/S5dwtat6Wp8",
+  "youtube-nocookie.com/embed/vRJbrfgrAUs",
+  "Not established",
+  "Map one event day",
+])
+  if (!fwPage.includes(token)) throw Error(`Package 005 exhibition missing ${token}`);
+const fwLab = fs.readFileSync("lab/field-load-recovery/index.html", "utf8");
+for (const token of [
+  "NOTHING IS STORED",
+  "non-diagnostic",
+  "aria-live",
+  "buildLoad",
+  "clearLoad",
+  "does not calculate nervous-system load",
+])
+  if (!fwLab.toLowerCase().includes(token.toLowerCase()))
+    throw Error(`Package 005 mapper missing ${token}`);
+const fwRights = fs.readFileSync("production/package-005-rights.csv", "utf8");
+for (const token of ["FW-M01", "FW-M02", "AUTHORIZED EMBED", "No download"])
+  if (!fwRights.includes(token)) throw Error(`Package 005 rights missing ${token}`);
 const routeMap = new Map([
   ["/", "index.html"],
   ["/exhibitions", "exhibitions/index.html"],
   ["/exhibitions/fabric-sensory-world", "exhibitions/fabric-sensory-world/index.html"],
   ["/exhibitions/fashion-nostalgia", "exhibitions/fashion-nostalgia/index.html"],
+  ["/exhibitions/fashion-week-nervous-system", "exhibitions/fashion-week-nervous-system/index.html"],
   [
     "/exhibitions/clothes-and-cognition",
     "exhibitions/clothes-and-cognition/index.html",
@@ -317,11 +372,13 @@ const routeMap = new Map([
   ["/lab", "lab/index.html"],
   ["/lab/textile-sensory-map", "lab/textile-sensory-map/index.html"],
   ["/lab/memory-garment-map", "lab/memory-garment-map/index.html"],
+  ["/lab/field-load-recovery", "lab/field-load-recovery/index.html"],
   ["/rights", "rights/index.html"],
   ["/method", "method/index.html"],
   ["/deliverables", "deliverables/index.html"],
   ["/deliverables/fabric-sensory-world", "deliverables/fabric-sensory-world/index.html"],
   ["/deliverables/fashion-nostalgia", "deliverables/fashion-nostalgia/index.html"],
+  ["/deliverables/fashion-week-nervous-system", "deliverables/fashion-week-nervous-system/index.html"],
 ]);
 const server = http.createServer((req, res) => {
   const clean = (req.url || "/").replace(/\/$/, "") || "/";

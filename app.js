@@ -54,6 +54,10 @@ const routeMetadata = {
     title: "Why Can Fashion Nostalgia Feel So Powerful? — Exhibition 004",
     description: "Autobiographical memory, cue-dependent recall and cultural nostalgia—without a mythical nostalgia center.",
   },
+  "/exhibitions/fashion-week-nervous-system/": {
+    title: "What Does Fashion Week Do to the Nervous System? — Exhibition 005",
+    description: "Sleep, sensory load, attention, arousal, movement and recovery—without inventing a Fashion Week brain.",
+  },
   "/objects/": {
     title: "Object Room — AAN × Fashion",
     description:
@@ -87,6 +91,10 @@ const routeMetadata = {
     title: "Memory Garment Field Map — AAN × Fashion",
     description: "A private, non-diagnostic tool separating cue, remembered experience and corroborated record.",
   },
+  "/lab/field-load-recovery/": {
+    title: "Field Load / Recovery Mapper — AAN × Fashion",
+    description: "A private, no-storage, non-diagnostic field tool for noticing event conditions and recovery choices.",
+  },
   "/rights/": {
     title: "Rights & Provenance",
     description:
@@ -113,6 +121,10 @@ const routeMetadata = {
   "/deliverables/fashion-nostalgia/": {
     title: "Package 004 Production Gallery",
     description: "Finished cross-platform assets for the fashion nostalgia exhibition.",
+  },
+  "/deliverables/fashion-week-nervous-system/": {
+    title: "Package 005 Production Gallery",
+    description: "Finished cross-platform assets for the Fashion Week nervous-system exhibition.",
   },
 };
 const routePath = location.pathname.endsWith("/")
