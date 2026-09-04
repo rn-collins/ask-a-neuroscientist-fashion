@@ -1,0 +1,17 @@
+{
+  "package_id": "AAN-F-006",
+  "title": "Why Are Runway Soundtracks So Powerful?",
+  "updated": "2026-09-04",
+  "sources": [
+    {"id":"S01","title":"The origins of music in auditory scene analysis and the roles of evolution and culture in musical creation","authors":"Laurel J. Trainor","year":2015,"url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC4321130/","evidence_class":"review","claim_ids":["S01","S08"],"limit":"Not a Fashion Week study; filmed sound differs from a live room."},
+    {"id":"S02","title":"The Action Simulation for Auditory Prediction hypothesis","authors":"Ani Patel; John Iversen","year":2014,"url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC4026735/","evidence_class":"hypothesis and review","claim_ids":["S02"],"limit":"Beat prediction does not imply compelled movement."},
+    {"id":"S03","title":"Finding the beat: a neural perspective across humans and non-human primates","authors":"Hugo Merchant et al.","year":2015,"url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC4321134/","evidence_class":"comparative review","claim_ids":["S02","S03"],"limit":"Beat tasks are not runway gait studies."},
+    {"id":"S04","title":"Exploring how musical rhythm entrains brain activity with electroencephalogram frequency-tagging","authors":"Sylvie Nozaradan","year":2014,"url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC4240960/","evidence_class":"review","claim_ids":["S03"],"limit":"Entrainment is temporal alignment, not hypnosis or obedience."},
+    {"id":"S05","title":"Cortical encoding of melodic expectations in human temporal cortex","authors":"Di Liberto et al.","year":2020,"url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC7053998/","evidence_class":"EEG study","claim_ids":["S04"],"limit":"Natural-music expectation responses do not yield a universal soundtrack formula."},
+    {"id":"S06","title":"The neural architecture of music-evoked autobiographical memories","authors":"Petr Janata","year":2009,"url":"https://pubmed.ncbi.nlm.nih.gov/19240137/","evidence_class":"behavioral and fMRI study","claim_ids":["S05"],"limit":"Memory is personal and reconstructive."},
+    {"id":"S07","title":"A review on the relationship between sound and movement in sports and rehabilitation","authors":"Schaffert et al.","year":2019,"url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC6379478/","evidence_class":"systematic review","claim_ids":["S06"],"limit":"Clinical and sport tasks cannot prove soundtrack control of model gait."},
+    {"id":"S08","title":"Environmental Noise Guidelines for the European Region","authors":"WHO Regional Office for Europe","year":2018,"url":"https://www.who.int/europe/publications/i/item/9789289053563","evidence_class":"public-health guideline","claim_ids":["S07"],"limit":"Does not measure a particular runway show."},
+    {"id":"S09","title":"Content congruency and temporal synchrony in audiovisual integration","authors":"Su","year":2014,"url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC4259108/","evidence_class":"controlled experiment","claim_ids":["S08"],"limit":"Experimental streams are not a live fashion show."},
+    {"id":"S10","title":"Runway Sound Map","authors":"RN Collins","year":2026,"url":"/lab/runway-sound-map/","evidence_class":"first-person field tool","claim_ids":["S09"],"limit":"No storage, measurement, diagnosis or population inference."}
+  ]
+}

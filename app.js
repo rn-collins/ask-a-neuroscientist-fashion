@@ -58,6 +58,10 @@ const routeMetadata = {
     title: "What Does Fashion Week Do to the Nervous System? — Exhibition 005",
     description: "Sleep, sensory load, attention, arousal, movement and recovery—without inventing a Fashion Week brain.",
   },
+  "/exhibitions/runway-soundtracks/": {
+    title: "Why Are Runway Soundtracks So Powerful? — Exhibition 006",
+    description: "Rhythm, expectation, audiovisual integration, movement and memory—without mind-control mythology.",
+  },
   "/objects/": {
     title: "Object Room — AAN × Fashion",
     description:
@@ -95,6 +99,10 @@ const routeMetadata = {
     title: "Field Load / Recovery Mapper — AAN × Fashion",
     description: "A private, no-storage, non-diagnostic field tool for noticing event conditions and recovery choices.",
   },
+  "/lab/runway-sound-map/": {
+    title: "Runway Sound Map — AAN × Fashion",
+    description: "A private, no-storage map for one situated runway listening.",
+  },
   "/rights/": {
     title: "Rights & Provenance",
     description:
@@ -125,6 +133,10 @@ const routeMetadata = {
   "/deliverables/fashion-week-nervous-system/": {
     title: "Package 005 Production Gallery",
     description: "Finished cross-platform assets for the Fashion Week nervous-system exhibition.",
+  },
+  "/deliverables/runway-soundtracks/": {
+    title: "Package 006 Production Gallery",
+    description: "Finished cross-platform assets for the runway soundtracks exhibition.",
   },
 };
 const routePath = location.pathname.endsWith("/")

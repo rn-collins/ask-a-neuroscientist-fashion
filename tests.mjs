@@ -12,6 +12,7 @@ const must = [
   "exhibitions/fabric-sensory-world/index.html",
   "exhibitions/fashion-nostalgia/index.html",
   "exhibitions/fashion-week-nervous-system/index.html",
+  "exhibitions/runway-soundtracks/index.html",
   "objects/index.html",
   "evidence/index.html",
   "ask/index.html",
@@ -20,6 +21,7 @@ const must = [
   "lab/textile-sensory-map/index.html",
   "lab/memory-garment-map/index.html",
   "lab/field-load-recovery/index.html",
+  "lab/runway-sound-map/index.html",
   "rights/index.html",
   "method/index.html",
   "deliverables/index.html",
@@ -27,6 +29,7 @@ const must = [
   "deliverables/fabric-sensory-world/index.html",
   "deliverables/fashion-nostalgia/index.html",
   "deliverables/fashion-week-nervous-system/index.html",
+  "deliverables/runway-soundtracks/index.html",
   "404.html",
   "robots.txt",
   "sitemap.xml",
@@ -38,7 +41,7 @@ vm.createContext(ctx);
 vm.runInContext(fs.readFileSync("data.js", "utf8"), ctx);
 const { objects, claims } = ctx.window.AAN;
 if (
-  objects.length !== 16 ||
+  objects.length !== 19 ||
   objects.some(
     (o) =>
       o.license !== "CC0" || !o.alt || !o.record || !o.image || !o.accession,
@@ -62,6 +65,9 @@ const accessions = [
   "1993.35.1a–c",
   "1976.147.1",
   "1980.409.1a–c",
+  "1979.1.2",
+  "1978.412.111",
+  "1976.285.5",
 ];
 if (objects.some((o, i) => o.accession !== accessions[i]))
   throw Error("canonical Met accession mismatch");
@@ -72,7 +78,7 @@ if (
     .join() !== "C02"
 )
   throw Error("filter behavior failed");
-if (ctx.window.filterEvidence(claims, "all", "all").length !== 33)
+if (ctx.window.filterEvidence(claims, "all", "all").length !== 42)
   throw Error("filter reset behavior failed");
 const manifest = JSON.parse(
   fs.readFileSync("production/source-manifest.json", "utf8"),
@@ -137,6 +143,13 @@ const production = [
   "package-005-social.csv",
   "package-005-rights.csv",
   "package-005-sources.json",
+  "package-006-video-audio-script.md",
+  "package-006-beehiiv.md",
+  "package-006-verticals.md",
+  "package-006-carousels.md",
+  "package-006-social.csv",
+  "package-006-rights.csv",
+  "package-006-sources.json",
 ];
 for (const f of production)
   if (!fs.existsSync(path.join("production", f)))
@@ -246,6 +259,7 @@ for (const route of [
   "/exhibitions/fabric-sensory-world/",
   "/exhibitions/fashion-nostalgia/",
   "/exhibitions/fashion-week-nervous-system/",
+  "/exhibitions/runway-soundtracks/",
   "/objects/",
   "/evidence/",
   "/ask/",
@@ -254,6 +268,7 @@ for (const route of [
   "/lab/textile-sensory-map/",
   "/lab/memory-garment-map/",
   "/lab/field-load-recovery/",
+  "/lab/runway-sound-map/",
   "/rights/",
   "/method/",
   "/deliverables/",
@@ -261,6 +276,7 @@ for (const route of [
   "/deliverables/fabric-sensory-world/",
   "/deliverables/fashion-nostalgia/",
   "/deliverables/fashion-week-nervous-system/",
+  "/deliverables/runway-soundtracks/",
 ])
   if (!app.includes(`"${route}"`) && !app.includes(`'${route}'`))
     throw Error(`route metadata missing ${route}`);
@@ -356,12 +372,29 @@ for (const token of [
 const fwRights = fs.readFileSync("production/package-005-rights.csv", "utf8");
 for (const token of ["FW-M01", "FW-M02", "AUTHORIZED EMBED", "No download"])
   if (!fwRights.includes(token)) throw Error(`Package 005 rights missing ${token}`);
+const soundClaims = claims.filter((c) => c.id.startsWith("S"));
+if (soundClaims.length !== 9 || soundClaims.some((c) => !c.boundary || !c.doi))
+  throw Error("Package 006 claims or boundaries incomplete");
+const soundManifest = JSON.parse(fs.readFileSync("production/package-006-sources.json", "utf8"));
+const soundMapped = new Set(soundManifest.sources.flatMap((s) => s.claim_ids));
+for (const c of soundClaims)
+  if (!soundMapped.has(c.id)) throw Error(`Package 006 manifest missing ${c.id}`);
+const soundPage = fs.readFileSync("exhibitions/runway-soundtracks/index.html", "utf8");
+for (const token of ["Powerful is not the same as universal", "youtube-nocookie.com/embed/WifoAv6AR_I", "Entrainment means temporal alignment", "Download image", "Not established"])
+  if (!soundPage.includes(token)) throw Error(`Package 006 exhibition missing ${token}`);
+const soundLab = fs.readFileSync("lab/runway-sound-map/index.html", "utf8");
+for (const token of ["NOTHING IS STORED", "aria-live", "buildSound", "clearSound", "does not reveal sound dose"])
+  if (!soundLab.toLowerCase().includes(token.toLowerCase())) throw Error(`Package 006 mapper missing ${token}`);
+const soundRights = fs.readFileSync("production/package-006-rights.csv", "utf8");
+for (const token of ["BFC001", "authorized platform embed", "Public Domain/CC0", "No download"])
+  if (!soundRights.includes(token)) throw Error(`Package 006 rights missing ${token}`);
 const routeMap = new Map([
   ["/", "index.html"],
   ["/exhibitions", "exhibitions/index.html"],
   ["/exhibitions/fabric-sensory-world", "exhibitions/fabric-sensory-world/index.html"],
   ["/exhibitions/fashion-nostalgia", "exhibitions/fashion-nostalgia/index.html"],
   ["/exhibitions/fashion-week-nervous-system", "exhibitions/fashion-week-nervous-system/index.html"],
+  ["/exhibitions/runway-soundtracks", "exhibitions/runway-soundtracks/index.html"],
   [
     "/exhibitions/clothes-and-cognition",
     "exhibitions/clothes-and-cognition/index.html",
@@ -373,12 +406,14 @@ const routeMap = new Map([
   ["/lab/textile-sensory-map", "lab/textile-sensory-map/index.html"],
   ["/lab/memory-garment-map", "lab/memory-garment-map/index.html"],
   ["/lab/field-load-recovery", "lab/field-load-recovery/index.html"],
+  ["/lab/runway-sound-map", "lab/runway-sound-map/index.html"],
   ["/rights", "rights/index.html"],
   ["/method", "method/index.html"],
   ["/deliverables", "deliverables/index.html"],
   ["/deliverables/fabric-sensory-world", "deliverables/fabric-sensory-world/index.html"],
   ["/deliverables/fashion-nostalgia", "deliverables/fashion-nostalgia/index.html"],
   ["/deliverables/fashion-week-nervous-system", "deliverables/fashion-week-nervous-system/index.html"],
+  ["/deliverables/runway-soundtracks", "deliverables/runway-soundtracks/index.html"],
 ]);
 const server = http.createServer((req, res) => {
   const clean = (req.url || "/").replace(/\/$/, "") || "/";
