@@ -1,0 +1,744 @@
+{
+  "schemaVersion": "1.0",
+  "asOf": "2026-09-07",
+  "statement": "Bounded excavation across the named registry; never a claim to every relevant item online.",
+  "rightsTaxonomy": [
+    {
+      "label": "Public domain / CC0",
+      "siteUse": "Store, display and download after work-level verification.",
+      "proof": "Exact work-level rights source required."
+    },
+    {
+      "label": "CC BY",
+      "siteUse": "Attribute creator, source, license and modifications.",
+      "proof": "Exact work-level rights source required."
+    },
+    {
+      "label": "CC BY-SA",
+      "siteUse": "Attribute and apply compatible share-alike treatment.",
+      "proof": "Exact work-level rights source required."
+    },
+    {
+      "label": "Authorized embed",
+      "siteUse": "Use the official player; extract nothing.",
+      "proof": "Exact work-level rights source required."
+    },
+    {
+      "label": "Link-only",
+      "siteUse": "Describe and link; do not reproduce.",
+      "proof": "Exact work-level rights source required."
+    },
+    {
+      "label": "Permission required",
+      "siteUse": "Hold until written permission.",
+      "proof": "Exact work-level rights source required."
+    },
+    {
+      "label": "Fair-use candidate",
+      "siteUse": "Hold for case-specific legal/editorial review.",
+      "proof": "Exact work-level rights source required."
+    },
+    {
+      "label": "Rejected",
+      "siteUse": "Do not publish; preserve the reason.",
+      "proof": "Exact work-level rights source required."
+    }
+  ],
+  "surfaces": [
+    {
+      "id": "SURF-MET",
+      "name": "The Met Open Access",
+      "url": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
+      "method": "Named searches, canonical records and item-level rights review; a platform result is never treated as a license."
+    },
+    {
+      "id": "SURF-LOC",
+      "name": "Library of Congress Fashion",
+      "url": "https://www.loc.gov/free-to-use/fashion/",
+      "method": "Named searches, canonical records and item-level rights review; a platform result is never treated as a license."
+    },
+    {
+      "id": "SURF-SI",
+      "name": "Smithsonian Open Access",
+      "url": "https://www.si.edu/openaccess",
+      "method": "Named searches, canonical records and item-level rights review; a platform result is never treated as a license."
+    },
+    {
+      "id": "SURF-EUR",
+      "name": "Europeana",
+      "url": "https://www.europeana.eu/en",
+      "method": "Named searches, canonical records and item-level rights review; a platform result is never treated as a license."
+    },
+    {
+      "id": "SURF-COM",
+      "name": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/",
+      "method": "Named searches, canonical records and item-level rights review; a platform result is never treated as a license."
+    },
+    {
+      "id": "SURF-IA",
+      "name": "Internet Archive",
+      "url": "https://archive.org/",
+      "method": "Named searches, canonical records and item-level rights review; a platform result is never treated as a license."
+    },
+    {
+      "id": "SURF-PMC",
+      "name": "PubMed Central",
+      "url": "https://pmc.ncbi.nlm.nih.gov/",
+      "method": "Named searches, canonical records and item-level rights review; a platform result is never treated as a license."
+    },
+    {
+      "id": "SURF-PM",
+      "name": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/",
+      "method": "Named searches, canonical records and item-level rights review; a platform result is never treated as a license."
+    },
+    {
+      "id": "SURF-DOI",
+      "name": "Crossref / DOI publishers",
+      "url": "https://www.crossref.org/",
+      "method": "Named searches, canonical records and item-level rights review; a platform result is never treated as a license."
+    },
+    {
+      "id": "SURF-WHO",
+      "name": "World Health Organization",
+      "url": "https://www.who.int/",
+      "method": "Named searches, canonical records and item-level rights review; a platform result is never treated as a license."
+    },
+    {
+      "id": "SURF-CDC",
+      "name": "CDC / NIOSH",
+      "url": "https://www.cdc.gov/niosh/",
+      "method": "Named searches, canonical records and item-level rights review; a platform result is never treated as a license."
+    },
+    {
+      "id": "SURF-BFC",
+      "name": "British Fashion Council official channel",
+      "url": "https://www.youtube.com/@BritishFashionCouncil",
+      "method": "Named searches, canonical records and item-level rights review; a platform result is never treated as a license."
+    },
+    {
+      "id": "SURF-GH",
+      "name": "GitHub",
+      "url": "https://github.com/",
+      "method": "Named searches, canonical records and item-level rights review; a platform result is never treated as a license."
+    },
+    {
+      "id": "SURF-OSF",
+      "name": "Open Science Framework",
+      "url": "https://osf.io/",
+      "method": "Named searches, canonical records and item-level rights review; a platform result is never treated as a license."
+    },
+    {
+      "id": "SURF-UNI",
+      "name": "University repositories",
+      "url": "https://www.base-search.net/",
+      "method": "Named searches, canonical records and item-level rights review; a platform result is never treated as a license."
+    }
+  ],
+  "packages": [
+    {
+      "id": "AAN-F-001",
+      "slug": "clothes-and-cognition",
+      "title": "Can clothes change how you think?",
+      "prefixes": [
+        "C"
+      ],
+      "searchDate": "2026-09-07",
+      "searchedSurfaceIds": [
+        "SURF-MET",
+        "SURF-LOC",
+        "SURF-SI",
+        "SURF-EUR",
+        "SURF-COM",
+        "SURF-IA",
+        "SURF-PMC",
+        "SURF-PM",
+        "SURF-DOI",
+        "SURF-WHO",
+        "SURF-CDC",
+        "SURF-BFC",
+        "SURF-GH",
+        "SURF-OSF",
+        "SURF-UNI"
+      ],
+      "queryFamilies": [
+        "Can clothes change how you think? museum library collection",
+        "site:pmc.ncbi.nlm.nih.gov Can clothes change how you think?",
+        "Can clothes change how you think? Wikimedia Commons license",
+        "Can clothes change how you think? official video audio educational interactive",
+        "Can clothes change how you think? dataset GitHub open source"
+      ],
+      "candidateIds": [
+        "R01",
+        "R08",
+        "R09",
+        "R13"
+      ],
+      "stopReason": "The named source classes returned recorded candidates, duplicates, inapplicable material, or works without a work-level reuse grant. Further broad searching was yielding weaker or duplicate material.",
+      "claim": "Exhaustive only across this named registry and these documented query families as of 2026-09-07; not exhaustive of the internet."
+    },
+    {
+      "id": "AAN-F-002",
+      "slug": "outfit-as-armor",
+      "title": "Why can the right outfit feel like armor?",
+      "prefixes": [
+        "A"
+      ],
+      "searchDate": "2026-09-07",
+      "searchedSurfaceIds": [
+        "SURF-MET",
+        "SURF-LOC",
+        "SURF-SI",
+        "SURF-EUR",
+        "SURF-COM",
+        "SURF-IA",
+        "SURF-PMC",
+        "SURF-PM",
+        "SURF-DOI",
+        "SURF-WHO",
+        "SURF-CDC",
+        "SURF-BFC",
+        "SURF-GH",
+        "SURF-OSF",
+        "SURF-UNI"
+      ],
+      "queryFamilies": [
+        "Why can the right outfit feel like armor? museum library collection",
+        "site:pmc.ncbi.nlm.nih.gov Why can the right outfit feel like armor?",
+        "Why can the right outfit feel like armor? Wikimedia Commons license",
+        "Why can the right outfit feel like armor? official video audio educational interactive",
+        "Why can the right outfit feel like armor? dataset GitHub open source"
+      ],
+      "candidateIds": [
+        "R02",
+        "R08",
+        "R09"
+      ],
+      "stopReason": "The named source classes returned recorded candidates, duplicates, inapplicable material, or works without a work-level reuse grant. Further broad searching was yielding weaker or duplicate material.",
+      "claim": "Exhaustive only across this named registry and these documented query families as of 2026-09-07; not exhaustive of the internet."
+    },
+    {
+      "id": "AAN-F-003",
+      "slug": "fabric-sensory-world",
+      "title": "Why can one fabric feel unbearable?",
+      "prefixes": [
+        "T"
+      ],
+      "searchDate": "2026-09-07",
+      "searchedSurfaceIds": [
+        "SURF-MET",
+        "SURF-LOC",
+        "SURF-SI",
+        "SURF-EUR",
+        "SURF-COM",
+        "SURF-IA",
+        "SURF-PMC",
+        "SURF-PM",
+        "SURF-DOI",
+        "SURF-WHO",
+        "SURF-CDC",
+        "SURF-BFC",
+        "SURF-GH",
+        "SURF-OSF",
+        "SURF-UNI"
+      ],
+      "queryFamilies": [
+        "Why can one fabric feel unbearable? museum library collection",
+        "site:pmc.ncbi.nlm.nih.gov Why can one fabric feel unbearable?",
+        "Why can one fabric feel unbearable? Wikimedia Commons license",
+        "Why can one fabric feel unbearable? official video audio educational interactive",
+        "Why can one fabric feel unbearable? dataset GitHub open source"
+      ],
+      "candidateIds": [
+        "R03",
+        "R08",
+        "R09",
+        "R14"
+      ],
+      "stopReason": "The named source classes returned recorded candidates, duplicates, inapplicable material, or works without a work-level reuse grant. Further broad searching was yielding weaker or duplicate material.",
+      "claim": "Exhaustive only across this named registry and these documented query families as of 2026-09-07; not exhaustive of the internet."
+    },
+    {
+      "id": "AAN-F-004",
+      "slug": "fashion-nostalgia",
+      "title": "Why can fashion nostalgia feel so powerful?",
+      "prefixes": [
+        "N"
+      ],
+      "searchDate": "2026-09-07",
+      "searchedSurfaceIds": [
+        "SURF-MET",
+        "SURF-LOC",
+        "SURF-SI",
+        "SURF-EUR",
+        "SURF-COM",
+        "SURF-IA",
+        "SURF-PMC",
+        "SURF-PM",
+        "SURF-DOI",
+        "SURF-WHO",
+        "SURF-CDC",
+        "SURF-BFC",
+        "SURF-GH",
+        "SURF-OSF",
+        "SURF-UNI"
+      ],
+      "queryFamilies": [
+        "Why can fashion nostalgia feel so powerful? museum library collection",
+        "site:pmc.ncbi.nlm.nih.gov Why can fashion nostalgia feel so powerful?",
+        "Why can fashion nostalgia feel so powerful? Wikimedia Commons license",
+        "Why can fashion nostalgia feel so powerful? official video audio educational interactive",
+        "Why can fashion nostalgia feel so powerful? dataset GitHub open source"
+      ],
+      "candidateIds": [
+        "R04",
+        "R08",
+        "R09",
+        "R14"
+      ],
+      "stopReason": "The named source classes returned recorded candidates, duplicates, inapplicable material, or works without a work-level reuse grant. Further broad searching was yielding weaker or duplicate material.",
+      "claim": "Exhaustive only across this named registry and these documented query families as of 2026-09-07; not exhaustive of the internet."
+    },
+    {
+      "id": "AAN-F-005",
+      "slug": "fashion-week-nervous-system",
+      "title": "What does Fashion Week do to the nervous system?",
+      "prefixes": [
+        "F"
+      ],
+      "searchDate": "2026-09-07",
+      "searchedSurfaceIds": [
+        "SURF-MET",
+        "SURF-LOC",
+        "SURF-SI",
+        "SURF-EUR",
+        "SURF-COM",
+        "SURF-IA",
+        "SURF-PMC",
+        "SURF-PM",
+        "SURF-DOI",
+        "SURF-WHO",
+        "SURF-CDC",
+        "SURF-BFC",
+        "SURF-GH",
+        "SURF-OSF",
+        "SURF-UNI"
+      ],
+      "queryFamilies": [
+        "What does Fashion Week do to the nervous system? museum library collection",
+        "site:pmc.ncbi.nlm.nih.gov What does Fashion Week do to the nervous system?",
+        "What does Fashion Week do to the nervous system? Wikimedia Commons license",
+        "What does Fashion Week do to the nervous system? official video audio educational interactive",
+        "What does Fashion Week do to the nervous system? dataset GitHub open source"
+      ],
+      "candidateIds": [
+        "R05",
+        "R10",
+        "R11"
+      ],
+      "stopReason": "The named source classes returned recorded candidates, duplicates, inapplicable material, or works without a work-level reuse grant. Further broad searching was yielding weaker or duplicate material.",
+      "claim": "Exhaustive only across this named registry and these documented query families as of 2026-09-07; not exhaustive of the internet."
+    },
+    {
+      "id": "AAN-F-006",
+      "slug": "runway-soundtracks",
+      "title": "Why are runway soundtracks so powerful?",
+      "prefixes": [
+        "S"
+      ],
+      "searchDate": "2026-09-07",
+      "searchedSurfaceIds": [
+        "SURF-MET",
+        "SURF-LOC",
+        "SURF-SI",
+        "SURF-EUR",
+        "SURF-COM",
+        "SURF-IA",
+        "SURF-PMC",
+        "SURF-PM",
+        "SURF-DOI",
+        "SURF-WHO",
+        "SURF-CDC",
+        "SURF-BFC",
+        "SURF-GH",
+        "SURF-OSF",
+        "SURF-UNI"
+      ],
+      "queryFamilies": [
+        "Why are runway soundtracks so powerful? museum library collection",
+        "site:pmc.ncbi.nlm.nih.gov Why are runway soundtracks so powerful?",
+        "Why are runway soundtracks so powerful? Wikimedia Commons license",
+        "Why are runway soundtracks so powerful? official video audio educational interactive",
+        "Why are runway soundtracks so powerful? dataset GitHub open source"
+      ],
+      "candidateIds": [
+        "R06",
+        "R10",
+        "R11"
+      ],
+      "stopReason": "The named source classes returned recorded candidates, duplicates, inapplicable material, or works without a work-level reuse grant. Further broad searching was yielding weaker or duplicate material.",
+      "claim": "Exhaustive only across this named registry and these documented query families as of 2026-09-07; not exhaustive of the internet."
+    },
+    {
+      "id": "AAN-F-007",
+      "slug": "uniforms-and-social-perception",
+      "title": "What do uniforms do to wearer and observer?",
+      "prefixes": [
+        "U"
+      ],
+      "searchDate": "2026-09-07",
+      "searchedSurfaceIds": [
+        "SURF-MET",
+        "SURF-LOC",
+        "SURF-SI",
+        "SURF-EUR",
+        "SURF-COM",
+        "SURF-IA",
+        "SURF-PMC",
+        "SURF-PM",
+        "SURF-DOI",
+        "SURF-WHO",
+        "SURF-CDC",
+        "SURF-BFC",
+        "SURF-GH",
+        "SURF-OSF",
+        "SURF-UNI"
+      ],
+      "queryFamilies": [
+        "What do uniforms do to wearer and observer? museum library collection",
+        "site:pmc.ncbi.nlm.nih.gov What do uniforms do to wearer and observer?",
+        "What do uniforms do to wearer and observer? Wikimedia Commons license",
+        "What do uniforms do to wearer and observer? official video audio educational interactive",
+        "What do uniforms do to wearer and observer? dataset GitHub open source"
+      ],
+      "candidateIds": [
+        "R07",
+        "R08",
+        "R12"
+      ],
+      "stopReason": "The named source classes returned recorded candidates, duplicates, inapplicable material, or works without a work-level reuse grant. Further broad searching was yielding weaker or duplicate material.",
+      "claim": "Exhaustive only across this named registry and these documented query families as of 2026-09-07; not exhaustive of the internet."
+    }
+  ],
+  "candidates": [
+    {
+      "id": "R01",
+      "packages": [
+        "AAN-F-001"
+      ],
+      "title": "Direct replication of enclothed cognition",
+      "creator": "Burns et al.",
+      "date": "2019",
+      "institution": "Journal of Experimental Social Psychology",
+      "canonicalUrl": "https://doi.org/10.1016/j.jesp.2018.10.001",
+      "mediaUrl": null,
+      "type": "research",
+      "rightsStatus": "link-only",
+      "licenseUrl": null,
+      "credit": "Burns et al. · Journal of Experimental Social Psychology",
+      "caption": "Direct replication of enclothed cognition",
+      "alt": "",
+      "relevance": "Replication boundary; figures not extracted.",
+      "disposition": "link-only",
+      "reason": "Replication boundary; figures not extracted.",
+      "accessed": "2026-09-07"
+    },
+    {
+      "id": "R02",
+      "packages": [
+        "AAN-F-002"
+      ],
+      "title": "Whatever Next and Close to My Self—The Transparent Senses and the Second Skin",
+      "creator": "Ciaunica et al.",
+      "date": "2021",
+      "institution": "Frontiers in Psychology",
+      "canonicalUrl": "https://doi.org/10.3389/fpsyg.2021.613587",
+      "mediaUrl": null,
+      "type": "research",
+      "rightsStatus": "link-only",
+      "licenseUrl": null,
+      "credit": "Ciaunica et al. · Frontiers in Psychology",
+      "caption": "Whatever Next and Close to My Self—The Transparent Senses and the Second Skin",
+      "alt": "",
+      "relevance": "Theory resource, not a clothing intervention.",
+      "disposition": "link-only",
+      "reason": "Theory resource, not a clothing intervention.",
+      "accessed": "2026-09-07"
+    },
+    {
+      "id": "R03",
+      "packages": [
+        "AAN-F-003"
+      ],
+      "title": "Tactile C fibers and tactile allodynia",
+      "creator": "Liljencrantz; Olausson",
+      "date": "2014",
+      "institution": "Frontiers",
+      "canonicalUrl": "https://doi.org/10.3389/fnbeh.2014.00037",
+      "mediaUrl": null,
+      "type": "research",
+      "rightsStatus": "link-only",
+      "licenseUrl": null,
+      "credit": "Liljencrantz; Olausson · Frontiers",
+      "caption": "Tactile C fibers and tactile allodynia",
+      "alt": "",
+      "relevance": "Touch mechanism and clinical boundary.",
+      "disposition": "link-only",
+      "reason": "Touch mechanism and clinical boundary.",
+      "accessed": "2026-09-07"
+    },
+    {
+      "id": "R04",
+      "packages": [
+        "AAN-F-004"
+      ],
+      "title": "The Neural Architecture of Music-Evoked Autobiographical Memories",
+      "creator": "Petr Janata",
+      "date": "2009",
+      "institution": "PubMed Central",
+      "canonicalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2758676/",
+      "mediaUrl": null,
+      "type": "research",
+      "rightsStatus": "link-only",
+      "licenseUrl": null,
+      "credit": "Petr Janata · PubMed Central",
+      "caption": "The Neural Architecture of Music-Evoked Autobiographical Memories",
+      "alt": "",
+      "relevance": "Primary study; not fashion-specific.",
+      "disposition": "link-only",
+      "reason": "Primary study; not fashion-specific.",
+      "accessed": "2026-09-07"
+    },
+    {
+      "id": "R05",
+      "packages": [
+        "AAN-F-005"
+      ],
+      "title": "NIOSH Training for Nurses on Shift Work and Long Work Hours",
+      "creator": "CDC/NIOSH",
+      "date": "2015–2021",
+      "institution": "CDC",
+      "canonicalUrl": "https://www.cdc.gov/niosh/work-hour-training-for-nurses/default.html",
+      "mediaUrl": null,
+      "type": "education",
+      "rightsStatus": "link-only",
+      "licenseUrl": null,
+      "credit": "CDC/NIOSH · CDC",
+      "caption": "NIOSH Training for Nurses on Shift Work and Long Work Hours",
+      "alt": "",
+      "relevance": "Transfer-limited fatigue education.",
+      "disposition": "link-only",
+      "reason": "Transfer-limited fatigue education.",
+      "accessed": "2026-09-07"
+    },
+    {
+      "id": "R06",
+      "packages": [
+        "AAN-F-006"
+      ],
+      "title": "The Action Simulation for Auditory Prediction hypothesis",
+      "creator": "Patel; Iversen",
+      "date": "2014",
+      "institution": "PubMed Central",
+      "canonicalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4026735/",
+      "mediaUrl": null,
+      "type": "research",
+      "rightsStatus": "link-only",
+      "licenseUrl": null,
+      "credit": "Patel; Iversen · PubMed Central",
+      "caption": "The Action Simulation for Auditory Prediction hypothesis",
+      "alt": "",
+      "relevance": "Beat prediction, not compelled movement.",
+      "disposition": "link-only",
+      "reason": "Beat prediction, not compelled movement.",
+      "accessed": "2026-09-07"
+    },
+    {
+      "id": "R07",
+      "packages": [
+        "AAN-F-007"
+      ],
+      "title": "Dress Is a Fundamental Component of Person Perception",
+      "creator": "Hester; Hehman",
+      "date": "2023",
+      "institution": "Personality and Social Psychology Review",
+      "canonicalUrl": "https://doi.org/10.1177/10888683231157961",
+      "mediaUrl": null,
+      "type": "research",
+      "rightsStatus": "link-only",
+      "licenseUrl": null,
+      "credit": "Hester; Hehman · Personality and Social Psychology Review",
+      "caption": "Dress Is a Fundamental Component of Person Perception",
+      "alt": "",
+      "relevance": "Inference is not accurate knowledge.",
+      "disposition": "link-only",
+      "reason": "Inference is not accurate knowledge.",
+      "accessed": "2026-09-07"
+    },
+    {
+      "id": "R08",
+      "packages": [
+        "AAN-F-001",
+        "AAN-F-002",
+        "AAN-F-003",
+        "AAN-F-004",
+        "AAN-F-007"
+      ],
+      "title": "Fashion — Free to Use and Reuse",
+      "creator": "Library of Congress",
+      "date": "ongoing",
+      "institution": "Library of Congress",
+      "canonicalUrl": "https://www.loc.gov/free-to-use/fashion/",
+      "mediaUrl": null,
+      "type": "collection",
+      "rightsStatus": "link-only",
+      "licenseUrl": null,
+      "credit": "Library of Congress · Library of Congress",
+      "caption": "Fashion — Free to Use and Reuse",
+      "alt": "",
+      "relevance": "Discovery surface; item records remain controlling.",
+      "disposition": "resource-room",
+      "reason": "Discovery surface; item records remain controlling.",
+      "accessed": "2026-09-07"
+    },
+    {
+      "id": "R09",
+      "packages": [
+        "AAN-F-001",
+        "AAN-F-002",
+        "AAN-F-003",
+        "AAN-F-004"
+      ],
+      "title": "Show Your Style!",
+      "creator": "The Metropolitan Museum of Art",
+      "date": "2013",
+      "institution": "The Met",
+      "canonicalUrl": "https://www.metmuseum.org/-/media/files/learn/family-map-and-guides/what%20should%20i%20wear%20today.pdf",
+      "mediaUrl": null,
+      "type": "education",
+      "rightsStatus": "link-only",
+      "licenseUrl": null,
+      "credit": "The Metropolitan Museum of Art · The Met",
+      "caption": "Show Your Style!",
+      "alt": "",
+      "relevance": "Museum visual-learning guide; linked, not republished.",
+      "disposition": "resource-room",
+      "reason": "Museum visual-learning guide; linked, not republished.",
+      "accessed": "2026-09-07"
+    },
+    {
+      "id": "R10",
+      "packages": [
+        "AAN-F-005",
+        "AAN-F-006"
+      ],
+      "title": "Fashion runway1.jpg",
+      "creator": "Accra Technical University contributor",
+      "date": "2023",
+      "institution": "Wikimedia Commons",
+      "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Fashion_runway1.jpg",
+      "mediaUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Fashion%20runway1.jpg",
+      "type": "image",
+      "rightsStatus": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "credit": "Accra Technical University contributor · Wikimedia Commons",
+      "caption": "Fashion runway1.jpg",
+      "alt": "A model on a fashion runway at Accra Technical University.",
+      "relevance": "CC0 runway witness; documentary context only.",
+      "disposition": "reserve",
+      "reason": "CC0 runway witness; documentary context only.",
+      "accessed": "2026-09-07"
+    },
+    {
+      "id": "R11",
+      "packages": [
+        "AAN-F-005",
+        "AAN-F-006"
+      ],
+      "title": "Fashion runway2.jpg",
+      "creator": "Accra Technical University contributor",
+      "date": "2023",
+      "institution": "Wikimedia Commons",
+      "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Fashion_runway2.jpg",
+      "mediaUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Fashion%20runway2.jpg",
+      "type": "image",
+      "rightsStatus": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "credit": "Accra Technical University contributor · Wikimedia Commons",
+      "caption": "Fashion runway2.jpg",
+      "alt": "A runway presentation at Accra Technical University.",
+      "relevance": "CC0 alternate retained without duplicating the essay.",
+      "disposition": "reserve",
+      "reason": "CC0 alternate retained without duplicating the essay.",
+      "accessed": "2026-09-07"
+    },
+    {
+      "id": "R12",
+      "packages": [
+        "AAN-F-007"
+      ],
+      "title": "T & E dress up in their 1918 uniforms",
+      "creator": "Unidentified photographer",
+      "date": "1918",
+      "institution": "Library of Congress",
+      "canonicalUrl": "https://www.loc.gov/pictures/item/2018651506/",
+      "mediaUrl": null,
+      "type": "image",
+      "rightsStatus": "link-only",
+      "licenseUrl": null,
+      "credit": "Unidentified photographer · Library of Congress",
+      "caption": "T & E dress up in their 1918 uniforms",
+      "alt": "",
+      "relevance": "Rights advisory controls; not stored.",
+      "disposition": "link-only",
+      "reason": "Rights advisory controls; not stored.",
+      "accessed": "2026-09-07"
+    },
+    {
+      "id": "R13",
+      "packages": [
+        "AAN-F-001"
+      ],
+      "title": "Free-energy principle diagram",
+      "creator": "Commons contributor",
+      "date": "file record 2026",
+      "institution": "Wikimedia Commons",
+      "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Friston-2010-free-energy-principle.svg",
+      "mediaUrl": null,
+      "type": "diagram",
+      "rightsStatus": "link-only",
+      "licenseUrl": null,
+      "credit": "Commons contributor · Wikimedia Commons",
+      "caption": "Free-energy principle diagram",
+      "alt": "",
+      "relevance": "Open but overbroad; would imply an unsupported mechanism.",
+      "disposition": "rejected",
+      "reason": "Open but overbroad; would imply an unsupported mechanism.",
+      "accessed": "2026-09-07"
+    },
+    {
+      "id": "R14",
+      "packages": [
+        "AAN-F-003",
+        "AAN-F-004"
+      ],
+      "title": "Smart Textiles for Improved Quality of Life and Cognitive Assessment",
+      "creator": "Article authors",
+      "date": "2021",
+      "institution": "PubMed Central",
+      "canonicalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8659971/",
+      "mediaUrl": null,
+      "type": "build precedent",
+      "rightsStatus": "link-only",
+      "licenseUrl": null,
+      "credit": "Article authors · PubMed Central",
+      "caption": "Smart Textiles for Improved Quality of Life and Cognitive Assessment",
+      "alt": "",
+      "relevance": "Adjacent textile interface, not comfort or memory evidence.",
+      "disposition": "resource-room",
+      "reason": "Adjacent textile interface, not comfort or memory evidence.",
+      "accessed": "2026-09-07"
+    }
+  ]
+}

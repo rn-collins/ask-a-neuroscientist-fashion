@@ -1,5 +1,5 @@
 const A = window.AAN;
-const nav = `<a class="skip" href="#content">Skip to content</a><nav aria-label="Primary"><a href="/">AAN × FASHION</a><a href="/exhibitions/">Exhibition</a><a href="/objects/">Objects</a><a href="/evidence/">Evidence</a><details><summary>More</summary><div class="nav-more"><a href="/ask/">Ask</a><a href="/lab/">Lab</a><a href="/deliverables/">Production</a><a href="/rights/">Rights</a><a href="/method/">Method</a></div></details></nav>`;
+const nav = `<a class="skip" href="#content">Skip to content</a><nav aria-label="Primary"><a href="/">AAN × FASHION</a><a href="/exhibitions/">Exhibition</a><a href="/objects/">Objects</a><a href="/media/">Media</a><a href="/evidence/">Evidence</a><details><summary>More</summary><div class="nav-more"><a href="/ask/">Ask</a><a href="/lab/">Lab</a><a href="/deliverables/">Production</a><a href="/rights/">Rights</a><a href="/method/">Method</a></div></details></nav>`;
 document.body.insertAdjacentHTML("afterbegin", nav);
 const main = document.querySelector("main");
 if (main && !main.id) main.id = "content";
@@ -66,7 +66,7 @@ const routeMetadata = {
     title: "What Do Uniforms Do to Wearer and Observer? — Exhibition 007",
     description: "Role, inference and institutional power—without treating a uniform as proof of character, competence or behavior.",
   },
-  "/objects/": {
+  "/media/": {title:"Media & Resources — AAN × Fashion",description:"Package media libraries, resource rooms, rights decisions and dated excavation reports."},\n  "/objects/": {
     title: "Object Room — AAN × Fashion",
     description:
       "Twenty-two traceable Met Open Access fashion objects with provenance and direct files.",
