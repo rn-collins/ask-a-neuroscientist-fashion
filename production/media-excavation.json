@@ -1,7 +1,7 @@
 {
-  "schemaVersion": "1.1",
+  "schemaVersion": "1.2",
   "asOf": "2026-09-07",
-  "statement": "Two-wave bounded excavation across the named registry. Every surfaced candidate is dispositioned; zero-qualified searches and duplicates are retained. Never a claim to every relevant item online.",
+  "statement": "Three-wave bounded excavation: registry queries plus direct item/category/collection traversal. Qualified, installed, duplicate, rejected and blocked results are all retained. Never a claim to every relevant item online.",
   "rightsTaxonomy": [
     {
       "label": "Public domain / CC0",
@@ -228,10 +228,14 @@
         "R17",
         "R18",
         "R19",
-        "R20"
+        "R20",
+        "R57",
+        "R58",
+        "R59",
+        "R60"
       ],
       "stopReason": "The named source classes returned recorded candidates, duplicates, inapplicable material, or works without a work-level reuse grant. Further broad searching was yielding weaker or duplicate material.",
-      "claim": "Second-wave bounded review across the named registry and documented query families as of 2026-09-07; this is an auditable corpus, not a claim to every item on the internet.",
+      "claim": "Three-wave bounded audit across named registries and direct item/category traversals as of 2026-09-07; complete within that declared protocol, never a claim to every item on the internet.",
       "secondWave": {
         "searched": "2026-09-07",
         "newCandidateIds": [
@@ -251,6 +255,26 @@
           "WHO/CDC: no package-specific clothing-cognition resource"
         ],
         "stopRule": "Stopped after each named surface/query family returned either a recorded qualified candidate, a recorded duplicate/rejection, or a documented zero-qualified result, and a further query round produced no new media category for the package."
+      },
+      "thirdWave": {
+        "searched": "2026-09-07",
+        "directTraversal": true,
+        "newCandidateIds": [
+          "R57",
+          "R58",
+          "R59",
+          "R60"
+        ],
+        "newCandidateCount": 4,
+        "qualifiedCount": 4,
+        "installedCount": 1,
+        "duplicateOrRejectedCount": 0,
+        "concreteBlockers": [
+          "Internet Archive: no rights-marked cognition/clothing audiovisual item qualified",
+          "Official video channels: no direct clothing-cognition film with cleared third-party media",
+          "Europeana API/media delivery: public-domain item record found, but direct file URL was not exposed"
+        ],
+        "stopRule": "Stopped only after direct item/category/collection traversal yielded a qualified item, a recorded duplicate/rejection, or a concrete access/rights blocker for each targeted surface."
       }
     },
     {
@@ -301,10 +325,14 @@
         "R23",
         "R24",
         "R25",
-        "R26"
+        "R26",
+        "R61",
+        "R62",
+        "R63",
+        "R64"
       ],
       "stopReason": "The named source classes returned recorded candidates, duplicates, inapplicable material, or works without a work-level reuse grant. Further broad searching was yielding weaker or duplicate material.",
-      "claim": "Second-wave bounded review across the named registry and documented query families as of 2026-09-07; this is an auditable corpus, not a claim to every item on the internet.",
+      "claim": "Three-wave bounded audit across named registries and direct item/category traversals as of 2026-09-07; complete within that declared protocol, never a claim to every item on the internet.",
       "secondWave": {
         "searched": "2026-09-07",
         "newCandidateIds": [
@@ -324,6 +352,26 @@
           "GitHub: no editorially relevant licensed interactive found"
         ],
         "stopRule": "Stopped after each named surface/query family returned either a recorded qualified candidate, a recorded duplicate/rejection, or a documented zero-qualified result, and a further query round produced no new media category for the package."
+      },
+      "thirdWave": {
+        "searched": "2026-09-07",
+        "directTraversal": true,
+        "newCandidateIds": [
+          "R61",
+          "R62",
+          "R63",
+          "R64"
+        ],
+        "newCandidateCount": 4,
+        "qualifiedCount": 4,
+        "installedCount": 1,
+        "duplicateOrRejectedCount": 0,
+        "concreteBlockers": [
+          "PMC: no direct outfit-as-armor intervention identified",
+          "GitHub: no exact-fit licensed body-boundary interactive",
+          "Internet Archive: no rights-clear audiovisual item improved on museum records"
+        ],
+        "stopRule": "Stopped only after direct item/category/collection traversal yielded a qualified item, a recorded duplicate/rejection, or a concrete access/rights blocker for each targeted surface."
       }
     },
     {
@@ -375,10 +423,14 @@
         "R29",
         "R30",
         "R31",
-        "R32"
+        "R32",
+        "R65",
+        "R66",
+        "R67",
+        "R68"
       ],
       "stopReason": "The named source classes returned recorded candidates, duplicates, inapplicable material, or works without a work-level reuse grant. Further broad searching was yielding weaker or duplicate material.",
-      "claim": "Second-wave bounded review across the named registry and documented query families as of 2026-09-07; this is an auditable corpus, not a claim to every item on the internet.",
+      "claim": "Three-wave bounded audit across named registries and direct item/category traversals as of 2026-09-07; complete within that declared protocol, never a claim to every item on the internet.",
       "secondWave": {
         "searched": "2026-09-07",
         "newCandidateIds": [
@@ -398,6 +450,26 @@
           "Official audiovisual: MIT material remained link-only"
         ],
         "stopRule": "Stopped after each named surface/query family returned either a recorded qualified candidate, a recorded duplicate/rejection, or a documented zero-qualified result, and a further query round produced no new media category for the package."
+      },
+      "thirdWave": {
+        "searched": "2026-09-07",
+        "directTraversal": true,
+        "newCandidateIds": [
+          "R65",
+          "R66",
+          "R67",
+          "R68"
+        ],
+        "newCandidateCount": 4,
+        "qualifiedCount": 3,
+        "installedCount": 2,
+        "duplicateOrRejectedCount": 1,
+        "concreteBlockers": [
+          "Europeana: no exact textile-touch item with direct file URL and stronger fit",
+          "Internet Archive: no rights-clear tactile-textile audiovisual item qualified",
+          "Official podcasts: no direct fabric hypersensitivity episode found"
+        ],
+        "stopRule": "Stopped only after direct item/category/collection traversal yielded a qualified item, a recorded duplicate/rejection, or a concrete access/rights blocker for each targeted surface."
       }
     },
     {
@@ -449,10 +521,14 @@
         "R35",
         "R36",
         "R37",
-        "R38"
+        "R38",
+        "R69",
+        "R70",
+        "R71",
+        "R72"
       ],
       "stopReason": "The named source classes returned recorded candidates, duplicates, inapplicable material, or works without a work-level reuse grant. Further broad searching was yielding weaker or duplicate material.",
-      "claim": "Second-wave bounded review across the named registry and documented query families as of 2026-09-07; this is an auditable corpus, not a claim to every item on the internet.",
+      "claim": "Three-wave bounded audit across named registries and direct item/category traversals as of 2026-09-07; complete within that declared protocol, never a claim to every item on the internet.",
       "secondWave": {
         "searched": "2026-09-07",
         "newCandidateIds": [
@@ -472,6 +548,26 @@
           "Wellcome: no item-level work with both direct relevance and clear reusable media"
         ],
         "stopRule": "Stopped after each named surface/query family returned either a recorded qualified candidate, a recorded duplicate/rejection, or a documented zero-qualified result, and a further query round produced no new media category for the package."
+      },
+      "thirdWave": {
+        "searched": "2026-09-07",
+        "directTraversal": true,
+        "newCandidateIds": [
+          "R69",
+          "R70",
+          "R71",
+          "R72"
+        ],
+        "newCandidateCount": 4,
+        "qualifiedCount": 3,
+        "installedCount": 0,
+        "duplicateOrRejectedCount": 1,
+        "concreteBlockers": [
+          "GitHub: no maintained fashion-memory interactive with a clear license",
+          "Internet Archive: rights heterogeneity blocked installation",
+          "PMC: no fashion-specific neural nostalgia experiment located"
+        ],
+        "stopRule": "Stopped only after direct item/category/collection traversal yielded a qualified item, a recorded duplicate/rejection, or a concrete access/rights blocker for each targeted surface."
       }
     },
     {
@@ -522,10 +618,14 @@
         "R41",
         "R42",
         "R43",
-        "R44"
+        "R44",
+        "R73",
+        "R74",
+        "R75",
+        "R76"
       ],
       "stopReason": "The named source classes returned recorded candidates, duplicates, inapplicable material, or works without a work-level reuse grant. Further broad searching was yielding weaker or duplicate material.",
-      "claim": "Second-wave bounded review across the named registry and documented query families as of 2026-09-07; this is an auditable corpus, not a claim to every item on the internet.",
+      "claim": "Three-wave bounded audit across named registries and direct item/category traversals as of 2026-09-07; complete within that declared protocol, never a claim to every item on the internet.",
       "secondWave": {
         "searched": "2026-09-07",
         "newCandidateIds": [
@@ -545,6 +645,26 @@
           "GitHub: no validated Fashion Week physiology dataset/tool found"
         ],
         "stopRule": "Stopped after each named surface/query family returned either a recorded qualified candidate, a recorded duplicate/rejection, or a documented zero-qualified result, and a further query round produced no new media category for the package."
+      },
+      "thirdWave": {
+        "searched": "2026-09-07",
+        "directTraversal": true,
+        "newCandidateIds": [
+          "R73",
+          "R74",
+          "R75",
+          "R76"
+        ],
+        "newCandidateCount": 4,
+        "qualifiedCount": 2,
+        "installedCount": 1,
+        "duplicateOrRejectedCount": 2,
+        "concreteBlockers": [
+          "Europeana: no Fashion Week physiology item found",
+          "GitHub: no validated fashion-event physiology dataset",
+          "Official BFC videos: soundtrack/third-party rights blocked extraction or embed selection"
+        ],
+        "stopRule": "Stopped only after direct item/category/collection traversal yielded a qualified item, a recorded duplicate/rejection, or a concrete access/rights blocker for each targeted surface."
       }
     },
     {
@@ -595,10 +715,14 @@
         "R47",
         "R48",
         "R49",
-        "R50"
+        "R50",
+        "R77",
+        "R78",
+        "R79",
+        "R80"
       ],
       "stopReason": "The named source classes returned recorded candidates, duplicates, inapplicable material, or works without a work-level reuse grant. Further broad searching was yielding weaker or duplicate material.",
-      "claim": "Second-wave bounded review across the named registry and documented query families as of 2026-09-07; this is an auditable corpus, not a claim to every item on the internet.",
+      "claim": "Three-wave bounded audit across named registries and direct item/category traversals as of 2026-09-07; complete within that declared protocol, never a claim to every item on the internet.",
       "secondWave": {
         "searched": "2026-09-07",
         "newCandidateIds": [
@@ -618,6 +742,26 @@
           "Wikimedia: no audio with both runway provenance and editorial fit qualified"
         ],
         "stopRule": "Stopped after each named surface/query family returned either a recorded qualified candidate, a recorded duplicate/rejection, or a documented zero-qualified result, and a further query round produced no new media category for the package."
+      },
+      "thirdWave": {
+        "searched": "2026-09-07",
+        "directTraversal": true,
+        "newCandidateIds": [
+          "R77",
+          "R78",
+          "R79",
+          "R80"
+        ],
+        "newCandidateCount": 4,
+        "qualifiedCount": 3,
+        "installedCount": 2,
+        "duplicateOrRejectedCount": 1,
+        "concreteBlockers": [
+          "Europeana: no reusable runway audio item identified",
+          "Internet Archive: exact provenance plus audio rights not established",
+          "Official fashion channels: music rights prevented selecting an authorized embed"
+        ],
+        "stopRule": "Stopped only after direct item/category/collection traversal yielded a qualified item, a recorded duplicate/rejection, or a concrete access/rights blocker for each targeted surface."
       }
     },
     {
@@ -668,10 +812,14 @@
         "R53",
         "R54",
         "R55",
-        "R56"
+        "R56",
+        "R81",
+        "R82",
+        "R83",
+        "R84"
       ],
       "stopReason": "The named source classes returned recorded candidates, duplicates, inapplicable material, or works without a work-level reuse grant. Further broad searching was yielding weaker or duplicate material.",
-      "claim": "Second-wave bounded review across the named registry and documented query families as of 2026-09-07; this is an auditable corpus, not a claim to every item on the internet.",
+      "claim": "Three-wave bounded audit across named registries and direct item/category traversals as of 2026-09-07; complete within that declared protocol, never a claim to every item on the internet.",
       "secondWave": {
         "searched": "2026-09-07",
         "newCandidateIds": [
@@ -691,6 +839,26 @@
           "GitHub: no maintained uniform-perception tool with verified participant-safe method"
         ],
         "stopRule": "Stopped after each named surface/query family returned either a recorded qualified candidate, a recorded duplicate/rejection, or a documented zero-qualified result, and a further query round produced no new media category for the package."
+      },
+      "thirdWave": {
+        "searched": "2026-09-07",
+        "directTraversal": true,
+        "newCandidateIds": [
+          "R81",
+          "R82",
+          "R83",
+          "R84"
+        ],
+        "newCandidateCount": 4,
+        "qualifiedCount": 3,
+        "installedCount": 1,
+        "duplicateOrRejectedCount": 1,
+        "concreteBlockers": [
+          "GitHub: no participant-safe uniform-perception interactive qualified",
+          "Europeana item delivery: uniform topic surfaced, but exact file rights were not exposed",
+          "Internet Archive: no rights-clear uniform film improved on the Wellcome record"
+        ],
+        "stopRule": "Stopped only after direct item/category/collection traversal yielded a qualified item, a recorded duplicate/rejection, or a concrete access/rights blocker for each targeted surface."
       }
     }
   ],
@@ -1978,6 +2146,650 @@
       "reason": "Search trail for open materials; project-level licenses must be checked.",
       "accessed": "2026-09-07",
       "wave": 2
+    },
+    {
+      "id": "R57",
+      "packages": [
+        "AAN-F-001"
+      ],
+      "title": "Dress and the magic of touch",
+      "creator": "Shahidha Bari; photographs by Maryam Wahid",
+      "date": "2020-10-06",
+      "institution": "Wellcome Collection",
+      "canonicalUrl": "https://wellcomecollection.org/stories/dress-and-the-magic-of-touch",
+      "mediaUrl": null,
+      "type": "article",
+      "rightsStatus": "link-only",
+      "licenseUrl": null,
+      "credit": "Shahidha Bari; photographs by Maryam Wahid · Wellcome Collection",
+      "caption": "Dress and the magic of touch",
+      "alt": "",
+      "relevance": "Exact-fit illustrated essay; photographs are © Maryam Wahid and therefore linked, not reproduced.",
+      "disposition": "resource-room",
+      "reason": "Exact-fit illustrated essay; photographs are © Maryam Wahid and therefore linked, not reproduced.",
+      "accessed": "2026-09-07",
+      "wave": 3
+    },
+    {
+      "id": "R58",
+      "packages": [
+        "AAN-F-001"
+      ],
+      "title": "Dress: its sanitary aspect",
+      "creator": "Bernard Roth",
+      "date": "1880",
+      "institution": "Wellcome Collection",
+      "canonicalUrl": "https://wellcomecollection.org/works/my9bx9h3",
+      "mediaUrl": "https://iiif.wellcomecollection.org/pdf/b20403494",
+      "type": "book",
+      "rightsStatus": "Public domain / CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "credit": "Bernard Roth · Wellcome Collection",
+      "caption": "Dress: its sanitary aspect",
+      "alt": "",
+      "relevance": "Forty-image public-domain digitization connecting dress, body and health.",
+      "disposition": "installed-media",
+      "reason": "Forty-image public-domain digitization connecting dress, body and health.",
+      "accessed": "2026-09-07",
+      "wave": 3
+    },
+    {
+      "id": "R59",
+      "packages": [
+        "AAN-F-001"
+      ],
+      "title": "Fashion from The National and Domestic History of England",
+      "creator": "Unknown plate maker",
+      "date": "19th century",
+      "institution": "Europeana / British Library",
+      "canonicalUrl": "https://www.europeana.eu/en/item/2059209/2882_11083620115_59837d80a8_o_jpg",
+      "mediaUrl": null,
+      "type": "image",
+      "rightsStatus": "Public domain / CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "credit": "Unknown plate maker · Europeana / British Library",
+      "caption": "Fashion from The National and Domestic History of England",
+      "alt": "",
+      "relevance": "Public-domain historical fashion plate for visual comparison; provider record controls.",
+      "disposition": "resource-room",
+      "reason": "Public-domain historical fashion plate for visual comparison; provider record controls.",
+      "accessed": "2026-09-07",
+      "wave": 3
+    },
+    {
+      "id": "R60",
+      "packages": [
+        "AAN-F-001"
+      ],
+      "title": "Enclothed Cognition Replication materials",
+      "creator": "Burns et al.",
+      "date": "2017",
+      "institution": "Open Science Framework",
+      "canonicalUrl": "https://doi.org/10.17605/OSF.IO/KMCJ8",
+      "mediaUrl": null,
+      "type": "dataset",
+      "rightsStatus": "link-only",
+      "licenseUrl": null,
+      "credit": "Burns et al. · Open Science Framework",
+      "caption": "Enclothed Cognition Replication materials",
+      "alt": "",
+      "relevance": "Exact replication project record; file-level licenses vary and are not inferred.",
+      "disposition": "resource-room",
+      "reason": "Exact replication project record; file-level licenses vary and are not inferred.",
+      "accessed": "2026-09-07",
+      "wave": 3
+    },
+    {
+      "id": "R61",
+      "packages": [
+        "AAN-F-002"
+      ],
+      "title": "40598449",
+      "creator": "Alexandra Georgiou",
+      "date": "date not stated",
+      "institution": "Wellcome Collection",
+      "canonicalUrl": "https://wellcomecollection.org/works/c8vq78kk",
+      "mediaUrl": null,
+      "type": "textile artwork",
+      "rightsStatus": "link-only",
+      "licenseUrl": null,
+      "credit": "Alexandra Georgiou · Wellcome Collection",
+      "caption": "40598449",
+      "alt": "",
+      "relevance": "Artist’s clothing-based work about the body as terrain of illness; reproduction rights not established.",
+      "disposition": "resource-room",
+      "reason": "Artist’s clothing-based work about the body as terrain of illness; reproduction rights not established.",
+      "accessed": "2026-09-07",
+      "wave": 3
+    },
+    {
+      "id": "R62",
+      "packages": [
+        "AAN-F-002"
+      ],
+      "title": "Where Does It Hurt?",
+      "creator": "Three Johns and Shelagh",
+      "date": "2014",
+      "institution": "Wellcome Collection",
+      "canonicalUrl": "https://iiif.wellcomecollection.org/file/b21688060_where-does-it-hurt.pdf",
+      "mediaUrl": "https://iiif.wellcomecollection.org/file/b21688060_where-does-it-hurt.pdf",
+      "type": "book",
+      "rightsStatus": "CC BY",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "credit": "Three Johns and Shelagh · Wellcome Collection",
+      "caption": "Where Does It Hurt?",
+      "alt": "",
+      "relevance": "Downloadable visual essays on embodied experience; contextual rather than a clothing intervention.",
+      "disposition": "installed-media",
+      "reason": "Downloadable visual essays on embodied experience; contextual rather than a clothing intervention.",
+      "accessed": "2026-09-07",
+      "wave": 3
+    },
+    {
+      "id": "R63",
+      "packages": [
+        "AAN-F-002"
+      ],
+      "title": "Naisen kokovartalomuotokuva",
+      "creator": "Unidentified photographer",
+      "date": "date not stated",
+      "institution": "Europeana",
+      "canonicalUrl": "https://www.europeana.eu/en/item/117/_C73F9EDD_3F02_4783_AA7A_27A8BE5C7CE9",
+      "mediaUrl": null,
+      "type": "image",
+      "rightsStatus": "Public domain / CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "credit": "Unidentified photographer · Europeana",
+      "caption": "Naisen kokovartalomuotokuva",
+      "alt": "",
+      "relevance": "Public-domain full-body portrait retained as an identity/dress visual candidate.",
+      "disposition": "resource-room",
+      "reason": "Public-domain full-body portrait retained as an identity/dress visual candidate.",
+      "accessed": "2026-09-07",
+      "wave": 3
+    },
+    {
+      "id": "R64",
+      "packages": [
+        "AAN-F-002"
+      ],
+      "title": "The importance of dress; or, female rivalry",
+      "creator": "Anonymous",
+      "date": "1752",
+      "institution": "Wellcome Collection",
+      "canonicalUrl": "https://wellcomecollection.org/works/qam5vzc8",
+      "mediaUrl": null,
+      "type": "book",
+      "rightsStatus": "link-only",
+      "licenseUrl": null,
+      "credit": "Anonymous · Wellcome Collection",
+      "caption": "The importance of dress; or, female rivalry",
+      "alt": "",
+      "relevance": "Exact historical text record, but the available full text is provider-restricted; no local reproduction.",
+      "disposition": "reserve",
+      "reason": "Exact historical text record, but the available full text is provider-restricted; no local reproduction.",
+      "accessed": "2026-09-07",
+      "wave": 3
+    },
+    {
+      "id": "R65",
+      "packages": [
+        "AAN-F-003"
+      ],
+      "title": "Dress and the magic of touch",
+      "creator": "Shahidha Bari; photographs by Maryam Wahid",
+      "date": "2020-10-06",
+      "institution": "Wellcome Collection",
+      "canonicalUrl": "https://wellcomecollection.org/stories/dress-and-the-magic-of-touch",
+      "mediaUrl": null,
+      "type": "article",
+      "rightsStatus": "link-only",
+      "licenseUrl": null,
+      "credit": "Shahidha Bari; photographs by Maryam Wahid · Wellcome Collection",
+      "caption": "Dress and the magic of touch",
+      "alt": "",
+      "relevance": "Exact-fit reporting with strong copyrighted photography; official page only.",
+      "disposition": "resource-room",
+      "reason": "Exact-fit reporting with strong copyrighted photography; official page only.",
+      "accessed": "2026-09-07",
+      "wave": 3
+    },
+    {
+      "id": "R66",
+      "packages": [
+        "AAN-F-003"
+      ],
+      "title": "Health & beauty in dress from infancy to old age",
+      "creator": "Ada Sarah Ballin",
+      "date": "c.1893",
+      "institution": "Wellcome Collection",
+      "canonicalUrl": "https://wellcomecollection.org/works/brwc6mn4",
+      "mediaUrl": null,
+      "type": "book",
+      "rightsStatus": "Public domain / CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "credit": "Ada Sarah Ballin · Wellcome Collection",
+      "caption": "Health & beauty in dress from infancy to old age",
+      "alt": "",
+      "relevance": "Public-domain 282-image digitization on clothing, health and shoes.",
+      "disposition": "installed-media",
+      "reason": "Public-domain 282-image digitization on clothing, health and shoes.",
+      "accessed": "2026-09-07",
+      "wave": 3
+    },
+    {
+      "id": "R67",
+      "packages": [
+        "AAN-F-003"
+      ],
+      "title": "Tactile sensitivity alters textile touch perception — figures and full text",
+      "creator": "Mehta, Holásková and Walker",
+      "date": "2024",
+      "institution": "PLOS ONE / PMC",
+      "canonicalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11410198/",
+      "mediaUrl": null,
+      "type": "research/figures",
+      "rightsStatus": "CC BY",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "credit": "Mehta, Holásková and Walker · PLOS ONE / PMC",
+      "caption": "Tactile sensitivity alters textile touch perception — figures and full text",
+      "alt": "",
+      "relevance": "Direct textile-touch study; full text and article-owned figures may be reused with attribution, subject to third-party notices.",
+      "disposition": "installed-media",
+      "reason": "Direct textile-touch study; full text and article-owned figures may be reused with attribution, subject to third-party notices.",
+      "accessed": "2026-09-07",
+      "wave": 3
+    },
+    {
+      "id": "R68",
+      "packages": [
+        "AAN-F-003"
+      ],
+      "title": "VisTouch vision–touch–audio dataset",
+      "creator": "Liang et al.",
+      "date": "2026",
+      "institution": "GitHub",
+      "canonicalUrl": "https://github.com/liangnjupt/VisTouch",
+      "mediaUrl": null,
+      "type": "dataset/tool",
+      "rightsStatus": "CC BY",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "credit": "Liang et al. · GitHub",
+      "caption": "VisTouch vision–touch–audio dataset",
+      "alt": "",
+      "relevance": "Duplicate of R32; retained to show direct GitHub traversal did not create a new asset.",
+      "disposition": "duplicate",
+      "reason": "Duplicate of R32; retained to show direct GitHub traversal did not create a new asset.",
+      "accessed": "2026-09-07",
+      "wave": 3
+    },
+    {
+      "id": "R69",
+      "packages": [
+        "AAN-F-004"
+      ],
+      "title": "40598449",
+      "creator": "Alexandra Georgiou",
+      "date": "date not stated",
+      "institution": "Wellcome Collection",
+      "canonicalUrl": "https://wellcomecollection.org/works/c8vq78kk",
+      "mediaUrl": null,
+      "type": "textile artwork",
+      "rightsStatus": "link-only",
+      "licenseUrl": null,
+      "credit": "Alexandra Georgiou · Wellcome Collection",
+      "caption": "40598449",
+      "alt": "",
+      "relevance": "Personal clothing transformed into an illness/memory volume; official record only.",
+      "disposition": "resource-room",
+      "reason": "Personal clothing transformed into an illness/memory volume; official record only.",
+      "accessed": "2026-09-07",
+      "wave": 3
+    },
+    {
+      "id": "R70",
+      "packages": [
+        "AAN-F-004"
+      ],
+      "title": "Fashion from The National and Domestic History of England",
+      "creator": "Unknown plate maker",
+      "date": "19th century",
+      "institution": "Europeana / British Library",
+      "canonicalUrl": "https://www.europeana.eu/en/item/2059209/2882_11083620115_59837d80a8_o_jpg",
+      "mediaUrl": null,
+      "type": "image",
+      "rightsStatus": "Public domain / CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "credit": "Unknown plate maker · Europeana / British Library",
+      "caption": "Fashion from The National and Domestic History of England",
+      "alt": "",
+      "relevance": "Public-domain period-fashion image useful for explaining mediated recall.",
+      "disposition": "resource-room",
+      "reason": "Public-domain period-fashion image useful for explaining mediated recall.",
+      "accessed": "2026-09-07",
+      "wave": 3
+    },
+    {
+      "id": "R71",
+      "packages": [
+        "AAN-F-004"
+      ],
+      "title": "Birth, babies and boxes of memories",
+      "creator": "Erin Beeston; Naomi Williams",
+      "date": "2021",
+      "institution": "Wellcome Collection",
+      "canonicalUrl": "https://wellcomecollection.org/stories/birth-babies-and-boxes-of-memories",
+      "mediaUrl": null,
+      "type": "article",
+      "rightsStatus": "link-only",
+      "licenseUrl": null,
+      "credit": "Erin Beeston; Naomi Williams · Wellcome Collection",
+      "caption": "Birth, babies and boxes of memories",
+      "alt": "",
+      "relevance": "Official material-memory essay; not clothing-specific and media rights remain controlled.",
+      "disposition": "resource-room",
+      "reason": "Official material-memory essay; not clothing-specific and media rights remain controlled.",
+      "accessed": "2026-09-07",
+      "wave": 3
+    },
+    {
+      "id": "R72",
+      "packages": [
+        "AAN-F-004"
+      ],
+      "title": "Internet Archive fashion-periodical traversal",
+      "creator": "Internet Archive contributors",
+      "date": "2026 search",
+      "institution": "Internet Archive",
+      "canonicalUrl": "https://archive.org/search?query=subject%3A%22fashion%22+AND+mediatype%3Atexts",
+      "mediaUrl": null,
+      "type": "archive",
+      "rightsStatus": "rejected",
+      "licenseUrl": null,
+      "credit": "Internet Archive contributors · Internet Archive",
+      "caption": "Internet Archive fashion-periodical traversal",
+      "alt": "",
+      "relevance": "Direct results mixed rights statuses and no item both improved evidentiary fit and carried sufficiently clear reuse rights.",
+      "disposition": "rejected",
+      "reason": "Direct results mixed rights statuses and no item both improved evidentiary fit and carried sufficiently clear reuse rights.",
+      "accessed": "2026-09-07",
+      "wave": 3
+    },
+    {
+      "id": "R73",
+      "packages": [
+        "AAN-F-005"
+      ],
+      "title": "Fashion runway13.jpg",
+      "creator": "Kwaku Berko",
+      "date": "2023-08-18",
+      "institution": "Wikimedia Commons",
+      "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Fashion_runway13.jpg",
+      "mediaUrl": null,
+      "type": "image",
+      "rightsStatus": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "credit": "Kwaku Berko · Wikimedia Commons",
+      "caption": "Fashion runway13.jpg",
+      "alt": "",
+      "relevance": "Duplicate of R44 found by direct category traversal.",
+      "disposition": "duplicate",
+      "reason": "Duplicate of R44 found by direct category traversal.",
+      "accessed": "2026-09-07",
+      "wave": 3
+    },
+    {
+      "id": "R74",
+      "packages": [
+        "AAN-F-005"
+      ],
+      "title": "Runway at Fashion Show Mall (2010)",
+      "creator": "Jenny Mealing",
+      "date": "2010-06-25",
+      "institution": "Wikimedia Commons",
+      "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Runway_at_Fashion_Show_Mall_(2010).jpg",
+      "mediaUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Runway%20at%20Fashion%20Show%20Mall%20(2010).jpg",
+      "type": "image",
+      "rightsStatus": "CC BY",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "credit": "Jenny Mealing · Wikimedia Commons",
+      "caption": "Runway at Fashion Show Mall (2010)",
+      "alt": "A fashion show runway with audience seating inside Fashion Show Mall in Las Vegas.",
+      "relevance": "High-resolution runway/crowd environment with confirmed Flickr review.",
+      "disposition": "installed-media",
+      "reason": "High-resolution runway/crowd environment with confirmed Flickr review.",
+      "accessed": "2026-09-07",
+      "wave": 3
+    },
+    {
+      "id": "R75",
+      "packages": [
+        "AAN-F-005"
+      ],
+      "title": "Health and clothing",
+      "creator": "Bermondsey Borough Council",
+      "date": "c.1928",
+      "institution": "Wellcome Collection / BFI National Archive",
+      "canonicalUrl": "https://wellcomecollection.org/works/vxe6xptj",
+      "mediaUrl": null,
+      "type": "video",
+      "rightsStatus": "link-only",
+      "licenseUrl": null,
+      "credit": "Bermondsey Borough Council · Wellcome Collection / BFI National Archive",
+      "caption": "Health and clothing",
+      "alt": "",
+      "relevance": "Official historical film playable under noncommercial distribution terms; link only for this publication.",
+      "disposition": "resource-room",
+      "reason": "Official historical film playable under noncommercial distribution terms; link only for this publication.",
+      "accessed": "2026-09-07",
+      "wave": 3
+    },
+    {
+      "id": "R76",
+      "packages": [
+        "AAN-F-005"
+      ],
+      "title": "British Fashion Council official channel traversal",
+      "creator": "British Fashion Council",
+      "date": "ongoing",
+      "institution": "YouTube",
+      "canonicalUrl": "https://www.youtube.com/@BritishFashionCouncil/videos",
+      "mediaUrl": null,
+      "type": "video",
+      "rightsStatus": "link-only",
+      "licenseUrl": null,
+      "credit": "British Fashion Council · YouTube",
+      "caption": "British Fashion Council official channel traversal",
+      "alt": "",
+      "relevance": "Direct channel traversal found event films, but no selected video cleared soundtrack and third-party rights for embedding; channel already recorded.",
+      "disposition": "duplicate",
+      "reason": "Direct channel traversal found event films, but no selected video cleared soundtrack and third-party rights for embedding; channel already recorded.",
+      "accessed": "2026-09-07",
+      "wave": 3
+    },
+    {
+      "id": "R77",
+      "packages": [
+        "AAN-F-006"
+      ],
+      "title": "Videos of fashion shows category",
+      "creator": "Wikimedia Commons contributors",
+      "date": "ongoing",
+      "institution": "Wikimedia Commons",
+      "canonicalUrl": "https://commons.wikimedia.org/wiki/Category:Videos_of_fashion_shows",
+      "mediaUrl": null,
+      "type": "video collection",
+      "rightsStatus": "link-only",
+      "licenseUrl": null,
+      "credit": "Wikimedia Commons contributors · Wikimedia Commons",
+      "caption": "Videos of fashion shows category",
+      "alt": "",
+      "relevance": "Direct video-category surface; individual recordings require separate license and soundtrack review.",
+      "disposition": "resource-room",
+      "reason": "Direct video-category surface; individual recordings require separate license and soundtrack review.",
+      "accessed": "2026-09-07",
+      "wave": 3
+    },
+    {
+      "id": "R78",
+      "packages": [
+        "AAN-F-006"
+      ],
+      "title": "MDN Step Sequencer",
+      "creator": "MDN contributors",
+      "date": "ongoing",
+      "institution": "MDN / GitHub",
+      "canonicalUrl": "https://mdn.github.io/webaudio-examples/step-sequencer/",
+      "mediaUrl": "https://mdn.github.io/webaudio-examples/step-sequencer/",
+      "type": "interactive/tool",
+      "rightsStatus": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "credit": "MDN contributors · MDN / GitHub",
+      "caption": "MDN Step Sequencer",
+      "alt": "",
+      "relevance": "Runnable rhythm sequencer installed as an external educational interactive; source repository is CC0.",
+      "disposition": "installed-tool",
+      "reason": "Runnable rhythm sequencer installed as an external educational interactive; source repository is CC0.",
+      "accessed": "2026-09-07",
+      "wave": 3
+    },
+    {
+      "id": "R79",
+      "packages": [
+        "AAN-F-006"
+      ],
+      "title": "Runway at Fashion Show Mall (2010)",
+      "creator": "Jenny Mealing",
+      "date": "2010-06-25",
+      "institution": "Wikimedia Commons",
+      "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Runway_at_Fashion_Show_Mall_(2010).jpg",
+      "mediaUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Runway%20at%20Fashion%20Show%20Mall%20(2010).jpg",
+      "type": "image",
+      "rightsStatus": "CC BY",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "credit": "Jenny Mealing · Wikimedia Commons",
+      "caption": "Runway at Fashion Show Mall (2010)",
+      "alt": "A fashion runway with spectators gathered around it.",
+      "relevance": "Runway environment retained for sound-space interpretation, with explicit attribution.",
+      "disposition": "installed-media",
+      "reason": "Runway environment retained for sound-space interpretation, with explicit attribution.",
+      "accessed": "2026-09-07",
+      "wave": 3
+    },
+    {
+      "id": "R80",
+      "packages": [
+        "AAN-F-006"
+      ],
+      "title": "Internet Archive runway-audio traversal",
+      "creator": "Internet Archive contributors",
+      "date": "2026 search",
+      "institution": "Internet Archive",
+      "canonicalUrl": "https://archive.org/search?query=%22fashion+show%22+AND+mediatype%3Amovies",
+      "mediaUrl": null,
+      "type": "audio/video",
+      "rightsStatus": "rejected",
+      "licenseUrl": null,
+      "credit": "Internet Archive contributors · Internet Archive",
+      "caption": "Internet Archive runway-audio traversal",
+      "alt": "",
+      "relevance": "No recording had both exact runway provenance and sufficiently clear music/performance rights for reuse.",
+      "disposition": "rejected",
+      "reason": "No recording had both exact runway provenance and sufficiently clear music/performance rights for reuse.",
+      "accessed": "2026-09-07",
+      "wave": 3
+    },
+    {
+      "id": "R81",
+      "packages": [
+        "AAN-F-007"
+      ],
+      "title": "Students Wearing Police Uniforms Exhibit Biased Attention toward Individuals Wearing Hoodies",
+      "creator": "Civile and Obhi",
+      "date": "2017",
+      "institution": "Frontiers in Psychology / PMC",
+      "canonicalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5292616/",
+      "mediaUrl": null,
+      "type": "research/figures",
+      "rightsStatus": "CC BY",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "credit": "Civile and Obhi · Frontiers in Psychology / PMC",
+      "caption": "Students Wearing Police Uniforms Exhibit Biased Attention toward Individuals Wearing Hoodies",
+      "alt": "",
+      "relevance": "Open full text and article-owned figures; narrow student experiment, not universal causal proof.",
+      "disposition": "installed-media",
+      "reason": "Open full text and article-owned figures; narrow student experiment, not universal causal proof.",
+      "accessed": "2026-09-07",
+      "wave": 3
+    },
+    {
+      "id": "R82",
+      "packages": [
+        "AAN-F-007"
+      ],
+      "title": "Health and clothing",
+      "creator": "Bermondsey Borough Council",
+      "date": "c.1928",
+      "institution": "Wellcome Collection / BFI National Archive",
+      "canonicalUrl": "https://wellcomecollection.org/works/vxe6xptj",
+      "mediaUrl": null,
+      "type": "video",
+      "rightsStatus": "link-only",
+      "licenseUrl": null,
+      "credit": "Bermondsey Borough Council · Wellcome Collection / BFI National Archive",
+      "caption": "Health and clothing",
+      "alt": "",
+      "relevance": "Historical dress film retained under Wellcome’s noncommercial distribution terms; official player only.",
+      "disposition": "resource-room",
+      "reason": "Historical dress film retained under Wellcome’s noncommercial distribution terms; official player only.",
+      "accessed": "2026-09-07",
+      "wave": 3
+    },
+    {
+      "id": "R83",
+      "packages": [
+        "AAN-F-007"
+      ],
+      "title": "Poplin collection topic",
+      "creator": "Europeana contributors",
+      "date": "ongoing",
+      "institution": "Europeana",
+      "canonicalUrl": "https://www.europeana.eu/en/collections/topic/2788",
+      "mediaUrl": null,
+      "type": "collection",
+      "rightsStatus": "link-only",
+      "licenseUrl": null,
+      "credit": "Europeana contributors · Europeana",
+      "caption": "Poplin collection topic",
+      "alt": "",
+      "relevance": "Direct topic includes a UN tropical uniform shirt, but no exact item page with confirmed media rights was exposed by this traversal.",
+      "disposition": "reserve",
+      "reason": "Direct topic includes a UN tropical uniform shirt, but no exact item page with confirmed media rights was exposed by this traversal.",
+      "accessed": "2026-09-07",
+      "wave": 3
+    },
+    {
+      "id": "R84",
+      "packages": [
+        "AAN-F-007"
+      ],
+      "title": "T & E dress up in their 1918 uniforms",
+      "creator": "Unidentified photographer",
+      "date": "1918",
+      "institution": "Library of Congress",
+      "canonicalUrl": "https://www.loc.gov/pictures/item/2018651506/",
+      "mediaUrl": null,
+      "type": "image",
+      "rightsStatus": "link-only",
+      "licenseUrl": null,
+      "credit": "Unidentified photographer · Library of Congress",
+      "caption": "T & E dress up in their 1918 uniforms",
+      "alt": "",
+      "relevance": "Duplicate item; rights advisory still does not justify local reproduction.",
+      "disposition": "duplicate",
+      "reason": "Duplicate item; rights advisory still does not justify local reproduction.",
+      "accessed": "2026-09-07",
+      "wave": 3
     }
   ]
 }
