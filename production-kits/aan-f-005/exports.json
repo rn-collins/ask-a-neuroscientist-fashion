@@ -1,0 +1,246 @@
+{
+  "package": "AAN-F-005",
+  "generated": "2026-09-08",
+  "records": [
+    {
+      "kind": "instagram-carousel-a",
+      "index": 1,
+      "file": "/production-kits/aan-f-005/exports/instagram/carousel-a-frame-01.png",
+      "assetId": "R05",
+      "alt": "NIOSH Training for Nurses on Shift Work and Long Work Hours, used as evidence for one day, many loads.",
+      "credit": "CDC/NIOSH · CDC",
+      "source": "https://www.cdc.gov/niosh/work-hour-training-for-nurses/default.html",
+      "rights": "link-only"
+    },
+    {
+      "kind": "instagram-carousel-a",
+      "index": 2,
+      "file": "/production-kits/aan-f-005/exports/instagram/carousel-a-frame-02.png",
+      "assetId": "R10",
+      "alt": "A model on a fashion runway at Accra Technical University.",
+      "credit": "Accra Technical University contributor · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Fashion_runway1.jpg",
+      "rights": "CC0"
+    },
+    {
+      "kind": "instagram-carousel-a",
+      "index": 3,
+      "file": "/production-kits/aan-f-005/exports/instagram/carousel-a-frame-03.png",
+      "assetId": "R11",
+      "alt": "A runway presentation at Accra Technical University.",
+      "credit": "Accra Technical University contributor · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Fashion_runway2.jpg",
+      "rights": "CC0"
+    },
+    {
+      "kind": "instagram-carousel-a",
+      "index": 4,
+      "file": "/production-kits/aan-f-005/exports/instagram/carousel-a-frame-04.png",
+      "assetId": "R39",
+      "alt": "Emotional sounds of crowds, used as evidence for sound and arousal.",
+      "credit": "Article authors · Scientific Reports / PMC",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7429201/",
+      "rights": "CC BY"
+    },
+    {
+      "kind": "instagram-carousel-a",
+      "index": 5,
+      "file": "/production-kits/aan-f-005/exports/instagram/carousel-a-frame-05.png",
+      "assetId": "R41",
+      "alt": "About Sleep, used as evidence for crowd density and stress.",
+      "credit": "Centers for Disease Control and Prevention · CDC",
+      "source": "https://www.cdc.gov/sleep/about/index.html",
+      "rights": "link-only"
+    },
+    {
+      "kind": "instagram-carousel-a",
+      "index": 6,
+      "file": "/production-kits/aan-f-005/exports/instagram/carousel-a-frame-06.png",
+      "assetId": "R42",
+      "alt": "British Fashion Council official video channel, used as evidence for evaluation and vigilance.",
+      "credit": "British Fashion Council · YouTube",
+      "source": "https://www.youtube.com/@BritishFashionCouncil",
+      "rights": "link-only"
+    },
+    {
+      "kind": "instagram-carousel-a",
+      "index": 7,
+      "file": "/production-kits/aan-f-005/exports/instagram/carousel-a-frame-07.png",
+      "assetId": "R43",
+      "alt": "Fashion Industry Charter for Climate Action, used as evidence for standing and fatigue.",
+      "credit": "UN Climate Change · UNFCCC",
+      "source": "https://unfccc.int/climate-action/sectoral-engagement/global-climate-action-in-fashion/fashion-industry-charter-for-climate-action",
+      "rights": "link-only"
+    },
+    {
+      "kind": "instagram-carousel-a",
+      "index": 8,
+      "file": "/production-kits/aan-f-005/exports/instagram/carousel-a-frame-08.png",
+      "assetId": "R44",
+      "alt": "A runway model at Accra Technical University.",
+      "credit": "Kwaku Berko · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Fashion_runway13.jpg",
+      "rights": "CC0"
+    },
+    {
+      "kind": "instagram-carousel-b",
+      "index": 1,
+      "file": "/production-kits/aan-f-005/exports/instagram/carousel-b-frame-01.png",
+      "assetId": "R39",
+      "alt": "Emotional sounds of crowds, used as evidence for one day, many loads.",
+      "credit": "Article authors · Scientific Reports / PMC",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7429201/",
+      "rights": "CC BY"
+    },
+    {
+      "kind": "instagram-carousel-b",
+      "index": 2,
+      "file": "/production-kits/aan-f-005/exports/instagram/carousel-b-frame-02.png",
+      "assetId": "R41",
+      "alt": "About Sleep, used as evidence for sleep and sustained attention.",
+      "credit": "Centers for Disease Control and Prevention · CDC",
+      "source": "https://www.cdc.gov/sleep/about/index.html",
+      "rights": "link-only"
+    },
+    {
+      "kind": "instagram-carousel-b",
+      "index": 3,
+      "file": "/production-kits/aan-f-005/exports/instagram/carousel-b-frame-03.png",
+      "assetId": "R42",
+      "alt": "British Fashion Council official video channel, used as evidence for light and timing.",
+      "credit": "British Fashion Council · YouTube",
+      "source": "https://www.youtube.com/@BritishFashionCouncil",
+      "rights": "link-only"
+    },
+    {
+      "kind": "instagram-carousel-b",
+      "index": 4,
+      "file": "/production-kits/aan-f-005/exports/instagram/carousel-b-frame-04.png",
+      "assetId": "R43",
+      "alt": "Fashion Industry Charter for Climate Action, used as evidence for sound and arousal.",
+      "credit": "UN Climate Change · UNFCCC",
+      "source": "https://unfccc.int/climate-action/sectoral-engagement/global-climate-action-in-fashion/fashion-industry-charter-for-climate-action",
+      "rights": "link-only"
+    },
+    {
+      "kind": "instagram-carousel-b",
+      "index": 5,
+      "file": "/production-kits/aan-f-005/exports/instagram/carousel-b-frame-05.png",
+      "assetId": "R44",
+      "alt": "A runway model at Accra Technical University.",
+      "credit": "Kwaku Berko · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Fashion_runway13.jpg",
+      "rights": "CC0"
+    },
+    {
+      "kind": "instagram-carousel-b",
+      "index": 6,
+      "file": "/production-kits/aan-f-005/exports/instagram/carousel-b-frame-06.png",
+      "assetId": "R74",
+      "alt": "A fashion show runway with audience seating inside Fashion Show Mall in Las Vegas.",
+      "credit": "Jenny Mealing · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Runway_at_Fashion_Show_Mall_(2010).jpg",
+      "rights": "CC BY"
+    },
+    {
+      "kind": "instagram-carousel-b",
+      "index": 7,
+      "file": "/production-kits/aan-f-005/exports/instagram/carousel-b-frame-07.png",
+      "assetId": "R75",
+      "alt": "Health and clothing, used as evidence for standing and fatigue.",
+      "credit": "Bermondsey Borough Council · Wellcome Collection / BFI National Archive",
+      "source": "https://wellcomecollection.org/works/vxe6xptj",
+      "rights": "link-only"
+    },
+    {
+      "kind": "instagram-carousel-b",
+      "index": 8,
+      "file": "/production-kits/aan-f-005/exports/instagram/carousel-b-frame-08.png",
+      "assetId": "R05",
+      "alt": "NIOSH Training for Nurses on Shift Work and Long Work Hours, used as evidence for recovery without diagnosis.",
+      "credit": "CDC/NIOSH · CDC",
+      "source": "https://www.cdc.gov/niosh/work-hour-training-for-nurses/default.html",
+      "rights": "link-only"
+    },
+    {
+      "kind": "pinterest",
+      "index": 1,
+      "file": "/production-kits/aan-f-005/exports/pinterest/pin-01.png",
+      "assetId": "R41",
+      "alt": "About Sleep",
+      "credit": "Centers for Disease Control and Prevention · CDC",
+      "source": "https://www.cdc.gov/sleep/about/index.html",
+      "rights": "link-only"
+    },
+    {
+      "kind": "pinterest",
+      "index": 2,
+      "file": "/production-kits/aan-f-005/exports/pinterest/pin-02.png",
+      "assetId": "R42",
+      "alt": "British Fashion Council official video channel",
+      "credit": "British Fashion Council · YouTube",
+      "source": "https://www.youtube.com/@BritishFashionCouncil",
+      "rights": "link-only"
+    },
+    {
+      "kind": "pinterest",
+      "index": 3,
+      "file": "/production-kits/aan-f-005/exports/pinterest/pin-03.png",
+      "assetId": "R43",
+      "alt": "Fashion Industry Charter for Climate Action",
+      "credit": "UN Climate Change · UNFCCC",
+      "source": "https://unfccc.int/climate-action/sectoral-engagement/global-climate-action-in-fashion/fashion-industry-charter-for-climate-action",
+      "rights": "link-only"
+    },
+    {
+      "kind": "pinterest",
+      "index": 4,
+      "file": "/production-kits/aan-f-005/exports/pinterest/pin-04.png",
+      "assetId": "R44",
+      "alt": "A runway model at Accra Technical University.",
+      "credit": "Kwaku Berko · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Fashion_runway13.jpg",
+      "rights": "CC0"
+    },
+    {
+      "kind": "pinterest",
+      "index": 5,
+      "file": "/production-kits/aan-f-005/exports/pinterest/pin-05.png",
+      "assetId": "R74",
+      "alt": "A fashion show runway with audience seating inside Fashion Show Mall in Las Vegas.",
+      "credit": "Jenny Mealing · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Runway_at_Fashion_Show_Mall_(2010).jpg",
+      "rights": "CC BY"
+    },
+    {
+      "kind": "youtube-thumbnail",
+      "index": 1,
+      "file": "/production-kits/aan-f-005/exports/youtube/thumbnail-1.png",
+      "assetId": "R10",
+      "alt": "YouTube thumbnail option 1: The Fashion Week Nervous System",
+      "credit": "Accra Technical University contributor · Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Fashion_runway1.jpg",
+      "rights": "CC0"
+    },
+    {
+      "kind": "youtube-thumbnail",
+      "index": 2,
+      "file": "/production-kits/aan-f-005/exports/youtube/thumbnail-2.png",
+      "assetId": "R42",
+      "alt": "YouTube thumbnail option 2: The Fashion Week Nervous System",
+      "credit": "British Fashion Council · YouTube",
+      "source": "https://www.youtube.com/@BritishFashionCouncil",
+      "rights": "link-only"
+    },
+    {
+      "kind": "vertical-storyboard",
+      "index": 1,
+      "file": "/production-kits/aan-f-005/exports/storyboards/vertical-storyboard.png",
+      "assetId": null,
+      "alt": "Seven-beat vertical-video storyboard for The Fashion Week Nervous System",
+      "credit": "Original production graphic · RN Collins",
+      "source": "/production-kits/aan-f-005/platform-asset-kit.json",
+      "rights": "Original publication asset"
+    }
+  ]
+}

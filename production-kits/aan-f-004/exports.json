@@ -1,0 +1,246 @@
+{
+  "package": "AAN-F-004",
+  "generated": "2026-09-08",
+  "records": [
+    {
+      "kind": "instagram-carousel-a",
+      "index": 1,
+      "file": "/production-kits/aan-f-004/exports/instagram/carousel-a-frame-01.png",
+      "assetId": "R04",
+      "alt": "The Neural Architecture of Music-Evoked Autobiographical Memories, used as evidence for the garment as cue.",
+      "credit": "Petr Janata · PubMed Central",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2758676/",
+      "rights": "link-only"
+    },
+    {
+      "kind": "instagram-carousel-a",
+      "index": 2,
+      "file": "/production-kits/aan-f-004/exports/instagram/carousel-a-frame-02.png",
+      "assetId": "R08",
+      "alt": "Fashion — Free to Use and Reuse, used as evidence for encoding and retrieval.",
+      "credit": "Library of Congress · Library of Congress",
+      "source": "https://www.loc.gov/free-to-use/fashion/",
+      "rights": "link-only"
+    },
+    {
+      "kind": "instagram-carousel-a",
+      "index": 3,
+      "file": "/production-kits/aan-f-004/exports/instagram/carousel-a-frame-03.png",
+      "assetId": "R09",
+      "alt": "Show Your Style!, used as evidence for emotion selects and rehearses.",
+      "credit": "The Metropolitan Museum of Art · The Met",
+      "source": "https://www.metmuseum.org/-/media/files/learn/family-map-and-guides/what%20should%20i%20wear%20today.pdf",
+      "rights": "link-only"
+    },
+    {
+      "kind": "instagram-carousel-a",
+      "index": 4,
+      "file": "/production-kits/aan-f-004/exports/instagram/carousel-a-frame-04.png",
+      "assetId": "R14",
+      "alt": "Smart Textiles for Improved Quality of Life and Cognitive Assessment, used as evidence for music opens another door.",
+      "credit": "Article authors · PubMed Central",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8659971/",
+      "rights": "link-only"
+    },
+    {
+      "kind": "instagram-carousel-a",
+      "index": 5,
+      "file": "/production-kits/aan-f-004/exports/instagram/carousel-a-frame-05.png",
+      "assetId": "R33",
+      "alt": "Music-evoked autobiographical memories, used as evidence for odor and temporal distance.",
+      "credit": "Janata · Cerebral Cortex / PMC",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2758676/",
+      "rights": "link-only"
+    },
+    {
+      "kind": "instagram-carousel-a",
+      "index": 6,
+      "file": "/production-kits/aan-f-004/exports/instagram/carousel-a-frame-06.png",
+      "assetId": "R35",
+      "alt": "Fashion collection, used as evidence for memory is reconstruction.",
+      "credit": "Smithsonian Institution · Smithsonian Open Access",
+      "source": "https://www.si.edu/search/collection-images?edan_q=fashion",
+      "rights": "link-only"
+    },
+    {
+      "kind": "instagram-carousel-a",
+      "index": 7,
+      "file": "/production-kits/aan-f-004/exports/instagram/carousel-a-frame-07.png",
+      "assetId": "R36",
+      "alt": "Fashion collection, used as evidence for collective versus autobiographical nostalgia.",
+      "credit": "Europeana · Europeana",
+      "source": "https://www.europeana.eu/en/collections/topic/55-fashion",
+      "rights": "link-only"
+    },
+    {
+      "kind": "instagram-carousel-a",
+      "index": 8,
+      "file": "/production-kits/aan-f-004/exports/instagram/carousel-a-frame-08.png",
+      "assetId": "R37",
+      "alt": "Vogue archive search, used as evidence for document without certifying.",
+      "credit": "Internet Archive · Internet Archive",
+      "source": "https://archive.org/search?query=title%3A%28vogue%29+AND+mediatype%3A%28texts%29",
+      "rights": "link-only"
+    },
+    {
+      "kind": "instagram-carousel-b",
+      "index": 1,
+      "file": "/production-kits/aan-f-004/exports/instagram/carousel-b-frame-01.png",
+      "assetId": "R14",
+      "alt": "Smart Textiles for Improved Quality of Life and Cognitive Assessment, used as evidence for the garment as cue.",
+      "credit": "Article authors · PubMed Central",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8659971/",
+      "rights": "link-only"
+    },
+    {
+      "kind": "instagram-carousel-b",
+      "index": 2,
+      "file": "/production-kits/aan-f-004/exports/instagram/carousel-b-frame-02.png",
+      "assetId": "R33",
+      "alt": "Music-evoked autobiographical memories, used as evidence for encoding and retrieval.",
+      "credit": "Janata · Cerebral Cortex / PMC",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2758676/",
+      "rights": "link-only"
+    },
+    {
+      "kind": "instagram-carousel-b",
+      "index": 3,
+      "file": "/production-kits/aan-f-004/exports/instagram/carousel-b-frame-03.png",
+      "assetId": "R35",
+      "alt": "Fashion collection, used as evidence for emotion selects and rehearses.",
+      "credit": "Smithsonian Institution · Smithsonian Open Access",
+      "source": "https://www.si.edu/search/collection-images?edan_q=fashion",
+      "rights": "link-only"
+    },
+    {
+      "kind": "instagram-carousel-b",
+      "index": 4,
+      "file": "/production-kits/aan-f-004/exports/instagram/carousel-b-frame-04.png",
+      "assetId": "R36",
+      "alt": "Fashion collection, used as evidence for music opens another door.",
+      "credit": "Europeana · Europeana",
+      "source": "https://www.europeana.eu/en/collections/topic/55-fashion",
+      "rights": "link-only"
+    },
+    {
+      "kind": "instagram-carousel-b",
+      "index": 5,
+      "file": "/production-kits/aan-f-004/exports/instagram/carousel-b-frame-05.png",
+      "assetId": "R37",
+      "alt": "Vogue archive search, used as evidence for odor and temporal distance.",
+      "credit": "Internet Archive · Internet Archive",
+      "source": "https://archive.org/search?query=title%3A%28vogue%29+AND+mediatype%3A%28texts%29",
+      "rights": "link-only"
+    },
+    {
+      "kind": "instagram-carousel-b",
+      "index": 6,
+      "file": "/production-kits/aan-f-004/exports/instagram/carousel-b-frame-06.png",
+      "assetId": "R38",
+      "alt": "Autobiographical Memory Test materials, used as evidence for memory is reconstruction.",
+      "credit": "Open Science Framework contributors · OSF",
+      "source": "https://osf.io/search/?q=autobiographical%20memory",
+      "rights": "link-only"
+    },
+    {
+      "kind": "instagram-carousel-b",
+      "index": 7,
+      "file": "/production-kits/aan-f-004/exports/instagram/carousel-b-frame-07.png",
+      "assetId": "R69",
+      "alt": "40598449, used as evidence for collective versus autobiographical nostalgia.",
+      "credit": "Alexandra Georgiou · Wellcome Collection",
+      "source": "https://wellcomecollection.org/works/c8vq78kk",
+      "rights": "link-only"
+    },
+    {
+      "kind": "instagram-carousel-b",
+      "index": 8,
+      "file": "/production-kits/aan-f-004/exports/instagram/carousel-b-frame-08.png",
+      "assetId": "R70",
+      "alt": "Fashion from The National and Domestic History of England, used as evidence for document without certifying.",
+      "credit": "Unknown plate maker · Europeana / British Library",
+      "source": "https://www.europeana.eu/en/item/2059209/2882_11083620115_59837d80a8_o_jpg",
+      "rights": "Public domain / CC0"
+    },
+    {
+      "kind": "pinterest",
+      "index": 1,
+      "file": "/production-kits/aan-f-004/exports/pinterest/pin-01.png",
+      "assetId": "R33",
+      "alt": "Music-evoked autobiographical memories",
+      "credit": "Janata · Cerebral Cortex / PMC",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2758676/",
+      "rights": "link-only"
+    },
+    {
+      "kind": "pinterest",
+      "index": 2,
+      "file": "/production-kits/aan-f-004/exports/pinterest/pin-02.png",
+      "assetId": "R35",
+      "alt": "Fashion collection",
+      "credit": "Smithsonian Institution · Smithsonian Open Access",
+      "source": "https://www.si.edu/search/collection-images?edan_q=fashion",
+      "rights": "link-only"
+    },
+    {
+      "kind": "pinterest",
+      "index": 3,
+      "file": "/production-kits/aan-f-004/exports/pinterest/pin-03.png",
+      "assetId": "R36",
+      "alt": "Fashion collection",
+      "credit": "Europeana · Europeana",
+      "source": "https://www.europeana.eu/en/collections/topic/55-fashion",
+      "rights": "link-only"
+    },
+    {
+      "kind": "pinterest",
+      "index": 4,
+      "file": "/production-kits/aan-f-004/exports/pinterest/pin-04.png",
+      "assetId": "R37",
+      "alt": "Vogue archive search",
+      "credit": "Internet Archive · Internet Archive",
+      "source": "https://archive.org/search?query=title%3A%28vogue%29+AND+mediatype%3A%28texts%29",
+      "rights": "link-only"
+    },
+    {
+      "kind": "pinterest",
+      "index": 5,
+      "file": "/production-kits/aan-f-004/exports/pinterest/pin-05.png",
+      "assetId": "R38",
+      "alt": "Autobiographical Memory Test materials",
+      "credit": "Open Science Framework contributors · OSF",
+      "source": "https://osf.io/search/?q=autobiographical%20memory",
+      "rights": "link-only"
+    },
+    {
+      "kind": "youtube-thumbnail",
+      "index": 1,
+      "file": "/production-kits/aan-f-004/exports/youtube/thumbnail-1.png",
+      "assetId": "R08",
+      "alt": "YouTube thumbnail option 1: The Memory Wardrobe",
+      "credit": "Library of Congress · Library of Congress",
+      "source": "https://www.loc.gov/free-to-use/fashion/",
+      "rights": "link-only"
+    },
+    {
+      "kind": "youtube-thumbnail",
+      "index": 2,
+      "file": "/production-kits/aan-f-004/exports/youtube/thumbnail-2.png",
+      "assetId": "R35",
+      "alt": "YouTube thumbnail option 2: The Memory Wardrobe",
+      "credit": "Smithsonian Institution · Smithsonian Open Access",
+      "source": "https://www.si.edu/search/collection-images?edan_q=fashion",
+      "rights": "link-only"
+    },
+    {
+      "kind": "vertical-storyboard",
+      "index": 1,
+      "file": "/production-kits/aan-f-004/exports/storyboards/vertical-storyboard.png",
+      "assetId": null,
+      "alt": "Seven-beat vertical-video storyboard for The Memory Wardrobe",
+      "credit": "Original production graphic · RN Collins",
+      "source": "/production-kits/aan-f-004/platform-asset-kit.json",
+      "rights": "Original publication asset"
+    }
+  ]
+}
