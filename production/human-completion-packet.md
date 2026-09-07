@@ -18,6 +18,24 @@ Before recording, document the participant’s role, scope of expertise, consent
 ## 4. Permission requests
 For every HOLD or link-only asset desired in publication, request the exact file, intended crop, page, platform, territory, duration and commercial/noncommercial use. Save the grant itself—not silence—as the rights record. If permission is denied or unanswered, keep the canonical link and do not reproduce the asset.
 
+### Current permission state
+
+No permission response is required to publish the web gallery in its current form. The twenty-two Met objects are Public Domain/CC0; the two British Fashion Council videos use YouTube's authorized privacy-enhanced player; papers, courses and other third-party educational records are citations or outbound links only. No paper figure, runway still, soundtrack or third-party recording is copied into the site.
+
+Permission becomes necessary only if production replaces one of those links or authorized players with a copied excerpt, still, track, figure or file. Use this exact request record before doing so:
+
+| Field | Required entry |
+|---|---|
+| Asset | Exact title, creator, date and canonical record |
+| Material requested | Exact file, timestamp, page, figure or excerpt |
+| Treatment | Crop, edit, caption, audio treatment and juxtaposition |
+| Destinations | Web gallery plus each named social, video, audio or newsletter platform |
+| Term and territory | Duration and geographic scope |
+| Commercial status | State sponsorship, advertising, affiliate or paid-use context |
+| Accessibility | Captioning, transcription and audio-description uses |
+| Grant | Written permission, conditions, credit line and expiration |
+| Fallback | Authorized embed or canonical outbound link |
+
 ## 5. Independent review
 - **Scientific reviewer:** every causal verb, population transfer, neuroscience label and “not established” boundary.
 - **Fashion/cultural historian:** object context, uniform histories, cultural borrowing and institutional claims.
