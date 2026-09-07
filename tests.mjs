@@ -163,6 +163,9 @@ const production = [
   "package-007-social.csv",
   "package-007-rights.csv",
   "package-007-sources.json",
+  "publication-register.json",
+  "pinterest-publication-kit.md",
+  "human-completion-packet.md",
 ];
 for (const f of production)
   if (!fs.existsSync(path.join("production", f)))
@@ -234,8 +237,8 @@ if (
   )
 )
   throw Error("authorized correction channel missing");
-if (!site.includes("planned outputs"))
-  throw Error("deliverables not honestly labelled");
+if (!site.includes("recorded or approved") || !site.includes("owner-final"))
+  throw Error("human-only deliverables not honestly labelled");
 for (const form of [
   ".github/ISSUE_TEMPLATE/correction.yml",
   ".github/ISSUE_TEMPLATE/takedown.yml",
@@ -264,7 +267,32 @@ for (const file of publicPages) {
   ])
     if (!html.includes(token))
       throw Error(`${file} missing structural ${token}`);
+  if (/<img\b(?![^>]*\balt=)[^>]*>/i.test(html))
+    throw Error(`${file} contains image without alt text`);
+  if (/<img[^>]+src=["']data:image/i.test(html))
+    throw Error(`${file} contains unprovenanced inline imagery`);
 }
+const packageManifests = [
+  ["A", "production/package-002-sources.json"],
+  ["T", "production/package-003-sources.json"],
+  ["N", "production/package-004-sources.json"],
+  ["F", "production/package-005-sources.json"],
+  ["S", "production/package-006-sources.json"],
+  ["U", "production/package-007-sources.json"],
+];
+for (const [prefix, file] of packageManifests) {
+  const parsed = JSON.parse(fs.readFileSync(file, "utf8"));
+  const records = parsed.sources || parsed.claims || [];
+  const mappedIds = new Set(records.flatMap((x) => x.claim_ids || [x.id]));
+  for (const claim of claims.filter((x) => x.id.startsWith(prefix)))
+    if (!mappedIds.has(claim.id)) throw Error(`${file} missing ${claim.id}`);
+  for (const record of records)
+    if (!record.url || !(record.limit || record.transfer_limit) || /example\.com/i.test(record.url))
+      throw Error(`${file} contains incomplete source record`);
+}
+const register = JSON.parse(fs.readFileSync("production/publication-register.json", "utf8"));
+if (register.packages.length !== 7 || register.packages.some((p) => p.author === "" || p.owner_final !== "pending" || !p.web_publication_date || !p.version))
+  throw Error("publication register incomplete or overclaims approval");
 const app = fs.readFileSync("app.js", "utf8");
 for (const route of [
   "/exhibitions/",

@@ -122,9 +122,9 @@ const routeMetadata = {
       "The experience, mechanism and evidence-limit standard behind the series.",
   },
   "/deliverables/": {
-    title: "Package 001 Production Plan",
+    title: "Production Gallery — AAN × Fashion",
     description:
-      "Sixteen planned outputs and the editable production files built so far.",
+      "Complete editable publication systems for seven fashion-and-neuroscience exhibitions.",
   },
   "/deliverables/armor/": {
     title: "Package 002 Production Gallery",
