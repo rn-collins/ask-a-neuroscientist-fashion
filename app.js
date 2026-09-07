@@ -154,6 +154,48 @@ const routeMetadata = {
 const routePath = location.pathname.endsWith("/")
   ? location.pathname
   : location.pathname + "/";
+const exhibitionSlugs = [
+  "clothes-and-cognition",
+  "outfit-as-armor",
+  "fabric-sensory-world",
+  "fashion-nostalgia",
+  "fashion-week-nervous-system",
+  "runway-soundtracks",
+  "uniforms-and-social-perception",
+];
+const exhibitionIndex = exhibitionSlugs.findIndex((slug) =>
+  routePath.includes(`/exhibitions/${slug}/`),
+);
+if (exhibitionIndex >= 0) {
+  document.body.classList.add("gallery-story", `story-00${exhibitionIndex + 1}`);
+  const threshold = main?.querySelector(
+    ":scope > .armor-hero, :scope > .uniform-opening, :scope > .editorial-object",
+  );
+  const storyHead = main?.querySelector(":scope > .story-head");
+  if (threshold && storyHead) {
+    threshold.classList.add("exhibition-threshold");
+    storyHead.insertAdjacentElement("afterend", threshold);
+  }
+}
+if (routePath.startsWith("/deliverables/")) document.body.classList.add("production-page");
+document
+  .querySelectorAll('a[href^="/production/"], a[href*="images.metmuseum.org"]')
+  .forEach((link) => link.setAttribute("download", ""));
+if (routePath === "/exhibitions/") {
+  const roomMedia = [82433, 24671, 81754, 107620, 436533, 503169, 84449]
+    .map((id) => A.objects.find((object) => object.id === id))
+    .filter(Boolean);
+  const lede = main?.querySelector(".lede");
+  if (lede && roomMedia.length) {
+    const strip = document.createElement("section");
+    strip.className = "room-object-strip";
+    strip.setAttribute("aria-label", "Objects from the seven exhibitions");
+    strip.innerHTML = roomMedia.map((object, index) =>
+      `<a href="/exhibitions/${exhibitionSlugs[index]}/"><figure><img src="${object.image}" alt="${object.alt}"><figcaption>${String(index + 1).padStart(2, "0")} · ${object.title}</figcaption></figure></a>`
+    ).join("");
+    lede.insertAdjacentElement("afterend", strip);
+  }
+}
 const routeMeta = routeMetadata[routePath] || routeMetadata["/"];
 const canonical = location.origin + routePath;
 document.title = routeMeta.title;
