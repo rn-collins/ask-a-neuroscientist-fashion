@@ -41,8 +41,24 @@ for (const f of must)
   if (!fs.existsSync(f) || !fs.statSync(f).size) throw Error(`missing ${f}`);
 const ctx = { window: {} };
 vm.createContext(ctx);
-vm.runInContext(fs.readFileSync("data.js", "utf8"), ctx);
+const dataSource = fs.readFileSync("data.js", "utf8");
+vm.runInContext(dataSource, ctx);
 const { objects, claims } = ctx.window.AAN;
+
+const retiredBrokenMetFiles = [
+  "50.105.17_CP2.jpg",
+  "69.2.51_front_CP4.jpg",
+  "DP151922.jpg",
+  "DP-14863-055.jpg",
+  "DP-46028-001.jpg",
+];
+for (const retired of retiredBrokenMetFiles) {
+  if (dataSource.includes(retired))
+    throw Error(`retired broken Met image URL remains: ${retired}`);
+}
+const vercelConfig = fs.readFileSync("vercel.json", "utf8");
+if (!vercelConfig.includes("https://collectionapi.metmuseum.org"))
+  throw Error("CSP must permit the Met IIIF host used by object images");
 if (
   objects.length !== 22 ||
   objects.some(
