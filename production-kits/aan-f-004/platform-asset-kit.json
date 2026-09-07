@@ -1,0 +1,666 @@
+{
+  "id": "AAN-F-004",
+  "slug": "fashion-nostalgia",
+  "title": "The Memory Wardrobe",
+  "prefix": "N",
+  "tool": "/lab/memory-garment-map/",
+  "beats": [
+    "The garment as cue",
+    "Encoding and retrieval",
+    "Emotion selects and rehearses",
+    "Music opens another door",
+    "Odor and temporal distance",
+    "Memory is reconstruction",
+    "Collective versus autobiographical nostalgia",
+    "Document without certifying"
+  ],
+  "pins": [
+    "Memory garment",
+    "Cue versus recording",
+    "Emotion and confidence",
+    "Collective nostalgia",
+    "Field map"
+  ],
+  "assets": [
+    {
+      "id": "R04",
+      "type": "research",
+      "title": "The Neural Architecture of Music-Evoked Autobiographical Memories",
+      "creator": "Petr Janata",
+      "date": "2009",
+      "institution": "PubMed Central",
+      "rights": "link-only",
+      "disposition": "link-only",
+      "canonicalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2758676/",
+      "mediaUrl": null,
+      "licenseUrl": null,
+      "credit": "Petr Janata · PubMed Central",
+      "alt": "",
+      "caption": "The Neural Architecture of Music-Evoked Autobiographical Memories"
+    },
+    {
+      "id": "R08",
+      "type": "collection",
+      "title": "Fashion — Free to Use and Reuse",
+      "creator": "Library of Congress",
+      "date": "ongoing",
+      "institution": "Library of Congress",
+      "rights": "link-only",
+      "disposition": "resource-room",
+      "canonicalUrl": "https://www.loc.gov/free-to-use/fashion/",
+      "mediaUrl": null,
+      "licenseUrl": null,
+      "credit": "Library of Congress · Library of Congress",
+      "alt": "",
+      "caption": "Fashion — Free to Use and Reuse"
+    },
+    {
+      "id": "R09",
+      "type": "education",
+      "title": "Show Your Style!",
+      "creator": "The Metropolitan Museum of Art",
+      "date": "2013",
+      "institution": "The Met",
+      "rights": "link-only",
+      "disposition": "resource-room",
+      "canonicalUrl": "https://www.metmuseum.org/-/media/files/learn/family-map-and-guides/what%20should%20i%20wear%20today.pdf",
+      "mediaUrl": null,
+      "licenseUrl": null,
+      "credit": "The Metropolitan Museum of Art · The Met",
+      "alt": "",
+      "caption": "Show Your Style!"
+    },
+    {
+      "id": "R14",
+      "type": "build precedent",
+      "title": "Smart Textiles for Improved Quality of Life and Cognitive Assessment",
+      "creator": "Article authors",
+      "date": "2021",
+      "institution": "PubMed Central",
+      "rights": "link-only",
+      "disposition": "resource-room",
+      "canonicalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8659971/",
+      "mediaUrl": null,
+      "licenseUrl": null,
+      "credit": "Article authors · PubMed Central",
+      "alt": "",
+      "caption": "Smart Textiles for Improved Quality of Life and Cognitive Assessment"
+    },
+    {
+      "id": "R33",
+      "type": "research",
+      "title": "Music-evoked autobiographical memories",
+      "creator": "Janata",
+      "date": "2009",
+      "institution": "Cerebral Cortex / PMC",
+      "rights": "link-only",
+      "disposition": "resource-room",
+      "canonicalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2758676/",
+      "mediaUrl": null,
+      "licenseUrl": null,
+      "credit": "Janata · Cerebral Cortex / PMC",
+      "alt": "",
+      "caption": "Music-evoked autobiographical memories"
+    },
+    {
+      "id": "R34",
+      "type": "collection",
+      "title": "Fashion — Free to Use and Reuse",
+      "creator": "Library of Congress",
+      "date": "ongoing",
+      "institution": "Library of Congress",
+      "rights": "link-only",
+      "disposition": "duplicate",
+      "canonicalUrl": "https://www.loc.gov/free-to-use/fashion/",
+      "mediaUrl": null,
+      "licenseUrl": null,
+      "credit": "Library of Congress · Library of Congress",
+      "alt": "",
+      "caption": "Fashion — Free to Use and Reuse"
+    },
+    {
+      "id": "R35",
+      "type": "collection",
+      "title": "Fashion collection",
+      "creator": "Smithsonian Institution",
+      "date": "ongoing",
+      "institution": "Smithsonian Open Access",
+      "rights": "link-only",
+      "disposition": "resource-room",
+      "canonicalUrl": "https://www.si.edu/search/collection-images?edan_q=fashion",
+      "mediaUrl": null,
+      "licenseUrl": null,
+      "credit": "Smithsonian Institution · Smithsonian Open Access",
+      "alt": "",
+      "caption": "Fashion collection"
+    },
+    {
+      "id": "R36",
+      "type": "collection",
+      "title": "Fashion collection",
+      "creator": "Europeana",
+      "date": "ongoing",
+      "institution": "Europeana",
+      "rights": "link-only",
+      "disposition": "resource-room",
+      "canonicalUrl": "https://www.europeana.eu/en/collections/topic/55-fashion",
+      "mediaUrl": null,
+      "licenseUrl": null,
+      "credit": "Europeana · Europeana",
+      "alt": "",
+      "caption": "Fashion collection"
+    },
+    {
+      "id": "R37",
+      "type": "archive",
+      "title": "Vogue archive search",
+      "creator": "Internet Archive",
+      "date": "ongoing",
+      "institution": "Internet Archive",
+      "rights": "link-only",
+      "disposition": "resource-room",
+      "canonicalUrl": "https://archive.org/search?query=title%3A%28vogue%29+AND+mediatype%3A%28texts%29",
+      "mediaUrl": null,
+      "licenseUrl": null,
+      "credit": "Internet Archive · Internet Archive",
+      "alt": "",
+      "caption": "Vogue archive search"
+    },
+    {
+      "id": "R38",
+      "type": "dataset/tool",
+      "title": "Autobiographical Memory Test materials",
+      "creator": "Open Science Framework contributors",
+      "date": "ongoing",
+      "institution": "OSF",
+      "rights": "link-only",
+      "disposition": "resource-room",
+      "canonicalUrl": "https://osf.io/search/?q=autobiographical%20memory",
+      "mediaUrl": null,
+      "licenseUrl": null,
+      "credit": "Open Science Framework contributors · OSF",
+      "alt": "",
+      "caption": "Autobiographical Memory Test materials"
+    },
+    {
+      "id": "R69",
+      "type": "textile artwork",
+      "title": "40598449",
+      "creator": "Alexandra Georgiou",
+      "date": "date not stated",
+      "institution": "Wellcome Collection",
+      "rights": "link-only",
+      "disposition": "resource-room",
+      "canonicalUrl": "https://wellcomecollection.org/works/c8vq78kk",
+      "mediaUrl": null,
+      "licenseUrl": null,
+      "credit": "Alexandra Georgiou · Wellcome Collection",
+      "alt": "",
+      "caption": "40598449"
+    },
+    {
+      "id": "R70",
+      "type": "image",
+      "title": "Fashion from The National and Domestic History of England",
+      "creator": "Unknown plate maker",
+      "date": "19th century",
+      "institution": "Europeana / British Library",
+      "rights": "Public domain / CC0",
+      "disposition": "resource-room",
+      "canonicalUrl": "https://www.europeana.eu/en/item/2059209/2882_11083620115_59837d80a8_o_jpg",
+      "mediaUrl": null,
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "credit": "Unknown plate maker · Europeana / British Library",
+      "alt": "",
+      "caption": "Fashion from The National and Domestic History of England"
+    },
+    {
+      "id": "R71",
+      "type": "article",
+      "title": "Birth, babies and boxes of memories",
+      "creator": "Erin Beeston; Naomi Williams",
+      "date": "2021",
+      "institution": "Wellcome Collection",
+      "rights": "link-only",
+      "disposition": "resource-room",
+      "canonicalUrl": "https://wellcomecollection.org/stories/birth-babies-and-boxes-of-memories",
+      "mediaUrl": null,
+      "licenseUrl": null,
+      "credit": "Erin Beeston; Naomi Williams · Wellcome Collection",
+      "alt": "",
+      "caption": "Birth, babies and boxes of memories"
+    },
+    {
+      "id": "R72",
+      "type": "archive",
+      "title": "Internet Archive fashion-periodical traversal",
+      "creator": "Internet Archive contributors",
+      "date": "2026 search",
+      "institution": "Internet Archive",
+      "rights": "rejected",
+      "disposition": "rejected",
+      "canonicalUrl": "https://archive.org/search?query=subject%3A%22fashion%22+AND+mediatype%3Atexts",
+      "mediaUrl": null,
+      "licenseUrl": null,
+      "credit": "Internet Archive contributors · Internet Archive",
+      "alt": "",
+      "caption": "Internet Archive fashion-periodical traversal"
+    },
+    {
+      "id": "R85",
+      "type": "image",
+      "title": "Fashions.jpg — composite historical fashion plate",
+      "creator": "Unknown author",
+      "date": "c.1900 compilation of 19th-century fashions",
+      "institution": "Wikimedia Commons",
+      "rights": "Public domain / CC0",
+      "disposition": "installed-media",
+      "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Fashions.jpg",
+      "mediaUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Fashions.jpg",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "credit": "Unknown author · Wikimedia Commons",
+      "alt": "A vertical composite of illustrated women's fashions from several nineteenth-century decades.",
+      "caption": "Composite plate of nineteenth-century fashions"
+    }
+  ],
+  "carouselA": [
+    {
+      "frame": 1,
+      "beat": "The garment as cue",
+      "assetId": "R04",
+      "crop": "4:5 full object with generous negative space",
+      "overlay": "The Memory Wardrobe",
+      "caption": "The garment as cue. The Neural Architecture of Music-Evoked Autobiographical Memories",
+      "credit": "Petr Janata · PubMed Central",
+      "alt": "The Neural Architecture of Music-Evoked Autobiographical Memories, used as evidence for the garment as cue.",
+      "boundary": "Link card only; do not reproduce protected media."
+    },
+    {
+      "frame": 2,
+      "beat": "Encoding and retrieval",
+      "assetId": "R08",
+      "crop": "4:5 detail crop; preserve identifying construction",
+      "overlay": "Encoding and retrieval",
+      "caption": "Encoding and retrieval. Fashion — Free to Use and Reuse",
+      "credit": "Library of Congress · Library of Congress",
+      "alt": "Fashion — Free to Use and Reuse, used as evidence for encoding and retrieval.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    },
+    {
+      "frame": 3,
+      "beat": "Emotion selects and rehearses",
+      "assetId": "R09",
+      "crop": "4:5 split evidence plate; do not obscure object",
+      "overlay": "Emotion selects and rehearses",
+      "caption": "Emotion selects and rehearses. Show Your Style!",
+      "credit": "The Metropolitan Museum of Art · The Met",
+      "alt": "Show Your Style!, used as evidence for emotion selects and rehearses.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    },
+    {
+      "frame": 4,
+      "beat": "Music opens another door",
+      "assetId": "R14",
+      "crop": "4:5 full object with generous negative space",
+      "overlay": "Music opens another door",
+      "caption": "Music opens another door. Smart Textiles for Improved Quality of Life and Cognitive Assessment",
+      "credit": "Article authors · PubMed Central",
+      "alt": "Smart Textiles for Improved Quality of Life and Cognitive Assessment, used as evidence for music opens another door.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    },
+    {
+      "frame": 5,
+      "beat": "Odor and temporal distance",
+      "assetId": "R33",
+      "crop": "4:5 detail crop; preserve identifying construction",
+      "overlay": "Odor and temporal distance",
+      "caption": "Odor and temporal distance. Music-evoked autobiographical memories",
+      "credit": "Janata · Cerebral Cortex / PMC",
+      "alt": "Music-evoked autobiographical memories, used as evidence for odor and temporal distance.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    },
+    {
+      "frame": 6,
+      "beat": "Memory is reconstruction",
+      "assetId": "R35",
+      "crop": "4:5 split evidence plate; do not obscure object",
+      "overlay": "Memory is reconstruction",
+      "caption": "Memory is reconstruction. Fashion collection",
+      "credit": "Smithsonian Institution · Smithsonian Open Access",
+      "alt": "Fashion collection, used as evidence for memory is reconstruction.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    },
+    {
+      "frame": 7,
+      "beat": "Collective versus autobiographical nostalgia",
+      "assetId": "R36",
+      "crop": "4:5 full object with generous negative space",
+      "overlay": "Collective versus autobiographical nostalgia",
+      "caption": "Collective versus autobiographical nostalgia. Fashion collection",
+      "credit": "Europeana · Europeana",
+      "alt": "Fashion collection, used as evidence for collective versus autobiographical nostalgia.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    },
+    {
+      "frame": 8,
+      "beat": "Document without certifying",
+      "assetId": "R37",
+      "crop": "4:5 detail crop; preserve identifying construction",
+      "overlay": "Document without certifying",
+      "caption": "Document without certifying. Vogue archive search",
+      "credit": "Internet Archive · Internet Archive",
+      "alt": "Vogue archive search, used as evidence for document without certifying.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    }
+  ],
+  "carouselB": [
+    {
+      "frame": 1,
+      "beat": "The garment as cue",
+      "assetId": "R14",
+      "crop": "4:5 full object with generous negative space",
+      "overlay": "The Memory Wardrobe",
+      "caption": "The garment as cue. Smart Textiles for Improved Quality of Life and Cognitive Assessment",
+      "credit": "Article authors · PubMed Central",
+      "alt": "Smart Textiles for Improved Quality of Life and Cognitive Assessment, used as evidence for the garment as cue.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    },
+    {
+      "frame": 2,
+      "beat": "Encoding and retrieval",
+      "assetId": "R33",
+      "crop": "4:5 detail crop; preserve identifying construction",
+      "overlay": "Encoding and retrieval",
+      "caption": "Encoding and retrieval. Music-evoked autobiographical memories",
+      "credit": "Janata · Cerebral Cortex / PMC",
+      "alt": "Music-evoked autobiographical memories, used as evidence for encoding and retrieval.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    },
+    {
+      "frame": 3,
+      "beat": "Emotion selects and rehearses",
+      "assetId": "R35",
+      "crop": "4:5 split evidence plate; do not obscure object",
+      "overlay": "Emotion selects and rehearses",
+      "caption": "Emotion selects and rehearses. Fashion collection",
+      "credit": "Smithsonian Institution · Smithsonian Open Access",
+      "alt": "Fashion collection, used as evidence for emotion selects and rehearses.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    },
+    {
+      "frame": 4,
+      "beat": "Music opens another door",
+      "assetId": "R36",
+      "crop": "4:5 full object with generous negative space",
+      "overlay": "Music opens another door",
+      "caption": "Music opens another door. Fashion collection",
+      "credit": "Europeana · Europeana",
+      "alt": "Fashion collection, used as evidence for music opens another door.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    },
+    {
+      "frame": 5,
+      "beat": "Odor and temporal distance",
+      "assetId": "R37",
+      "crop": "4:5 detail crop; preserve identifying construction",
+      "overlay": "Odor and temporal distance",
+      "caption": "Odor and temporal distance. Vogue archive search",
+      "credit": "Internet Archive · Internet Archive",
+      "alt": "Vogue archive search, used as evidence for odor and temporal distance.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    },
+    {
+      "frame": 6,
+      "beat": "Memory is reconstruction",
+      "assetId": "R38",
+      "crop": "4:5 split evidence plate; do not obscure object",
+      "overlay": "Memory is reconstruction",
+      "caption": "Memory is reconstruction. Autobiographical Memory Test materials",
+      "credit": "Open Science Framework contributors · OSF",
+      "alt": "Autobiographical Memory Test materials, used as evidence for memory is reconstruction.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    },
+    {
+      "frame": 7,
+      "beat": "Collective versus autobiographical nostalgia",
+      "assetId": "R69",
+      "crop": "4:5 full object with generous negative space",
+      "overlay": "Collective versus autobiographical nostalgia",
+      "caption": "Collective versus autobiographical nostalgia. 40598449",
+      "credit": "Alexandra Georgiou · Wellcome Collection",
+      "alt": "40598449, used as evidence for collective versus autobiographical nostalgia.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    },
+    {
+      "frame": 8,
+      "beat": "Document without certifying",
+      "assetId": "R70",
+      "crop": "4:5 detail crop; preserve identifying construction",
+      "overlay": "Document without certifying",
+      "caption": "Document without certifying. Fashion from The National and Domestic History of England",
+      "credit": "Unknown plate maker · Europeana / British Library",
+      "alt": "Fashion from The National and Domestic History of England, used as evidence for document without certifying.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    }
+  ],
+  "broll": [
+    {
+      "beat": 1,
+      "duration": "0–3s",
+      "assetId": "R14",
+      "shot": "Slow object reveal; cut on clause, never simulate motion in a still",
+      "onScreen": "The garment as cue",
+      "credit": "Article authors · PubMed Central",
+      "boundary": "Crop from cleared master; keep credit in caption and end card."
+    },
+    {
+      "beat": 2,
+      "duration": "3–6s",
+      "assetId": "R33",
+      "shot": "Slow detail pan; cut on clause, never simulate motion in a still",
+      "onScreen": "Encoding and retrieval",
+      "credit": "Janata · Cerebral Cortex / PMC",
+      "boundary": "Crop from cleared master; keep credit in caption and end card."
+    },
+    {
+      "beat": 3,
+      "duration": "6–9s",
+      "assetId": "R35",
+      "shot": "Slow object reveal; cut on clause, never simulate motion in a still",
+      "onScreen": "Emotion selects and rehearses",
+      "credit": "Smithsonian Institution · Smithsonian Open Access",
+      "boundary": "Crop from cleared master; keep credit in caption and end card."
+    },
+    {
+      "beat": 4,
+      "duration": "9–12s",
+      "assetId": "R36",
+      "shot": "Slow detail pan; cut on clause, never simulate motion in a still",
+      "onScreen": "Music opens another door",
+      "credit": "Europeana · Europeana",
+      "boundary": "Crop from cleared master; keep credit in caption and end card."
+    },
+    {
+      "beat": 5,
+      "duration": "12–15s",
+      "assetId": "R37",
+      "shot": "Slow object reveal; cut on clause, never simulate motion in a still",
+      "onScreen": "Odor and temporal distance",
+      "credit": "Internet Archive · Internet Archive",
+      "boundary": "Crop from cleared master; keep credit in caption and end card."
+    },
+    {
+      "beat": 6,
+      "duration": "15–18s",
+      "assetId": "R38",
+      "shot": "Slow detail pan; cut on clause, never simulate motion in a still",
+      "onScreen": "Memory is reconstruction",
+      "credit": "Open Science Framework contributors · OSF",
+      "boundary": "Crop from cleared master; keep credit in caption and end card."
+    },
+    {
+      "beat": 7,
+      "duration": "18–21s",
+      "assetId": "R69",
+      "shot": "Slow object reveal; cut on clause, never simulate motion in a still",
+      "onScreen": "Collective versus autobiographical nostalgia",
+      "credit": "Alexandra Georgiou · Wellcome Collection",
+      "boundary": "Crop from cleared master; keep credit in caption and end card."
+    }
+  ],
+  "pinterest": [
+    {
+      "pin": 1,
+      "title": "Memory garment",
+      "assetId": "R33",
+      "format": "1000×2100 idea pin",
+      "description": "Memory garment: an evidence-bounded visual guide from The Memory Wardrobe.",
+      "alt": "Music-evoked autobiographical memories",
+      "credit": "Janata · Cerebral Cortex / PMC",
+      "destination": "/exhibitions/fashion-nostalgia/"
+    },
+    {
+      "pin": 2,
+      "title": "Cue versus recording",
+      "assetId": "R35",
+      "format": "1000×1500 standard pin",
+      "description": "Cue versus recording: an evidence-bounded visual guide from The Memory Wardrobe.",
+      "alt": "Fashion collection",
+      "credit": "Smithsonian Institution · Smithsonian Open Access",
+      "destination": "/exhibitions/fashion-nostalgia/"
+    },
+    {
+      "pin": 3,
+      "title": "Emotion and confidence",
+      "assetId": "R36",
+      "format": "1000×2100 idea pin",
+      "description": "Emotion and confidence: an evidence-bounded visual guide from The Memory Wardrobe.",
+      "alt": "Fashion collection",
+      "credit": "Europeana · Europeana",
+      "destination": "/exhibitions/fashion-nostalgia/"
+    },
+    {
+      "pin": 4,
+      "title": "Collective nostalgia",
+      "assetId": "R37",
+      "format": "1000×1500 standard pin",
+      "description": "Collective nostalgia: an evidence-bounded visual guide from The Memory Wardrobe.",
+      "alt": "Vogue archive search",
+      "credit": "Internet Archive · Internet Archive",
+      "destination": "/exhibitions/fashion-nostalgia/"
+    },
+    {
+      "pin": 5,
+      "title": "Field map",
+      "assetId": "R38",
+      "format": "1000×2100 idea pin",
+      "description": "Field map: an evidence-bounded visual guide from The Memory Wardrobe.",
+      "alt": "Autobiographical Memory Test materials",
+      "credit": "Open Science Framework contributors · OSF",
+      "destination": "/exhibitions/fashion-nostalgia/"
+    }
+  ],
+  "youtube": [
+    {
+      "time": "00:00",
+      "chapter": "The garment as cue",
+      "assetId": "R08",
+      "treatment": "Full-bleed object with slow editorial crop",
+      "credit": "Library of Congress · Library of Congress"
+    },
+    {
+      "time": "01:30",
+      "chapter": "Encoding and retrieval",
+      "assetId": "R09",
+      "treatment": "Evidence split-screen with source citation",
+      "credit": "The Metropolitan Museum of Art · The Met"
+    },
+    {
+      "time": "03:00",
+      "chapter": "Emotion selects and rehearses",
+      "assetId": "R14",
+      "treatment": "Object detail beside boundary sentence",
+      "credit": "Article authors · PubMed Central"
+    },
+    {
+      "time": "04:30",
+      "chapter": "Music opens another door",
+      "assetId": "R33",
+      "treatment": "Full-bleed object with slow editorial crop",
+      "credit": "Janata · Cerebral Cortex / PMC"
+    },
+    {
+      "time": "06:00",
+      "chapter": "Odor and temporal distance",
+      "assetId": "R35",
+      "treatment": "Evidence split-screen with source citation",
+      "credit": "Smithsonian Institution · Smithsonian Open Access"
+    },
+    {
+      "time": "07:30",
+      "chapter": "Memory is reconstruction",
+      "assetId": "R36",
+      "treatment": "Object detail beside boundary sentence",
+      "credit": "Europeana · Europeana"
+    },
+    {
+      "time": "09:00",
+      "chapter": "Collective versus autobiographical nostalgia",
+      "assetId": "R37",
+      "treatment": "Full-bleed object with slow editorial crop",
+      "credit": "Internet Archive · Internet Archive"
+    },
+    {
+      "time": "10:30",
+      "chapter": "Document without certifying",
+      "assetId": "R38",
+      "treatment": "Evidence split-screen with source citation",
+      "credit": "Open Science Framework contributors · OSF"
+    }
+  ],
+  "inline": {
+    "beehiiv": [
+      {
+        "position": "after opening",
+        "assetId": "R04",
+        "caption": "The Neural Architecture of Music-Evoked Autobiographical Memories",
+        "credit": "Petr Janata · PubMed Central"
+      },
+      {
+        "position": "after first evidence section",
+        "assetId": "R09",
+        "caption": "Show Your Style!",
+        "credit": "The Metropolitan Museum of Art · The Met"
+      },
+      {
+        "position": "before boundary",
+        "assetId": "R35",
+        "caption": "Fashion collection",
+        "credit": "Smithsonian Institution · Smithsonian Open Access"
+      }
+    ],
+    "linkedin": [
+      {
+        "position": "document cover",
+        "assetId": "R14",
+        "caption": "Smart Textiles for Improved Quality of Life and Cognitive Assessment",
+        "credit": "Article authors · PubMed Central"
+      },
+      {
+        "position": "document slide 5",
+        "assetId": "R36",
+        "caption": "Fashion collection",
+        "credit": "Europeana · Europeana"
+      }
+    ]
+  },
+  "downloads": [
+    {
+      "assetId": "R85",
+      "source": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Fashions.jpg",
+      "canonical": "https://commons.wikimedia.org/wiki/File:Fashions.jpg",
+      "credit": "Unknown author · Wikimedia Commons",
+      "rights": "Public domain / CC0"
+    }
+  ]
+}

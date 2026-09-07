@@ -1,0 +1,696 @@
+{
+  "id": "AAN-F-007",
+  "slug": "uniforms-and-social-perception",
+  "title": "The Role Room",
+  "prefix": "U",
+  "tool": "/lab/uniform-encounter-map/",
+  "beats": [
+    "A uniform is a social signal",
+    "Inference is not knowledge",
+    "Workwear and attribution",
+    "The police-style uniform experiment",
+    "Role clothing in the laboratory",
+    "Institutional identity",
+    "History changes the signal",
+    "Map cue, inference and evidence"
+  ],
+  "pins": [
+    "Uniform signal",
+    "Inference versus knowledge",
+    "Role experiment",
+    "Institutional history",
+    "Encounter map"
+  ],
+  "assets": [
+    {
+      "id": "MET-84440",
+      "type": "image",
+      "title": "Military uniform",
+      "creator": "Maker unknown",
+      "date": "1880–84",
+      "institution": "The Metropolitan Museum of Art, Costume Institute",
+      "rights": "CC0",
+      "disposition": "installed-object",
+      "canonicalUrl": "https://www.metmuseum.org/art/collection/search/84440",
+      "mediaUrl": "https://images.metmuseum.org/CRDImages/ci/original/C.I.47.76.1ab_F.jpg",
+      "licenseUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
+      "credit": "Military uniform, Maker unknown, 1880–84. The Metropolitan Museum of Art, Costume Institute. C.I.47.76.1a, b. CC0.",
+      "alt": "Dark nineteenth-century American military coat and light trousers displayed frontally on an invisible mannequin.",
+      "caption": "rank, occupation and authority made legible through silhouette and insignia"
+    },
+    {
+      "id": "MET-84449",
+      "type": "image",
+      "title": "Uniform",
+      "creator": "Maker unknown",
+      "date": "late 19th century",
+      "institution": "The Metropolitan Museum of Art, Costume Institute",
+      "rights": "CC0",
+      "disposition": "installed-object",
+      "canonicalUrl": "https://www.metmuseum.org/art/collection/search/84449",
+      "mediaUrl": "https://images.metmuseum.org/CRDImages/ci/original/1979.152.54a–cf_F.jpg",
+      "licenseUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
+      "credit": "Uniform, Maker unknown, late 19th century. The Metropolitan Museum of Art, Costume Institute. 1979.152.54a–h. CC0.",
+      "alt": "Dark nineteenth-century American uniform coat shown with white waistcoat, shirt, blue sash and peaked hat.",
+      "caption": "a coordinated system of coat, waistcoat, shirt, hat and insignia"
+    },
+    {
+      "id": "MET-151912",
+      "type": "image",
+      "title": "Ensemble",
+      "creator": "Maker unknown",
+      "date": "1863–66",
+      "institution": "The Metropolitan Museum of Art, Costume Institute",
+      "rights": "CC0",
+      "disposition": "installed-object",
+      "canonicalUrl": "https://www.metmuseum.org/art/collection/search/151912",
+      "mediaUrl": "https://images.metmuseum.org/CRDImages/ci/original/DP230973.jpg",
+      "licenseUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
+      "credit": "Ensemble, Maker unknown, 1863–66. The Metropolitan Museum of Art, Costume Institute. 2009.20a–j. CC0.",
+      "alt": "American Civil War-era ensemble with short dark blue jacket, red trousers, sash and red fez displayed frontally.",
+      "caption": "military form circulating into civilian fashion and historical memory"
+    },
+    {
+      "id": "R07",
+      "type": "research",
+      "title": "Dress Is a Fundamental Component of Person Perception",
+      "creator": "Hester; Hehman",
+      "date": "2023",
+      "institution": "Personality and Social Psychology Review",
+      "rights": "link-only",
+      "disposition": "link-only",
+      "canonicalUrl": "https://doi.org/10.1177/10888683231157961",
+      "mediaUrl": null,
+      "licenseUrl": null,
+      "credit": "Hester; Hehman · Personality and Social Psychology Review",
+      "alt": "",
+      "caption": "Dress Is a Fundamental Component of Person Perception"
+    },
+    {
+      "id": "R08",
+      "type": "collection",
+      "title": "Fashion — Free to Use and Reuse",
+      "creator": "Library of Congress",
+      "date": "ongoing",
+      "institution": "Library of Congress",
+      "rights": "link-only",
+      "disposition": "resource-room",
+      "canonicalUrl": "https://www.loc.gov/free-to-use/fashion/",
+      "mediaUrl": null,
+      "licenseUrl": null,
+      "credit": "Library of Congress · Library of Congress",
+      "alt": "",
+      "caption": "Fashion — Free to Use and Reuse"
+    },
+    {
+      "id": "R12",
+      "type": "image",
+      "title": "T & E dress up in their 1918 uniforms",
+      "creator": "Unidentified photographer",
+      "date": "1918",
+      "institution": "Library of Congress",
+      "rights": "link-only",
+      "disposition": "link-only",
+      "canonicalUrl": "https://www.loc.gov/pictures/item/2018651506/",
+      "mediaUrl": null,
+      "licenseUrl": null,
+      "credit": "Unidentified photographer · Library of Congress",
+      "alt": "",
+      "caption": "T & E dress up in their 1918 uniforms"
+    },
+    {
+      "id": "R51",
+      "type": "research",
+      "title": "Dress Is a Fundamental Component of Person Perception",
+      "creator": "Hester and Hehman",
+      "date": "2023",
+      "institution": "Personality and Social Psychology Review / PMC",
+      "rights": "CC BY",
+      "disposition": "resource-room",
+      "canonicalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10559650/",
+      "mediaUrl": null,
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "credit": "Hester and Hehman · Personality and Social Psychology Review / PMC",
+      "alt": "",
+      "caption": "Dress Is a Fundamental Component of Person Perception"
+    },
+    {
+      "id": "R52",
+      "type": "research",
+      "title": "Students Wearing Police Uniforms Exhibit Biased Attention toward Individuals Wearing Hoodies",
+      "creator": "Civile and Obhi",
+      "date": "2017",
+      "institution": "Frontiers in Psychology",
+      "rights": "CC BY",
+      "disposition": "resource-room",
+      "canonicalUrl": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2017.00062/full",
+      "mediaUrl": null,
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "credit": "Civile and Obhi · Frontiers in Psychology",
+      "alt": "",
+      "caption": "Students Wearing Police Uniforms Exhibit Biased Attention toward Individuals Wearing Hoodies"
+    },
+    {
+      "id": "R53",
+      "type": "image",
+      "title": "T & E dress up in their 1918 uniforms",
+      "creator": "Unidentified photographer",
+      "date": "1918",
+      "institution": "Library of Congress",
+      "rights": "link-only",
+      "disposition": "duplicate",
+      "canonicalUrl": "https://www.loc.gov/pictures/item/2018651506/",
+      "mediaUrl": null,
+      "licenseUrl": null,
+      "credit": "Unidentified photographer · Library of Congress",
+      "alt": "",
+      "caption": "T & E dress up in their 1918 uniforms"
+    },
+    {
+      "id": "R54",
+      "type": "collection",
+      "title": "Military uniform open-access search",
+      "creator": "The Metropolitan Museum of Art",
+      "date": "ongoing",
+      "institution": "The Met",
+      "rights": "link-only",
+      "disposition": "resource-room",
+      "canonicalUrl": "https://www.metmuseum.org/art/collection/search?q=military%20uniform&showOnly=openAccess",
+      "mediaUrl": null,
+      "licenseUrl": null,
+      "credit": "The Metropolitan Museum of Art · The Met",
+      "alt": "",
+      "caption": "Military uniform open-access search"
+    },
+    {
+      "id": "R55",
+      "type": "collection",
+      "title": "Uniforms collection search",
+      "creator": "Smithsonian Institution",
+      "date": "ongoing",
+      "institution": "Smithsonian Open Access",
+      "rights": "link-only",
+      "disposition": "resource-room",
+      "canonicalUrl": "https://www.si.edu/search/collection-images?edan_q=uniform",
+      "mediaUrl": null,
+      "licenseUrl": null,
+      "credit": "Smithsonian Institution · Smithsonian Open Access",
+      "alt": "",
+      "caption": "Uniforms collection search"
+    },
+    {
+      "id": "R56",
+      "type": "dataset/tool",
+      "title": "Social perception study materials",
+      "creator": "Open Science Framework contributors",
+      "date": "ongoing",
+      "institution": "OSF",
+      "rights": "link-only",
+      "disposition": "resource-room",
+      "canonicalUrl": "https://osf.io/search/?q=uniform%20perception",
+      "mediaUrl": null,
+      "licenseUrl": null,
+      "credit": "Open Science Framework contributors · OSF",
+      "alt": "",
+      "caption": "Social perception study materials"
+    },
+    {
+      "id": "R81",
+      "type": "research/figures",
+      "title": "Students Wearing Police Uniforms Exhibit Biased Attention toward Individuals Wearing Hoodies",
+      "creator": "Civile and Obhi",
+      "date": "2017",
+      "institution": "Frontiers in Psychology / PMC",
+      "rights": "CC BY",
+      "disposition": "installed-media",
+      "canonicalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5292616/",
+      "mediaUrl": null,
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "credit": "Civile and Obhi · Frontiers in Psychology / PMC",
+      "alt": "",
+      "caption": "Students Wearing Police Uniforms Exhibit Biased Attention toward Individuals Wearing Hoodies"
+    },
+    {
+      "id": "R82",
+      "type": "video",
+      "title": "Health and clothing",
+      "creator": "Bermondsey Borough Council",
+      "date": "c.1928",
+      "institution": "Wellcome Collection / BFI National Archive",
+      "rights": "link-only",
+      "disposition": "resource-room",
+      "canonicalUrl": "https://wellcomecollection.org/works/vxe6xptj",
+      "mediaUrl": null,
+      "licenseUrl": null,
+      "credit": "Bermondsey Borough Council · Wellcome Collection / BFI National Archive",
+      "alt": "",
+      "caption": "Health and clothing"
+    },
+    {
+      "id": "R83",
+      "type": "collection",
+      "title": "Poplin collection topic",
+      "creator": "Europeana contributors",
+      "date": "ongoing",
+      "institution": "Europeana",
+      "rights": "link-only",
+      "disposition": "reserve",
+      "canonicalUrl": "https://www.europeana.eu/en/collections/topic/2788",
+      "mediaUrl": null,
+      "licenseUrl": null,
+      "credit": "Europeana contributors · Europeana",
+      "alt": "",
+      "caption": "Poplin collection topic"
+    },
+    {
+      "id": "R84",
+      "type": "image",
+      "title": "T & E dress up in their 1918 uniforms",
+      "creator": "Unidentified photographer",
+      "date": "1918",
+      "institution": "Library of Congress",
+      "rights": "link-only",
+      "disposition": "duplicate",
+      "canonicalUrl": "https://www.loc.gov/pictures/item/2018651506/",
+      "mediaUrl": null,
+      "licenseUrl": null,
+      "credit": "Unidentified photographer · Library of Congress",
+      "alt": "",
+      "caption": "T & E dress up in their 1918 uniforms"
+    }
+  ],
+  "carouselA": [
+    {
+      "frame": 1,
+      "beat": "A uniform is a social signal",
+      "assetId": "MET-84440",
+      "crop": "4:5 full object with generous negative space",
+      "overlay": "The Role Room",
+      "caption": "A uniform is a social signal. rank, occupation and authority made legible through silhouette and insignia",
+      "credit": "Military uniform, Maker unknown, 1880–84. The Metropolitan Museum of Art, Costume Institute. C.I.47.76.1a, b. CC0.",
+      "alt": "Dark nineteenth-century American military coat and light trousers displayed frontally on an invisible mannequin.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    },
+    {
+      "frame": 2,
+      "beat": "Inference is not knowledge",
+      "assetId": "MET-84449",
+      "crop": "4:5 detail crop; preserve identifying construction",
+      "overlay": "Inference is not knowledge",
+      "caption": "Inference is not knowledge. a coordinated system of coat, waistcoat, shirt, hat and insignia",
+      "credit": "Uniform, Maker unknown, late 19th century. The Metropolitan Museum of Art, Costume Institute. 1979.152.54a–h. CC0.",
+      "alt": "Dark nineteenth-century American uniform coat shown with white waistcoat, shirt, blue sash and peaked hat.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    },
+    {
+      "frame": 3,
+      "beat": "Workwear and attribution",
+      "assetId": "MET-151912",
+      "crop": "4:5 split evidence plate; do not obscure object",
+      "overlay": "Workwear and attribution",
+      "caption": "Workwear and attribution. military form circulating into civilian fashion and historical memory",
+      "credit": "Ensemble, Maker unknown, 1863–66. The Metropolitan Museum of Art, Costume Institute. 2009.20a–j. CC0.",
+      "alt": "American Civil War-era ensemble with short dark blue jacket, red trousers, sash and red fez displayed frontally.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    },
+    {
+      "frame": 4,
+      "beat": "The police-style uniform experiment",
+      "assetId": "R07",
+      "crop": "4:5 full object with generous negative space",
+      "overlay": "The police-style uniform experiment",
+      "caption": "The police-style uniform experiment. Dress Is a Fundamental Component of Person Perception",
+      "credit": "Hester; Hehman · Personality and Social Psychology Review",
+      "alt": "Dress Is a Fundamental Component of Person Perception, used as evidence for the police-style uniform experiment.",
+      "boundary": "Link card only; do not reproduce protected media."
+    },
+    {
+      "frame": 5,
+      "beat": "Role clothing in the laboratory",
+      "assetId": "R08",
+      "crop": "4:5 detail crop; preserve identifying construction",
+      "overlay": "Role clothing in the laboratory",
+      "caption": "Role clothing in the laboratory. Fashion — Free to Use and Reuse",
+      "credit": "Library of Congress · Library of Congress",
+      "alt": "Fashion — Free to Use and Reuse, used as evidence for role clothing in the laboratory.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    },
+    {
+      "frame": 6,
+      "beat": "Institutional identity",
+      "assetId": "R12",
+      "crop": "4:5 split evidence plate; do not obscure object",
+      "overlay": "Institutional identity",
+      "caption": "Institutional identity. T & E dress up in their 1918 uniforms",
+      "credit": "Unidentified photographer · Library of Congress",
+      "alt": "T & E dress up in their 1918 uniforms, used as evidence for institutional identity.",
+      "boundary": "Link card only; do not reproduce protected media."
+    },
+    {
+      "frame": 7,
+      "beat": "History changes the signal",
+      "assetId": "R51",
+      "crop": "4:5 full object with generous negative space",
+      "overlay": "History changes the signal",
+      "caption": "History changes the signal. Dress Is a Fundamental Component of Person Perception",
+      "credit": "Hester and Hehman · Personality and Social Psychology Review / PMC",
+      "alt": "Dress Is a Fundamental Component of Person Perception, used as evidence for history changes the signal.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    },
+    {
+      "frame": 8,
+      "beat": "Map cue, inference and evidence",
+      "assetId": "R52",
+      "crop": "4:5 detail crop; preserve identifying construction",
+      "overlay": "Map cue, inference and evidence",
+      "caption": "Map cue, inference and evidence. Students Wearing Police Uniforms Exhibit Biased Attention toward Individuals Wearing Hoodies",
+      "credit": "Civile and Obhi · Frontiers in Psychology",
+      "alt": "Students Wearing Police Uniforms Exhibit Biased Attention toward Individuals Wearing Hoodies, used as evidence for map cue, inference and evidence.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    }
+  ],
+  "carouselB": [
+    {
+      "frame": 1,
+      "beat": "A uniform is a social signal",
+      "assetId": "R07",
+      "crop": "4:5 full object with generous negative space",
+      "overlay": "The Role Room",
+      "caption": "A uniform is a social signal. Dress Is a Fundamental Component of Person Perception",
+      "credit": "Hester; Hehman · Personality and Social Psychology Review",
+      "alt": "Dress Is a Fundamental Component of Person Perception, used as evidence for a uniform is a social signal.",
+      "boundary": "Link card only; do not reproduce protected media."
+    },
+    {
+      "frame": 2,
+      "beat": "Inference is not knowledge",
+      "assetId": "R08",
+      "crop": "4:5 detail crop; preserve identifying construction",
+      "overlay": "Inference is not knowledge",
+      "caption": "Inference is not knowledge. Fashion — Free to Use and Reuse",
+      "credit": "Library of Congress · Library of Congress",
+      "alt": "Fashion — Free to Use and Reuse, used as evidence for inference is not knowledge.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    },
+    {
+      "frame": 3,
+      "beat": "Workwear and attribution",
+      "assetId": "R12",
+      "crop": "4:5 split evidence plate; do not obscure object",
+      "overlay": "Workwear and attribution",
+      "caption": "Workwear and attribution. T & E dress up in their 1918 uniforms",
+      "credit": "Unidentified photographer · Library of Congress",
+      "alt": "T & E dress up in their 1918 uniforms, used as evidence for workwear and attribution.",
+      "boundary": "Link card only; do not reproduce protected media."
+    },
+    {
+      "frame": 4,
+      "beat": "The police-style uniform experiment",
+      "assetId": "R51",
+      "crop": "4:5 full object with generous negative space",
+      "overlay": "The police-style uniform experiment",
+      "caption": "The police-style uniform experiment. Dress Is a Fundamental Component of Person Perception",
+      "credit": "Hester and Hehman · Personality and Social Psychology Review / PMC",
+      "alt": "Dress Is a Fundamental Component of Person Perception, used as evidence for the police-style uniform experiment.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    },
+    {
+      "frame": 5,
+      "beat": "Role clothing in the laboratory",
+      "assetId": "R52",
+      "crop": "4:5 detail crop; preserve identifying construction",
+      "overlay": "Role clothing in the laboratory",
+      "caption": "Role clothing in the laboratory. Students Wearing Police Uniforms Exhibit Biased Attention toward Individuals Wearing Hoodies",
+      "credit": "Civile and Obhi · Frontiers in Psychology",
+      "alt": "Students Wearing Police Uniforms Exhibit Biased Attention toward Individuals Wearing Hoodies, used as evidence for role clothing in the laboratory.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    },
+    {
+      "frame": 6,
+      "beat": "Institutional identity",
+      "assetId": "R54",
+      "crop": "4:5 split evidence plate; do not obscure object",
+      "overlay": "Institutional identity",
+      "caption": "Institutional identity. Military uniform open-access search",
+      "credit": "The Metropolitan Museum of Art · The Met",
+      "alt": "Military uniform open-access search, used as evidence for institutional identity.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    },
+    {
+      "frame": 7,
+      "beat": "History changes the signal",
+      "assetId": "R55",
+      "crop": "4:5 full object with generous negative space",
+      "overlay": "History changes the signal",
+      "caption": "History changes the signal. Uniforms collection search",
+      "credit": "Smithsonian Institution · Smithsonian Open Access",
+      "alt": "Uniforms collection search, used as evidence for history changes the signal.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    },
+    {
+      "frame": 8,
+      "beat": "Map cue, inference and evidence",
+      "assetId": "R56",
+      "crop": "4:5 detail crop; preserve identifying construction",
+      "overlay": "Map cue, inference and evidence",
+      "caption": "Map cue, inference and evidence. Social perception study materials",
+      "credit": "Open Science Framework contributors · OSF",
+      "alt": "Social perception study materials, used as evidence for map cue, inference and evidence.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    }
+  ],
+  "broll": [
+    {
+      "beat": 1,
+      "duration": "0–3s",
+      "assetId": "R07",
+      "shot": "Slow object reveal; cut on clause, never simulate motion in a still",
+      "onScreen": "A uniform is a social signal",
+      "credit": "Hester; Hehman · Personality and Social Psychology Review",
+      "boundary": "Use a designed source card and outbound link; do not extract footage."
+    },
+    {
+      "beat": 2,
+      "duration": "3–6s",
+      "assetId": "R08",
+      "shot": "Slow detail pan; cut on clause, never simulate motion in a still",
+      "onScreen": "Inference is not knowledge",
+      "credit": "Library of Congress · Library of Congress",
+      "boundary": "Crop from cleared master; keep credit in caption and end card."
+    },
+    {
+      "beat": 3,
+      "duration": "6–9s",
+      "assetId": "R12",
+      "shot": "Slow object reveal; cut on clause, never simulate motion in a still",
+      "onScreen": "Workwear and attribution",
+      "credit": "Unidentified photographer · Library of Congress",
+      "boundary": "Use a designed source card and outbound link; do not extract footage."
+    },
+    {
+      "beat": 4,
+      "duration": "9–12s",
+      "assetId": "R51",
+      "shot": "Slow detail pan; cut on clause, never simulate motion in a still",
+      "onScreen": "The police-style uniform experiment",
+      "credit": "Hester and Hehman · Personality and Social Psychology Review / PMC",
+      "boundary": "Crop from cleared master; keep credit in caption and end card."
+    },
+    {
+      "beat": 5,
+      "duration": "12–15s",
+      "assetId": "R52",
+      "shot": "Slow object reveal; cut on clause, never simulate motion in a still",
+      "onScreen": "Role clothing in the laboratory",
+      "credit": "Civile and Obhi · Frontiers in Psychology",
+      "boundary": "Crop from cleared master; keep credit in caption and end card."
+    },
+    {
+      "beat": 6,
+      "duration": "15–18s",
+      "assetId": "R54",
+      "shot": "Slow detail pan; cut on clause, never simulate motion in a still",
+      "onScreen": "Institutional identity",
+      "credit": "The Metropolitan Museum of Art · The Met",
+      "boundary": "Crop from cleared master; keep credit in caption and end card."
+    },
+    {
+      "beat": 7,
+      "duration": "18–21s",
+      "assetId": "R55",
+      "shot": "Slow object reveal; cut on clause, never simulate motion in a still",
+      "onScreen": "History changes the signal",
+      "credit": "Smithsonian Institution · Smithsonian Open Access",
+      "boundary": "Crop from cleared master; keep credit in caption and end card."
+    }
+  ],
+  "pinterest": [
+    {
+      "pin": 1,
+      "title": "Uniform signal",
+      "assetId": "R08",
+      "format": "1000×2100 idea pin",
+      "description": "Uniform signal: an evidence-bounded visual guide from The Role Room.",
+      "alt": "Fashion — Free to Use and Reuse",
+      "credit": "Library of Congress · Library of Congress",
+      "destination": "/exhibitions/uniforms-and-social-perception/"
+    },
+    {
+      "pin": 2,
+      "title": "Inference versus knowledge",
+      "assetId": "R12",
+      "format": "1000×1500 standard pin",
+      "description": "Inference versus knowledge: an evidence-bounded visual guide from The Role Room.",
+      "alt": "T & E dress up in their 1918 uniforms",
+      "credit": "Unidentified photographer · Library of Congress",
+      "destination": "/exhibitions/uniforms-and-social-perception/"
+    },
+    {
+      "pin": 3,
+      "title": "Role experiment",
+      "assetId": "R51",
+      "format": "1000×2100 idea pin",
+      "description": "Role experiment: an evidence-bounded visual guide from The Role Room.",
+      "alt": "Dress Is a Fundamental Component of Person Perception",
+      "credit": "Hester and Hehman · Personality and Social Psychology Review / PMC",
+      "destination": "/exhibitions/uniforms-and-social-perception/"
+    },
+    {
+      "pin": 4,
+      "title": "Institutional history",
+      "assetId": "R52",
+      "format": "1000×1500 standard pin",
+      "description": "Institutional history: an evidence-bounded visual guide from The Role Room.",
+      "alt": "Students Wearing Police Uniforms Exhibit Biased Attention toward Individuals Wearing Hoodies",
+      "credit": "Civile and Obhi · Frontiers in Psychology",
+      "destination": "/exhibitions/uniforms-and-social-perception/"
+    },
+    {
+      "pin": 5,
+      "title": "Encounter map",
+      "assetId": "R54",
+      "format": "1000×2100 idea pin",
+      "description": "Encounter map: an evidence-bounded visual guide from The Role Room.",
+      "alt": "Military uniform open-access search",
+      "credit": "The Metropolitan Museum of Art · The Met",
+      "destination": "/exhibitions/uniforms-and-social-perception/"
+    }
+  ],
+  "youtube": [
+    {
+      "time": "00:00",
+      "chapter": "A uniform is a social signal",
+      "assetId": "MET-84449",
+      "treatment": "Full-bleed object with slow editorial crop",
+      "credit": "Uniform, Maker unknown, late 19th century. The Metropolitan Museum of Art, Costume Institute. 1979.152.54a–h. CC0."
+    },
+    {
+      "time": "01:30",
+      "chapter": "Inference is not knowledge",
+      "assetId": "MET-151912",
+      "treatment": "Evidence split-screen with source citation",
+      "credit": "Ensemble, Maker unknown, 1863–66. The Metropolitan Museum of Art, Costume Institute. 2009.20a–j. CC0."
+    },
+    {
+      "time": "03:00",
+      "chapter": "Workwear and attribution",
+      "assetId": "R07",
+      "treatment": "Object detail beside boundary sentence",
+      "credit": "Hester; Hehman · Personality and Social Psychology Review"
+    },
+    {
+      "time": "04:30",
+      "chapter": "The police-style uniform experiment",
+      "assetId": "R08",
+      "treatment": "Full-bleed object with slow editorial crop",
+      "credit": "Library of Congress · Library of Congress"
+    },
+    {
+      "time": "06:00",
+      "chapter": "Role clothing in the laboratory",
+      "assetId": "R12",
+      "treatment": "Evidence split-screen with source citation",
+      "credit": "Unidentified photographer · Library of Congress"
+    },
+    {
+      "time": "07:30",
+      "chapter": "Institutional identity",
+      "assetId": "R51",
+      "treatment": "Object detail beside boundary sentence",
+      "credit": "Hester and Hehman · Personality and Social Psychology Review / PMC"
+    },
+    {
+      "time": "09:00",
+      "chapter": "History changes the signal",
+      "assetId": "R52",
+      "treatment": "Full-bleed object with slow editorial crop",
+      "credit": "Civile and Obhi · Frontiers in Psychology"
+    },
+    {
+      "time": "10:30",
+      "chapter": "Map cue, inference and evidence",
+      "assetId": "R54",
+      "treatment": "Evidence split-screen with source citation",
+      "credit": "The Metropolitan Museum of Art · The Met"
+    }
+  ],
+  "inline": {
+    "beehiiv": [
+      {
+        "position": "after opening",
+        "assetId": "MET-84440",
+        "caption": "rank, occupation and authority made legible through silhouette and insignia",
+        "credit": "Military uniform, Maker unknown, 1880–84. The Metropolitan Museum of Art, Costume Institute. C.I.47.76.1a, b. CC0."
+      },
+      {
+        "position": "after first evidence section",
+        "assetId": "MET-151912",
+        "caption": "military form circulating into civilian fashion and historical memory",
+        "credit": "Ensemble, Maker unknown, 1863–66. The Metropolitan Museum of Art, Costume Institute. 2009.20a–j. CC0."
+      },
+      {
+        "position": "before boundary",
+        "assetId": "R12",
+        "caption": "T & E dress up in their 1918 uniforms",
+        "credit": "Unidentified photographer · Library of Congress"
+      }
+    ],
+    "linkedin": [
+      {
+        "position": "document cover",
+        "assetId": "R07",
+        "caption": "Dress Is a Fundamental Component of Person Perception",
+        "credit": "Hester; Hehman · Personality and Social Psychology Review"
+      },
+      {
+        "position": "document slide 5",
+        "assetId": "R51",
+        "caption": "Dress Is a Fundamental Component of Person Perception",
+        "credit": "Hester and Hehman · Personality and Social Psychology Review / PMC"
+      }
+    ]
+  },
+  "downloads": [
+    {
+      "assetId": "MET-84440",
+      "source": "https://images.metmuseum.org/CRDImages/ci/original/C.I.47.76.1ab_F.jpg",
+      "canonical": "https://www.metmuseum.org/art/collection/search/84440",
+      "credit": "Military uniform, Maker unknown, 1880–84. The Metropolitan Museum of Art, Costume Institute. C.I.47.76.1a, b. CC0.",
+      "rights": "CC0"
+    },
+    {
+      "assetId": "MET-84449",
+      "source": "https://images.metmuseum.org/CRDImages/ci/original/1979.152.54a–cf_F.jpg",
+      "canonical": "https://www.metmuseum.org/art/collection/search/84449",
+      "credit": "Uniform, Maker unknown, late 19th century. The Metropolitan Museum of Art, Costume Institute. 1979.152.54a–h. CC0.",
+      "rights": "CC0"
+    },
+    {
+      "assetId": "MET-151912",
+      "source": "https://images.metmuseum.org/CRDImages/ci/original/DP230973.jpg",
+      "canonical": "https://www.metmuseum.org/art/collection/search/151912",
+      "credit": "Ensemble, Maker unknown, 1863–66. The Metropolitan Museum of Art, Costume Institute. 2009.20a–j. CC0.",
+      "rights": "CC0"
+    }
+  ]
+}

@@ -1,0 +1,634 @@
+{
+  "id": "AAN-F-005",
+  "slug": "fashion-week-nervous-system",
+  "title": "The Fashion Week Nervous System",
+  "prefix": "F",
+  "tool": "/lab/field-load-recovery/",
+  "beats": [
+    "One day, many loads",
+    "Sleep and sustained attention",
+    "Light and timing",
+    "Sound and arousal",
+    "Crowd density and stress",
+    "Evaluation and vigilance",
+    "Standing and fatigue",
+    "Recovery without diagnosis"
+  ],
+  "pins": [
+    "Fashion Week load",
+    "Attention",
+    "Crowds",
+    "Standing",
+    "Recovery map"
+  ],
+  "assets": [
+    {
+      "id": "R05",
+      "type": "education",
+      "title": "NIOSH Training for Nurses on Shift Work and Long Work Hours",
+      "creator": "CDC/NIOSH",
+      "date": "2015–2021",
+      "institution": "CDC",
+      "rights": "link-only",
+      "disposition": "link-only",
+      "canonicalUrl": "https://www.cdc.gov/niosh/work-hour-training-for-nurses/default.html",
+      "mediaUrl": null,
+      "licenseUrl": null,
+      "credit": "CDC/NIOSH · CDC",
+      "alt": "",
+      "caption": "NIOSH Training for Nurses on Shift Work and Long Work Hours"
+    },
+    {
+      "id": "R10",
+      "type": "image",
+      "title": "Fashion runway1.jpg",
+      "creator": "Accra Technical University contributor",
+      "date": "2023",
+      "institution": "Wikimedia Commons",
+      "rights": "CC0",
+      "disposition": "reserve",
+      "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Fashion_runway1.jpg",
+      "mediaUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Fashion%20runway1.jpg",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "credit": "Accra Technical University contributor · Wikimedia Commons",
+      "alt": "A model on a fashion runway at Accra Technical University.",
+      "caption": "Fashion runway1.jpg"
+    },
+    {
+      "id": "R11",
+      "type": "image",
+      "title": "Fashion runway2.jpg",
+      "creator": "Accra Technical University contributor",
+      "date": "2023",
+      "institution": "Wikimedia Commons",
+      "rights": "CC0",
+      "disposition": "reserve",
+      "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Fashion_runway2.jpg",
+      "mediaUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Fashion%20runway2.jpg",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "credit": "Accra Technical University contributor · Wikimedia Commons",
+      "alt": "A runway presentation at Accra Technical University.",
+      "caption": "Fashion runway2.jpg"
+    },
+    {
+      "id": "R39",
+      "type": "research",
+      "title": "Emotional sounds of crowds",
+      "creator": "Article authors",
+      "date": "2020",
+      "institution": "Scientific Reports / PMC",
+      "rights": "CC BY",
+      "disposition": "resource-room",
+      "canonicalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7429201/",
+      "mediaUrl": null,
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "credit": "Article authors · Scientific Reports / PMC",
+      "alt": "",
+      "caption": "Emotional sounds of crowds"
+    },
+    {
+      "id": "R40",
+      "type": "education",
+      "title": "NIOSH Training for Nurses on Shift Work and Long Work Hours",
+      "creator": "CDC/NIOSH",
+      "date": "2015–2021",
+      "institution": "CDC",
+      "rights": "link-only",
+      "disposition": "duplicate",
+      "canonicalUrl": "https://www.cdc.gov/niosh/work-hour-training-for-nurses/default.html",
+      "mediaUrl": null,
+      "licenseUrl": null,
+      "credit": "CDC/NIOSH · CDC",
+      "alt": "",
+      "caption": "NIOSH Training for Nurses on Shift Work and Long Work Hours"
+    },
+    {
+      "id": "R41",
+      "type": "education",
+      "title": "About Sleep",
+      "creator": "Centers for Disease Control and Prevention",
+      "date": "2024",
+      "institution": "CDC",
+      "rights": "link-only",
+      "disposition": "resource-room",
+      "canonicalUrl": "https://www.cdc.gov/sleep/about/index.html",
+      "mediaUrl": null,
+      "licenseUrl": null,
+      "credit": "Centers for Disease Control and Prevention · CDC",
+      "alt": "",
+      "caption": "About Sleep"
+    },
+    {
+      "id": "R42",
+      "type": "video",
+      "title": "British Fashion Council official video channel",
+      "creator": "British Fashion Council",
+      "date": "ongoing",
+      "institution": "YouTube",
+      "rights": "link-only",
+      "disposition": "resource-room",
+      "canonicalUrl": "https://www.youtube.com/@BritishFashionCouncil",
+      "mediaUrl": null,
+      "licenseUrl": null,
+      "credit": "British Fashion Council · YouTube",
+      "alt": "",
+      "caption": "British Fashion Council official video channel"
+    },
+    {
+      "id": "R43",
+      "type": "education",
+      "title": "Fashion Industry Charter for Climate Action",
+      "creator": "UN Climate Change",
+      "date": "2018–ongoing",
+      "institution": "UNFCCC",
+      "rights": "link-only",
+      "disposition": "resource-room",
+      "canonicalUrl": "https://unfccc.int/climate-action/sectoral-engagement/global-climate-action-in-fashion/fashion-industry-charter-for-climate-action",
+      "mediaUrl": null,
+      "licenseUrl": null,
+      "credit": "UN Climate Change · UNFCCC",
+      "alt": "",
+      "caption": "Fashion Industry Charter for Climate Action"
+    },
+    {
+      "id": "R44",
+      "type": "image",
+      "title": "Fashion runway13.jpg",
+      "creator": "Kwaku Berko",
+      "date": "2023-08-18",
+      "institution": "Wikimedia Commons",
+      "rights": "CC0",
+      "disposition": "reserve",
+      "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Fashion_runway13.jpg",
+      "mediaUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Fashion%20runway13.jpg",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "credit": "Kwaku Berko · Wikimedia Commons",
+      "alt": "A runway model at Accra Technical University.",
+      "caption": "Fashion runway13.jpg"
+    },
+    {
+      "id": "R73",
+      "type": "image",
+      "title": "Fashion runway13.jpg",
+      "creator": "Kwaku Berko",
+      "date": "2023-08-18",
+      "institution": "Wikimedia Commons",
+      "rights": "CC0",
+      "disposition": "duplicate",
+      "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Fashion_runway13.jpg",
+      "mediaUrl": null,
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "credit": "Kwaku Berko · Wikimedia Commons",
+      "alt": "",
+      "caption": "Fashion runway13.jpg"
+    },
+    {
+      "id": "R74",
+      "type": "image",
+      "title": "Runway at Fashion Show Mall (2010)",
+      "creator": "Jenny Mealing",
+      "date": "2010-06-25",
+      "institution": "Wikimedia Commons",
+      "rights": "CC BY",
+      "disposition": "installed-media",
+      "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Runway_at_Fashion_Show_Mall_(2010).jpg",
+      "mediaUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Runway%20at%20Fashion%20Show%20Mall%20(2010).jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "credit": "Jenny Mealing · Wikimedia Commons",
+      "alt": "A fashion show runway with audience seating inside Fashion Show Mall in Las Vegas.",
+      "caption": "Runway at Fashion Show Mall (2010)"
+    },
+    {
+      "id": "R75",
+      "type": "video",
+      "title": "Health and clothing",
+      "creator": "Bermondsey Borough Council",
+      "date": "c.1928",
+      "institution": "Wellcome Collection / BFI National Archive",
+      "rights": "link-only",
+      "disposition": "resource-room",
+      "canonicalUrl": "https://wellcomecollection.org/works/vxe6xptj",
+      "mediaUrl": null,
+      "licenseUrl": null,
+      "credit": "Bermondsey Borough Council · Wellcome Collection / BFI National Archive",
+      "alt": "",
+      "caption": "Health and clothing"
+    },
+    {
+      "id": "R76",
+      "type": "video",
+      "title": "British Fashion Council official channel traversal",
+      "creator": "British Fashion Council",
+      "date": "ongoing",
+      "institution": "YouTube",
+      "rights": "link-only",
+      "disposition": "duplicate",
+      "canonicalUrl": "https://www.youtube.com/@BritishFashionCouncil/videos",
+      "mediaUrl": null,
+      "licenseUrl": null,
+      "credit": "British Fashion Council · YouTube",
+      "alt": "",
+      "caption": "British Fashion Council official channel traversal"
+    }
+  ],
+  "carouselA": [
+    {
+      "frame": 1,
+      "beat": "One day, many loads",
+      "assetId": "R05",
+      "crop": "4:5 full object with generous negative space",
+      "overlay": "The Fashion Week Nervous System",
+      "caption": "One day, many loads. NIOSH Training for Nurses on Shift Work and Long Work Hours",
+      "credit": "CDC/NIOSH · CDC",
+      "alt": "NIOSH Training for Nurses on Shift Work and Long Work Hours, used as evidence for one day, many loads.",
+      "boundary": "Link card only; do not reproduce protected media."
+    },
+    {
+      "frame": 2,
+      "beat": "Sleep and sustained attention",
+      "assetId": "R10",
+      "crop": "4:5 detail crop; preserve identifying construction",
+      "overlay": "Sleep and sustained attention",
+      "caption": "Sleep and sustained attention. Fashion runway1.jpg",
+      "credit": "Accra Technical University contributor · Wikimedia Commons",
+      "alt": "A model on a fashion runway at Accra Technical University.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    },
+    {
+      "frame": 3,
+      "beat": "Light and timing",
+      "assetId": "R11",
+      "crop": "4:5 split evidence plate; do not obscure object",
+      "overlay": "Light and timing",
+      "caption": "Light and timing. Fashion runway2.jpg",
+      "credit": "Accra Technical University contributor · Wikimedia Commons",
+      "alt": "A runway presentation at Accra Technical University.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    },
+    {
+      "frame": 4,
+      "beat": "Sound and arousal",
+      "assetId": "R39",
+      "crop": "4:5 full object with generous negative space",
+      "overlay": "Sound and arousal",
+      "caption": "Sound and arousal. Emotional sounds of crowds",
+      "credit": "Article authors · Scientific Reports / PMC",
+      "alt": "Emotional sounds of crowds, used as evidence for sound and arousal.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    },
+    {
+      "frame": 5,
+      "beat": "Crowd density and stress",
+      "assetId": "R41",
+      "crop": "4:5 detail crop; preserve identifying construction",
+      "overlay": "Crowd density and stress",
+      "caption": "Crowd density and stress. About Sleep",
+      "credit": "Centers for Disease Control and Prevention · CDC",
+      "alt": "About Sleep, used as evidence for crowd density and stress.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    },
+    {
+      "frame": 6,
+      "beat": "Evaluation and vigilance",
+      "assetId": "R42",
+      "crop": "4:5 split evidence plate; do not obscure object",
+      "overlay": "Evaluation and vigilance",
+      "caption": "Evaluation and vigilance. British Fashion Council official video channel",
+      "credit": "British Fashion Council · YouTube",
+      "alt": "British Fashion Council official video channel, used as evidence for evaluation and vigilance.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    },
+    {
+      "frame": 7,
+      "beat": "Standing and fatigue",
+      "assetId": "R43",
+      "crop": "4:5 full object with generous negative space",
+      "overlay": "Standing and fatigue",
+      "caption": "Standing and fatigue. Fashion Industry Charter for Climate Action",
+      "credit": "UN Climate Change · UNFCCC",
+      "alt": "Fashion Industry Charter for Climate Action, used as evidence for standing and fatigue.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    },
+    {
+      "frame": 8,
+      "beat": "Recovery without diagnosis",
+      "assetId": "R44",
+      "crop": "4:5 detail crop; preserve identifying construction",
+      "overlay": "Recovery without diagnosis",
+      "caption": "Recovery without diagnosis. Fashion runway13.jpg",
+      "credit": "Kwaku Berko · Wikimedia Commons",
+      "alt": "A runway model at Accra Technical University.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    }
+  ],
+  "carouselB": [
+    {
+      "frame": 1,
+      "beat": "One day, many loads",
+      "assetId": "R39",
+      "crop": "4:5 full object with generous negative space",
+      "overlay": "The Fashion Week Nervous System",
+      "caption": "One day, many loads. Emotional sounds of crowds",
+      "credit": "Article authors · Scientific Reports / PMC",
+      "alt": "Emotional sounds of crowds, used as evidence for one day, many loads.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    },
+    {
+      "frame": 2,
+      "beat": "Sleep and sustained attention",
+      "assetId": "R41",
+      "crop": "4:5 detail crop; preserve identifying construction",
+      "overlay": "Sleep and sustained attention",
+      "caption": "Sleep and sustained attention. About Sleep",
+      "credit": "Centers for Disease Control and Prevention · CDC",
+      "alt": "About Sleep, used as evidence for sleep and sustained attention.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    },
+    {
+      "frame": 3,
+      "beat": "Light and timing",
+      "assetId": "R42",
+      "crop": "4:5 split evidence plate; do not obscure object",
+      "overlay": "Light and timing",
+      "caption": "Light and timing. British Fashion Council official video channel",
+      "credit": "British Fashion Council · YouTube",
+      "alt": "British Fashion Council official video channel, used as evidence for light and timing.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    },
+    {
+      "frame": 4,
+      "beat": "Sound and arousal",
+      "assetId": "R43",
+      "crop": "4:5 full object with generous negative space",
+      "overlay": "Sound and arousal",
+      "caption": "Sound and arousal. Fashion Industry Charter for Climate Action",
+      "credit": "UN Climate Change · UNFCCC",
+      "alt": "Fashion Industry Charter for Climate Action, used as evidence for sound and arousal.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    },
+    {
+      "frame": 5,
+      "beat": "Crowd density and stress",
+      "assetId": "R44",
+      "crop": "4:5 detail crop; preserve identifying construction",
+      "overlay": "Crowd density and stress",
+      "caption": "Crowd density and stress. Fashion runway13.jpg",
+      "credit": "Kwaku Berko · Wikimedia Commons",
+      "alt": "A runway model at Accra Technical University.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    },
+    {
+      "frame": 6,
+      "beat": "Evaluation and vigilance",
+      "assetId": "R74",
+      "crop": "4:5 split evidence plate; do not obscure object",
+      "overlay": "Evaluation and vigilance",
+      "caption": "Evaluation and vigilance. Runway at Fashion Show Mall (2010)",
+      "credit": "Jenny Mealing · Wikimedia Commons",
+      "alt": "A fashion show runway with audience seating inside Fashion Show Mall in Las Vegas.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    },
+    {
+      "frame": 7,
+      "beat": "Standing and fatigue",
+      "assetId": "R75",
+      "crop": "4:5 full object with generous negative space",
+      "overlay": "Standing and fatigue",
+      "caption": "Standing and fatigue. Health and clothing",
+      "credit": "Bermondsey Borough Council · Wellcome Collection / BFI National Archive",
+      "alt": "Health and clothing, used as evidence for standing and fatigue.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    },
+    {
+      "frame": 8,
+      "beat": "Recovery without diagnosis",
+      "assetId": "R05",
+      "crop": "4:5 detail crop; preserve identifying construction",
+      "overlay": "Recovery without diagnosis",
+      "caption": "Recovery without diagnosis. NIOSH Training for Nurses on Shift Work and Long Work Hours",
+      "credit": "CDC/NIOSH · CDC",
+      "alt": "NIOSH Training for Nurses on Shift Work and Long Work Hours, used as evidence for recovery without diagnosis.",
+      "boundary": "Link card only; do not reproduce protected media."
+    }
+  ],
+  "broll": [
+    {
+      "beat": 1,
+      "duration": "0–3s",
+      "assetId": "R39",
+      "shot": "Slow object reveal; cut on clause, never simulate motion in a still",
+      "onScreen": "One day, many loads",
+      "credit": "Article authors · Scientific Reports / PMC",
+      "boundary": "Crop from cleared master; keep credit in caption and end card."
+    },
+    {
+      "beat": 2,
+      "duration": "3–6s",
+      "assetId": "R41",
+      "shot": "Slow detail pan; cut on clause, never simulate motion in a still",
+      "onScreen": "Sleep and sustained attention",
+      "credit": "Centers for Disease Control and Prevention · CDC",
+      "boundary": "Crop from cleared master; keep credit in caption and end card."
+    },
+    {
+      "beat": 3,
+      "duration": "6–9s",
+      "assetId": "R42",
+      "shot": "Slow object reveal; cut on clause, never simulate motion in a still",
+      "onScreen": "Light and timing",
+      "credit": "British Fashion Council · YouTube",
+      "boundary": "Crop from cleared master; keep credit in caption and end card."
+    },
+    {
+      "beat": 4,
+      "duration": "9–12s",
+      "assetId": "R43",
+      "shot": "Slow detail pan; cut on clause, never simulate motion in a still",
+      "onScreen": "Sound and arousal",
+      "credit": "UN Climate Change · UNFCCC",
+      "boundary": "Crop from cleared master; keep credit in caption and end card."
+    },
+    {
+      "beat": 5,
+      "duration": "12–15s",
+      "assetId": "R44",
+      "shot": "Slow object reveal; cut on clause, never simulate motion in a still",
+      "onScreen": "Crowd density and stress",
+      "credit": "Kwaku Berko · Wikimedia Commons",
+      "boundary": "Crop from cleared master; keep credit in caption and end card."
+    },
+    {
+      "beat": 6,
+      "duration": "15–18s",
+      "assetId": "R74",
+      "shot": "Slow detail pan; cut on clause, never simulate motion in a still",
+      "onScreen": "Evaluation and vigilance",
+      "credit": "Jenny Mealing · Wikimedia Commons",
+      "boundary": "Crop from cleared master; keep credit in caption and end card."
+    },
+    {
+      "beat": 7,
+      "duration": "18–21s",
+      "assetId": "R75",
+      "shot": "Slow object reveal; cut on clause, never simulate motion in a still",
+      "onScreen": "Standing and fatigue",
+      "credit": "Bermondsey Borough Council · Wellcome Collection / BFI National Archive",
+      "boundary": "Crop from cleared master; keep credit in caption and end card."
+    }
+  ],
+  "pinterest": [
+    {
+      "pin": 1,
+      "title": "Fashion Week load",
+      "assetId": "R41",
+      "format": "1000×2100 idea pin",
+      "description": "Fashion Week load: an evidence-bounded visual guide from The Fashion Week Nervous System.",
+      "alt": "About Sleep",
+      "credit": "Centers for Disease Control and Prevention · CDC",
+      "destination": "/exhibitions/fashion-week-nervous-system/"
+    },
+    {
+      "pin": 2,
+      "title": "Attention",
+      "assetId": "R42",
+      "format": "1000×1500 standard pin",
+      "description": "Attention: an evidence-bounded visual guide from The Fashion Week Nervous System.",
+      "alt": "British Fashion Council official video channel",
+      "credit": "British Fashion Council · YouTube",
+      "destination": "/exhibitions/fashion-week-nervous-system/"
+    },
+    {
+      "pin": 3,
+      "title": "Crowds",
+      "assetId": "R43",
+      "format": "1000×2100 idea pin",
+      "description": "Crowds: an evidence-bounded visual guide from The Fashion Week Nervous System.",
+      "alt": "Fashion Industry Charter for Climate Action",
+      "credit": "UN Climate Change · UNFCCC",
+      "destination": "/exhibitions/fashion-week-nervous-system/"
+    },
+    {
+      "pin": 4,
+      "title": "Standing",
+      "assetId": "R44",
+      "format": "1000×1500 standard pin",
+      "description": "Standing: an evidence-bounded visual guide from The Fashion Week Nervous System.",
+      "alt": "A runway model at Accra Technical University.",
+      "credit": "Kwaku Berko · Wikimedia Commons",
+      "destination": "/exhibitions/fashion-week-nervous-system/"
+    },
+    {
+      "pin": 5,
+      "title": "Recovery map",
+      "assetId": "R74",
+      "format": "1000×2100 idea pin",
+      "description": "Recovery map: an evidence-bounded visual guide from The Fashion Week Nervous System.",
+      "alt": "A fashion show runway with audience seating inside Fashion Show Mall in Las Vegas.",
+      "credit": "Jenny Mealing · Wikimedia Commons",
+      "destination": "/exhibitions/fashion-week-nervous-system/"
+    }
+  ],
+  "youtube": [
+    {
+      "time": "00:00",
+      "chapter": "One day, many loads",
+      "assetId": "R10",
+      "treatment": "Full-bleed object with slow editorial crop",
+      "credit": "Accra Technical University contributor · Wikimedia Commons"
+    },
+    {
+      "time": "01:30",
+      "chapter": "Sleep and sustained attention",
+      "assetId": "R11",
+      "treatment": "Evidence split-screen with source citation",
+      "credit": "Accra Technical University contributor · Wikimedia Commons"
+    },
+    {
+      "time": "03:00",
+      "chapter": "Light and timing",
+      "assetId": "R39",
+      "treatment": "Object detail beside boundary sentence",
+      "credit": "Article authors · Scientific Reports / PMC"
+    },
+    {
+      "time": "04:30",
+      "chapter": "Sound and arousal",
+      "assetId": "R41",
+      "treatment": "Full-bleed object with slow editorial crop",
+      "credit": "Centers for Disease Control and Prevention · CDC"
+    },
+    {
+      "time": "06:00",
+      "chapter": "Crowd density and stress",
+      "assetId": "R42",
+      "treatment": "Evidence split-screen with source citation",
+      "credit": "British Fashion Council · YouTube"
+    },
+    {
+      "time": "07:30",
+      "chapter": "Evaluation and vigilance",
+      "assetId": "R43",
+      "treatment": "Object detail beside boundary sentence",
+      "credit": "UN Climate Change · UNFCCC"
+    },
+    {
+      "time": "09:00",
+      "chapter": "Standing and fatigue",
+      "assetId": "R44",
+      "treatment": "Full-bleed object with slow editorial crop",
+      "credit": "Kwaku Berko · Wikimedia Commons"
+    },
+    {
+      "time": "10:30",
+      "chapter": "Recovery without diagnosis",
+      "assetId": "R74",
+      "treatment": "Evidence split-screen with source citation",
+      "credit": "Jenny Mealing · Wikimedia Commons"
+    }
+  ],
+  "inline": {
+    "beehiiv": [
+      {
+        "position": "after opening",
+        "assetId": "R05",
+        "caption": "NIOSH Training for Nurses on Shift Work and Long Work Hours",
+        "credit": "CDC/NIOSH · CDC"
+      },
+      {
+        "position": "after first evidence section",
+        "assetId": "R11",
+        "caption": "Fashion runway2.jpg",
+        "credit": "Accra Technical University contributor · Wikimedia Commons"
+      },
+      {
+        "position": "before boundary",
+        "assetId": "R42",
+        "caption": "British Fashion Council official video channel",
+        "credit": "British Fashion Council · YouTube"
+      }
+    ],
+    "linkedin": [
+      {
+        "position": "document cover",
+        "assetId": "R39",
+        "caption": "Emotional sounds of crowds",
+        "credit": "Article authors · Scientific Reports / PMC"
+      },
+      {
+        "position": "document slide 5",
+        "assetId": "R43",
+        "caption": "Fashion Industry Charter for Climate Action",
+        "credit": "UN Climate Change · UNFCCC"
+      }
+    ]
+  },
+  "downloads": [
+    {
+      "assetId": "R74",
+      "source": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Runway%20at%20Fashion%20Show%20Mall%20(2010).jpg",
+      "canonical": "https://commons.wikimedia.org/wiki/File:Runway_at_Fashion_Show_Mall_(2010).jpg",
+      "credit": "Jenny Mealing · Wikimedia Commons",
+      "rights": "CC BY"
+    }
+  ]
+}

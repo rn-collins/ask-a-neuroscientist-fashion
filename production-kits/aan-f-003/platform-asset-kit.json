@@ -1,0 +1,742 @@
+{
+  "id": "AAN-F-003",
+  "slug": "fabric-sensory-world",
+  "title": "The Sensory Textile Room",
+  "prefix": "T",
+  "tool": "/lab/textile-sensory-map/",
+  "beats": [
+    "Skin does not read labels",
+    "Touch is several systems",
+    "Fiber becomes construction",
+    "Sensitivity changes ratings",
+    "Hours of wear are not a hand test",
+    "Autistic accounts are not a fabric list",
+    "Map the encounter",
+    "Comfort is relational"
+  ],
+  "pins": [
+    "The textile encounter",
+    "Touch pathways",
+    "Construction matters",
+    "Sensory field map",
+    "No universal soft"
+  ],
+  "assets": [
+    {
+      "id": "MET-96434",
+      "type": "image",
+      "title": "Dress",
+      "creator": "Maker unknown",
+      "date": "ca. 1872",
+      "institution": "The Metropolitan Museum of Art, Costume Institute",
+      "rights": "CC0",
+      "disposition": "installed-object",
+      "canonicalUrl": "https://www.metmuseum.org/art/collection/search/96434",
+      "mediaUrl": "https://images.metmuseum.org/CRDImages/ci/original/DT5639.jpg",
+      "licenseUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
+      "credit": "Dress, Maker unknown, ca. 1872. The Metropolitan Museum of Art, Costume Institute. 2003.426a, b. CC0.",
+      "alt": "Cream cotton day dress with dense black printed pattern, fitted bodice, buttons and gathered skirt.",
+      "caption": "cotton structure, gathers, closures and skin contact"
+    },
+    {
+      "id": "MET-82459",
+      "type": "image",
+      "title": "Dress",
+      "creator": "Maker unknown",
+      "date": "1870s",
+      "institution": "The Metropolitan Museum of Art, Costume Institute",
+      "rights": "CC0",
+      "disposition": "installed-object",
+      "canonicalUrl": "https://www.metmuseum.org/art/collection/search/82459",
+      "mediaUrl": "https://images.metmuseum.org/CRDImages/ci/original/1993.35.1a–c_F.jpg",
+      "licenseUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
+      "credit": "Dress, Maker unknown, 1870s. The Metropolitan Museum of Art, Costume Institute. 1993.35.1a–c. CC0.",
+      "alt": "Pale cotton dress with a fitted buttoned bodice, long sleeves and layered striped skirt.",
+      "caption": "cotton surface plus seams, layers and silhouette"
+    },
+    {
+      "id": "MET-81754",
+      "type": "image",
+      "title": "Riding coat",
+      "creator": "Maker unknown",
+      "date": "ca. 1760",
+      "institution": "The Metropolitan Museum of Art, Costume Institute",
+      "rights": "CC0",
+      "disposition": "installed-object",
+      "canonicalUrl": "https://www.metmuseum.org/art/collection/search/81754",
+      "mediaUrl": "https://images.metmuseum.org/CRDImages/ci/original/CT_11049.jpg",
+      "licenseUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
+      "credit": "Riding coat, Maker unknown, ca. 1760. The Metropolitan Museum of Art, Costume Institute. 1976.147.1. CC0.",
+      "alt": "Long eighteenth-century riding coat with fitted waist, flared skirt and rows of buttons.",
+      "caption": "silk and goat hair as named materials, not a prediction of feel"
+    },
+    {
+      "id": "MET-107620",
+      "type": "image",
+      "title": "Dress",
+      "creator": "Maker unknown",
+      "date": "ca. 1870",
+      "institution": "The Metropolitan Museum of Art, Costume Institute",
+      "rights": "CC0",
+      "disposition": "installed-object",
+      "canonicalUrl": "https://www.metmuseum.org/art/collection/search/107620",
+      "mediaUrl": "https://images.metmuseum.org/CRDImages/ci/original/1980.409.1a-c.jpg",
+      "licenseUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
+      "credit": "Dress, Maker unknown, ca. 1870. The Metropolitan Museum of Art, Costume Institute. 1980.409.1a–c. CC0.",
+      "alt": "Purple silk bustle dress with high neck, fitted bodice, fringe and draped overskirt.",
+      "caption": "silk garment whose weave, finish, fit and context remain decisive"
+    },
+    {
+      "id": "R03",
+      "type": "research",
+      "title": "Tactile C fibers and tactile allodynia",
+      "creator": "Liljencrantz; Olausson",
+      "date": "2014",
+      "institution": "Frontiers",
+      "rights": "link-only",
+      "disposition": "link-only",
+      "canonicalUrl": "https://doi.org/10.3389/fnbeh.2014.00037",
+      "mediaUrl": null,
+      "licenseUrl": null,
+      "credit": "Liljencrantz; Olausson · Frontiers",
+      "alt": "",
+      "caption": "Tactile C fibers and tactile allodynia"
+    },
+    {
+      "id": "R08",
+      "type": "collection",
+      "title": "Fashion — Free to Use and Reuse",
+      "creator": "Library of Congress",
+      "date": "ongoing",
+      "institution": "Library of Congress",
+      "rights": "link-only",
+      "disposition": "resource-room",
+      "canonicalUrl": "https://www.loc.gov/free-to-use/fashion/",
+      "mediaUrl": null,
+      "licenseUrl": null,
+      "credit": "Library of Congress · Library of Congress",
+      "alt": "",
+      "caption": "Fashion — Free to Use and Reuse"
+    },
+    {
+      "id": "R09",
+      "type": "education",
+      "title": "Show Your Style!",
+      "creator": "The Metropolitan Museum of Art",
+      "date": "2013",
+      "institution": "The Met",
+      "rights": "link-only",
+      "disposition": "resource-room",
+      "canonicalUrl": "https://www.metmuseum.org/-/media/files/learn/family-map-and-guides/what%20should%20i%20wear%20today.pdf",
+      "mediaUrl": null,
+      "licenseUrl": null,
+      "credit": "The Metropolitan Museum of Art · The Met",
+      "alt": "",
+      "caption": "Show Your Style!"
+    },
+    {
+      "id": "R14",
+      "type": "build precedent",
+      "title": "Smart Textiles for Improved Quality of Life and Cognitive Assessment",
+      "creator": "Article authors",
+      "date": "2021",
+      "institution": "PubMed Central",
+      "rights": "link-only",
+      "disposition": "resource-room",
+      "canonicalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8659971/",
+      "mediaUrl": null,
+      "licenseUrl": null,
+      "credit": "Article authors · PubMed Central",
+      "alt": "",
+      "caption": "Smart Textiles for Improved Quality of Life and Cognitive Assessment"
+    },
+    {
+      "id": "R27",
+      "type": "research",
+      "title": "Tactile sensitivity alters textile touch perception",
+      "creator": "Article authors",
+      "date": "2024",
+      "institution": "Scientific Reports / PMC",
+      "rights": "CC BY",
+      "disposition": "resource-room",
+      "canonicalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11410198/",
+      "mediaUrl": null,
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "credit": "Article authors · Scientific Reports / PMC",
+      "alt": "",
+      "caption": "Tactile sensitivity alters textile touch perception"
+    },
+    {
+      "id": "R28",
+      "type": "research",
+      "title": "Sensory Considerations for Emerging Textile Applications",
+      "creator": "Article authors",
+      "date": "2024",
+      "institution": "MDPI Textiles",
+      "rights": "CC BY",
+      "disposition": "resource-room",
+      "canonicalUrl": "https://www.mdpi.com/2673-7248/4/1/2",
+      "mediaUrl": null,
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "credit": "Article authors · MDPI Textiles",
+      "alt": "",
+      "caption": "Sensory Considerations for Emerging Textile Applications"
+    },
+    {
+      "id": "R29",
+      "type": "education",
+      "title": "Touch",
+      "creator": "McGlone and Reilly",
+      "date": "2010",
+      "institution": "NCBI Bookshelf",
+      "rights": "link-only",
+      "disposition": "resource-room",
+      "canonicalUrl": "https://www.ncbi.nlm.nih.gov/books/NBK92803/",
+      "mediaUrl": null,
+      "licenseUrl": null,
+      "credit": "McGlone and Reilly · NCBI Bookshelf",
+      "alt": "",
+      "caption": "Touch"
+    },
+    {
+      "id": "R30",
+      "type": "research",
+      "title": "Cross-Modal Interactions of the Tactile System",
+      "creator": "Article authors",
+      "date": "2022",
+      "institution": "Frontiers / PMC",
+      "rights": "CC BY",
+      "disposition": "resource-room",
+      "canonicalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9674209/",
+      "mediaUrl": null,
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "credit": "Article authors · Frontiers / PMC",
+      "alt": "",
+      "caption": "Cross-Modal Interactions of the Tactile System"
+    },
+    {
+      "id": "R31",
+      "type": "video/article",
+      "title": "Tactile textiles sense movement via touch",
+      "creator": "MIT News",
+      "date": "2021",
+      "institution": "Massachusetts Institute of Technology",
+      "rights": "link-only",
+      "disposition": "resource-room",
+      "canonicalUrl": "https://news.mit.edu/2021/tactile-textiles-sense-movement-via-touch-0331",
+      "mediaUrl": null,
+      "licenseUrl": null,
+      "credit": "MIT News · Massachusetts Institute of Technology",
+      "alt": "",
+      "caption": "Tactile textiles sense movement via touch"
+    },
+    {
+      "id": "R32",
+      "type": "dataset/tool",
+      "title": "VisTouch dataset",
+      "creator": "Liang et al.",
+      "date": "2026",
+      "institution": "GitHub",
+      "rights": "CC BY",
+      "disposition": "resource-room",
+      "canonicalUrl": "https://github.com/liangnjupt/VisTouch",
+      "mediaUrl": null,
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "credit": "Liang et al. · GitHub",
+      "alt": "",
+      "caption": "VisTouch dataset"
+    },
+    {
+      "id": "R65",
+      "type": "article",
+      "title": "Dress and the magic of touch",
+      "creator": "Shahidha Bari; photographs by Maryam Wahid",
+      "date": "2020-10-06",
+      "institution": "Wellcome Collection",
+      "rights": "link-only",
+      "disposition": "resource-room",
+      "canonicalUrl": "https://wellcomecollection.org/stories/dress-and-the-magic-of-touch",
+      "mediaUrl": null,
+      "licenseUrl": null,
+      "credit": "Shahidha Bari; photographs by Maryam Wahid · Wellcome Collection",
+      "alt": "",
+      "caption": "Dress and the magic of touch"
+    },
+    {
+      "id": "R66",
+      "type": "book",
+      "title": "Health & beauty in dress from infancy to old age",
+      "creator": "Ada Sarah Ballin",
+      "date": "c.1893",
+      "institution": "Wellcome Collection",
+      "rights": "Public domain / CC0",
+      "disposition": "installed-media",
+      "canonicalUrl": "https://wellcomecollection.org/works/brwc6mn4",
+      "mediaUrl": "https://iiif.wellcomecollection.org/pdf/b28051154",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "credit": "Ada Sarah Ballin · Wellcome Collection",
+      "alt": "",
+      "caption": "Health & beauty in dress from infancy to old age"
+    },
+    {
+      "id": "R67",
+      "type": "research/figures",
+      "title": "Tactile sensitivity alters textile touch perception — Figure 2",
+      "creator": "Mehta, Holásková and Walker",
+      "date": "2024",
+      "institution": "PLOS ONE / PMC",
+      "rights": "CC BY",
+      "disposition": "installed-media",
+      "canonicalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11410198/figure/pone.0308957.g002/",
+      "mediaUrl": null,
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "credit": "Mehta, Holásková and Walker · PLOS ONE / PMC",
+      "alt": "Front and back views of a textile swatch mounted between sheets for controlled tactile evaluation.",
+      "caption": "Mounted textile swatch presented to study participants"
+    },
+    {
+      "id": "R68",
+      "type": "dataset/tool",
+      "title": "VisTouch vision–touch–audio dataset",
+      "creator": "Liang et al.",
+      "date": "2026",
+      "institution": "GitHub",
+      "rights": "CC BY",
+      "disposition": "duplicate",
+      "canonicalUrl": "https://github.com/liangnjupt/VisTouch",
+      "mediaUrl": null,
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "credit": "Liang et al. · GitHub",
+      "alt": "",
+      "caption": "VisTouch vision–touch–audio dataset"
+    }
+  ],
+  "carouselA": [
+    {
+      "frame": 1,
+      "beat": "Skin does not read labels",
+      "assetId": "MET-96434",
+      "crop": "4:5 full object with generous negative space",
+      "overlay": "The Sensory Textile Room",
+      "caption": "Skin does not read labels. cotton structure, gathers, closures and skin contact",
+      "credit": "Dress, Maker unknown, ca. 1872. The Metropolitan Museum of Art, Costume Institute. 2003.426a, b. CC0.",
+      "alt": "Cream cotton day dress with dense black printed pattern, fitted bodice, buttons and gathered skirt.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    },
+    {
+      "frame": 2,
+      "beat": "Touch is several systems",
+      "assetId": "MET-82459",
+      "crop": "4:5 detail crop; preserve identifying construction",
+      "overlay": "Touch is several systems",
+      "caption": "Touch is several systems. cotton surface plus seams, layers and silhouette",
+      "credit": "Dress, Maker unknown, 1870s. The Metropolitan Museum of Art, Costume Institute. 1993.35.1a–c. CC0.",
+      "alt": "Pale cotton dress with a fitted buttoned bodice, long sleeves and layered striped skirt.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    },
+    {
+      "frame": 3,
+      "beat": "Fiber becomes construction",
+      "assetId": "MET-81754",
+      "crop": "4:5 split evidence plate; do not obscure object",
+      "overlay": "Fiber becomes construction",
+      "caption": "Fiber becomes construction. silk and goat hair as named materials, not a prediction of feel",
+      "credit": "Riding coat, Maker unknown, ca. 1760. The Metropolitan Museum of Art, Costume Institute. 1976.147.1. CC0.",
+      "alt": "Long eighteenth-century riding coat with fitted waist, flared skirt and rows of buttons.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    },
+    {
+      "frame": 4,
+      "beat": "Sensitivity changes ratings",
+      "assetId": "MET-107620",
+      "crop": "4:5 full object with generous negative space",
+      "overlay": "Sensitivity changes ratings",
+      "caption": "Sensitivity changes ratings. silk garment whose weave, finish, fit and context remain decisive",
+      "credit": "Dress, Maker unknown, ca. 1870. The Metropolitan Museum of Art, Costume Institute. 1980.409.1a–c. CC0.",
+      "alt": "Purple silk bustle dress with high neck, fitted bodice, fringe and draped overskirt.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    },
+    {
+      "frame": 5,
+      "beat": "Hours of wear are not a hand test",
+      "assetId": "R03",
+      "crop": "4:5 detail crop; preserve identifying construction",
+      "overlay": "Hours of wear are not a hand test",
+      "caption": "Hours of wear are not a hand test. Tactile C fibers and tactile allodynia",
+      "credit": "Liljencrantz; Olausson · Frontiers",
+      "alt": "Tactile C fibers and tactile allodynia, used as evidence for hours of wear are not a hand test.",
+      "boundary": "Link card only; do not reproduce protected media."
+    },
+    {
+      "frame": 6,
+      "beat": "Autistic accounts are not a fabric list",
+      "assetId": "R08",
+      "crop": "4:5 split evidence plate; do not obscure object",
+      "overlay": "Autistic accounts are not a fabric list",
+      "caption": "Autistic accounts are not a fabric list. Fashion — Free to Use and Reuse",
+      "credit": "Library of Congress · Library of Congress",
+      "alt": "Fashion — Free to Use and Reuse, used as evidence for autistic accounts are not a fabric list.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    },
+    {
+      "frame": 7,
+      "beat": "Map the encounter",
+      "assetId": "R09",
+      "crop": "4:5 full object with generous negative space",
+      "overlay": "Map the encounter",
+      "caption": "Map the encounter. Show Your Style!",
+      "credit": "The Metropolitan Museum of Art · The Met",
+      "alt": "Show Your Style!, used as evidence for map the encounter.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    },
+    {
+      "frame": 8,
+      "beat": "Comfort is relational",
+      "assetId": "R14",
+      "crop": "4:5 detail crop; preserve identifying construction",
+      "overlay": "Comfort is relational",
+      "caption": "Comfort is relational. Smart Textiles for Improved Quality of Life and Cognitive Assessment",
+      "credit": "Article authors · PubMed Central",
+      "alt": "Smart Textiles for Improved Quality of Life and Cognitive Assessment, used as evidence for comfort is relational.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    }
+  ],
+  "carouselB": [
+    {
+      "frame": 1,
+      "beat": "Skin does not read labels",
+      "assetId": "MET-107620",
+      "crop": "4:5 full object with generous negative space",
+      "overlay": "The Sensory Textile Room",
+      "caption": "Skin does not read labels. silk garment whose weave, finish, fit and context remain decisive",
+      "credit": "Dress, Maker unknown, ca. 1870. The Metropolitan Museum of Art, Costume Institute. 1980.409.1a–c. CC0.",
+      "alt": "Purple silk bustle dress with high neck, fitted bodice, fringe and draped overskirt.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    },
+    {
+      "frame": 2,
+      "beat": "Touch is several systems",
+      "assetId": "R03",
+      "crop": "4:5 detail crop; preserve identifying construction",
+      "overlay": "Touch is several systems",
+      "caption": "Touch is several systems. Tactile C fibers and tactile allodynia",
+      "credit": "Liljencrantz; Olausson · Frontiers",
+      "alt": "Tactile C fibers and tactile allodynia, used as evidence for touch is several systems.",
+      "boundary": "Link card only; do not reproduce protected media."
+    },
+    {
+      "frame": 3,
+      "beat": "Fiber becomes construction",
+      "assetId": "R08",
+      "crop": "4:5 split evidence plate; do not obscure object",
+      "overlay": "Fiber becomes construction",
+      "caption": "Fiber becomes construction. Fashion — Free to Use and Reuse",
+      "credit": "Library of Congress · Library of Congress",
+      "alt": "Fashion — Free to Use and Reuse, used as evidence for fiber becomes construction.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    },
+    {
+      "frame": 4,
+      "beat": "Sensitivity changes ratings",
+      "assetId": "R09",
+      "crop": "4:5 full object with generous negative space",
+      "overlay": "Sensitivity changes ratings",
+      "caption": "Sensitivity changes ratings. Show Your Style!",
+      "credit": "The Metropolitan Museum of Art · The Met",
+      "alt": "Show Your Style!, used as evidence for sensitivity changes ratings.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    },
+    {
+      "frame": 5,
+      "beat": "Hours of wear are not a hand test",
+      "assetId": "R14",
+      "crop": "4:5 detail crop; preserve identifying construction",
+      "overlay": "Hours of wear are not a hand test",
+      "caption": "Hours of wear are not a hand test. Smart Textiles for Improved Quality of Life and Cognitive Assessment",
+      "credit": "Article authors · PubMed Central",
+      "alt": "Smart Textiles for Improved Quality of Life and Cognitive Assessment, used as evidence for hours of wear are not a hand test.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    },
+    {
+      "frame": 6,
+      "beat": "Autistic accounts are not a fabric list",
+      "assetId": "R27",
+      "crop": "4:5 split evidence plate; do not obscure object",
+      "overlay": "Autistic accounts are not a fabric list",
+      "caption": "Autistic accounts are not a fabric list. Tactile sensitivity alters textile touch perception",
+      "credit": "Article authors · Scientific Reports / PMC",
+      "alt": "Tactile sensitivity alters textile touch perception, used as evidence for autistic accounts are not a fabric list.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    },
+    {
+      "frame": 7,
+      "beat": "Map the encounter",
+      "assetId": "R28",
+      "crop": "4:5 full object with generous negative space",
+      "overlay": "Map the encounter",
+      "caption": "Map the encounter. Sensory Considerations for Emerging Textile Applications",
+      "credit": "Article authors · MDPI Textiles",
+      "alt": "Sensory Considerations for Emerging Textile Applications, used as evidence for map the encounter.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    },
+    {
+      "frame": 8,
+      "beat": "Comfort is relational",
+      "assetId": "R29",
+      "crop": "4:5 detail crop; preserve identifying construction",
+      "overlay": "Comfort is relational",
+      "caption": "Comfort is relational. Touch",
+      "credit": "McGlone and Reilly · NCBI Bookshelf",
+      "alt": "Touch, used as evidence for comfort is relational.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    }
+  ],
+  "broll": [
+    {
+      "beat": 1,
+      "duration": "0–3s",
+      "assetId": "MET-107620",
+      "shot": "Slow object reveal; cut on clause, never simulate motion in a still",
+      "onScreen": "Skin does not read labels",
+      "credit": "Dress, Maker unknown, ca. 1870. The Metropolitan Museum of Art, Costume Institute. 1980.409.1a–c. CC0.",
+      "boundary": "Crop from cleared master; keep credit in caption and end card."
+    },
+    {
+      "beat": 2,
+      "duration": "3–6s",
+      "assetId": "R03",
+      "shot": "Slow detail pan; cut on clause, never simulate motion in a still",
+      "onScreen": "Touch is several systems",
+      "credit": "Liljencrantz; Olausson · Frontiers",
+      "boundary": "Use a designed source card and outbound link; do not extract footage."
+    },
+    {
+      "beat": 3,
+      "duration": "6–9s",
+      "assetId": "R08",
+      "shot": "Slow object reveal; cut on clause, never simulate motion in a still",
+      "onScreen": "Fiber becomes construction",
+      "credit": "Library of Congress · Library of Congress",
+      "boundary": "Crop from cleared master; keep credit in caption and end card."
+    },
+    {
+      "beat": 4,
+      "duration": "9–12s",
+      "assetId": "R09",
+      "shot": "Slow detail pan; cut on clause, never simulate motion in a still",
+      "onScreen": "Sensitivity changes ratings",
+      "credit": "The Metropolitan Museum of Art · The Met",
+      "boundary": "Crop from cleared master; keep credit in caption and end card."
+    },
+    {
+      "beat": 5,
+      "duration": "12–15s",
+      "assetId": "R14",
+      "shot": "Slow object reveal; cut on clause, never simulate motion in a still",
+      "onScreen": "Hours of wear are not a hand test",
+      "credit": "Article authors · PubMed Central",
+      "boundary": "Crop from cleared master; keep credit in caption and end card."
+    },
+    {
+      "beat": 6,
+      "duration": "15–18s",
+      "assetId": "R27",
+      "shot": "Slow detail pan; cut on clause, never simulate motion in a still",
+      "onScreen": "Autistic accounts are not a fabric list",
+      "credit": "Article authors · Scientific Reports / PMC",
+      "boundary": "Crop from cleared master; keep credit in caption and end card."
+    },
+    {
+      "beat": 7,
+      "duration": "18–21s",
+      "assetId": "R28",
+      "shot": "Slow object reveal; cut on clause, never simulate motion in a still",
+      "onScreen": "Map the encounter",
+      "credit": "Article authors · MDPI Textiles",
+      "boundary": "Crop from cleared master; keep credit in caption and end card."
+    }
+  ],
+  "pinterest": [
+    {
+      "pin": 1,
+      "title": "The textile encounter",
+      "assetId": "R03",
+      "format": "1000×2100 idea pin",
+      "description": "The textile encounter: an evidence-bounded visual guide from The Sensory Textile Room.",
+      "alt": "Tactile C fibers and tactile allodynia",
+      "credit": "Liljencrantz; Olausson · Frontiers",
+      "destination": "/exhibitions/fabric-sensory-world/"
+    },
+    {
+      "pin": 2,
+      "title": "Touch pathways",
+      "assetId": "R08",
+      "format": "1000×1500 standard pin",
+      "description": "Touch pathways: an evidence-bounded visual guide from The Sensory Textile Room.",
+      "alt": "Fashion — Free to Use and Reuse",
+      "credit": "Library of Congress · Library of Congress",
+      "destination": "/exhibitions/fabric-sensory-world/"
+    },
+    {
+      "pin": 3,
+      "title": "Construction matters",
+      "assetId": "R09",
+      "format": "1000×2100 idea pin",
+      "description": "Construction matters: an evidence-bounded visual guide from The Sensory Textile Room.",
+      "alt": "Show Your Style!",
+      "credit": "The Metropolitan Museum of Art · The Met",
+      "destination": "/exhibitions/fabric-sensory-world/"
+    },
+    {
+      "pin": 4,
+      "title": "Sensory field map",
+      "assetId": "R14",
+      "format": "1000×1500 standard pin",
+      "description": "Sensory field map: an evidence-bounded visual guide from The Sensory Textile Room.",
+      "alt": "Smart Textiles for Improved Quality of Life and Cognitive Assessment",
+      "credit": "Article authors · PubMed Central",
+      "destination": "/exhibitions/fabric-sensory-world/"
+    },
+    {
+      "pin": 5,
+      "title": "No universal soft",
+      "assetId": "R27",
+      "format": "1000×2100 idea pin",
+      "description": "No universal soft: an evidence-bounded visual guide from The Sensory Textile Room.",
+      "alt": "Tactile sensitivity alters textile touch perception",
+      "credit": "Article authors · Scientific Reports / PMC",
+      "destination": "/exhibitions/fabric-sensory-world/"
+    }
+  ],
+  "youtube": [
+    {
+      "time": "00:00",
+      "chapter": "Skin does not read labels",
+      "assetId": "MET-82459",
+      "treatment": "Full-bleed object with slow editorial crop",
+      "credit": "Dress, Maker unknown, 1870s. The Metropolitan Museum of Art, Costume Institute. 1993.35.1a–c. CC0."
+    },
+    {
+      "time": "01:30",
+      "chapter": "Touch is several systems",
+      "assetId": "MET-81754",
+      "treatment": "Evidence split-screen with source citation",
+      "credit": "Riding coat, Maker unknown, ca. 1760. The Metropolitan Museum of Art, Costume Institute. 1976.147.1. CC0."
+    },
+    {
+      "time": "03:00",
+      "chapter": "Fiber becomes construction",
+      "assetId": "MET-107620",
+      "treatment": "Object detail beside boundary sentence",
+      "credit": "Dress, Maker unknown, ca. 1870. The Metropolitan Museum of Art, Costume Institute. 1980.409.1a–c. CC0."
+    },
+    {
+      "time": "04:30",
+      "chapter": "Sensitivity changes ratings",
+      "assetId": "R03",
+      "treatment": "Full-bleed object with slow editorial crop",
+      "credit": "Liljencrantz; Olausson · Frontiers"
+    },
+    {
+      "time": "06:00",
+      "chapter": "Hours of wear are not a hand test",
+      "assetId": "R08",
+      "treatment": "Evidence split-screen with source citation",
+      "credit": "Library of Congress · Library of Congress"
+    },
+    {
+      "time": "07:30",
+      "chapter": "Autistic accounts are not a fabric list",
+      "assetId": "R09",
+      "treatment": "Object detail beside boundary sentence",
+      "credit": "The Metropolitan Museum of Art · The Met"
+    },
+    {
+      "time": "09:00",
+      "chapter": "Map the encounter",
+      "assetId": "R14",
+      "treatment": "Full-bleed object with slow editorial crop",
+      "credit": "Article authors · PubMed Central"
+    },
+    {
+      "time": "10:30",
+      "chapter": "Comfort is relational",
+      "assetId": "R27",
+      "treatment": "Evidence split-screen with source citation",
+      "credit": "Article authors · Scientific Reports / PMC"
+    }
+  ],
+  "inline": {
+    "beehiiv": [
+      {
+        "position": "after opening",
+        "assetId": "MET-96434",
+        "caption": "cotton structure, gathers, closures and skin contact",
+        "credit": "Dress, Maker unknown, ca. 1872. The Metropolitan Museum of Art, Costume Institute. 2003.426a, b. CC0."
+      },
+      {
+        "position": "after first evidence section",
+        "assetId": "MET-81754",
+        "caption": "silk and goat hair as named materials, not a prediction of feel",
+        "credit": "Riding coat, Maker unknown, ca. 1760. The Metropolitan Museum of Art, Costume Institute. 1976.147.1. CC0."
+      },
+      {
+        "position": "before boundary",
+        "assetId": "R08",
+        "caption": "Fashion — Free to Use and Reuse",
+        "credit": "Library of Congress · Library of Congress"
+      }
+    ],
+    "linkedin": [
+      {
+        "position": "document cover",
+        "assetId": "MET-107620",
+        "caption": "silk garment whose weave, finish, fit and context remain decisive",
+        "credit": "Dress, Maker unknown, ca. 1870. The Metropolitan Museum of Art, Costume Institute. 1980.409.1a–c. CC0."
+      },
+      {
+        "position": "document slide 5",
+        "assetId": "R09",
+        "caption": "Show Your Style!",
+        "credit": "The Metropolitan Museum of Art · The Met"
+      }
+    ]
+  },
+  "downloads": [
+    {
+      "assetId": "MET-96434",
+      "source": "https://images.metmuseum.org/CRDImages/ci/original/DT5639.jpg",
+      "canonical": "https://www.metmuseum.org/art/collection/search/96434",
+      "credit": "Dress, Maker unknown, ca. 1872. The Metropolitan Museum of Art, Costume Institute. 2003.426a, b. CC0.",
+      "rights": "CC0"
+    },
+    {
+      "assetId": "MET-82459",
+      "source": "https://images.metmuseum.org/CRDImages/ci/original/1993.35.1a–c_F.jpg",
+      "canonical": "https://www.metmuseum.org/art/collection/search/82459",
+      "credit": "Dress, Maker unknown, 1870s. The Metropolitan Museum of Art, Costume Institute. 1993.35.1a–c. CC0.",
+      "rights": "CC0"
+    },
+    {
+      "assetId": "MET-81754",
+      "source": "https://images.metmuseum.org/CRDImages/ci/original/CT_11049.jpg",
+      "canonical": "https://www.metmuseum.org/art/collection/search/81754",
+      "credit": "Riding coat, Maker unknown, ca. 1760. The Metropolitan Museum of Art, Costume Institute. 1976.147.1. CC0.",
+      "rights": "CC0"
+    },
+    {
+      "assetId": "MET-107620",
+      "source": "https://images.metmuseum.org/CRDImages/ci/original/1980.409.1a-c.jpg",
+      "canonical": "https://www.metmuseum.org/art/collection/search/107620",
+      "credit": "Dress, Maker unknown, ca. 1870. The Metropolitan Museum of Art, Costume Institute. 1980.409.1a–c. CC0.",
+      "rights": "CC0"
+    },
+    {
+      "assetId": "R66",
+      "source": "https://iiif.wellcomecollection.org/pdf/b28051154",
+      "canonical": "https://wellcomecollection.org/works/brwc6mn4",
+      "credit": "Ada Sarah Ballin · Wellcome Collection",
+      "rights": "Public domain / CC0"
+    }
+  ]
+}

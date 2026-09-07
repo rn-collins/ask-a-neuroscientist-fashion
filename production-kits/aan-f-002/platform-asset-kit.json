@@ -1,0 +1,750 @@
+{
+  "id": "AAN-F-002",
+  "slug": "outfit-as-armor",
+  "deliverable": "armor",
+  "title": "Outfit as Armor",
+  "prefix": "A",
+  "tool": "/lab/armor/",
+  "beats": [
+    "Armor as lived language",
+    "Literal armor and bodily boundary",
+    "Pressure, heat and movement",
+    "The observer pathway",
+    "Ritual as a start cue",
+    "Authority and spectacle",
+    "When armor becomes a cage",
+    "Four pathways, no magic"
+  ],
+  "pins": [
+    "Four armor pathways",
+    "Body boundary",
+    "Observer response",
+    "Ritual cue",
+    "When protection costs"
+  ],
+  "assets": [
+    {
+      "id": "MET-23205",
+      "type": "image",
+      "title": "Armor",
+      "creator": "Maker unknown; assembled and restored in the 1920s",
+      "date": "ca. 1400–1450 and later",
+      "institution": "The Metropolitan Museum of Art, Arms and Armor",
+      "rights": "CC0",
+      "disposition": "installed-object",
+      "canonicalUrl": "https://www.metmuseum.org/art/collection/search/23205",
+      "mediaUrl": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/23205/2538317/main-image",
+      "licenseUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
+      "credit": "Armor, Maker unknown; assembled and restored in the 1920s, ca. 1400–1450 and later. The Metropolitan Museum of Art, Arms and Armor. 29.154.3. CC0.",
+      "alt": "Italian armor assembled from historical elements, with a dark brigandine torso and articulated steel limb defenses.",
+      "caption": "literal protection, weight, articulated boundary—and a museum reconstruction"
+    },
+    {
+      "id": "MET-27790",
+      "type": "image",
+      "title": "Portions of a Costume Armor",
+      "creator": "Kolman Helmschmid",
+      "date": "ca. 1525",
+      "institution": "The Metropolitan Museum of Art, Arms and Armor",
+      "rights": "CC0",
+      "disposition": "installed-object",
+      "canonicalUrl": "https://www.metmuseum.org/art/collection/search/27790",
+      "mediaUrl": "https://images.metmuseum.org/CRDImages/aa/original/DP-22969-001.jpg",
+      "licenseUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
+      "credit": "Portions of a Costume Armor, Kolman Helmschmid, ca. 1525. The Metropolitan Museum of Art, Arms and Armor. 24.179; 26.188.1, .2; 29.158.363a, b. CC0.",
+      "alt": "Elaborately etched steel costume armor displayed frontally against a pale ground.",
+      "caption": "dress, spectacle, status signal"
+    },
+    {
+      "id": "MET-22001",
+      "type": "image",
+      "title": "Field Armor",
+      "creator": "Nuremberg armorer, maker unknown",
+      "date": "ca. 1525 and later",
+      "institution": "The Metropolitan Museum of Art, Arms and Armor",
+      "rights": "CC0",
+      "disposition": "installed-object",
+      "canonicalUrl": "https://www.metmuseum.org/art/collection/search/22001",
+      "mediaUrl": "https://images.metmuseum.org/CRDImages/aa/original/DP341737.jpg",
+      "licenseUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
+      "credit": "Field Armor, Nuremberg armorer, maker unknown, ca. 1525 and later. The Metropolitan Museum of Art, Arms and Armor. 04.3.289. CC0.",
+      "alt": "Fluted German field armor shown in three-quarter view with articulated joints and rounded helmet.",
+      "caption": "mobility negotiated through protection"
+    },
+    {
+      "id": "MET-24671",
+      "type": "image",
+      "title": "Armor of Henry II, King of France",
+      "creator": "Decoration design by Jean Cousin the Elder; possibly Baptiste Pellerin",
+      "date": "ca. 1555",
+      "institution": "The Metropolitan Museum of Art, Arms and Armor",
+      "rights": "CC0",
+      "disposition": "installed-object",
+      "canonicalUrl": "https://www.metmuseum.org/art/collection/search/24671",
+      "mediaUrl": "https://images.metmuseum.org/CRDImages/aa/original/DP256970.jpg",
+      "licenseUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
+      "credit": "Armor of Henry II, King of France, Decoration design by Jean Cousin the Elder; possibly Baptiste Pellerin, ca. 1555. The Metropolitan Museum of Art, Arms and Armor. 39.121a–n. CC0.",
+      "alt": "Blackened and gilded French parade armor covered in dense scrolling decoration, shown frontally.",
+      "caption": "authority made visible; parade rather than proof"
+    },
+    {
+      "id": "MET-22020",
+      "type": "image",
+      "title": "Armor (Gusoku)",
+      "creator": "Maker unknown",
+      "date": "19th century",
+      "institution": "The Metropolitan Museum of Art, Arms and Armor",
+      "rights": "CC0",
+      "disposition": "installed-object",
+      "canonicalUrl": "https://www.metmuseum.org/art/collection/search/22020",
+      "mediaUrl": "https://images.metmuseum.org/CRDImages/aa/original/DP264123.jpg",
+      "licenseUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
+      "credit": "Armor (Gusoku), Maker unknown, 19th century. The Metropolitan Museum of Art, Arms and Armor. 04.4.2. CC0.",
+      "alt": "Japanese gusoku armor with horned helmet, lacquered plates, silk lacing and a patterned surcoat.",
+      "caption": "layered identity, ritual and material memory"
+    },
+    {
+      "id": "R02",
+      "type": "research",
+      "title": "Whatever Next and Close to My Self—The Transparent Senses and the Second Skin",
+      "creator": "Ciaunica et al.",
+      "date": "2021",
+      "institution": "Frontiers in Psychology",
+      "rights": "link-only",
+      "disposition": "link-only",
+      "canonicalUrl": "https://doi.org/10.3389/fpsyg.2021.613587",
+      "mediaUrl": null,
+      "licenseUrl": null,
+      "credit": "Ciaunica et al. · Frontiers in Psychology",
+      "alt": "",
+      "caption": "Whatever Next and Close to My Self—The Transparent Senses and the Second Skin"
+    },
+    {
+      "id": "R08",
+      "type": "collection",
+      "title": "Fashion — Free to Use and Reuse",
+      "creator": "Library of Congress",
+      "date": "ongoing",
+      "institution": "Library of Congress",
+      "rights": "link-only",
+      "disposition": "resource-room",
+      "canonicalUrl": "https://www.loc.gov/free-to-use/fashion/",
+      "mediaUrl": null,
+      "licenseUrl": null,
+      "credit": "Library of Congress · Library of Congress",
+      "alt": "",
+      "caption": "Fashion — Free to Use and Reuse"
+    },
+    {
+      "id": "R09",
+      "type": "education",
+      "title": "Show Your Style!",
+      "creator": "The Metropolitan Museum of Art",
+      "date": "2013",
+      "institution": "The Met",
+      "rights": "link-only",
+      "disposition": "resource-room",
+      "canonicalUrl": "https://www.metmuseum.org/-/media/files/learn/family-map-and-guides/what%20should%20i%20wear%20today.pdf",
+      "mediaUrl": null,
+      "licenseUrl": null,
+      "credit": "The Metropolitan Museum of Art · The Met",
+      "alt": "",
+      "caption": "Show Your Style!"
+    },
+    {
+      "id": "R21",
+      "type": "research",
+      "title": "Whatever Next and Close to My Self—The Transparent Senses and the Second Skin",
+      "creator": "Ciaunica et al.",
+      "date": "2021",
+      "institution": "Frontiers in Psychology",
+      "rights": "CC BY",
+      "disposition": "resource-room",
+      "canonicalUrl": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2021.613587/full",
+      "mediaUrl": null,
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "credit": "Ciaunica et al. · Frontiers in Psychology",
+      "alt": "",
+      "caption": "Whatever Next and Close to My Self—The Transparent Senses and the Second Skin"
+    },
+    {
+      "id": "R22",
+      "type": "research",
+      "title": "The rubber hand illusion",
+      "creator": "Botvinick and Cohen",
+      "date": "1998",
+      "institution": "Nature",
+      "rights": "link-only",
+      "disposition": "resource-room",
+      "canonicalUrl": "https://doi.org/10.1038/35784",
+      "mediaUrl": null,
+      "licenseUrl": null,
+      "credit": "Botvinick and Cohen · Nature",
+      "alt": "",
+      "caption": "The rubber hand illusion"
+    },
+    {
+      "id": "R23",
+      "type": "research",
+      "title": "The sense of body ownership",
+      "creator": "Tsakiris",
+      "date": "2010",
+      "institution": "Neuropsychologia",
+      "rights": "link-only",
+      "disposition": "resource-room",
+      "canonicalUrl": "https://doi.org/10.1016/j.neuropsychologia.2009.09.034",
+      "mediaUrl": null,
+      "licenseUrl": null,
+      "credit": "Tsakiris · Neuropsychologia",
+      "alt": "",
+      "caption": "The sense of body ownership"
+    },
+    {
+      "id": "R24",
+      "type": "book",
+      "title": "Where Does It Hurt?",
+      "creator": "Three Johns and Shelagh / Wellcome Collection",
+      "date": "2014",
+      "institution": "Wellcome Collection",
+      "rights": "CC BY",
+      "disposition": "resource-room",
+      "canonicalUrl": "https://iiif.wellcomecollection.org/file/b21688060_where-does-it-hurt.pdf",
+      "mediaUrl": null,
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "credit": "Three Johns and Shelagh / Wellcome Collection · Wellcome Collection",
+      "alt": "",
+      "caption": "Where Does It Hurt?"
+    },
+    {
+      "id": "R25",
+      "type": "collection",
+      "title": "Armor collection search",
+      "creator": "The Metropolitan Museum of Art",
+      "date": "ongoing",
+      "institution": "The Met",
+      "rights": "link-only",
+      "disposition": "resource-room",
+      "canonicalUrl": "https://www.metmuseum.org/art/collection/search?q=armor&showOnly=openAccess",
+      "mediaUrl": null,
+      "licenseUrl": null,
+      "credit": "The Metropolitan Museum of Art · The Met",
+      "alt": "",
+      "caption": "Armor collection search"
+    },
+    {
+      "id": "R26",
+      "type": "collection",
+      "title": "Protective clothing search",
+      "creator": "Library of Congress",
+      "date": "ongoing",
+      "institution": "Library of Congress",
+      "rights": "link-only",
+      "disposition": "resource-room",
+      "canonicalUrl": "https://www.loc.gov/photos/?q=protective+clothing",
+      "mediaUrl": null,
+      "licenseUrl": null,
+      "credit": "Library of Congress · Library of Congress",
+      "alt": "",
+      "caption": "Protective clothing search"
+    },
+    {
+      "id": "R61",
+      "type": "textile artwork",
+      "title": "40598449",
+      "creator": "Alexandra Georgiou",
+      "date": "date not stated",
+      "institution": "Wellcome Collection",
+      "rights": "link-only",
+      "disposition": "resource-room",
+      "canonicalUrl": "https://wellcomecollection.org/works/c8vq78kk",
+      "mediaUrl": null,
+      "licenseUrl": null,
+      "credit": "Alexandra Georgiou · Wellcome Collection",
+      "alt": "",
+      "caption": "40598449"
+    },
+    {
+      "id": "R62",
+      "type": "book",
+      "title": "Where Does It Hurt?",
+      "creator": "Three Johns and Shelagh",
+      "date": "2014",
+      "institution": "Wellcome Collection",
+      "rights": "CC BY",
+      "disposition": "installed-media",
+      "canonicalUrl": "https://iiif.wellcomecollection.org/file/b21688060_where-does-it-hurt.pdf",
+      "mediaUrl": "https://iiif.wellcomecollection.org/file/b21688060_where-does-it-hurt.pdf",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "credit": "Three Johns and Shelagh · Wellcome Collection",
+      "alt": "",
+      "caption": "Where Does It Hurt?"
+    },
+    {
+      "id": "R63",
+      "type": "image",
+      "title": "Naisen kokovartalomuotokuva",
+      "creator": "Unidentified photographer",
+      "date": "date not stated",
+      "institution": "Europeana",
+      "rights": "Public domain / CC0",
+      "disposition": "resource-room",
+      "canonicalUrl": "https://www.europeana.eu/en/item/117/_C73F9EDD_3F02_4783_AA7A_27A8BE5C7CE9",
+      "mediaUrl": null,
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "credit": "Unidentified photographer · Europeana",
+      "alt": "",
+      "caption": "Naisen kokovartalomuotokuva"
+    },
+    {
+      "id": "R64",
+      "type": "book",
+      "title": "The importance of dress; or, female rivalry",
+      "creator": "Anonymous",
+      "date": "1752",
+      "institution": "Wellcome Collection",
+      "rights": "link-only",
+      "disposition": "reserve",
+      "canonicalUrl": "https://wellcomecollection.org/works/qam5vzc8",
+      "mediaUrl": null,
+      "licenseUrl": null,
+      "credit": "Anonymous · Wellcome Collection",
+      "alt": "",
+      "caption": "The importance of dress; or, female rivalry"
+    }
+  ],
+  "carouselA": [
+    {
+      "frame": 1,
+      "beat": "Armor as lived language",
+      "assetId": "MET-23205",
+      "crop": "4:5 full object with generous negative space",
+      "overlay": "Outfit as Armor",
+      "caption": "Armor as lived language. literal protection, weight, articulated boundary—and a museum reconstruction",
+      "credit": "Armor, Maker unknown; assembled and restored in the 1920s, ca. 1400–1450 and later. The Metropolitan Museum of Art, Arms and Armor. 29.154.3. CC0.",
+      "alt": "Italian armor assembled from historical elements, with a dark brigandine torso and articulated steel limb defenses.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    },
+    {
+      "frame": 2,
+      "beat": "Literal armor and bodily boundary",
+      "assetId": "MET-27790",
+      "crop": "4:5 detail crop; preserve identifying construction",
+      "overlay": "Literal armor and bodily boundary",
+      "caption": "Literal armor and bodily boundary. dress, spectacle, status signal",
+      "credit": "Portions of a Costume Armor, Kolman Helmschmid, ca. 1525. The Metropolitan Museum of Art, Arms and Armor. 24.179; 26.188.1, .2; 29.158.363a, b. CC0.",
+      "alt": "Elaborately etched steel costume armor displayed frontally against a pale ground.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    },
+    {
+      "frame": 3,
+      "beat": "Pressure, heat and movement",
+      "assetId": "MET-22001",
+      "crop": "4:5 split evidence plate; do not obscure object",
+      "overlay": "Pressure, heat and movement",
+      "caption": "Pressure, heat and movement. mobility negotiated through protection",
+      "credit": "Field Armor, Nuremberg armorer, maker unknown, ca. 1525 and later. The Metropolitan Museum of Art, Arms and Armor. 04.3.289. CC0.",
+      "alt": "Fluted German field armor shown in three-quarter view with articulated joints and rounded helmet.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    },
+    {
+      "frame": 4,
+      "beat": "The observer pathway",
+      "assetId": "MET-24671",
+      "crop": "4:5 full object with generous negative space",
+      "overlay": "The observer pathway",
+      "caption": "The observer pathway. authority made visible; parade rather than proof",
+      "credit": "Armor of Henry II, King of France, Decoration design by Jean Cousin the Elder; possibly Baptiste Pellerin, ca. 1555. The Metropolitan Museum of Art, Arms and Armor. 39.121a–n. CC0.",
+      "alt": "Blackened and gilded French parade armor covered in dense scrolling decoration, shown frontally.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    },
+    {
+      "frame": 5,
+      "beat": "Ritual as a start cue",
+      "assetId": "MET-22020",
+      "crop": "4:5 detail crop; preserve identifying construction",
+      "overlay": "Ritual as a start cue",
+      "caption": "Ritual as a start cue. layered identity, ritual and material memory",
+      "credit": "Armor (Gusoku), Maker unknown, 19th century. The Metropolitan Museum of Art, Arms and Armor. 04.4.2. CC0.",
+      "alt": "Japanese gusoku armor with horned helmet, lacquered plates, silk lacing and a patterned surcoat.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    },
+    {
+      "frame": 6,
+      "beat": "Authority and spectacle",
+      "assetId": "R02",
+      "crop": "4:5 split evidence plate; do not obscure object",
+      "overlay": "Authority and spectacle",
+      "caption": "Authority and spectacle. Whatever Next and Close to My Self—The Transparent Senses and the Second Skin",
+      "credit": "Ciaunica et al. · Frontiers in Psychology",
+      "alt": "Whatever Next and Close to My Self—The Transparent Senses and the Second Skin, used as evidence for authority and spectacle.",
+      "boundary": "Link card only; do not reproduce protected media."
+    },
+    {
+      "frame": 7,
+      "beat": "When armor becomes a cage",
+      "assetId": "R08",
+      "crop": "4:5 full object with generous negative space",
+      "overlay": "When armor becomes a cage",
+      "caption": "When armor becomes a cage. Fashion — Free to Use and Reuse",
+      "credit": "Library of Congress · Library of Congress",
+      "alt": "Fashion — Free to Use and Reuse, used as evidence for when armor becomes a cage.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    },
+    {
+      "frame": 8,
+      "beat": "Four pathways, no magic",
+      "assetId": "R09",
+      "crop": "4:5 detail crop; preserve identifying construction",
+      "overlay": "Four pathways, no magic",
+      "caption": "Four pathways, no magic. Show Your Style!",
+      "credit": "The Metropolitan Museum of Art · The Met",
+      "alt": "Show Your Style!, used as evidence for four pathways, no magic.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    }
+  ],
+  "carouselB": [
+    {
+      "frame": 1,
+      "beat": "Armor as lived language",
+      "assetId": "MET-24671",
+      "crop": "4:5 full object with generous negative space",
+      "overlay": "Outfit as Armor",
+      "caption": "Armor as lived language. authority made visible; parade rather than proof",
+      "credit": "Armor of Henry II, King of France, Decoration design by Jean Cousin the Elder; possibly Baptiste Pellerin, ca. 1555. The Metropolitan Museum of Art, Arms and Armor. 39.121a–n. CC0.",
+      "alt": "Blackened and gilded French parade armor covered in dense scrolling decoration, shown frontally.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    },
+    {
+      "frame": 2,
+      "beat": "Literal armor and bodily boundary",
+      "assetId": "MET-22020",
+      "crop": "4:5 detail crop; preserve identifying construction",
+      "overlay": "Literal armor and bodily boundary",
+      "caption": "Literal armor and bodily boundary. layered identity, ritual and material memory",
+      "credit": "Armor (Gusoku), Maker unknown, 19th century. The Metropolitan Museum of Art, Arms and Armor. 04.4.2. CC0.",
+      "alt": "Japanese gusoku armor with horned helmet, lacquered plates, silk lacing and a patterned surcoat.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    },
+    {
+      "frame": 3,
+      "beat": "Pressure, heat and movement",
+      "assetId": "R02",
+      "crop": "4:5 split evidence plate; do not obscure object",
+      "overlay": "Pressure, heat and movement",
+      "caption": "Pressure, heat and movement. Whatever Next and Close to My Self—The Transparent Senses and the Second Skin",
+      "credit": "Ciaunica et al. · Frontiers in Psychology",
+      "alt": "Whatever Next and Close to My Self—The Transparent Senses and the Second Skin, used as evidence for pressure, heat and movement.",
+      "boundary": "Link card only; do not reproduce protected media."
+    },
+    {
+      "frame": 4,
+      "beat": "The observer pathway",
+      "assetId": "R08",
+      "crop": "4:5 full object with generous negative space",
+      "overlay": "The observer pathway",
+      "caption": "The observer pathway. Fashion — Free to Use and Reuse",
+      "credit": "Library of Congress · Library of Congress",
+      "alt": "Fashion — Free to Use and Reuse, used as evidence for the observer pathway.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    },
+    {
+      "frame": 5,
+      "beat": "Ritual as a start cue",
+      "assetId": "R09",
+      "crop": "4:5 detail crop; preserve identifying construction",
+      "overlay": "Ritual as a start cue",
+      "caption": "Ritual as a start cue. Show Your Style!",
+      "credit": "The Metropolitan Museum of Art · The Met",
+      "alt": "Show Your Style!, used as evidence for ritual as a start cue.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    },
+    {
+      "frame": 6,
+      "beat": "Authority and spectacle",
+      "assetId": "R21",
+      "crop": "4:5 split evidence plate; do not obscure object",
+      "overlay": "Authority and spectacle",
+      "caption": "Authority and spectacle. Whatever Next and Close to My Self—The Transparent Senses and the Second Skin",
+      "credit": "Ciaunica et al. · Frontiers in Psychology",
+      "alt": "Whatever Next and Close to My Self—The Transparent Senses and the Second Skin, used as evidence for authority and spectacle.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    },
+    {
+      "frame": 7,
+      "beat": "When armor becomes a cage",
+      "assetId": "R22",
+      "crop": "4:5 full object with generous negative space",
+      "overlay": "When armor becomes a cage",
+      "caption": "When armor becomes a cage. The rubber hand illusion",
+      "credit": "Botvinick and Cohen · Nature",
+      "alt": "The rubber hand illusion, used as evidence for when armor becomes a cage.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    },
+    {
+      "frame": 8,
+      "beat": "Four pathways, no magic",
+      "assetId": "R23",
+      "crop": "4:5 detail crop; preserve identifying construction",
+      "overlay": "Four pathways, no magic",
+      "caption": "Four pathways, no magic. The sense of body ownership",
+      "credit": "Tsakiris · Neuropsychologia",
+      "alt": "The sense of body ownership, used as evidence for four pathways, no magic.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    }
+  ],
+  "broll": [
+    {
+      "beat": 1,
+      "duration": "0–3s",
+      "assetId": "MET-24671",
+      "shot": "Slow object reveal; cut on clause, never simulate motion in a still",
+      "onScreen": "Armor as lived language",
+      "credit": "Armor of Henry II, King of France, Decoration design by Jean Cousin the Elder; possibly Baptiste Pellerin, ca. 1555. The Metropolitan Museum of Art, Arms and Armor. 39.121a–n. CC0.",
+      "boundary": "Crop from cleared master; keep credit in caption and end card."
+    },
+    {
+      "beat": 2,
+      "duration": "3–6s",
+      "assetId": "MET-22020",
+      "shot": "Slow detail pan; cut on clause, never simulate motion in a still",
+      "onScreen": "Literal armor and bodily boundary",
+      "credit": "Armor (Gusoku), Maker unknown, 19th century. The Metropolitan Museum of Art, Arms and Armor. 04.4.2. CC0.",
+      "boundary": "Crop from cleared master; keep credit in caption and end card."
+    },
+    {
+      "beat": 3,
+      "duration": "6–9s",
+      "assetId": "R02",
+      "shot": "Slow object reveal; cut on clause, never simulate motion in a still",
+      "onScreen": "Pressure, heat and movement",
+      "credit": "Ciaunica et al. · Frontiers in Psychology",
+      "boundary": "Use a designed source card and outbound link; do not extract footage."
+    },
+    {
+      "beat": 4,
+      "duration": "9–12s",
+      "assetId": "R08",
+      "shot": "Slow detail pan; cut on clause, never simulate motion in a still",
+      "onScreen": "The observer pathway",
+      "credit": "Library of Congress · Library of Congress",
+      "boundary": "Crop from cleared master; keep credit in caption and end card."
+    },
+    {
+      "beat": 5,
+      "duration": "12–15s",
+      "assetId": "R09",
+      "shot": "Slow object reveal; cut on clause, never simulate motion in a still",
+      "onScreen": "Ritual as a start cue",
+      "credit": "The Metropolitan Museum of Art · The Met",
+      "boundary": "Crop from cleared master; keep credit in caption and end card."
+    },
+    {
+      "beat": 6,
+      "duration": "15–18s",
+      "assetId": "R21",
+      "shot": "Slow detail pan; cut on clause, never simulate motion in a still",
+      "onScreen": "Authority and spectacle",
+      "credit": "Ciaunica et al. · Frontiers in Psychology",
+      "boundary": "Crop from cleared master; keep credit in caption and end card."
+    },
+    {
+      "beat": 7,
+      "duration": "18–21s",
+      "assetId": "R22",
+      "shot": "Slow object reveal; cut on clause, never simulate motion in a still",
+      "onScreen": "When armor becomes a cage",
+      "credit": "Botvinick and Cohen · Nature",
+      "boundary": "Crop from cleared master; keep credit in caption and end card."
+    }
+  ],
+  "pinterest": [
+    {
+      "pin": 1,
+      "title": "Four armor pathways",
+      "assetId": "MET-22020",
+      "format": "1000×2100 idea pin",
+      "description": "Four armor pathways: an evidence-bounded visual guide from Outfit as Armor.",
+      "alt": "Japanese gusoku armor with horned helmet, lacquered plates, silk lacing and a patterned surcoat.",
+      "credit": "Armor (Gusoku), Maker unknown, 19th century. The Metropolitan Museum of Art, Arms and Armor. 04.4.2. CC0.",
+      "destination": "/exhibitions/outfit-as-armor/"
+    },
+    {
+      "pin": 2,
+      "title": "Body boundary",
+      "assetId": "R02",
+      "format": "1000×1500 standard pin",
+      "description": "Body boundary: an evidence-bounded visual guide from Outfit as Armor.",
+      "alt": "Whatever Next and Close to My Self—The Transparent Senses and the Second Skin",
+      "credit": "Ciaunica et al. · Frontiers in Psychology",
+      "destination": "/exhibitions/outfit-as-armor/"
+    },
+    {
+      "pin": 3,
+      "title": "Observer response",
+      "assetId": "R08",
+      "format": "1000×2100 idea pin",
+      "description": "Observer response: an evidence-bounded visual guide from Outfit as Armor.",
+      "alt": "Fashion — Free to Use and Reuse",
+      "credit": "Library of Congress · Library of Congress",
+      "destination": "/exhibitions/outfit-as-armor/"
+    },
+    {
+      "pin": 4,
+      "title": "Ritual cue",
+      "assetId": "R09",
+      "format": "1000×1500 standard pin",
+      "description": "Ritual cue: an evidence-bounded visual guide from Outfit as Armor.",
+      "alt": "Show Your Style!",
+      "credit": "The Metropolitan Museum of Art · The Met",
+      "destination": "/exhibitions/outfit-as-armor/"
+    },
+    {
+      "pin": 5,
+      "title": "When protection costs",
+      "assetId": "R21",
+      "format": "1000×2100 idea pin",
+      "description": "When protection costs: an evidence-bounded visual guide from Outfit as Armor.",
+      "alt": "Whatever Next and Close to My Self—The Transparent Senses and the Second Skin",
+      "credit": "Ciaunica et al. · Frontiers in Psychology",
+      "destination": "/exhibitions/outfit-as-armor/"
+    }
+  ],
+  "youtube": [
+    {
+      "time": "00:00",
+      "chapter": "Armor as lived language",
+      "assetId": "MET-27790",
+      "treatment": "Full-bleed object with slow editorial crop",
+      "credit": "Portions of a Costume Armor, Kolman Helmschmid, ca. 1525. The Metropolitan Museum of Art, Arms and Armor. 24.179; 26.188.1, .2; 29.158.363a, b. CC0."
+    },
+    {
+      "time": "01:30",
+      "chapter": "Literal armor and bodily boundary",
+      "assetId": "MET-22001",
+      "treatment": "Evidence split-screen with source citation",
+      "credit": "Field Armor, Nuremberg armorer, maker unknown, ca. 1525 and later. The Metropolitan Museum of Art, Arms and Armor. 04.3.289. CC0."
+    },
+    {
+      "time": "03:00",
+      "chapter": "Pressure, heat and movement",
+      "assetId": "MET-24671",
+      "treatment": "Object detail beside boundary sentence",
+      "credit": "Armor of Henry II, King of France, Decoration design by Jean Cousin the Elder; possibly Baptiste Pellerin, ca. 1555. The Metropolitan Museum of Art, Arms and Armor. 39.121a–n. CC0."
+    },
+    {
+      "time": "04:30",
+      "chapter": "The observer pathway",
+      "assetId": "MET-22020",
+      "treatment": "Full-bleed object with slow editorial crop",
+      "credit": "Armor (Gusoku), Maker unknown, 19th century. The Metropolitan Museum of Art, Arms and Armor. 04.4.2. CC0."
+    },
+    {
+      "time": "06:00",
+      "chapter": "Ritual as a start cue",
+      "assetId": "R02",
+      "treatment": "Evidence split-screen with source citation",
+      "credit": "Ciaunica et al. · Frontiers in Psychology"
+    },
+    {
+      "time": "07:30",
+      "chapter": "Authority and spectacle",
+      "assetId": "R08",
+      "treatment": "Object detail beside boundary sentence",
+      "credit": "Library of Congress · Library of Congress"
+    },
+    {
+      "time": "09:00",
+      "chapter": "When armor becomes a cage",
+      "assetId": "R09",
+      "treatment": "Full-bleed object with slow editorial crop",
+      "credit": "The Metropolitan Museum of Art · The Met"
+    },
+    {
+      "time": "10:30",
+      "chapter": "Four pathways, no magic",
+      "assetId": "R21",
+      "treatment": "Evidence split-screen with source citation",
+      "credit": "Ciaunica et al. · Frontiers in Psychology"
+    }
+  ],
+  "inline": {
+    "beehiiv": [
+      {
+        "position": "after opening",
+        "assetId": "MET-23205",
+        "caption": "literal protection, weight, articulated boundary—and a museum reconstruction",
+        "credit": "Armor, Maker unknown; assembled and restored in the 1920s, ca. 1400–1450 and later. The Metropolitan Museum of Art, Arms and Armor. 29.154.3. CC0."
+      },
+      {
+        "position": "after first evidence section",
+        "assetId": "MET-22001",
+        "caption": "mobility negotiated through protection",
+        "credit": "Field Armor, Nuremberg armorer, maker unknown, ca. 1525 and later. The Metropolitan Museum of Art, Arms and Armor. 04.3.289. CC0."
+      },
+      {
+        "position": "before boundary",
+        "assetId": "R02",
+        "caption": "Whatever Next and Close to My Self—The Transparent Senses and the Second Skin",
+        "credit": "Ciaunica et al. · Frontiers in Psychology"
+      }
+    ],
+    "linkedin": [
+      {
+        "position": "document cover",
+        "assetId": "MET-24671",
+        "caption": "authority made visible; parade rather than proof",
+        "credit": "Armor of Henry II, King of France, Decoration design by Jean Cousin the Elder; possibly Baptiste Pellerin, ca. 1555. The Metropolitan Museum of Art, Arms and Armor. 39.121a–n. CC0."
+      },
+      {
+        "position": "document slide 5",
+        "assetId": "R08",
+        "caption": "Fashion — Free to Use and Reuse",
+        "credit": "Library of Congress · Library of Congress"
+      }
+    ]
+  },
+  "downloads": [
+    {
+      "assetId": "MET-23205",
+      "source": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/23205/2538317/main-image",
+      "canonical": "https://www.metmuseum.org/art/collection/search/23205",
+      "credit": "Armor, Maker unknown; assembled and restored in the 1920s, ca. 1400–1450 and later. The Metropolitan Museum of Art, Arms and Armor. 29.154.3. CC0.",
+      "rights": "CC0"
+    },
+    {
+      "assetId": "MET-27790",
+      "source": "https://images.metmuseum.org/CRDImages/aa/original/DP-22969-001.jpg",
+      "canonical": "https://www.metmuseum.org/art/collection/search/27790",
+      "credit": "Portions of a Costume Armor, Kolman Helmschmid, ca. 1525. The Metropolitan Museum of Art, Arms and Armor. 24.179; 26.188.1, .2; 29.158.363a, b. CC0.",
+      "rights": "CC0"
+    },
+    {
+      "assetId": "MET-22001",
+      "source": "https://images.metmuseum.org/CRDImages/aa/original/DP341737.jpg",
+      "canonical": "https://www.metmuseum.org/art/collection/search/22001",
+      "credit": "Field Armor, Nuremberg armorer, maker unknown, ca. 1525 and later. The Metropolitan Museum of Art, Arms and Armor. 04.3.289. CC0.",
+      "rights": "CC0"
+    },
+    {
+      "assetId": "MET-24671",
+      "source": "https://images.metmuseum.org/CRDImages/aa/original/DP256970.jpg",
+      "canonical": "https://www.metmuseum.org/art/collection/search/24671",
+      "credit": "Armor of Henry II, King of France, Decoration design by Jean Cousin the Elder; possibly Baptiste Pellerin, ca. 1555. The Metropolitan Museum of Art, Arms and Armor. 39.121a–n. CC0.",
+      "rights": "CC0"
+    },
+    {
+      "assetId": "MET-22020",
+      "source": "https://images.metmuseum.org/CRDImages/aa/original/DP264123.jpg",
+      "canonical": "https://www.metmuseum.org/art/collection/search/22020",
+      "credit": "Armor (Gusoku), Maker unknown, 19th century. The Metropolitan Museum of Art, Arms and Armor. 04.4.2. CC0.",
+      "rights": "CC0"
+    },
+    {
+      "assetId": "R62",
+      "source": "https://iiif.wellcomecollection.org/file/b21688060_where-does-it-hurt.pdf",
+      "canonical": "https://iiif.wellcomecollection.org/file/b21688060_where-does-it-hurt.pdf",
+      "credit": "Three Johns and Shelagh · Wellcome Collection",
+      "rights": "CC BY"
+    }
+  ]
+}

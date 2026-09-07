@@ -1,0 +1,703 @@
+{
+  "id": "AAN-F-006",
+  "slug": "runway-soundtracks",
+  "title": "The Listening Room",
+  "prefix": "S",
+  "tool": "/lab/runway-sound-map/",
+  "beats": [
+    "The room is an acoustic scene",
+    "Pulse predicts time",
+    "Movement meets beat",
+    "Expectation and surprise",
+    "Memory enters through music",
+    "Loudness is not the whole dose",
+    "No universal soundtrack",
+    "Map one situated response"
+  ],
+  "pins": [
+    "Runway as sound scene",
+    "Beat and prediction",
+    "Expectation",
+    "Memory music",
+    "Listening map"
+  ],
+  "assets": [
+    {
+      "id": "MET-503169",
+      "type": "image",
+      "title": "Metronome",
+      "creator": "Johann Nepomuk Maelzel",
+      "date": "ca. 1821",
+      "institution": "The Metropolitan Museum of Art, Musical Instruments",
+      "rights": "CC0",
+      "disposition": "installed-object",
+      "canonicalUrl": "https://www.metmuseum.org/art/collection/search/503169",
+      "mediaUrl": "https://images.metmuseum.org/CRDImages/mi/original/215848.jpg",
+      "licenseUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
+      "credit": "Metronome, Johann Nepomuk Maelzel, ca. 1821. The Metropolitan Museum of Art, Musical Instruments. 1979.1.2. CC0.",
+      "alt": "A pyramidal wooden Maelzel metronome with a numbered tempo scale and visible pendulum.",
+      "caption": "external pulse, timing and the limits of analogy"
+    },
+    {
+      "id": "MET-310563",
+      "type": "image",
+      "title": "Drum",
+      "creator": "Nasca artist(s)",
+      "date": "100–400 CE",
+      "institution": "The Metropolitan Museum of Art",
+      "rights": "CC0",
+      "disposition": "installed-object",
+      "canonicalUrl": "https://www.metmuseum.org/art/collection/search/310563",
+      "mediaUrl": "https://images.metmuseum.org/CRDImages/ao/original/DT1271.jpg",
+      "licenseUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
+      "credit": "Drum, Nasca artist(s), 100–400 CE. The Metropolitan Museum of Art. 1978.412.111. CC0.",
+      "alt": "A ceramic Nasca drum painted with a stylized figure and repeating geometric forms.",
+      "caption": "rhythmic sound as material culture"
+    },
+    {
+      "id": "MET-505646",
+      "type": "image",
+      "title": "Music Box",
+      "creator": "Maker unknown",
+      "date": "ca. 1810",
+      "institution": "The Metropolitan Museum of Art, Musical Instruments",
+      "rights": "CC0",
+      "disposition": "installed-object",
+      "canonicalUrl": "https://www.metmuseum.org/art/collection/search/505646",
+      "mediaUrl": "https://images.metmuseum.org/CRDImages/mi/original/210883.jpg",
+      "licenseUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
+      "credit": "Music Box, Maker unknown, ca. 1810. The Metropolitan Museum of Art, Musical Instruments. 1976.285.5. CC0.",
+      "alt": "A small rectangular early nineteenth-century music box with exposed metal mechanism.",
+      "caption": "stored sequence, repetition and memory"
+    },
+    {
+      "id": "R06",
+      "type": "research",
+      "title": "The Action Simulation for Auditory Prediction hypothesis",
+      "creator": "Patel; Iversen",
+      "date": "2014",
+      "institution": "PubMed Central",
+      "rights": "link-only",
+      "disposition": "link-only",
+      "canonicalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4026735/",
+      "mediaUrl": null,
+      "licenseUrl": null,
+      "credit": "Patel; Iversen · PubMed Central",
+      "alt": "",
+      "caption": "The Action Simulation for Auditory Prediction hypothesis"
+    },
+    {
+      "id": "R10",
+      "type": "image",
+      "title": "Fashion runway1.jpg",
+      "creator": "Accra Technical University contributor",
+      "date": "2023",
+      "institution": "Wikimedia Commons",
+      "rights": "CC0",
+      "disposition": "reserve",
+      "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Fashion_runway1.jpg",
+      "mediaUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Fashion%20runway1.jpg",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "credit": "Accra Technical University contributor · Wikimedia Commons",
+      "alt": "A model on a fashion runway at Accra Technical University.",
+      "caption": "Fashion runway1.jpg"
+    },
+    {
+      "id": "R11",
+      "type": "image",
+      "title": "Fashion runway2.jpg",
+      "creator": "Accra Technical University contributor",
+      "date": "2023",
+      "institution": "Wikimedia Commons",
+      "rights": "CC0",
+      "disposition": "reserve",
+      "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Fashion_runway2.jpg",
+      "mediaUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Fashion%20runway2.jpg",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "credit": "Accra Technical University contributor · Wikimedia Commons",
+      "alt": "A runway presentation at Accra Technical University.",
+      "caption": "Fashion runway2.jpg"
+    },
+    {
+      "id": "R45",
+      "type": "research",
+      "title": "The Action Simulation for Auditory Prediction hypothesis",
+      "creator": "Patel and Iversen",
+      "date": "2014",
+      "institution": "Frontiers in Systems Neuroscience / PMC",
+      "rights": "CC BY",
+      "disposition": "duplicate",
+      "canonicalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4026735/",
+      "mediaUrl": null,
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "credit": "Patel and Iversen · Frontiers in Systems Neuroscience / PMC",
+      "alt": "",
+      "caption": "The Action Simulation for Auditory Prediction hypothesis"
+    },
+    {
+      "id": "R46",
+      "type": "research",
+      "title": "Music and the brain: the neuroscience of music and musical appreciation",
+      "creator": "Article authors",
+      "date": "2017",
+      "institution": "BJPsych International / PMC",
+      "rights": "CC BY",
+      "disposition": "resource-room",
+      "canonicalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5618809/",
+      "mediaUrl": null,
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "credit": "Article authors · BJPsych International / PMC",
+      "alt": "",
+      "caption": "Music and the brain: the neuroscience of music and musical appreciation"
+    },
+    {
+      "id": "R47",
+      "type": "education",
+      "title": "Psychology of music",
+      "creator": "American Psychological Association",
+      "date": "ongoing",
+      "institution": "APA",
+      "rights": "link-only",
+      "disposition": "resource-room",
+      "canonicalUrl": "https://www.apa.org/topics/music",
+      "mediaUrl": null,
+      "licenseUrl": null,
+      "credit": "American Psychological Association · APA",
+      "alt": "",
+      "caption": "Psychology of music"
+    },
+    {
+      "id": "R48",
+      "type": "video",
+      "title": "British Fashion Council official video channel",
+      "creator": "British Fashion Council",
+      "date": "ongoing",
+      "institution": "YouTube",
+      "rights": "link-only",
+      "disposition": "duplicate",
+      "canonicalUrl": "https://www.youtube.com/@BritishFashionCouncil",
+      "mediaUrl": null,
+      "licenseUrl": null,
+      "credit": "British Fashion Council · YouTube",
+      "alt": "",
+      "caption": "British Fashion Council official video channel"
+    },
+    {
+      "id": "R49",
+      "type": "interactive/tool",
+      "title": "Web Audio API examples",
+      "creator": "MDN contributors",
+      "date": "ongoing",
+      "institution": "GitHub / MDN",
+      "rights": "CC0",
+      "disposition": "resource-room",
+      "canonicalUrl": "https://github.com/mdn/webaudio-examples",
+      "mediaUrl": null,
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "credit": "MDN contributors · GitHub / MDN",
+      "alt": "",
+      "caption": "Web Audio API examples"
+    },
+    {
+      "id": "R50",
+      "type": "audio",
+      "title": "Free Music Archive genre search",
+      "creator": "Free Music Archive",
+      "date": "ongoing",
+      "institution": "Free Music Archive",
+      "rights": "rejected",
+      "disposition": "rejected",
+      "canonicalUrl": "https://freemusicarchive.org/",
+      "mediaUrl": null,
+      "licenseUrl": null,
+      "credit": "Free Music Archive · Free Music Archive",
+      "alt": "",
+      "caption": "Free Music Archive genre search"
+    },
+    {
+      "id": "R77",
+      "type": "video collection",
+      "title": "Videos of fashion shows category",
+      "creator": "Wikimedia Commons contributors",
+      "date": "ongoing",
+      "institution": "Wikimedia Commons",
+      "rights": "link-only",
+      "disposition": "resource-room",
+      "canonicalUrl": "https://commons.wikimedia.org/wiki/Category:Videos_of_fashion_shows",
+      "mediaUrl": null,
+      "licenseUrl": null,
+      "credit": "Wikimedia Commons contributors · Wikimedia Commons",
+      "alt": "",
+      "caption": "Videos of fashion shows category"
+    },
+    {
+      "id": "R78",
+      "type": "interactive/tool",
+      "title": "MDN Step Sequencer",
+      "creator": "MDN contributors",
+      "date": "ongoing",
+      "institution": "MDN / GitHub",
+      "rights": "CC0",
+      "disposition": "installed-tool",
+      "canonicalUrl": "https://mdn.github.io/webaudio-examples/step-sequencer/",
+      "mediaUrl": "https://mdn.github.io/webaudio-examples/step-sequencer/",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "credit": "MDN contributors · MDN / GitHub",
+      "alt": "",
+      "caption": "MDN Step Sequencer"
+    },
+    {
+      "id": "R79",
+      "type": "image",
+      "title": "Runway at Fashion Show Mall (2010)",
+      "creator": "Jenny Mealing",
+      "date": "2010-06-25",
+      "institution": "Wikimedia Commons",
+      "rights": "CC BY",
+      "disposition": "installed-media",
+      "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Runway_at_Fashion_Show_Mall_(2010).jpg",
+      "mediaUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Runway%20at%20Fashion%20Show%20Mall%20(2010).jpg",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "credit": "Jenny Mealing · Wikimedia Commons",
+      "alt": "A fashion runway with spectators gathered around it.",
+      "caption": "Runway at Fashion Show Mall (2010)"
+    },
+    {
+      "id": "R80",
+      "type": "audio/video",
+      "title": "Internet Archive runway-audio traversal",
+      "creator": "Internet Archive contributors",
+      "date": "2026 search",
+      "institution": "Internet Archive",
+      "rights": "rejected",
+      "disposition": "rejected",
+      "canonicalUrl": "https://archive.org/search?query=%22fashion+show%22+AND+mediatype%3Amovies",
+      "mediaUrl": null,
+      "licenseUrl": null,
+      "credit": "Internet Archive contributors · Internet Archive",
+      "alt": "",
+      "caption": "Internet Archive runway-audio traversal"
+    }
+  ],
+  "carouselA": [
+    {
+      "frame": 1,
+      "beat": "The room is an acoustic scene",
+      "assetId": "MET-503169",
+      "crop": "4:5 full object with generous negative space",
+      "overlay": "The Listening Room",
+      "caption": "The room is an acoustic scene. external pulse, timing and the limits of analogy",
+      "credit": "Metronome, Johann Nepomuk Maelzel, ca. 1821. The Metropolitan Museum of Art, Musical Instruments. 1979.1.2. CC0.",
+      "alt": "A pyramidal wooden Maelzel metronome with a numbered tempo scale and visible pendulum.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    },
+    {
+      "frame": 2,
+      "beat": "Pulse predicts time",
+      "assetId": "MET-310563",
+      "crop": "4:5 detail crop; preserve identifying construction",
+      "overlay": "Pulse predicts time",
+      "caption": "Pulse predicts time. rhythmic sound as material culture",
+      "credit": "Drum, Nasca artist(s), 100–400 CE. The Metropolitan Museum of Art. 1978.412.111. CC0.",
+      "alt": "A ceramic Nasca drum painted with a stylized figure and repeating geometric forms.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    },
+    {
+      "frame": 3,
+      "beat": "Movement meets beat",
+      "assetId": "MET-505646",
+      "crop": "4:5 split evidence plate; do not obscure object",
+      "overlay": "Movement meets beat",
+      "caption": "Movement meets beat. stored sequence, repetition and memory",
+      "credit": "Music Box, Maker unknown, ca. 1810. The Metropolitan Museum of Art, Musical Instruments. 1976.285.5. CC0.",
+      "alt": "A small rectangular early nineteenth-century music box with exposed metal mechanism.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    },
+    {
+      "frame": 4,
+      "beat": "Expectation and surprise",
+      "assetId": "R06",
+      "crop": "4:5 full object with generous negative space",
+      "overlay": "Expectation and surprise",
+      "caption": "Expectation and surprise. The Action Simulation for Auditory Prediction hypothesis",
+      "credit": "Patel; Iversen · PubMed Central",
+      "alt": "The Action Simulation for Auditory Prediction hypothesis, used as evidence for expectation and surprise.",
+      "boundary": "Link card only; do not reproduce protected media."
+    },
+    {
+      "frame": 5,
+      "beat": "Memory enters through music",
+      "assetId": "R10",
+      "crop": "4:5 detail crop; preserve identifying construction",
+      "overlay": "Memory enters through music",
+      "caption": "Memory enters through music. Fashion runway1.jpg",
+      "credit": "Accra Technical University contributor · Wikimedia Commons",
+      "alt": "A model on a fashion runway at Accra Technical University.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    },
+    {
+      "frame": 6,
+      "beat": "Loudness is not the whole dose",
+      "assetId": "R11",
+      "crop": "4:5 split evidence plate; do not obscure object",
+      "overlay": "Loudness is not the whole dose",
+      "caption": "Loudness is not the whole dose. Fashion runway2.jpg",
+      "credit": "Accra Technical University contributor · Wikimedia Commons",
+      "alt": "A runway presentation at Accra Technical University.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    },
+    {
+      "frame": 7,
+      "beat": "No universal soundtrack",
+      "assetId": "R46",
+      "crop": "4:5 full object with generous negative space",
+      "overlay": "No universal soundtrack",
+      "caption": "No universal soundtrack. Music and the brain: the neuroscience of music and musical appreciation",
+      "credit": "Article authors · BJPsych International / PMC",
+      "alt": "Music and the brain: the neuroscience of music and musical appreciation, used as evidence for no universal soundtrack.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    },
+    {
+      "frame": 8,
+      "beat": "Map one situated response",
+      "assetId": "R47",
+      "crop": "4:5 detail crop; preserve identifying construction",
+      "overlay": "Map one situated response",
+      "caption": "Map one situated response. Psychology of music",
+      "credit": "American Psychological Association · APA",
+      "alt": "Psychology of music, used as evidence for map one situated response.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    }
+  ],
+  "carouselB": [
+    {
+      "frame": 1,
+      "beat": "The room is an acoustic scene",
+      "assetId": "R06",
+      "crop": "4:5 full object with generous negative space",
+      "overlay": "The Listening Room",
+      "caption": "The room is an acoustic scene. The Action Simulation for Auditory Prediction hypothesis",
+      "credit": "Patel; Iversen · PubMed Central",
+      "alt": "The Action Simulation for Auditory Prediction hypothesis, used as evidence for the room is an acoustic scene.",
+      "boundary": "Link card only; do not reproduce protected media."
+    },
+    {
+      "frame": 2,
+      "beat": "Pulse predicts time",
+      "assetId": "R10",
+      "crop": "4:5 detail crop; preserve identifying construction",
+      "overlay": "Pulse predicts time",
+      "caption": "Pulse predicts time. Fashion runway1.jpg",
+      "credit": "Accra Technical University contributor · Wikimedia Commons",
+      "alt": "A model on a fashion runway at Accra Technical University.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    },
+    {
+      "frame": 3,
+      "beat": "Movement meets beat",
+      "assetId": "R11",
+      "crop": "4:5 split evidence plate; do not obscure object",
+      "overlay": "Movement meets beat",
+      "caption": "Movement meets beat. Fashion runway2.jpg",
+      "credit": "Accra Technical University contributor · Wikimedia Commons",
+      "alt": "A runway presentation at Accra Technical University.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    },
+    {
+      "frame": 4,
+      "beat": "Expectation and surprise",
+      "assetId": "R46",
+      "crop": "4:5 full object with generous negative space",
+      "overlay": "Expectation and surprise",
+      "caption": "Expectation and surprise. Music and the brain: the neuroscience of music and musical appreciation",
+      "credit": "Article authors · BJPsych International / PMC",
+      "alt": "Music and the brain: the neuroscience of music and musical appreciation, used as evidence for expectation and surprise.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    },
+    {
+      "frame": 5,
+      "beat": "Memory enters through music",
+      "assetId": "R47",
+      "crop": "4:5 detail crop; preserve identifying construction",
+      "overlay": "Memory enters through music",
+      "caption": "Memory enters through music. Psychology of music",
+      "credit": "American Psychological Association · APA",
+      "alt": "Psychology of music, used as evidence for memory enters through music.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    },
+    {
+      "frame": 6,
+      "beat": "Loudness is not the whole dose",
+      "assetId": "R49",
+      "crop": "4:5 split evidence plate; do not obscure object",
+      "overlay": "Loudness is not the whole dose",
+      "caption": "Loudness is not the whole dose. Web Audio API examples",
+      "credit": "MDN contributors · GitHub / MDN",
+      "alt": "Web Audio API examples, used as evidence for loudness is not the whole dose.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    },
+    {
+      "frame": 7,
+      "beat": "No universal soundtrack",
+      "assetId": "R77",
+      "crop": "4:5 full object with generous negative space",
+      "overlay": "No universal soundtrack",
+      "caption": "No universal soundtrack. Videos of fashion shows category",
+      "credit": "Wikimedia Commons contributors · Wikimedia Commons",
+      "alt": "Videos of fashion shows category, used as evidence for no universal soundtrack.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    },
+    {
+      "frame": 8,
+      "beat": "Map one situated response",
+      "assetId": "R78",
+      "crop": "4:5 detail crop; preserve identifying construction",
+      "overlay": "Map one situated response",
+      "caption": "Map one situated response. MDN Step Sequencer",
+      "credit": "MDN contributors · MDN / GitHub",
+      "alt": "MDN Step Sequencer, used as evidence for map one situated response.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    }
+  ],
+  "broll": [
+    {
+      "beat": 1,
+      "duration": "0–3s",
+      "assetId": "R06",
+      "shot": "Slow object reveal; cut on clause, never simulate motion in a still",
+      "onScreen": "The room is an acoustic scene",
+      "credit": "Patel; Iversen · PubMed Central",
+      "boundary": "Use a designed source card and outbound link; do not extract footage."
+    },
+    {
+      "beat": 2,
+      "duration": "3–6s",
+      "assetId": "R10",
+      "shot": "Slow detail pan; cut on clause, never simulate motion in a still",
+      "onScreen": "Pulse predicts time",
+      "credit": "Accra Technical University contributor · Wikimedia Commons",
+      "boundary": "Crop from cleared master; keep credit in caption and end card."
+    },
+    {
+      "beat": 3,
+      "duration": "6–9s",
+      "assetId": "R11",
+      "shot": "Slow object reveal; cut on clause, never simulate motion in a still",
+      "onScreen": "Movement meets beat",
+      "credit": "Accra Technical University contributor · Wikimedia Commons",
+      "boundary": "Crop from cleared master; keep credit in caption and end card."
+    },
+    {
+      "beat": 4,
+      "duration": "9–12s",
+      "assetId": "R46",
+      "shot": "Slow detail pan; cut on clause, never simulate motion in a still",
+      "onScreen": "Expectation and surprise",
+      "credit": "Article authors · BJPsych International / PMC",
+      "boundary": "Crop from cleared master; keep credit in caption and end card."
+    },
+    {
+      "beat": 5,
+      "duration": "12–15s",
+      "assetId": "R47",
+      "shot": "Slow object reveal; cut on clause, never simulate motion in a still",
+      "onScreen": "Memory enters through music",
+      "credit": "American Psychological Association · APA",
+      "boundary": "Crop from cleared master; keep credit in caption and end card."
+    },
+    {
+      "beat": 6,
+      "duration": "15–18s",
+      "assetId": "R49",
+      "shot": "Slow detail pan; cut on clause, never simulate motion in a still",
+      "onScreen": "Loudness is not the whole dose",
+      "credit": "MDN contributors · GitHub / MDN",
+      "boundary": "Crop from cleared master; keep credit in caption and end card."
+    },
+    {
+      "beat": 7,
+      "duration": "18–21s",
+      "assetId": "R77",
+      "shot": "Slow object reveal; cut on clause, never simulate motion in a still",
+      "onScreen": "No universal soundtrack",
+      "credit": "Wikimedia Commons contributors · Wikimedia Commons",
+      "boundary": "Crop from cleared master; keep credit in caption and end card."
+    }
+  ],
+  "pinterest": [
+    {
+      "pin": 1,
+      "title": "Runway as sound scene",
+      "assetId": "R10",
+      "format": "1000×2100 idea pin",
+      "description": "Runway as sound scene: an evidence-bounded visual guide from The Listening Room.",
+      "alt": "A model on a fashion runway at Accra Technical University.",
+      "credit": "Accra Technical University contributor · Wikimedia Commons",
+      "destination": "/exhibitions/runway-soundtracks/"
+    },
+    {
+      "pin": 2,
+      "title": "Beat and prediction",
+      "assetId": "R11",
+      "format": "1000×1500 standard pin",
+      "description": "Beat and prediction: an evidence-bounded visual guide from The Listening Room.",
+      "alt": "A runway presentation at Accra Technical University.",
+      "credit": "Accra Technical University contributor · Wikimedia Commons",
+      "destination": "/exhibitions/runway-soundtracks/"
+    },
+    {
+      "pin": 3,
+      "title": "Expectation",
+      "assetId": "R46",
+      "format": "1000×2100 idea pin",
+      "description": "Expectation: an evidence-bounded visual guide from The Listening Room.",
+      "alt": "Music and the brain: the neuroscience of music and musical appreciation",
+      "credit": "Article authors · BJPsych International / PMC",
+      "destination": "/exhibitions/runway-soundtracks/"
+    },
+    {
+      "pin": 4,
+      "title": "Memory music",
+      "assetId": "R47",
+      "format": "1000×1500 standard pin",
+      "description": "Memory music: an evidence-bounded visual guide from The Listening Room.",
+      "alt": "Psychology of music",
+      "credit": "American Psychological Association · APA",
+      "destination": "/exhibitions/runway-soundtracks/"
+    },
+    {
+      "pin": 5,
+      "title": "Listening map",
+      "assetId": "R49",
+      "format": "1000×2100 idea pin",
+      "description": "Listening map: an evidence-bounded visual guide from The Listening Room.",
+      "alt": "Web Audio API examples",
+      "credit": "MDN contributors · GitHub / MDN",
+      "destination": "/exhibitions/runway-soundtracks/"
+    }
+  ],
+  "youtube": [
+    {
+      "time": "00:00",
+      "chapter": "The room is an acoustic scene",
+      "assetId": "MET-310563",
+      "treatment": "Full-bleed object with slow editorial crop",
+      "credit": "Drum, Nasca artist(s), 100–400 CE. The Metropolitan Museum of Art. 1978.412.111. CC0."
+    },
+    {
+      "time": "01:30",
+      "chapter": "Pulse predicts time",
+      "assetId": "MET-505646",
+      "treatment": "Evidence split-screen with source citation",
+      "credit": "Music Box, Maker unknown, ca. 1810. The Metropolitan Museum of Art, Musical Instruments. 1976.285.5. CC0."
+    },
+    {
+      "time": "03:00",
+      "chapter": "Movement meets beat",
+      "assetId": "R06",
+      "treatment": "Object detail beside boundary sentence",
+      "credit": "Patel; Iversen · PubMed Central"
+    },
+    {
+      "time": "04:30",
+      "chapter": "Expectation and surprise",
+      "assetId": "R10",
+      "treatment": "Full-bleed object with slow editorial crop",
+      "credit": "Accra Technical University contributor · Wikimedia Commons"
+    },
+    {
+      "time": "06:00",
+      "chapter": "Memory enters through music",
+      "assetId": "R11",
+      "treatment": "Evidence split-screen with source citation",
+      "credit": "Accra Technical University contributor · Wikimedia Commons"
+    },
+    {
+      "time": "07:30",
+      "chapter": "Loudness is not the whole dose",
+      "assetId": "R46",
+      "treatment": "Object detail beside boundary sentence",
+      "credit": "Article authors · BJPsych International / PMC"
+    },
+    {
+      "time": "09:00",
+      "chapter": "No universal soundtrack",
+      "assetId": "R47",
+      "treatment": "Full-bleed object with slow editorial crop",
+      "credit": "American Psychological Association · APA"
+    },
+    {
+      "time": "10:30",
+      "chapter": "Map one situated response",
+      "assetId": "R49",
+      "treatment": "Evidence split-screen with source citation",
+      "credit": "MDN contributors · GitHub / MDN"
+    }
+  ],
+  "inline": {
+    "beehiiv": [
+      {
+        "position": "after opening",
+        "assetId": "MET-503169",
+        "caption": "external pulse, timing and the limits of analogy",
+        "credit": "Metronome, Johann Nepomuk Maelzel, ca. 1821. The Metropolitan Museum of Art, Musical Instruments. 1979.1.2. CC0."
+      },
+      {
+        "position": "after first evidence section",
+        "assetId": "MET-505646",
+        "caption": "stored sequence, repetition and memory",
+        "credit": "Music Box, Maker unknown, ca. 1810. The Metropolitan Museum of Art, Musical Instruments. 1976.285.5. CC0."
+      },
+      {
+        "position": "before boundary",
+        "assetId": "R11",
+        "caption": "Fashion runway2.jpg",
+        "credit": "Accra Technical University contributor · Wikimedia Commons"
+      }
+    ],
+    "linkedin": [
+      {
+        "position": "document cover",
+        "assetId": "R06",
+        "caption": "The Action Simulation for Auditory Prediction hypothesis",
+        "credit": "Patel; Iversen · PubMed Central"
+      },
+      {
+        "position": "document slide 5",
+        "assetId": "R46",
+        "caption": "Music and the brain: the neuroscience of music and musical appreciation",
+        "credit": "Article authors · BJPsych International / PMC"
+      }
+    ]
+  },
+  "downloads": [
+    {
+      "assetId": "MET-503169",
+      "source": "https://images.metmuseum.org/CRDImages/mi/original/215848.jpg",
+      "canonical": "https://www.metmuseum.org/art/collection/search/503169",
+      "credit": "Metronome, Johann Nepomuk Maelzel, ca. 1821. The Metropolitan Museum of Art, Musical Instruments. 1979.1.2. CC0.",
+      "rights": "CC0"
+    },
+    {
+      "assetId": "MET-310563",
+      "source": "https://images.metmuseum.org/CRDImages/ao/original/DT1271.jpg",
+      "canonical": "https://www.metmuseum.org/art/collection/search/310563",
+      "credit": "Drum, Nasca artist(s), 100–400 CE. The Metropolitan Museum of Art. 1978.412.111. CC0.",
+      "rights": "CC0"
+    },
+    {
+      "assetId": "MET-505646",
+      "source": "https://images.metmuseum.org/CRDImages/mi/original/210883.jpg",
+      "canonical": "https://www.metmuseum.org/art/collection/search/505646",
+      "credit": "Music Box, Maker unknown, ca. 1810. The Metropolitan Museum of Art, Musical Instruments. 1976.285.5. CC0.",
+      "rights": "CC0"
+    },
+    {
+      "assetId": "R79",
+      "source": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Runway%20at%20Fashion%20Show%20Mall%20(2010).jpg",
+      "canonical": "https://commons.wikimedia.org/wiki/File:Runway_at_Fashion_Show_Mall_(2010).jpg",
+      "credit": "Jenny Mealing · Wikimedia Commons",
+      "rights": "CC BY"
+    }
+  ]
+}

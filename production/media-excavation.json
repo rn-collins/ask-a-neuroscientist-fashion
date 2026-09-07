@@ -885,7 +885,12 @@
       "relevance": "Replication boundary; figures not extracted.",
       "disposition": "link-only",
       "reason": "Replication boundary; figures not extracted.",
-      "accessed": "2026-09-07"
+      "accessed": "2026-09-07",
+      "destinations": [
+        "AAN-F-001: resources room",
+        "AAN-F-001: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
     },
     {
       "id": "R02",
@@ -907,7 +912,12 @@
       "relevance": "Theory resource, not a clothing intervention.",
       "disposition": "link-only",
       "reason": "Theory resource, not a clothing intervention.",
-      "accessed": "2026-09-07"
+      "accessed": "2026-09-07",
+      "destinations": [
+        "AAN-F-002: resources room",
+        "AAN-F-002: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
     },
     {
       "id": "R03",
@@ -929,7 +939,12 @@
       "relevance": "Touch mechanism and clinical boundary.",
       "disposition": "link-only",
       "reason": "Touch mechanism and clinical boundary.",
-      "accessed": "2026-09-07"
+      "accessed": "2026-09-07",
+      "destinations": [
+        "AAN-F-003: resources room",
+        "AAN-F-003: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
     },
     {
       "id": "R04",
@@ -951,7 +966,12 @@
       "relevance": "Primary study; not fashion-specific.",
       "disposition": "link-only",
       "reason": "Primary study; not fashion-specific.",
-      "accessed": "2026-09-07"
+      "accessed": "2026-09-07",
+      "destinations": [
+        "AAN-F-004: resources room",
+        "AAN-F-004: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
     },
     {
       "id": "R05",
@@ -973,7 +993,12 @@
       "relevance": "Transfer-limited fatigue education.",
       "disposition": "link-only",
       "reason": "Transfer-limited fatigue education.",
-      "accessed": "2026-09-07"
+      "accessed": "2026-09-07",
+      "destinations": [
+        "AAN-F-005: resources room",
+        "AAN-F-005: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
     },
     {
       "id": "R06",
@@ -995,7 +1020,12 @@
       "relevance": "Beat prediction, not compelled movement.",
       "disposition": "link-only",
       "reason": "Beat prediction, not compelled movement.",
-      "accessed": "2026-09-07"
+      "accessed": "2026-09-07",
+      "destinations": [
+        "AAN-F-006: resources room",
+        "AAN-F-006: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
     },
     {
       "id": "R07",
@@ -1017,7 +1047,12 @@
       "relevance": "Inference is not accurate knowledge.",
       "disposition": "link-only",
       "reason": "Inference is not accurate knowledge.",
-      "accessed": "2026-09-07"
+      "accessed": "2026-09-07",
+      "destinations": [
+        "AAN-F-007: resources room",
+        "AAN-F-007: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
     },
     {
       "id": "R08",
@@ -1043,7 +1078,20 @@
       "relevance": "Discovery surface; item records remain controlling.",
       "disposition": "resource-room",
       "reason": "Discovery surface; item records remain controlling.",
-      "accessed": "2026-09-07"
+      "accessed": "2026-09-07",
+      "destinations": [
+        "AAN-F-001: resources room",
+        "AAN-F-001: platform asset kit as source card only",
+        "AAN-F-002: resources room",
+        "AAN-F-002: platform asset kit as source card only",
+        "AAN-F-003: resources room",
+        "AAN-F-003: platform asset kit as source card only",
+        "AAN-F-004: resources room",
+        "AAN-F-004: platform asset kit as source card only",
+        "AAN-F-007: resources room",
+        "AAN-F-007: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
     },
     {
       "id": "R09",
@@ -1068,7 +1116,18 @@
       "relevance": "Museum visual-learning guide; linked, not republished.",
       "disposition": "resource-room",
       "reason": "Museum visual-learning guide; linked, not republished.",
-      "accessed": "2026-09-07"
+      "accessed": "2026-09-07",
+      "destinations": [
+        "AAN-F-001: resources room",
+        "AAN-F-001: platform asset kit as source card only",
+        "AAN-F-002: resources room",
+        "AAN-F-002: platform asset kit as source card only",
+        "AAN-F-003: resources room",
+        "AAN-F-003: platform asset kit as source card only",
+        "AAN-F-004: resources room",
+        "AAN-F-004: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
     },
     {
       "id": "R10",
@@ -1091,7 +1150,14 @@
       "relevance": "CC0 runway witness; documentary context only.",
       "disposition": "reserve",
       "reason": "CC0 runway witness; documentary context only.",
-      "accessed": "2026-09-07"
+      "accessed": "2026-09-07",
+      "destinations": [
+        "AAN-F-005: reserve shelf",
+        " AAN-F-005: platform asset kit where editorially distinct",
+        "AAN-F-006: reserve shelf",
+        " AAN-F-006: platform asset kit where editorially distinct"
+      ],
+      "exclusionReason": null
     },
     {
       "id": "R11",
@@ -1114,7 +1180,14 @@
       "relevance": "CC0 alternate retained without duplicating the essay.",
       "disposition": "reserve",
       "reason": "CC0 alternate retained without duplicating the essay.",
-      "accessed": "2026-09-07"
+      "accessed": "2026-09-07",
+      "destinations": [
+        "AAN-F-005: reserve shelf",
+        " AAN-F-005: platform asset kit where editorially distinct",
+        "AAN-F-006: reserve shelf",
+        " AAN-F-006: platform asset kit where editorially distinct"
+      ],
+      "exclusionReason": null
     },
     {
       "id": "R12",
@@ -1136,7 +1209,12 @@
       "relevance": "Rights advisory controls; not stored.",
       "disposition": "link-only",
       "reason": "Rights advisory controls; not stored.",
-      "accessed": "2026-09-07"
+      "accessed": "2026-09-07",
+      "destinations": [
+        "AAN-F-007: resources room",
+        "AAN-F-007: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
     },
     {
       "id": "R13",
@@ -1158,7 +1236,11 @@
       "relevance": "Open but overbroad; would imply an unsupported mechanism.",
       "disposition": "rejected",
       "reason": "Open but overbroad; would imply an unsupported mechanism.",
-      "accessed": "2026-09-07"
+      "accessed": "2026-09-07",
+      "destinations": [
+        "AAN-F-001: exclusion log — rejected"
+      ],
+      "exclusionReason": "Open but overbroad; would imply an unsupported mechanism."
     },
     {
       "id": "R14",
@@ -1181,7 +1263,14 @@
       "relevance": "Adjacent textile interface, not comfort or memory evidence.",
       "disposition": "resource-room",
       "reason": "Adjacent textile interface, not comfort or memory evidence.",
-      "accessed": "2026-09-07"
+      "accessed": "2026-09-07",
+      "destinations": [
+        "AAN-F-003: resources room",
+        "AAN-F-003: platform asset kit as source card only",
+        "AAN-F-004: resources room",
+        "AAN-F-004: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
     },
     {
       "id": "R15",
@@ -1204,7 +1293,12 @@
       "disposition": "resource-room",
       "reason": "Open review that separates dress-based inference from accurate knowledge.",
       "accessed": "2026-09-07",
-      "wave": 2
+      "wave": 2,
+      "destinations": [
+        "AAN-F-001: resources room",
+        "AAN-F-001: platform asset kit as cleared media"
+      ],
+      "exclusionReason": null
     },
     {
       "id": "R16",
@@ -1227,7 +1321,12 @@
       "disposition": "resource-room",
       "reason": "Original study; publisher page controls and figures are not extracted.",
       "accessed": "2026-09-07",
-      "wave": 2
+      "wave": 2,
+      "destinations": [
+        "AAN-F-001: resources room",
+        "AAN-F-001: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
     },
     {
       "id": "R17",
@@ -1250,7 +1349,12 @@
       "disposition": "resource-room",
       "reason": "Synthesis resource; no figure reuse grant verified.",
       "accessed": "2026-09-07",
-      "wave": 2
+      "wave": 2,
+      "destinations": [
+        "AAN-F-001: resources room",
+        "AAN-F-001: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
     },
     {
       "id": "R18",
@@ -1273,7 +1377,12 @@
       "disposition": "resource-room",
       "reason": "Official podcast and transcript; use official page/player only.",
       "accessed": "2026-09-07",
-      "wave": 2
+      "wave": 2,
+      "destinations": [
+        "AAN-F-001: resources room",
+        "AAN-F-001: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
     },
     {
       "id": "R19",
@@ -1296,7 +1405,12 @@
       "disposition": "resource-room",
       "reason": "Computer-vision dataset useful for method contrast; terms must be checked before download.",
       "accessed": "2026-09-07",
-      "wave": 2
+      "wave": 2,
+      "destinations": [
+        "AAN-F-001: resources room",
+        "AAN-F-001: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
     },
     {
       "id": "R20",
@@ -1319,7 +1433,11 @@
       "disposition": "rejected",
       "reason": "Duplicate of R13 and would overstate a mechanism.",
       "accessed": "2026-09-07",
-      "wave": 2
+      "wave": 2,
+      "destinations": [
+        "AAN-F-001: exclusion log — rejected"
+      ],
+      "exclusionReason": "Duplicate of R13 and would overstate a mechanism."
     },
     {
       "id": "R21",
@@ -1342,7 +1460,12 @@
       "disposition": "resource-room",
       "reason": "Theory of bodily self and second-skin metaphors; not evidence that an outfit creates protection.",
       "accessed": "2026-09-07",
-      "wave": 2
+      "wave": 2,
+      "destinations": [
+        "AAN-F-002: resources room",
+        "AAN-F-002: platform asset kit as cleared media"
+      ],
+      "exclusionReason": null
     },
     {
       "id": "R22",
@@ -1365,7 +1488,12 @@
       "disposition": "resource-room",
       "reason": "Foundational body-ownership paradigm; not a clothing study.",
       "accessed": "2026-09-07",
-      "wave": 2
+      "wave": 2,
+      "destinations": [
+        "AAN-F-002: resources room",
+        "AAN-F-002: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
     },
     {
       "id": "R23",
@@ -1388,7 +1516,12 @@
       "disposition": "resource-room",
       "reason": "Review of body ownership; transfer to clothing is explicitly limited.",
       "accessed": "2026-09-07",
-      "wave": 2
+      "wave": 2,
+      "destinations": [
+        "AAN-F-002: resources room",
+        "AAN-F-002: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
     },
     {
       "id": "R24",
@@ -1411,7 +1544,12 @@
       "disposition": "resource-room",
       "reason": "Creative-commons visual essays about embodied experience; contextual, not direct armor evidence.",
       "accessed": "2026-09-07",
-      "wave": 2
+      "wave": 2,
+      "destinations": [
+        "AAN-F-002: resources room",
+        "AAN-F-002: platform asset kit as cleared media"
+      ],
+      "exclusionReason": null
     },
     {
       "id": "R25",
@@ -1434,7 +1572,12 @@
       "disposition": "resource-room",
       "reason": "Discovery surface for public-domain armor objects; only selected item records may be installed.",
       "accessed": "2026-09-07",
-      "wave": 2
+      "wave": 2,
+      "destinations": [
+        "AAN-F-002: resources room",
+        "AAN-F-002: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
     },
     {
       "id": "R26",
@@ -1457,7 +1600,12 @@
       "disposition": "resource-room",
       "reason": "Discovery results; item-specific advisories control.",
       "accessed": "2026-09-07",
-      "wave": 2
+      "wave": 2,
+      "destinations": [
+        "AAN-F-002: resources room",
+        "AAN-F-002: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
     },
     {
       "id": "R27",
@@ -1480,7 +1628,12 @@
       "disposition": "resource-room",
       "reason": "Direct textile-touch evidence; article-level CC BY permits attributed figure reuse subject to third-party notices.",
       "accessed": "2026-09-07",
-      "wave": 2
+      "wave": 2,
+      "destinations": [
+        "AAN-F-003: resources room",
+        "AAN-F-003: platform asset kit as cleared media"
+      ],
+      "exclusionReason": null
     },
     {
       "id": "R28",
@@ -1503,7 +1656,12 @@
       "disposition": "resource-room",
       "reason": "Open review connecting textile properties, sensory measurement and applications.",
       "accessed": "2026-09-07",
-      "wave": 2
+      "wave": 2,
+      "destinations": [
+        "AAN-F-003: resources room",
+        "AAN-F-003: platform asset kit as cleared media"
+      ],
+      "exclusionReason": null
     },
     {
       "id": "R29",
@@ -1526,7 +1684,12 @@
       "disposition": "resource-room",
       "reason": "Authoritative touch-neurobiology chapter; chapter copyright controls.",
       "accessed": "2026-09-07",
-      "wave": 2
+      "wave": 2,
+      "destinations": [
+        "AAN-F-003: resources room",
+        "AAN-F-003: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
     },
     {
       "id": "R30",
@@ -1549,7 +1712,12 @@
       "disposition": "resource-room",
       "reason": "Review of touch interactions with vision and audition.",
       "accessed": "2026-09-07",
-      "wave": 2
+      "wave": 2,
+      "destinations": [
+        "AAN-F-003: resources room",
+        "AAN-F-003: platform asset kit as cleared media"
+      ],
+      "exclusionReason": null
     },
     {
       "id": "R31",
@@ -1572,7 +1740,12 @@
       "disposition": "resource-room",
       "reason": "Official explainer and demonstration; do not extract media.",
       "accessed": "2026-09-07",
-      "wave": 2
+      "wave": 2,
+      "destinations": [
+        "AAN-F-003: resources room",
+        "AAN-F-003: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
     },
     {
       "id": "R32",
@@ -1595,7 +1768,12 @@
       "disposition": "resource-room",
       "reason": "Vision–touch–audio sliding-contact dataset; data CC BY 4.0, code MIT.",
       "accessed": "2026-09-07",
-      "wave": 2
+      "wave": 2,
+      "destinations": [
+        "AAN-F-003: resources room",
+        "AAN-F-003: platform asset kit as cleared media"
+      ],
+      "exclusionReason": null
     },
     {
       "id": "R33",
@@ -1618,7 +1796,12 @@
       "disposition": "resource-room",
       "reason": "Primary neural study used as a careful analogy, not fashion-specific evidence.",
       "accessed": "2026-09-07",
-      "wave": 2
+      "wave": 2,
+      "destinations": [
+        "AAN-F-004: resources room",
+        "AAN-F-004: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
     },
     {
       "id": "R34",
@@ -1641,7 +1824,11 @@
       "disposition": "duplicate",
       "reason": "Duplicate discovery surface already recorded as R08.",
       "accessed": "2026-09-07",
-      "wave": 2
+      "wave": 2,
+      "destinations": [
+        "AAN-F-004: exclusion log — duplicate"
+      ],
+      "exclusionReason": "Duplicate discovery surface already recorded as R08."
     },
     {
       "id": "R35",
@@ -1664,7 +1851,12 @@
       "disposition": "resource-room",
       "reason": "Discovery portal; individual CC0 records required before reproduction.",
       "accessed": "2026-09-07",
-      "wave": 2
+      "wave": 2,
+      "destinations": [
+        "AAN-F-004: resources room",
+        "AAN-F-004: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
     },
     {
       "id": "R36",
@@ -1687,7 +1879,12 @@
       "disposition": "resource-room",
       "reason": "Transnational fashion discovery portal; provider item rights statements control.",
       "accessed": "2026-09-07",
-      "wave": 2
+      "wave": 2,
+      "destinations": [
+        "AAN-F-004: resources room",
+        "AAN-F-004: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
     },
     {
       "id": "R37",
@@ -1710,7 +1907,12 @@
       "disposition": "resource-room",
       "reason": "Historical periodicals are discovery/research material; scan access does not establish reuse.",
       "accessed": "2026-09-07",
-      "wave": 2
+      "wave": 2,
+      "destinations": [
+        "AAN-F-004: resources room",
+        "AAN-F-004: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
     },
     {
       "id": "R38",
@@ -1733,7 +1935,12 @@
       "disposition": "resource-room",
       "reason": "Open-science discovery trail; project-specific licenses vary.",
       "accessed": "2026-09-07",
-      "wave": 2
+      "wave": 2,
+      "destinations": [
+        "AAN-F-004: resources room",
+        "AAN-F-004: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
     },
     {
       "id": "R39",
@@ -1756,7 +1963,12 @@
       "disposition": "resource-room",
       "reason": "Open crowd-sound analysis relevant to event arousal; not Fashion Week-specific.",
       "accessed": "2026-09-07",
-      "wave": 2
+      "wave": 2,
+      "destinations": [
+        "AAN-F-005: resources room",
+        "AAN-F-005: platform asset kit as cleared media"
+      ],
+      "exclusionReason": null
     },
     {
       "id": "R40",
@@ -1779,7 +1991,11 @@
       "disposition": "duplicate",
       "reason": "Duplicate of R05; retained as a recorded duplicate.",
       "accessed": "2026-09-07",
-      "wave": 2
+      "wave": 2,
+      "destinations": [
+        "AAN-F-005: exclusion log — duplicate"
+      ],
+      "exclusionReason": "Duplicate of R05; retained as a recorded duplicate."
     },
     {
       "id": "R41",
@@ -1802,7 +2018,12 @@
       "disposition": "resource-room",
       "reason": "General sleep-health guidance; not Fashion Week evidence.",
       "accessed": "2026-09-07",
-      "wave": 2
+      "wave": 2,
+      "destinations": [
+        "AAN-F-005: resources room",
+        "AAN-F-005: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
     },
     {
       "id": "R42",
@@ -1825,7 +2046,12 @@
       "disposition": "resource-room",
       "reason": "Official audiovisual discovery channel; individual videos require separate editorial selection.",
       "accessed": "2026-09-07",
-      "wave": 2
+      "wave": 2,
+      "destinations": [
+        "AAN-F-005: resources room",
+        "AAN-F-005: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
     },
     {
       "id": "R43",
@@ -1848,7 +2074,12 @@
       "disposition": "resource-room",
       "reason": "Institutional context; not evidence about nervous-system effects.",
       "accessed": "2026-09-07",
-      "wave": 2
+      "wave": 2,
+      "destinations": [
+        "AAN-F-005: resources room",
+        "AAN-F-005: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
     },
     {
       "id": "R44",
@@ -1871,7 +2102,12 @@
       "disposition": "reserve",
       "reason": "Additional documentary runway view; exact item record controls.",
       "accessed": "2026-09-07",
-      "wave": 2
+      "wave": 2,
+      "destinations": [
+        "AAN-F-005: reserve shelf",
+        " AAN-F-005: platform asset kit where editorially distinct"
+      ],
+      "exclusionReason": null
     },
     {
       "id": "R45",
@@ -1894,7 +2130,11 @@
       "disposition": "duplicate",
       "reason": "Duplicate of R06; recorded rather than recounted.",
       "accessed": "2026-09-07",
-      "wave": 2
+      "wave": 2,
+      "destinations": [
+        "AAN-F-006: exclusion log — duplicate"
+      ],
+      "exclusionReason": "Duplicate of R06; recorded rather than recounted."
     },
     {
       "id": "R46",
@@ -1917,7 +2157,12 @@
       "disposition": "resource-room",
       "reason": "Accessible open review of auditory, affective and motor systems.",
       "accessed": "2026-09-07",
-      "wave": 2
+      "wave": 2,
+      "destinations": [
+        "AAN-F-006: resources room",
+        "AAN-F-006: platform asset kit as cleared media"
+      ],
+      "exclusionReason": null
     },
     {
       "id": "R47",
@@ -1940,7 +2185,12 @@
       "disposition": "resource-room",
       "reason": "Official psychology topic surface; linked, not reproduced.",
       "accessed": "2026-09-07",
-      "wave": 2
+      "wave": 2,
+      "destinations": [
+        "AAN-F-006: resources room",
+        "AAN-F-006: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
     },
     {
       "id": "R48",
@@ -1963,7 +2213,11 @@
       "disposition": "duplicate",
       "reason": "Same official discovery channel as R42; individual soundtrack rights remain separate.",
       "accessed": "2026-09-07",
-      "wave": 2
+      "wave": 2,
+      "destinations": [
+        "AAN-F-006: exclusion log — duplicate"
+      ],
+      "exclusionReason": "Same official discovery channel as R42; individual soundtrack rights remain separate."
     },
     {
       "id": "R49",
@@ -1986,7 +2240,12 @@
       "disposition": "resource-room",
       "reason": "Open example code for an educational rhythm/sound demonstration; repository license is CC0.",
       "accessed": "2026-09-07",
-      "wave": 2
+      "wave": 2,
+      "destinations": [
+        "AAN-F-006: resources room",
+        "AAN-F-006: platform asset kit as cleared media"
+      ],
+      "exclusionReason": null
     },
     {
       "id": "R50",
@@ -2009,7 +2268,11 @@
       "disposition": "rejected",
       "reason": "No track-level candidate with a verified license and editorial fit was selected in this pass.",
       "accessed": "2026-09-07",
-      "wave": 2
+      "wave": 2,
+      "destinations": [
+        "AAN-F-006: exclusion log — rejected"
+      ],
+      "exclusionReason": "No track-level candidate with a verified license and editorial fit was selected in this pass."
     },
     {
       "id": "R51",
@@ -2032,7 +2295,12 @@
       "disposition": "resource-room",
       "reason": "Open review central to observer inference and its accuracy limits.",
       "accessed": "2026-09-07",
-      "wave": 2
+      "wave": 2,
+      "destinations": [
+        "AAN-F-007: resources room",
+        "AAN-F-007: platform asset kit as cleared media"
+      ],
+      "exclusionReason": null
     },
     {
       "id": "R52",
@@ -2055,7 +2323,12 @@
       "disposition": "resource-room",
       "reason": "Open experimental study of wearer attention; one student sample and one uniform manipulation, not a universal uniform effect.",
       "accessed": "2026-09-07",
-      "wave": 2
+      "wave": 2,
+      "destinations": [
+        "AAN-F-007: resources room",
+        "AAN-F-007: platform asset kit as cleared media"
+      ],
+      "exclusionReason": null
     },
     {
       "id": "R53",
@@ -2078,7 +2351,11 @@
       "disposition": "duplicate",
       "reason": "Duplicate of R12; the item advisory does not support local storage.",
       "accessed": "2026-09-07",
-      "wave": 2
+      "wave": 2,
+      "destinations": [
+        "AAN-F-007: exclusion log — duplicate"
+      ],
+      "exclusionReason": "Duplicate of R12; the item advisory does not support local storage."
     },
     {
       "id": "R54",
@@ -2101,7 +2378,12 @@
       "disposition": "resource-room",
       "reason": "Discovery surface for item-level public-domain uniform records.",
       "accessed": "2026-09-07",
-      "wave": 2
+      "wave": 2,
+      "destinations": [
+        "AAN-F-007: resources room",
+        "AAN-F-007: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
     },
     {
       "id": "R55",
@@ -2124,7 +2406,12 @@
       "disposition": "resource-room",
       "reason": "Discovery surface; only exact CC0 item records may be installed.",
       "accessed": "2026-09-07",
-      "wave": 2
+      "wave": 2,
+      "destinations": [
+        "AAN-F-007: resources room",
+        "AAN-F-007: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
     },
     {
       "id": "R56",
@@ -2147,7 +2434,12 @@
       "disposition": "resource-room",
       "reason": "Search trail for open materials; project-level licenses must be checked.",
       "accessed": "2026-09-07",
-      "wave": 2
+      "wave": 2,
+      "destinations": [
+        "AAN-F-007: resources room",
+        "AAN-F-007: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
     },
     {
       "id": "R57",
@@ -2170,7 +2462,12 @@
       "disposition": "resource-room",
       "reason": "Exact-fit illustrated essay; photographs are © Maryam Wahid and therefore linked, not reproduced.",
       "accessed": "2026-09-07",
-      "wave": 3
+      "wave": 3,
+      "destinations": [
+        "AAN-F-001: resources room",
+        "AAN-F-001: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
     },
     {
       "id": "R58",
@@ -2193,7 +2490,12 @@
       "disposition": "installed-media",
       "reason": "Forty-image public-domain digitization connecting dress, body and health.",
       "accessed": "2026-09-07",
-      "wave": 3
+      "wave": 3,
+      "destinations": [
+        "AAN-F-001: exhibition/media library",
+        " AAN-F-001: platform asset kit"
+      ],
+      "exclusionReason": null
     },
     {
       "id": "R59",
@@ -2216,7 +2518,12 @@
       "disposition": "resource-room",
       "reason": "Public-domain historical fashion plate for visual comparison; provider record controls.",
       "accessed": "2026-09-07",
-      "wave": 3
+      "wave": 3,
+      "destinations": [
+        "AAN-F-001: resources room",
+        "AAN-F-001: platform asset kit as cleared media"
+      ],
+      "exclusionReason": null
     },
     {
       "id": "R60",
@@ -2239,7 +2546,12 @@
       "disposition": "resource-room",
       "reason": "Exact replication project record; file-level licenses vary and are not inferred.",
       "accessed": "2026-09-07",
-      "wave": 3
+      "wave": 3,
+      "destinations": [
+        "AAN-F-001: resources room",
+        "AAN-F-001: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
     },
     {
       "id": "R61",
@@ -2262,7 +2574,12 @@
       "disposition": "resource-room",
       "reason": "Artist’s clothing-based work about the body as terrain of illness; reproduction rights not established.",
       "accessed": "2026-09-07",
-      "wave": 3
+      "wave": 3,
+      "destinations": [
+        "AAN-F-002: resources room",
+        "AAN-F-002: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
     },
     {
       "id": "R62",
@@ -2285,7 +2602,12 @@
       "disposition": "installed-media",
       "reason": "Downloadable visual essays on embodied experience; contextual rather than a clothing intervention.",
       "accessed": "2026-09-07",
-      "wave": 3
+      "wave": 3,
+      "destinations": [
+        "AAN-F-002: exhibition/media library",
+        " AAN-F-002: platform asset kit"
+      ],
+      "exclusionReason": null
     },
     {
       "id": "R63",
@@ -2308,7 +2630,12 @@
       "disposition": "resource-room",
       "reason": "Public-domain full-body portrait retained as an identity/dress visual candidate.",
       "accessed": "2026-09-07",
-      "wave": 3
+      "wave": 3,
+      "destinations": [
+        "AAN-F-002: resources room",
+        "AAN-F-002: platform asset kit as cleared media"
+      ],
+      "exclusionReason": null
     },
     {
       "id": "R64",
@@ -2331,7 +2658,12 @@
       "disposition": "reserve",
       "reason": "Exact historical text record, but the available full text is provider-restricted; no local reproduction.",
       "accessed": "2026-09-07",
-      "wave": 3
+      "wave": 3,
+      "destinations": [
+        "AAN-F-002: reserve shelf",
+        " AAN-F-002: platform asset kit where editorially distinct"
+      ],
+      "exclusionReason": null
     },
     {
       "id": "R65",
@@ -2354,7 +2686,12 @@
       "disposition": "resource-room",
       "reason": "Exact-fit reporting with strong copyrighted photography; official page only.",
       "accessed": "2026-09-07",
-      "wave": 3
+      "wave": 3,
+      "destinations": [
+        "AAN-F-003: resources room",
+        "AAN-F-003: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
     },
     {
       "id": "R66",
@@ -2377,7 +2714,12 @@
       "disposition": "installed-media",
       "reason": "Public-domain 282-image digitization on clothing, health and shoes.",
       "accessed": "2026-09-07",
-      "wave": 3
+      "wave": 3,
+      "destinations": [
+        "AAN-F-003: exhibition/media library",
+        " AAN-F-003: platform asset kit"
+      ],
+      "exclusionReason": null
     },
     {
       "id": "R67",
@@ -2400,7 +2742,12 @@
       "disposition": "installed-media",
       "reason": "Direct textile-touch study; full text and article-owned figures may be reused with attribution, subject to third-party notices.",
       "accessed": "2026-09-07",
-      "wave": 3
+      "wave": 3,
+      "destinations": [
+        "AAN-F-003: exhibition/media library",
+        " AAN-F-003: platform asset kit"
+      ],
+      "exclusionReason": null
     },
     {
       "id": "R68",
@@ -2423,7 +2770,11 @@
       "disposition": "duplicate",
       "reason": "Duplicate of R32; retained to show direct GitHub traversal did not create a new asset.",
       "accessed": "2026-09-07",
-      "wave": 3
+      "wave": 3,
+      "destinations": [
+        "AAN-F-003: exclusion log — duplicate"
+      ],
+      "exclusionReason": "Duplicate of R32; retained to show direct GitHub traversal did not create a new asset."
     },
     {
       "id": "R69",
@@ -2446,7 +2797,12 @@
       "disposition": "resource-room",
       "reason": "Personal clothing transformed into an illness/memory volume; official record only.",
       "accessed": "2026-09-07",
-      "wave": 3
+      "wave": 3,
+      "destinations": [
+        "AAN-F-004: resources room",
+        "AAN-F-004: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
     },
     {
       "id": "R70",
@@ -2469,7 +2825,12 @@
       "disposition": "resource-room",
       "reason": "Public-domain period-fashion image useful for explaining mediated recall.",
       "accessed": "2026-09-07",
-      "wave": 3
+      "wave": 3,
+      "destinations": [
+        "AAN-F-004: resources room",
+        "AAN-F-004: platform asset kit as cleared media"
+      ],
+      "exclusionReason": null
     },
     {
       "id": "R71",
@@ -2492,7 +2853,12 @@
       "disposition": "resource-room",
       "reason": "Official material-memory essay; not clothing-specific and media rights remain controlled.",
       "accessed": "2026-09-07",
-      "wave": 3
+      "wave": 3,
+      "destinations": [
+        "AAN-F-004: resources room",
+        "AAN-F-004: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
     },
     {
       "id": "R72",
@@ -2515,7 +2881,11 @@
       "disposition": "rejected",
       "reason": "Direct results mixed rights statuses and no item both improved evidentiary fit and carried sufficiently clear reuse rights.",
       "accessed": "2026-09-07",
-      "wave": 3
+      "wave": 3,
+      "destinations": [
+        "AAN-F-004: exclusion log — rejected"
+      ],
+      "exclusionReason": "Direct results mixed rights statuses and no item both improved evidentiary fit and carried sufficiently clear reuse rights."
     },
     {
       "id": "R73",
@@ -2538,7 +2908,11 @@
       "disposition": "duplicate",
       "reason": "Duplicate of R44 found by direct category traversal.",
       "accessed": "2026-09-07",
-      "wave": 3
+      "wave": 3,
+      "destinations": [
+        "AAN-F-005: exclusion log — duplicate"
+      ],
+      "exclusionReason": "Duplicate of R44 found by direct category traversal."
     },
     {
       "id": "R74",
@@ -2561,7 +2935,12 @@
       "disposition": "installed-media",
       "reason": "High-resolution runway/crowd environment with confirmed Flickr review.",
       "accessed": "2026-09-07",
-      "wave": 3
+      "wave": 3,
+      "destinations": [
+        "AAN-F-005: exhibition/media library",
+        " AAN-F-005: platform asset kit"
+      ],
+      "exclusionReason": null
     },
     {
       "id": "R75",
@@ -2584,7 +2963,12 @@
       "disposition": "resource-room",
       "reason": "Official historical film playable under noncommercial distribution terms; link only for this publication.",
       "accessed": "2026-09-07",
-      "wave": 3
+      "wave": 3,
+      "destinations": [
+        "AAN-F-005: resources room",
+        "AAN-F-005: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
     },
     {
       "id": "R76",
@@ -2607,7 +2991,11 @@
       "disposition": "duplicate",
       "reason": "Direct channel traversal found event films, but no selected video cleared soundtrack and third-party rights for embedding; channel already recorded.",
       "accessed": "2026-09-07",
-      "wave": 3
+      "wave": 3,
+      "destinations": [
+        "AAN-F-005: exclusion log — duplicate"
+      ],
+      "exclusionReason": "Direct channel traversal found event films, but no selected video cleared soundtrack and third-party rights for embedding; channel already recorded."
     },
     {
       "id": "R77",
@@ -2630,7 +3018,12 @@
       "disposition": "resource-room",
       "reason": "Direct video-category surface; individual recordings require separate license and soundtrack review.",
       "accessed": "2026-09-07",
-      "wave": 3
+      "wave": 3,
+      "destinations": [
+        "AAN-F-006: resources room",
+        "AAN-F-006: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
     },
     {
       "id": "R78",
@@ -2653,7 +3046,12 @@
       "disposition": "installed-tool",
       "reason": "Runnable rhythm sequencer installed as an external educational interactive; source repository is CC0.",
       "accessed": "2026-09-07",
-      "wave": 3
+      "wave": 3,
+      "destinations": [
+        "AAN-F-006: interactive/tool room",
+        "AAN-F-006: platform asset kit"
+      ],
+      "exclusionReason": null
     },
     {
       "id": "R79",
@@ -2676,7 +3074,12 @@
       "disposition": "installed-media",
       "reason": "Runway environment retained for sound-space interpretation, with explicit attribution.",
       "accessed": "2026-09-07",
-      "wave": 3
+      "wave": 3,
+      "destinations": [
+        "AAN-F-006: exhibition/media library",
+        " AAN-F-006: platform asset kit"
+      ],
+      "exclusionReason": null
     },
     {
       "id": "R80",
@@ -2699,7 +3102,11 @@
       "disposition": "rejected",
       "reason": "No recording had both exact runway provenance and sufficiently clear music/performance rights for reuse.",
       "accessed": "2026-09-07",
-      "wave": 3
+      "wave": 3,
+      "destinations": [
+        "AAN-F-006: exclusion log — rejected"
+      ],
+      "exclusionReason": "No recording had both exact runway provenance and sufficiently clear music/performance rights for reuse."
     },
     {
       "id": "R81",
@@ -2722,7 +3129,12 @@
       "disposition": "installed-media",
       "reason": "Open full text and article-owned figures; narrow student experiment, not universal causal proof.",
       "accessed": "2026-09-07",
-      "wave": 3
+      "wave": 3,
+      "destinations": [
+        "AAN-F-007: exhibition/media library",
+        " AAN-F-007: platform asset kit"
+      ],
+      "exclusionReason": null
     },
     {
       "id": "R82",
@@ -2745,7 +3157,12 @@
       "disposition": "resource-room",
       "reason": "Historical dress film retained under Wellcome’s noncommercial distribution terms; official player only.",
       "accessed": "2026-09-07",
-      "wave": 3
+      "wave": 3,
+      "destinations": [
+        "AAN-F-007: resources room",
+        "AAN-F-007: platform asset kit as source card only"
+      ],
+      "exclusionReason": null
     },
     {
       "id": "R83",
@@ -2768,7 +3185,12 @@
       "disposition": "reserve",
       "reason": "Direct topic includes a UN tropical uniform shirt, but no exact item page with confirmed media rights was exposed by this traversal.",
       "accessed": "2026-09-07",
-      "wave": 3
+      "wave": 3,
+      "destinations": [
+        "AAN-F-007: reserve shelf",
+        " AAN-F-007: platform asset kit where editorially distinct"
+      ],
+      "exclusionReason": null
     },
     {
       "id": "R84",
@@ -2791,7 +3213,11 @@
       "disposition": "duplicate",
       "reason": "Duplicate item; rights advisory still does not justify local reproduction.",
       "accessed": "2026-09-07",
-      "wave": 3
+      "wave": 3,
+      "destinations": [
+        "AAN-F-007: exclusion log — duplicate"
+      ],
+      "exclusionReason": "Duplicate item; rights advisory still does not justify local reproduction."
     },
     {
       "id": "R85",
@@ -2814,7 +3240,12 @@
       "disposition": "installed-media",
       "reason": "High-resolution public-domain image with exact work-level rights record and direct media endpoint.",
       "accessed": "2026-09-07",
-      "wave": 3
+      "wave": 3,
+      "destinations": [
+        "AAN-F-004: exhibition/media library",
+        " AAN-F-004: platform asset kit"
+      ],
+      "exclusionReason": null
     }
   ]
 }

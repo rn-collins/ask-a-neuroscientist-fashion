@@ -1,0 +1,765 @@
+{
+  "id": "AAN-F-001",
+  "slug": "clothes-and-cognition",
+  "title": "Clothes and Cognition",
+  "prefix": "C",
+  "tool": "/lab/",
+  "beats": [
+    "The viral promise",
+    "The original lab-coat experiment",
+    "The failed direct replication",
+    "What the meta-analysis can and cannot restore",
+    "Dress as social information",
+    "Material constraint and posture",
+    "A better question",
+    "Evidence boundary"
+  ],
+  "pins": [
+    "The claim",
+    "The replication",
+    "The evidence ladder",
+    "The object lesson",
+    "The practical question"
+  ],
+  "assets": [
+    {
+      "id": "MET-82433",
+      "type": "image",
+      "title": "Corset",
+      "creator": "Maison Léoty",
+      "date": "1891",
+      "institution": "The Metropolitan Museum of Art, Costume Institute",
+      "rights": "CC0",
+      "disposition": "installed-object",
+      "canonicalUrl": "https://www.metmuseum.org/art/collection/search/82433",
+      "mediaUrl": "https://images.metmuseum.org/CRDImages/ci/original/DT200606.jpg",
+      "licenseUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
+      "credit": "Corset, Maison Léoty, 1891. The Metropolitan Museum of Art, Costume Institute. C.I.45.27a, b. CC0.",
+      "alt": "Ivory satin Maison Léoty corset shown frontally against a neutral ground.",
+      "caption": "constraint, posture, learned silhouette"
+    },
+    {
+      "id": "MET-173652",
+      "type": "image",
+      "title": "Corset",
+      "creator": "Royal Worcester Corset Company",
+      "date": "ca. 1872",
+      "institution": "The Metropolitan Museum of Art",
+      "rights": "CC0",
+      "disposition": "installed-object",
+      "canonicalUrl": "https://www.metmuseum.org/art/collection/search/173652",
+      "mediaUrl": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/173652/373744/main-image",
+      "licenseUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
+      "credit": "Corset, Royal Worcester Corset Company, ca. 1872. The Metropolitan Museum of Art. 2009.300.6638a, b. CC0.",
+      "alt": "Structured nineteenth-century corset with front fastening and shaped panels.",
+      "caption": "industrialized containment"
+    },
+    {
+      "id": "MET-158256",
+      "type": "image",
+      "title": "Corset",
+      "creator": "Maker unknown",
+      "date": "1740–60",
+      "institution": "The Metropolitan Museum of Art",
+      "rights": "CC0",
+      "disposition": "installed-object",
+      "canonicalUrl": "https://www.metmuseum.org/art/collection/search/158256",
+      "mediaUrl": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/158256/335760/main-image",
+      "licenseUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
+      "credit": "Corset, Maker unknown, 1740–60. The Metropolitan Museum of Art. 2009.300.3330. CC0.",
+      "alt": "Eighteenth-century stays with a pointed front, photographed flat.",
+      "caption": "body-shaping technology"
+    },
+    {
+      "id": "MET-626019",
+      "type": "image",
+      "title": "Costume Armor and Sword in the Classical Style",
+      "creator": "Hallé",
+      "date": "ca. 1788–90",
+      "institution": "The Metropolitan Museum of Art, Arms and Armor",
+      "rights": "CC0",
+      "disposition": "installed-object",
+      "canonicalUrl": "https://www.metmuseum.org/art/collection/search/626019",
+      "mediaUrl": "https://images.metmuseum.org/CRDImages/aa/original/DT5896.jpg",
+      "licenseUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
+      "credit": "Costume Armor and Sword in the Classical Style, Hallé, ca. 1788–90. The Metropolitan Museum of Art, Arms and Armor. 1988.65.1–.2; 1995.93a, b. CC0.",
+      "alt": "Ornate classical-style costume armor and sword displayed vertically.",
+      "caption": "role, protection, theater, authority"
+    },
+    {
+      "id": "MET-717582",
+      "type": "image",
+      "title": "Hat",
+      "creator": "Tlingit woman artist",
+      "date": "ca. 1830",
+      "institution": "The Metropolitan Museum of Art, The American Wing",
+      "rights": "CC0",
+      "disposition": "installed-object",
+      "canonicalUrl": "https://www.metmuseum.org/art/collection/search/717582",
+      "mediaUrl": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/717582/1770354/main-image",
+      "licenseUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
+      "credit": "Hat, Tlingit woman artist, ca. 1830. The Metropolitan Museum of Art, The American Wing. 2022.428.5. CC0.",
+      "alt": "Tlingit woven spruce-root hat decorated with shell, beads, pigment and remnants of ermine.",
+      "caption": "protection, clan identity and social status"
+    },
+    {
+      "id": "R01",
+      "type": "research",
+      "title": "Direct replication of enclothed cognition",
+      "creator": "Burns et al.",
+      "date": "2019",
+      "institution": "Journal of Experimental Social Psychology",
+      "rights": "link-only",
+      "disposition": "link-only",
+      "canonicalUrl": "https://doi.org/10.1016/j.jesp.2018.10.001",
+      "mediaUrl": null,
+      "licenseUrl": null,
+      "credit": "Burns et al. · Journal of Experimental Social Psychology",
+      "alt": "",
+      "caption": "Direct replication of enclothed cognition"
+    },
+    {
+      "id": "R08",
+      "type": "collection",
+      "title": "Fashion — Free to Use and Reuse",
+      "creator": "Library of Congress",
+      "date": "ongoing",
+      "institution": "Library of Congress",
+      "rights": "link-only",
+      "disposition": "resource-room",
+      "canonicalUrl": "https://www.loc.gov/free-to-use/fashion/",
+      "mediaUrl": null,
+      "licenseUrl": null,
+      "credit": "Library of Congress · Library of Congress",
+      "alt": "",
+      "caption": "Fashion — Free to Use and Reuse"
+    },
+    {
+      "id": "R09",
+      "type": "education",
+      "title": "Show Your Style!",
+      "creator": "The Metropolitan Museum of Art",
+      "date": "2013",
+      "institution": "The Met",
+      "rights": "link-only",
+      "disposition": "resource-room",
+      "canonicalUrl": "https://www.metmuseum.org/-/media/files/learn/family-map-and-guides/what%20should%20i%20wear%20today.pdf",
+      "mediaUrl": null,
+      "licenseUrl": null,
+      "credit": "The Metropolitan Museum of Art · The Met",
+      "alt": "",
+      "caption": "Show Your Style!"
+    },
+    {
+      "id": "R13",
+      "type": "diagram",
+      "title": "Free-energy principle diagram",
+      "creator": "Commons contributor",
+      "date": "file record 2026",
+      "institution": "Wikimedia Commons",
+      "rights": "link-only",
+      "disposition": "rejected",
+      "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Friston-2010-free-energy-principle.svg",
+      "mediaUrl": null,
+      "licenseUrl": null,
+      "credit": "Commons contributor · Wikimedia Commons",
+      "alt": "",
+      "caption": "Free-energy principle diagram"
+    },
+    {
+      "id": "R15",
+      "type": "research",
+      "title": "Dress Is a Fundamental Component of Person Perception",
+      "creator": "Hester and Hehman",
+      "date": "2023",
+      "institution": "Personality and Social Psychology Review",
+      "rights": "CC BY",
+      "disposition": "resource-room",
+      "canonicalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10559650/",
+      "mediaUrl": null,
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "credit": "Hester and Hehman · Personality and Social Psychology Review",
+      "alt": "",
+      "caption": "Dress Is a Fundamental Component of Person Perception"
+    },
+    {
+      "id": "R16",
+      "type": "research",
+      "title": "Enclothed cognition",
+      "creator": "Adam and Galinsky",
+      "date": "2012",
+      "institution": "Journal of Experimental Social Psychology",
+      "rights": "link-only",
+      "disposition": "resource-room",
+      "canonicalUrl": "https://doi.org/10.1016/j.jesp.2012.02.008",
+      "mediaUrl": null,
+      "licenseUrl": null,
+      "credit": "Adam and Galinsky · Journal of Experimental Social Psychology",
+      "alt": "",
+      "caption": "Enclothed cognition"
+    },
+    {
+      "id": "R17",
+      "type": "research",
+      "title": "Evaluating the Evidence for Enclothed Cognition: Z-Curve and Meta-Analyses",
+      "creator": "C. Blaine Horton Jr., Hajo Adam and Adam D. Galinsky",
+      "date": "2025 (online 2023)",
+      "institution": "Personality and Social Psychology Bulletin",
+      "rights": "link-only",
+      "disposition": "resource-room",
+      "canonicalUrl": "https://doi.org/10.1177/01461672231182478",
+      "mediaUrl": null,
+      "licenseUrl": null,
+      "credit": "C. Blaine Horton Jr., Hajo Adam and Adam D. Galinsky · Personality and Social Psychology Bulletin",
+      "alt": "",
+      "caption": "Evaluating the Evidence for Enclothed Cognition: Z-Curve and Meta-Analyses"
+    },
+    {
+      "id": "R18",
+      "type": "audio",
+      "title": "Psychology of fashion, with Carolyn Mair, PhD",
+      "creator": "American Psychological Association",
+      "date": "2019",
+      "institution": "APA",
+      "rights": "link-only",
+      "disposition": "resource-room",
+      "canonicalUrl": "https://www.apa.org/news/podcasts/speaking-of-psychology/fashion",
+      "mediaUrl": null,
+      "licenseUrl": null,
+      "credit": "American Psychological Association · APA",
+      "alt": "",
+      "caption": "Psychology of fashion, with Carolyn Mair, PhD"
+    },
+    {
+      "id": "R19",
+      "type": "dataset",
+      "title": "DeepFashion",
+      "creator": "Multimedia Laboratory, The Chinese University of Hong Kong",
+      "date": "2016",
+      "institution": "CUHK",
+      "rights": "link-only",
+      "disposition": "resource-room",
+      "canonicalUrl": "https://mmlab.ie.cuhk.edu.hk/projects/DeepFashion.html",
+      "mediaUrl": null,
+      "licenseUrl": null,
+      "credit": "Multimedia Laboratory, The Chinese University of Hong Kong · CUHK",
+      "alt": "",
+      "caption": "DeepFashion"
+    },
+    {
+      "id": "R20",
+      "type": "diagram",
+      "title": "Free-energy principle diagram",
+      "creator": "Wikimedia contributor",
+      "date": "2010/2026 record",
+      "institution": "Wikimedia Commons",
+      "rights": "rejected",
+      "disposition": "rejected",
+      "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Friston-2010-free-energy-principle.svg",
+      "mediaUrl": null,
+      "licenseUrl": null,
+      "credit": "Wikimedia contributor · Wikimedia Commons",
+      "alt": "",
+      "caption": "Free-energy principle diagram"
+    },
+    {
+      "id": "R57",
+      "type": "article",
+      "title": "Dress and the magic of touch",
+      "creator": "Shahidha Bari; photographs by Maryam Wahid",
+      "date": "2020-10-06",
+      "institution": "Wellcome Collection",
+      "rights": "link-only",
+      "disposition": "resource-room",
+      "canonicalUrl": "https://wellcomecollection.org/stories/dress-and-the-magic-of-touch",
+      "mediaUrl": null,
+      "licenseUrl": null,
+      "credit": "Shahidha Bari; photographs by Maryam Wahid · Wellcome Collection",
+      "alt": "",
+      "caption": "Dress and the magic of touch"
+    },
+    {
+      "id": "R58",
+      "type": "book",
+      "title": "Dress: its sanitary aspect",
+      "creator": "Bernard Roth",
+      "date": "1880",
+      "institution": "Wellcome Collection",
+      "rights": "Public domain / CC0",
+      "disposition": "installed-media",
+      "canonicalUrl": "https://wellcomecollection.org/works/my9bx9h3",
+      "mediaUrl": "https://iiif.wellcomecollection.org/pdf/b28048167",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "credit": "Bernard Roth · Wellcome Collection",
+      "alt": "",
+      "caption": "Dress: its sanitary aspect"
+    },
+    {
+      "id": "R59",
+      "type": "image",
+      "title": "Fashion from The National and Domestic History of England",
+      "creator": "Unknown plate maker",
+      "date": "19th century",
+      "institution": "Europeana / British Library",
+      "rights": "Public domain / CC0",
+      "disposition": "resource-room",
+      "canonicalUrl": "https://www.europeana.eu/en/item/2059209/2882_11083620115_59837d80a8_o_jpg",
+      "mediaUrl": null,
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "credit": "Unknown plate maker · Europeana / British Library",
+      "alt": "",
+      "caption": "Fashion from The National and Domestic History of England"
+    },
+    {
+      "id": "R60",
+      "type": "dataset",
+      "title": "Enclothed Cognition Replication materials",
+      "creator": "Burns et al.",
+      "date": "2017",
+      "institution": "Open Science Framework",
+      "rights": "link-only",
+      "disposition": "resource-room",
+      "canonicalUrl": "https://doi.org/10.17605/OSF.IO/KMCJ8",
+      "mediaUrl": null,
+      "licenseUrl": null,
+      "credit": "Burns et al. · Open Science Framework",
+      "alt": "",
+      "caption": "Enclothed Cognition Replication materials"
+    }
+  ],
+  "carouselA": [
+    {
+      "frame": 1,
+      "beat": "The viral promise",
+      "assetId": "MET-82433",
+      "crop": "4:5 full object with generous negative space",
+      "overlay": "Clothes and Cognition",
+      "caption": "The viral promise. constraint, posture, learned silhouette",
+      "credit": "Corset, Maison Léoty, 1891. The Metropolitan Museum of Art, Costume Institute. C.I.45.27a, b. CC0.",
+      "alt": "Ivory satin Maison Léoty corset shown frontally against a neutral ground.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    },
+    {
+      "frame": 2,
+      "beat": "The original lab-coat experiment",
+      "assetId": "MET-173652",
+      "crop": "4:5 detail crop; preserve identifying construction",
+      "overlay": "The original lab-coat experiment",
+      "caption": "The original lab-coat experiment. industrialized containment",
+      "credit": "Corset, Royal Worcester Corset Company, ca. 1872. The Metropolitan Museum of Art. 2009.300.6638a, b. CC0.",
+      "alt": "Structured nineteenth-century corset with front fastening and shaped panels.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    },
+    {
+      "frame": 3,
+      "beat": "The failed direct replication",
+      "assetId": "MET-158256",
+      "crop": "4:5 split evidence plate; do not obscure object",
+      "overlay": "The failed direct replication",
+      "caption": "The failed direct replication. body-shaping technology",
+      "credit": "Corset, Maker unknown, 1740–60. The Metropolitan Museum of Art. 2009.300.3330. CC0.",
+      "alt": "Eighteenth-century stays with a pointed front, photographed flat.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    },
+    {
+      "frame": 4,
+      "beat": "What the meta-analysis can and cannot restore",
+      "assetId": "MET-626019",
+      "crop": "4:5 full object with generous negative space",
+      "overlay": "What the meta-analysis can and cannot restore",
+      "caption": "What the meta-analysis can and cannot restore. role, protection, theater, authority",
+      "credit": "Costume Armor and Sword in the Classical Style, Hallé, ca. 1788–90. The Metropolitan Museum of Art, Arms and Armor. 1988.65.1–.2; 1995.93a, b. CC0.",
+      "alt": "Ornate classical-style costume armor and sword displayed vertically.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    },
+    {
+      "frame": 5,
+      "beat": "Dress as social information",
+      "assetId": "MET-717582",
+      "crop": "4:5 detail crop; preserve identifying construction",
+      "overlay": "Dress as social information",
+      "caption": "Dress as social information. protection, clan identity and social status",
+      "credit": "Hat, Tlingit woman artist, ca. 1830. The Metropolitan Museum of Art, The American Wing. 2022.428.5. CC0.",
+      "alt": "Tlingit woven spruce-root hat decorated with shell, beads, pigment and remnants of ermine.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    },
+    {
+      "frame": 6,
+      "beat": "Material constraint and posture",
+      "assetId": "R01",
+      "crop": "4:5 split evidence plate; do not obscure object",
+      "overlay": "Material constraint and posture",
+      "caption": "Material constraint and posture. Direct replication of enclothed cognition",
+      "credit": "Burns et al. · Journal of Experimental Social Psychology",
+      "alt": "Direct replication of enclothed cognition, used as evidence for material constraint and posture.",
+      "boundary": "Link card only; do not reproduce protected media."
+    },
+    {
+      "frame": 7,
+      "beat": "A better question",
+      "assetId": "R08",
+      "crop": "4:5 full object with generous negative space",
+      "overlay": "A better question",
+      "caption": "A better question. Fashion — Free to Use and Reuse",
+      "credit": "Library of Congress · Library of Congress",
+      "alt": "Fashion — Free to Use and Reuse, used as evidence for a better question.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    },
+    {
+      "frame": 8,
+      "beat": "Evidence boundary",
+      "assetId": "R09",
+      "crop": "4:5 detail crop; preserve identifying construction",
+      "overlay": "Evidence boundary",
+      "caption": "Evidence boundary. Show Your Style!",
+      "credit": "The Metropolitan Museum of Art · The Met",
+      "alt": "Show Your Style!, used as evidence for evidence boundary.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    }
+  ],
+  "carouselB": [
+    {
+      "frame": 1,
+      "beat": "The viral promise",
+      "assetId": "MET-626019",
+      "crop": "4:5 full object with generous negative space",
+      "overlay": "Clothes and Cognition",
+      "caption": "The viral promise. role, protection, theater, authority",
+      "credit": "Costume Armor and Sword in the Classical Style, Hallé, ca. 1788–90. The Metropolitan Museum of Art, Arms and Armor. 1988.65.1–.2; 1995.93a, b. CC0.",
+      "alt": "Ornate classical-style costume armor and sword displayed vertically.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    },
+    {
+      "frame": 2,
+      "beat": "The original lab-coat experiment",
+      "assetId": "MET-717582",
+      "crop": "4:5 detail crop; preserve identifying construction",
+      "overlay": "The original lab-coat experiment",
+      "caption": "The original lab-coat experiment. protection, clan identity and social status",
+      "credit": "Hat, Tlingit woman artist, ca. 1830. The Metropolitan Museum of Art, The American Wing. 2022.428.5. CC0.",
+      "alt": "Tlingit woven spruce-root hat decorated with shell, beads, pigment and remnants of ermine.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    },
+    {
+      "frame": 3,
+      "beat": "The failed direct replication",
+      "assetId": "R01",
+      "crop": "4:5 split evidence plate; do not obscure object",
+      "overlay": "The failed direct replication",
+      "caption": "The failed direct replication. Direct replication of enclothed cognition",
+      "credit": "Burns et al. · Journal of Experimental Social Psychology",
+      "alt": "Direct replication of enclothed cognition, used as evidence for the failed direct replication.",
+      "boundary": "Link card only; do not reproduce protected media."
+    },
+    {
+      "frame": 4,
+      "beat": "What the meta-analysis can and cannot restore",
+      "assetId": "R08",
+      "crop": "4:5 full object with generous negative space",
+      "overlay": "What the meta-analysis can and cannot restore",
+      "caption": "What the meta-analysis can and cannot restore. Fashion — Free to Use and Reuse",
+      "credit": "Library of Congress · Library of Congress",
+      "alt": "Fashion — Free to Use and Reuse, used as evidence for what the meta-analysis can and cannot restore.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    },
+    {
+      "frame": 5,
+      "beat": "Dress as social information",
+      "assetId": "R09",
+      "crop": "4:5 detail crop; preserve identifying construction",
+      "overlay": "Dress as social information",
+      "caption": "Dress as social information. Show Your Style!",
+      "credit": "The Metropolitan Museum of Art · The Met",
+      "alt": "Show Your Style!, used as evidence for dress as social information.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    },
+    {
+      "frame": 6,
+      "beat": "Material constraint and posture",
+      "assetId": "R15",
+      "crop": "4:5 split evidence plate; do not obscure object",
+      "overlay": "Material constraint and posture",
+      "caption": "Material constraint and posture. Dress Is a Fundamental Component of Person Perception",
+      "credit": "Hester and Hehman · Personality and Social Psychology Review",
+      "alt": "Dress Is a Fundamental Component of Person Perception, used as evidence for material constraint and posture.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    },
+    {
+      "frame": 7,
+      "beat": "A better question",
+      "assetId": "R16",
+      "crop": "4:5 full object with generous negative space",
+      "overlay": "A better question",
+      "caption": "A better question. Enclothed cognition",
+      "credit": "Adam and Galinsky · Journal of Experimental Social Psychology",
+      "alt": "Enclothed cognition, used as evidence for a better question.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    },
+    {
+      "frame": 8,
+      "beat": "Evidence boundary",
+      "assetId": "R17",
+      "crop": "4:5 detail crop; preserve identifying construction",
+      "overlay": "Evidence boundary",
+      "caption": "Evidence boundary. Evaluating the Evidence for Enclothed Cognition: Z-Curve and Meta-Analyses",
+      "credit": "C. Blaine Horton Jr., Hajo Adam and Adam D. Galinsky · Personality and Social Psychology Bulletin",
+      "alt": "Evaluating the Evidence for Enclothed Cognition: Z-Curve and Meta-Analyses, used as evidence for evidence boundary.",
+      "boundary": "Do not imply this object proves a neural mechanism."
+    }
+  ],
+  "broll": [
+    {
+      "beat": 1,
+      "duration": "0–3s",
+      "assetId": "MET-626019",
+      "shot": "Slow object reveal; cut on clause, never simulate motion in a still",
+      "onScreen": "The viral promise",
+      "credit": "Costume Armor and Sword in the Classical Style, Hallé, ca. 1788–90. The Metropolitan Museum of Art, Arms and Armor. 1988.65.1–.2; 1995.93a, b. CC0.",
+      "boundary": "Crop from cleared master; keep credit in caption and end card."
+    },
+    {
+      "beat": 2,
+      "duration": "3–6s",
+      "assetId": "MET-717582",
+      "shot": "Slow detail pan; cut on clause, never simulate motion in a still",
+      "onScreen": "The original lab-coat experiment",
+      "credit": "Hat, Tlingit woman artist, ca. 1830. The Metropolitan Museum of Art, The American Wing. 2022.428.5. CC0.",
+      "boundary": "Crop from cleared master; keep credit in caption and end card."
+    },
+    {
+      "beat": 3,
+      "duration": "6–9s",
+      "assetId": "R01",
+      "shot": "Slow object reveal; cut on clause, never simulate motion in a still",
+      "onScreen": "The failed direct replication",
+      "credit": "Burns et al. · Journal of Experimental Social Psychology",
+      "boundary": "Use a designed source card and outbound link; do not extract footage."
+    },
+    {
+      "beat": 4,
+      "duration": "9–12s",
+      "assetId": "R08",
+      "shot": "Slow detail pan; cut on clause, never simulate motion in a still",
+      "onScreen": "What the meta-analysis can and cannot restore",
+      "credit": "Library of Congress · Library of Congress",
+      "boundary": "Crop from cleared master; keep credit in caption and end card."
+    },
+    {
+      "beat": 5,
+      "duration": "12–15s",
+      "assetId": "R09",
+      "shot": "Slow object reveal; cut on clause, never simulate motion in a still",
+      "onScreen": "Dress as social information",
+      "credit": "The Metropolitan Museum of Art · The Met",
+      "boundary": "Crop from cleared master; keep credit in caption and end card."
+    },
+    {
+      "beat": 6,
+      "duration": "15–18s",
+      "assetId": "R15",
+      "shot": "Slow detail pan; cut on clause, never simulate motion in a still",
+      "onScreen": "Material constraint and posture",
+      "credit": "Hester and Hehman · Personality and Social Psychology Review",
+      "boundary": "Crop from cleared master; keep credit in caption and end card."
+    },
+    {
+      "beat": 7,
+      "duration": "18–21s",
+      "assetId": "R16",
+      "shot": "Slow object reveal; cut on clause, never simulate motion in a still",
+      "onScreen": "A better question",
+      "credit": "Adam and Galinsky · Journal of Experimental Social Psychology",
+      "boundary": "Crop from cleared master; keep credit in caption and end card."
+    }
+  ],
+  "pinterest": [
+    {
+      "pin": 1,
+      "title": "The claim",
+      "assetId": "MET-717582",
+      "format": "1000×2100 idea pin",
+      "description": "The claim: an evidence-bounded visual guide from Clothes and Cognition.",
+      "alt": "Tlingit woven spruce-root hat decorated with shell, beads, pigment and remnants of ermine.",
+      "credit": "Hat, Tlingit woman artist, ca. 1830. The Metropolitan Museum of Art, The American Wing. 2022.428.5. CC0.",
+      "destination": "/exhibitions/clothes-and-cognition/"
+    },
+    {
+      "pin": 2,
+      "title": "The replication",
+      "assetId": "R01",
+      "format": "1000×1500 standard pin",
+      "description": "The replication: an evidence-bounded visual guide from Clothes and Cognition.",
+      "alt": "Direct replication of enclothed cognition",
+      "credit": "Burns et al. · Journal of Experimental Social Psychology",
+      "destination": "/exhibitions/clothes-and-cognition/"
+    },
+    {
+      "pin": 3,
+      "title": "The evidence ladder",
+      "assetId": "R08",
+      "format": "1000×2100 idea pin",
+      "description": "The evidence ladder: an evidence-bounded visual guide from Clothes and Cognition.",
+      "alt": "Fashion — Free to Use and Reuse",
+      "credit": "Library of Congress · Library of Congress",
+      "destination": "/exhibitions/clothes-and-cognition/"
+    },
+    {
+      "pin": 4,
+      "title": "The object lesson",
+      "assetId": "R09",
+      "format": "1000×1500 standard pin",
+      "description": "The object lesson: an evidence-bounded visual guide from Clothes and Cognition.",
+      "alt": "Show Your Style!",
+      "credit": "The Metropolitan Museum of Art · The Met",
+      "destination": "/exhibitions/clothes-and-cognition/"
+    },
+    {
+      "pin": 5,
+      "title": "The practical question",
+      "assetId": "R15",
+      "format": "1000×2100 idea pin",
+      "description": "The practical question: an evidence-bounded visual guide from Clothes and Cognition.",
+      "alt": "Dress Is a Fundamental Component of Person Perception",
+      "credit": "Hester and Hehman · Personality and Social Psychology Review",
+      "destination": "/exhibitions/clothes-and-cognition/"
+    }
+  ],
+  "youtube": [
+    {
+      "time": "00:00",
+      "chapter": "The viral promise",
+      "assetId": "MET-173652",
+      "treatment": "Full-bleed object with slow editorial crop",
+      "credit": "Corset, Royal Worcester Corset Company, ca. 1872. The Metropolitan Museum of Art. 2009.300.6638a, b. CC0."
+    },
+    {
+      "time": "01:30",
+      "chapter": "The original lab-coat experiment",
+      "assetId": "MET-158256",
+      "treatment": "Evidence split-screen with source citation",
+      "credit": "Corset, Maker unknown, 1740–60. The Metropolitan Museum of Art. 2009.300.3330. CC0."
+    },
+    {
+      "time": "03:00",
+      "chapter": "The failed direct replication",
+      "assetId": "MET-626019",
+      "treatment": "Object detail beside boundary sentence",
+      "credit": "Costume Armor and Sword in the Classical Style, Hallé, ca. 1788–90. The Metropolitan Museum of Art, Arms and Armor. 1988.65.1–.2; 1995.93a, b. CC0."
+    },
+    {
+      "time": "04:30",
+      "chapter": "What the meta-analysis can and cannot restore",
+      "assetId": "MET-717582",
+      "treatment": "Full-bleed object with slow editorial crop",
+      "credit": "Hat, Tlingit woman artist, ca. 1830. The Metropolitan Museum of Art, The American Wing. 2022.428.5. CC0."
+    },
+    {
+      "time": "06:00",
+      "chapter": "Dress as social information",
+      "assetId": "R01",
+      "treatment": "Evidence split-screen with source citation",
+      "credit": "Burns et al. · Journal of Experimental Social Psychology"
+    },
+    {
+      "time": "07:30",
+      "chapter": "Material constraint and posture",
+      "assetId": "R08",
+      "treatment": "Object detail beside boundary sentence",
+      "credit": "Library of Congress · Library of Congress"
+    },
+    {
+      "time": "09:00",
+      "chapter": "A better question",
+      "assetId": "R09",
+      "treatment": "Full-bleed object with slow editorial crop",
+      "credit": "The Metropolitan Museum of Art · The Met"
+    },
+    {
+      "time": "10:30",
+      "chapter": "Evidence boundary",
+      "assetId": "R15",
+      "treatment": "Evidence split-screen with source citation",
+      "credit": "Hester and Hehman · Personality and Social Psychology Review"
+    }
+  ],
+  "inline": {
+    "beehiiv": [
+      {
+        "position": "after opening",
+        "assetId": "MET-82433",
+        "caption": "constraint, posture, learned silhouette",
+        "credit": "Corset, Maison Léoty, 1891. The Metropolitan Museum of Art, Costume Institute. C.I.45.27a, b. CC0."
+      },
+      {
+        "position": "after first evidence section",
+        "assetId": "MET-158256",
+        "caption": "body-shaping technology",
+        "credit": "Corset, Maker unknown, 1740–60. The Metropolitan Museum of Art. 2009.300.3330. CC0."
+      },
+      {
+        "position": "before boundary",
+        "assetId": "R01",
+        "caption": "Direct replication of enclothed cognition",
+        "credit": "Burns et al. · Journal of Experimental Social Psychology"
+      }
+    ],
+    "linkedin": [
+      {
+        "position": "document cover",
+        "assetId": "MET-626019",
+        "caption": "role, protection, theater, authority",
+        "credit": "Costume Armor and Sword in the Classical Style, Hallé, ca. 1788–90. The Metropolitan Museum of Art, Arms and Armor. 1988.65.1–.2; 1995.93a, b. CC0."
+      },
+      {
+        "position": "document slide 5",
+        "assetId": "R08",
+        "caption": "Fashion — Free to Use and Reuse",
+        "credit": "Library of Congress · Library of Congress"
+      }
+    ]
+  },
+  "downloads": [
+    {
+      "assetId": "MET-82433",
+      "source": "https://images.metmuseum.org/CRDImages/ci/original/DT200606.jpg",
+      "canonical": "https://www.metmuseum.org/art/collection/search/82433",
+      "credit": "Corset, Maison Léoty, 1891. The Metropolitan Museum of Art, Costume Institute. C.I.45.27a, b. CC0.",
+      "rights": "CC0"
+    },
+    {
+      "assetId": "MET-173652",
+      "source": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/173652/373744/main-image",
+      "canonical": "https://www.metmuseum.org/art/collection/search/173652",
+      "credit": "Corset, Royal Worcester Corset Company, ca. 1872. The Metropolitan Museum of Art. 2009.300.6638a, b. CC0.",
+      "rights": "CC0"
+    },
+    {
+      "assetId": "MET-158256",
+      "source": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/158256/335760/main-image",
+      "canonical": "https://www.metmuseum.org/art/collection/search/158256",
+      "credit": "Corset, Maker unknown, 1740–60. The Metropolitan Museum of Art. 2009.300.3330. CC0.",
+      "rights": "CC0"
+    },
+    {
+      "assetId": "MET-626019",
+      "source": "https://images.metmuseum.org/CRDImages/aa/original/DT5896.jpg",
+      "canonical": "https://www.metmuseum.org/art/collection/search/626019",
+      "credit": "Costume Armor and Sword in the Classical Style, Hallé, ca. 1788–90. The Metropolitan Museum of Art, Arms and Armor. 1988.65.1–.2; 1995.93a, b. CC0.",
+      "rights": "CC0"
+    },
+    {
+      "assetId": "MET-717582",
+      "source": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/717582/1770354/main-image",
+      "canonical": "https://www.metmuseum.org/art/collection/search/717582",
+      "credit": "Hat, Tlingit woman artist, ca. 1830. The Metropolitan Museum of Art, The American Wing. 2022.428.5. CC0.",
+      "rights": "CC0"
+    },
+    {
+      "assetId": "R58",
+      "source": "https://iiif.wellcomecollection.org/pdf/b28048167",
+      "canonical": "https://wellcomecollection.org/works/my9bx9h3",
+      "credit": "Bernard Roth · Wellcome Collection",
+      "rights": "Public domain / CC0"
+    }
+  ]
+}
