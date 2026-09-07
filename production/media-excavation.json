@@ -525,7 +525,8 @@
         "R69",
         "R70",
         "R71",
-        "R72"
+        "R72",
+        "R85"
       ],
       "stopReason": "The named source classes returned recorded candidates, duplicates, inapplicable material, or works without a work-level reuse grant. Further broad searching was yielding weaker or duplicate material.",
       "claim": "Three-wave bounded audit across named registries and direct item/category traversals as of 2026-09-07; complete within that declared protocol, never a claim to every item on the internet.",
@@ -556,11 +557,12 @@
           "R69",
           "R70",
           "R71",
-          "R72"
+          "R72",
+          "R85"
         ],
-        "newCandidateCount": 4,
-        "qualifiedCount": 3,
-        "installedCount": 0,
+        "newCandidateCount": 5,
+        "qualifiedCount": 4,
+        "installedCount": 1,
         "duplicateOrRejectedCount": 1,
         "concreteBlockers": [
           "GitHub: no maintained fashion-memory interactive with a clear license",
@@ -2788,6 +2790,29 @@
       "relevance": "Duplicate item; rights advisory still does not justify local reproduction.",
       "disposition": "duplicate",
       "reason": "Duplicate item; rights advisory still does not justify local reproduction.",
+      "accessed": "2026-09-07",
+      "wave": 3
+    },
+    {
+      "id": "R85",
+      "packages": [
+        "AAN-F-004"
+      ],
+      "title": "Fashions.jpg — composite historical fashion plate",
+      "creator": "Unknown author",
+      "date": "c.1900 compilation of 19th-century fashions",
+      "institution": "Wikimedia Commons",
+      "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Fashions.jpg",
+      "mediaUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Fashions.jpg",
+      "type": "image",
+      "rightsStatus": "Public domain / CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "credit": "Unknown author · Wikimedia Commons",
+      "caption": "Composite plate of nineteenth-century fashions",
+      "alt": "A vertical composite of illustrated women's fashions from several nineteenth-century decades.",
+      "relevance": "A time-compressed historical fashion image used to distinguish visual period recognition from autobiographical memory.",
+      "disposition": "installed-media",
+      "reason": "High-resolution public-domain image with exact work-level rights record and direct media endpoint.",
       "accessed": "2026-09-07",
       "wave": 3
     }
