@@ -62,10 +62,14 @@ const routeMetadata = {
     title: "Why Are Runway Soundtracks So Powerful? — Exhibition 006",
     description: "Rhythm, expectation, audiovisual integration, movement and memory—without mind-control mythology.",
   },
+  "/exhibitions/uniforms-and-social-perception/": {
+    title: "What Do Uniforms Do to Wearer and Observer? — Exhibition 007",
+    description: "Role, inference and institutional power—without treating a uniform as proof of character, competence or behavior.",
+  },
   "/objects/": {
     title: "Object Room — AAN × Fashion",
     description:
-      "Sixteen traceable Met Open Access fashion objects with provenance and direct files.",
+      "Twenty-two traceable Met Open Access fashion objects with provenance and direct files.",
   },
   "/evidence/": {
     title: "Evidence Reading Room",
@@ -103,6 +107,10 @@ const routeMetadata = {
     title: "Runway Sound Map — AAN × Fashion",
     description: "A private, no-storage map for one situated runway listening.",
   },
+  "/lab/uniform-encounter-map/": {
+    title: "Uniform Encounter Map — AAN × Fashion",
+    description: "A private, no-storage tool separating visible uniform cues from inference, knowledge, history and uncertainty.",
+  },
   "/rights/": {
     title: "Rights & Provenance",
     description:
@@ -137,6 +145,10 @@ const routeMetadata = {
   "/deliverables/runway-soundtracks/": {
     title: "Package 006 Production Gallery",
     description: "Finished cross-platform assets for the runway soundtracks exhibition.",
+  },
+  "/deliverables/uniforms-and-social-perception/": {
+    title: "Uniforms and Social Perception — Production Gallery",
+    description: "Complete editable production assets for The Role Room.",
   },
 };
 const routePath = location.pathname.endsWith("/")

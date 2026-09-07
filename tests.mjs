@@ -13,6 +13,7 @@ const must = [
   "exhibitions/fashion-nostalgia/index.html",
   "exhibitions/fashion-week-nervous-system/index.html",
   "exhibitions/runway-soundtracks/index.html",
+  "exhibitions/uniforms-and-social-perception/index.html",
   "objects/index.html",
   "evidence/index.html",
   "ask/index.html",
@@ -22,6 +23,7 @@ const must = [
   "lab/memory-garment-map/index.html",
   "lab/field-load-recovery/index.html",
   "lab/runway-sound-map/index.html",
+  "lab/uniform-encounter-map/index.html",
   "rights/index.html",
   "method/index.html",
   "deliverables/index.html",
@@ -30,6 +32,7 @@ const must = [
   "deliverables/fashion-nostalgia/index.html",
   "deliverables/fashion-week-nervous-system/index.html",
   "deliverables/runway-soundtracks/index.html",
+  "deliverables/uniforms-and-social-perception/index.html",
   "404.html",
   "robots.txt",
   "sitemap.xml",
@@ -41,7 +44,7 @@ vm.createContext(ctx);
 vm.runInContext(fs.readFileSync("data.js", "utf8"), ctx);
 const { objects, claims } = ctx.window.AAN;
 if (
-  objects.length !== 19 ||
+  objects.length !== 22 ||
   objects.some(
     (o) =>
       o.license !== "CC0" || !o.alt || !o.record || !o.image || !o.accession,
@@ -68,6 +71,9 @@ const accessions = [
   "1979.1.2",
   "1978.412.111",
   "1976.285.5",
+  "C.I.47.76.1a, b",
+  "1979.152.54a–h",
+  "2009.20a–j",
 ];
 if (objects.some((o, i) => o.accession !== accessions[i]))
   throw Error("canonical Met accession mismatch");
@@ -78,7 +84,7 @@ if (
     .join() !== "C02"
 )
   throw Error("filter behavior failed");
-if (ctx.window.filterEvidence(claims, "all", "all").length !== 42)
+if (ctx.window.filterEvidence(claims, "all", "all").length !== 50)
   throw Error("filter reset behavior failed");
 const manifest = JSON.parse(
   fs.readFileSync("production/source-manifest.json", "utf8"),
@@ -150,6 +156,13 @@ const production = [
   "package-006-social.csv",
   "package-006-rights.csv",
   "package-006-sources.json",
+  "package-007-video-audio-script.md",
+  "package-007-beehiiv.md",
+  "package-007-verticals.md",
+  "package-007-carousels.md",
+  "package-007-social.csv",
+  "package-007-rights.csv",
+  "package-007-sources.json",
 ];
 for (const f of production)
   if (!fs.existsSync(path.join("production", f)))
@@ -260,6 +273,7 @@ for (const route of [
   "/exhibitions/fashion-nostalgia/",
   "/exhibitions/fashion-week-nervous-system/",
   "/exhibitions/runway-soundtracks/",
+  "/exhibitions/uniforms-and-social-perception/",
   "/objects/",
   "/evidence/",
   "/ask/",
@@ -269,6 +283,7 @@ for (const route of [
   "/lab/memory-garment-map/",
   "/lab/field-load-recovery/",
   "/lab/runway-sound-map/",
+  "/lab/uniform-encounter-map/",
   "/rights/",
   "/method/",
   "/deliverables/",
@@ -277,6 +292,7 @@ for (const route of [
   "/deliverables/fashion-nostalgia/",
   "/deliverables/fashion-week-nervous-system/",
   "/deliverables/runway-soundtracks/",
+  "/deliverables/uniforms-and-social-perception/",
 ])
   if (!app.includes(`"${route}"`) && !app.includes(`'${route}'`))
     throw Error(`route metadata missing ${route}`);
@@ -388,6 +404,28 @@ for (const token of ["NOTHING IS STORED", "aria-live", "buildSound", "clearSound
 const soundRights = fs.readFileSync("production/package-006-rights.csv", "utf8");
 for (const token of ["BFC001", "authorized platform embed", "Public Domain/CC0", "No download"])
   if (!soundRights.includes(token)) throw Error(`Package 006 rights missing ${token}`);
+const uniformClaims = claims.filter((c) => c.id.startsWith("U"));
+if (uniformClaims.length !== 8 || uniformClaims.some((c) => !c.boundary || !c.doi))
+  throw Error("Package 007 claims or boundaries incomplete");
+const uniformManifest = JSON.parse(fs.readFileSync("production/package-007-sources.json", "utf8"));
+const uniformMapped = new Set(uniformManifest.sources.flatMap((s) => s.claim_ids));
+for (const c of uniformClaims)
+  if (!uniformMapped.has(c.id)) throw Error(`Package 007 manifest missing ${c.id}`);
+if (uniformManifest.sources.some((s) => !s.evidence_class || !s.limit || !s.url))
+  throw Error("Package 007 evidence boundaries incomplete");
+const uniformPage = fs.readFileSync("exhibitions/uniforms-and-social-perception/index.html", "utf8");
+for (const token of ["A uniform is read before its wearer speaks", "Inference is not verification", "Download image", "Not established", "Uniform Encounter Map"])
+  if (!uniformPage.includes(token)) throw Error(`Package 007 exhibition missing ${token}`);
+const uniformLab = fs.readFileSync("lab/uniform-encounter-map/index.html", "utf8");
+for (const token of ["NOTHING IS STORED", "aria-live", "buildUniform", "clearUniform", "verifies no authority"])
+  if (!uniformLab.toLowerCase().includes(token.toLowerCase())) throw Error(`Package 007 mapper missing ${token}`);
+const uniformRights = fs.readFileSync("production/package-007-rights.csv", "utf8");
+for (const token of ["U-M84440", "U-SI001", "Public Domain/CC0", "link only"])
+  if (!uniformRights.includes(token)) throw Error(`Package 007 rights missing ${token}`);
+for (const file of ["package-007-video-audio-script.md","package-007-beehiiv.md","package-007-verticals.md","package-007-carousels.md"]) {
+  const words = fs.readFileSync(path.join("production", file), "utf8").trim().split(/\s+/).length;
+  if (words < 200) throw Error(`Package 007 output too thin: ${file}`);
+}
 const routeMap = new Map([
   ["/", "index.html"],
   ["/exhibitions", "exhibitions/index.html"],
@@ -395,6 +433,7 @@ const routeMap = new Map([
   ["/exhibitions/fashion-nostalgia", "exhibitions/fashion-nostalgia/index.html"],
   ["/exhibitions/fashion-week-nervous-system", "exhibitions/fashion-week-nervous-system/index.html"],
   ["/exhibitions/runway-soundtracks", "exhibitions/runway-soundtracks/index.html"],
+  ["/exhibitions/uniforms-and-social-perception", "exhibitions/uniforms-and-social-perception/index.html"],
   [
     "/exhibitions/clothes-and-cognition",
     "exhibitions/clothes-and-cognition/index.html",
@@ -407,6 +446,7 @@ const routeMap = new Map([
   ["/lab/memory-garment-map", "lab/memory-garment-map/index.html"],
   ["/lab/field-load-recovery", "lab/field-load-recovery/index.html"],
   ["/lab/runway-sound-map", "lab/runway-sound-map/index.html"],
+  ["/lab/uniform-encounter-map", "lab/uniform-encounter-map/index.html"],
   ["/rights", "rights/index.html"],
   ["/method", "method/index.html"],
   ["/deliverables", "deliverables/index.html"],
@@ -414,6 +454,7 @@ const routeMap = new Map([
   ["/deliverables/fashion-nostalgia", "deliverables/fashion-nostalgia/index.html"],
   ["/deliverables/fashion-week-nervous-system", "deliverables/fashion-week-nervous-system/index.html"],
   ["/deliverables/runway-soundtracks", "deliverables/runway-soundtracks/index.html"],
+  ["/deliverables/uniforms-and-social-perception", "deliverables/uniforms-and-social-perception/index.html"],
 ]);
 const server = http.createServer((req, res) => {
   const clean = (req.url || "/").replace(/\/$/, "") || "/";
