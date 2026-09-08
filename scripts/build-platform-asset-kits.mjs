@@ -24,7 +24,18 @@ function visualPool(p){
  return [...os,...cs];
 }
 function pick(pool,n,offset=0){const usable=pool.filter(a=>['installed-object','installed-media','installed-tool','resource-room','reserve','link-only'].includes(a.disposition));return usable[(n+offset)%usable.length];}
-function frame(p,pool,n,series){const a=pick(pool,n,series==='B'?3:0);return {frame:n+1,beat:p.beats[n],assetId:a.id,crop:n%3===0?'4:5 full object with generous negative space':n%3===1?'4:5 detail crop; preserve identifying construction':'4:5 split evidence plate; do not obscure object',overlay:n===0?p.title:p.beats[n],caption:`${p.beats[n]}. ${a.caption||a.title}`,credit:a.credit,alt:a.alt||`${a.title}, used as evidence for ${p.beats[n].toLowerCase()}.`,boundary:a.disposition==='link-only'?'Link card only; do not reproduce protected media.':'Do not imply this object proves a neural mechanism.'};}
+function imagePool(pool){return pool.filter(a=>a.mediaUrl&&a.type==='image'&&['installed-object','installed-media'].includes(a.disposition));}
+function evidencePool(pool){return pool.filter(a=>!a.mediaUrl||!['installed-object','installed-media'].includes(a.disposition));}
+function visualChoice(pool,n,series){
+ const images=imagePool(pool), evidence=evidencePool(pool);
+ // A photograph/object is preferred when it can actually carry the claim. The
+ // evidence-boundary and synthesis beats remain graphics by editorial choice.
+ const imagePositions=(series==='A'?[0,1,3,5]:[0,2,4,6]).slice(0,images.length);
+ if(images.length&&imagePositions.includes(n)) return {a:images[(imagePositions.indexOf(n)+(series==='B'?Math.ceil(images.length/2):0))%images.length],mode:'cleared-real-image',why:'A material object makes this embodied claim more legible than decoration or type alone.'};
+ const a=evidence[(n+(series==='B'?3:0))%Math.max(1,evidence.length)]||pool[n%pool.length];
+ return {a,mode:n===7?'editorial-typography':'evidence-graphic',why:n===7?'The evidence boundary is the subject; a decisive typographic close is stronger than an unrelated photograph.':'A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.'};
+}
+function frame(p,pool,n,series){const {a,mode,why}=visualChoice(pool,n,series);return {frame:n+1,beat:p.beats[n],assetId:a.id,visualMode:mode,visualRationale:why,crop:mode==='cleared-real-image'?(n%2?'4:5 detail crop; preserve identifying construction':'4:5 full object with generous negative space'):(mode==='evidence-graphic'?'4:5 purpose-built evidence diagram with source identity and claim boundary':'4:5 editorial typography; no decorative substitute'),overlay:n===0?p.title:p.beats[n],caption:`${p.beats[n]}. ${a.caption||a.title}`,credit:mode==='cleared-real-image'?a.credit:`Original ${mode==='evidence-graphic'?'evidence graphic':'editorial typography'} · RN Collins · source: ${a.credit}`,alt:mode==='cleared-real-image'?(a.alt||`${a.title}, used as evidence for ${p.beats[n].toLowerCase()}.`):`${mode==='evidence-graphic'?'Evidence diagram':'Editorial typographic slide'} explaining ${p.beats[n].toLowerCase()}; source named on slide.`,boundary:a.disposition==='link-only'?'Source identity only; protected media is not reproduced.':'Do not imply this object proves a neural mechanism.'};}
 
 const kits=specs.map((p,pi)=>{
  const pool=visualPool(p);
@@ -32,7 +43,7 @@ const kits=specs.map((p,pi)=>{
  const carouselB=Array.from({length:8},(_,i)=>frame(p,pool,i,'B'));
  const broll=p.beats.slice(0,7).map((beat,i)=>{const a=pick(pool,i+1,2);return {beat:i+1,duration:`${i===0?'0–3':`${i*3}–${i*3+3}`}s`,assetId:a.id,shot:`Slow ${i%2?'detail pan':'object reveal'}; cut on clause, never simulate motion in a still`,onScreen:beat,credit:a.credit,boundary:a.disposition==='link-only'?'Use a designed source card and outbound link; do not extract footage.':'Crop from cleared master; keep credit in caption and end card.'}});
  const youtube=p.beats.map((beat,i)=>{const a=pick(pool,i,1);return {time:`${String(Math.floor(i*1.5)).padStart(2,'0')}:${i%2?'30':'00'}`,chapter:beat,assetId:a.id,treatment:i%3===0?'Full-bleed object with slow editorial crop':i%3===1?'Evidence split-screen with source citation':'Object detail beside boundary sentence',credit:a.credit}});
- const pinterest=p.pins.map((title,i)=>{const a=pick(pool,i,4);return {pin:i+1,title,assetId:a.id,format:i%2?'1000×1500 standard pin':'1000×2100 idea pin',description:`${title}: an evidence-bounded visual guide from ${p.title}.`,alt:a.alt||a.title,credit:a.credit,destination:`/exhibitions/${p.slug}/`}});
+ const pinterest=p.pins.map((title,i)=>{const images=imagePool(pool), evidence=evidencePool(pool),ordinal=Math.floor(i/2),useImage=i%2===0&&ordinal<images.length,a=useImage?images[ordinal]:(evidence[i%Math.max(1,evidence.length)]||pool[i%pool.length]),visualMode=useImage?'cleared-real-image':'evidence-graphic';return {pin:i+1,title,assetId:a.id,visualMode,visualRationale:useImage?'The cleared object is an effective discovery image for this claim.':'A legible evidence graphic is stronger and more accurate than repeating the available object.',format:'1000×1500 standard pin',description:`${title}: an evidence-bounded visual guide from ${p.title}.`,alt:useImage?(a.alt||a.title):`Evidence graphic introducing ${title.toLowerCase()} and naming its source.`,credit:useImage?a.credit:`Original evidence graphic · RN Collins · source: ${a.credit}`,destination:`/exhibitions/${p.slug}/`}});
  const inline={beehiiv:[0,2,5].map((n,i)=>({position:['after opening','after first evidence section','before boundary'][i],assetId:pick(pool,n).id,caption:pick(pool,n).caption,credit:pick(pool,n).credit})),linkedin:[1,4].map((n,i)=>({position:i?'document slide 5':'document cover',assetId:pick(pool,n,2).id,caption:pick(pool,n,2).caption,credit:pick(pool,n,2).credit}))};
  return {...p,assets:pool,carouselA,carouselB,broll,pinterest,youtube,inline,downloads:pool.filter(a=>['installed-object','installed-media'].includes(a.disposition)&&a.mediaUrl).map(a=>({assetId:a.id,source:a.mediaUrl,canonical:a.canonicalUrl,credit:a.credit,rights:a.rights}))};
 });
@@ -73,7 +84,7 @@ fs.writeFileSync('production-kits/index.html',`<!doctype html><html lang="en"><h
 
 // Media Library reports now link directly to each production kit.
 let media=fs.readFileSync('media/media.js','utf8');
-media=media.replace("<p><b>Stop:</b> '+e(p.stopReason)+'</p></details>","<p><b>Stop:</b> '+e(p.stopReason)+'</p></details><p><a class=\"download\" href=\"/production-kits/'+p.id.toLowerCase()+'/\">Open platform asset kit →</a></p>");
+if(!media.includes('Open platform asset kit →')) media=media.replace("<p><b>Stop:</b> '+e(p.stopReason)+'</p></details>","<p><b>Stop:</b> '+e(p.stopReason)+'</p></details><p><a class=\"download\" href=\"/production-kits/'+p.id.toLowerCase()+'/\">Open platform asset kit →</a></p>");
 fs.writeFileSync('media/media.js',media);
 
 // Sitemap routes.
