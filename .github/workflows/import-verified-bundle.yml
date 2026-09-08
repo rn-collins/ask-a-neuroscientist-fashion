@@ -15,5 +15,6 @@ jobs:
         run: |
           curl -fL -o import.tar.gz "https://github.com/rn-collins/ask-a-neuroscientist-fashion/releases/download/codex-import-aan-60bb818/aan-import-60bb818-20260908.tar.gz"
           tar -xzf import.tar.gz
-          git clone --bare aan-visual-audit-60bb818.bundle imported.git
-          git --git-dir=imported.git push "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git" 60bb8180ac701e863153f15567b5186da3cfee28:refs/heads/codex-aan-import
+          git init --bare imported.git
+          git --git-dir=imported.git fetch "$PWD/aan-visual-audit-60bb818.bundle" HEAD:refs/heads/imported
+          git --git-dir=imported.git push "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git" refs/heads/imported:refs/heads/codex-aan-import
