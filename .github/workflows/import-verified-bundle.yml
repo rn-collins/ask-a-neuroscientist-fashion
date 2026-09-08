@@ -1,20 +1,27 @@
-name: Import verified publication bundle
+name: Diagnose verified publication import
 on:
   push:
     branches: [main]
-  workflow_dispatch:
 jobs:
-  import:
+  diagnose:
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
-      - name: Import exact verified commit
+      - name: Diagnose import
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
+          set +e
+          echo "## Import diagnostics" >> "${GITHUB_STEP_SUMMARY}"
           curl -fL -o import.tar.gz "https://github.com/rn-collins/ask-a-neuroscientist-fashion/releases/download/codex-import-aan-60bb818/aan-import-60bb818-20260908.tar.gz"
+          echo "curl exit: $?" >> "${GITHUB_STEP_SUMMARY}"
+          ls -lh import.tar.gz >> "${GITHUB_STEP_SUMMARY}" 2>&1
           tar -xzf import.tar.gz
-          git init --bare imported.git
-          git --git-dir=imported.git fetch "$PWD/aan-visual-audit-60bb818.bundle" HEAD:refs/heads/imported
-          git --git-dir=imported.git push "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git" refs/heads/imported:refs/heads/codex-aan-import
+          echo "tar exit: $?" >> "${GITHUB_STEP_SUMMARY}"
+          ls -lh *.bundle >> "${GITHUB_STEP_SUMMARY}" 2>&1
+          git init --bare imported.git >> "${GITHUB_STEP_SUMMARY}" 2>&1
+          git --git-dir=imported.git fetch "${PWD}/aan-visual-audit-60bb818.bundle" HEAD:refs/heads/imported >> "${GITHUB_STEP_SUMMARY}" 2>&1
+          echo "fetch exit: $?" >> "${GITHUB_STEP_SUMMARY}"
+          git --git-dir=imported.git push "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git" refs/heads/imported:refs/heads/codex-aan-import >> "${GITHUB_STEP_SUMMARY}" 2>&1
+          echo "push exit: $?" >> "${GITHUB_STEP_SUMMARY}"
