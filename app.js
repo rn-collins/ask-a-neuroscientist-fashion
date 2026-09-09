@@ -127,32 +127,32 @@ const routeMetadata = {
       "The experience, mechanism and evidence-limit standard behind the series.",
   },
   "/deliverables/": {
-    title: "Production Gallery — AAN × Fashion",
+    title: "Clothes and Cognition — Production Gallery",
     description:
       "Complete editable publication systems for seven fashion-and-neuroscience exhibitions.",
   },
   "/deliverables/armor/": {
-    title: "Package 002 Production Gallery",
+    title: "Outfit as Armor — Production Gallery",
     description: "Complete editable production assets for Outfit as Armor.",
   },
   "/deliverables/fabric-sensory-world/": {
-    title: "Package 003 Production Gallery",
+    title: "The Sensory Textile Room — Production Gallery",
     description: "Finished cross-platform assets for the sensory textile exhibition.",
   },
   "/deliverables/fashion-nostalgia/": {
-    title: "Package 004 Production Gallery",
+    title: "The Memory Wardrobe — Production Gallery",
     description: "Finished cross-platform assets for the fashion nostalgia exhibition.",
   },
   "/deliverables/fashion-week-nervous-system/": {
-    title: "Package 005 Production Gallery",
+    title: "The Fashion Week Nervous System — Production Gallery",
     description: "Finished cross-platform assets for the Fashion Week nervous-system exhibition.",
   },
   "/deliverables/runway-soundtracks/": {
-    title: "Package 006 Production Gallery",
+    title: "The Listening Room — Production Gallery",
     description: "Finished cross-platform assets for the runway soundtracks exhibition.",
   },
   "/deliverables/uniforms-and-social-perception/": {
-    title: "Uniforms and Social Perception — Production Gallery",
+    title: "The Role Room — Production Gallery",
     description: "Complete editable production assets for The Role Room.",
   },
 };

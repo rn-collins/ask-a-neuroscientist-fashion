@@ -224,6 +224,12 @@ for (const [file, expectedTitle] of Object.entries(deliverablesGalleryTitles)) {
   if (documentTitle !== expectedTitle || ogTitle !== expectedTitle || twitterTitle !== expectedTitle)
     throw Error(`${file} must use its exact topic-specific title across document, Open Graph and Twitter metadata`);
 }
+const clientMetadataSource = fs.readFileSync("app.js", "utf8");
+for (const expectedTitle of Object.values(deliverablesGalleryTitles))
+  if (!clientMetadataSource.includes(`title: "${expectedTitle}"`))
+    throw Error(`client metadata is missing exact title: ${expectedTitle}`);
+if (/title:\s*"Package\s+\d+\s+Production Gallery/i.test(clientMetadataSource))
+  throw Error("client metadata retains a generic numbered production-gallery title");
 for (const f of production)
   if (!fs.existsSync(path.join("production", f)))
     throw Error(`missing production/${f}`);
