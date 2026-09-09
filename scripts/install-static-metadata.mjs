@@ -7,6 +7,15 @@ const descriptions = {
   "/ask/": "Questions for evidence specialists, fashion historians and lived-experience experts.",
   "/method/": "The experience, mechanism and evidence-limit standard behind the series.",
 };
+const routeTitles = {
+  "/deliverables/": "Clothes and Cognition — Production Gallery",
+  "/deliverables/armor/": "Outfit as Armor — Production Gallery",
+  "/deliverables/fabric-sensory-world/": "The Sensory Textile Room — Production Gallery",
+  "/deliverables/fashion-nostalgia/": "The Memory Wardrobe — Production Gallery",
+  "/deliverables/fashion-week-nervous-system/": "The Fashion Week Nervous System — Production Gallery",
+  "/deliverables/runway-soundtracks/": "The Listening Room — Production Gallery",
+  "/deliverables/uniforms-and-social-perception/": "The Role Room — Production Gallery",
+};
 const exhibitionImages = {
   "/exhibitions/clothes-and-cognition/": "https://images.metmuseum.org/CRDImages/ci/original/DT200606.jpg",
   "/exhibitions/outfit-as-armor/": "https://images.metmuseum.org/CRDImages/aa/original/DP256970.jpg",
@@ -51,10 +60,12 @@ const remove = (html, pattern) => html.replace(pattern, "");
 for (const file of files) {
   let html = fs.readFileSync(file, "utf8");
   const route = routeFor(file);
-  const title = readContent(html, /<title>([^<]+)<\/title>/i);
+  const sourceTitle = readContent(html, /<title>([^<]+)<\/title>/i);
+  const title = routeTitles[route] || sourceTitle;
   const existingDescription = readContent(html, /<meta[^>]+name=["']description["'][^>]+content=["']([^"']+)["'][^>]*>/i);
   const description = existingDescription || descriptions[route];
   if (!title || !description) throw new Error(`Missing title or description for ${route}`);
+  if (routeTitles[route]) html = html.replace(/<title>[^<]+<\/title>/i, `<title>${escapeAttribute(title)}</title>`);
   const existingImage = readContent(html, /<meta[^>]+(?:property=["']og:image["']|name=["']twitter:image["'])[^>]+content=["']([^"']+)["'][^>]*>/i);
   const preview = packagePreviews[route];
   const image = preview?.image || exhibitionImages[route] || existingImage || HOME_IMAGE;

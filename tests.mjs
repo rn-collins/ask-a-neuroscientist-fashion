@@ -207,6 +207,23 @@ for (const [number, expectedTitle] of Object.entries(packageGalleryTitles)) {
   if (/Package\s+\d+\s+Production Gallery/i.test(html))
     throw Error(`AAN-F-${number} retains a generic production-gallery title`);
 }
+const deliverablesGalleryTitles = {
+  "deliverables/index.html": "Clothes and Cognition — Production Gallery",
+  "deliverables/armor/index.html": "Outfit as Armor — Production Gallery",
+  "deliverables/fabric-sensory-world/index.html": "The Sensory Textile Room — Production Gallery",
+  "deliverables/fashion-nostalgia/index.html": "The Memory Wardrobe — Production Gallery",
+  "deliverables/fashion-week-nervous-system/index.html": "The Fashion Week Nervous System — Production Gallery",
+  "deliverables/runway-soundtracks/index.html": "The Listening Room — Production Gallery",
+  "deliverables/uniforms-and-social-perception/index.html": "The Role Room — Production Gallery",
+};
+for (const [file, expectedTitle] of Object.entries(deliverablesGalleryTitles)) {
+  const html = fs.readFileSync(file, "utf8");
+  const documentTitle = html.match(/<title>([^<]+)<\/title>/i)?.[1];
+  const ogTitle = html.match(/property="og:title" content="([^"]+)"/i)?.[1];
+  const twitterTitle = html.match(/name="twitter:title" content="([^"]+)"/i)?.[1];
+  if (documentTitle !== expectedTitle || ogTitle !== expectedTitle || twitterTitle !== expectedTitle)
+    throw Error(`${file} must use its exact topic-specific title across document, Open Graph and Twitter metadata`);
+}
 for (const f of production)
   if (!fs.existsSync(path.join("production", f)))
     throw Error(`missing production/${f}`);
