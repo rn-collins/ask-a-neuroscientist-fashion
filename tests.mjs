@@ -545,6 +545,7 @@ const routeMap = new Map([
   ["/exhibitions/fabric-sensory-world", "exhibitions/fabric-sensory-world/index.html"],
   ["/exhibitions/fashion-nostalgia", "exhibitions/fashion-nostalgia/index.html"],
   ["/exhibitions/fashion-week-nervous-system", "exhibitions/fashion-week-nervous-system/index.html"],
+  ["/exhibitions/outfit-as-armor", "exhibitions/outfit-as-armor/index.html"],
   ["/exhibitions/runway-soundtracks", "exhibitions/runway-soundtracks/index.html"],
   ["/exhibitions/uniforms-and-social-perception", "exhibitions/uniforms-and-social-perception/index.html"],
   [
@@ -555,6 +556,7 @@ const routeMap = new Map([
   ["/evidence", "evidence/index.html"],
   ["/ask", "ask/index.html"],
   ["/lab", "lab/index.html"],
+  ["/lab/armor", "lab/armor/index.html"],
   ["/lab/textile-sensory-map", "lab/textile-sensory-map/index.html"],
   ["/lab/memory-garment-map", "lab/memory-garment-map/index.html"],
   ["/lab/field-load-recovery", "lab/field-load-recovery/index.html"],
@@ -563,12 +565,40 @@ const routeMap = new Map([
   ["/rights", "rights/index.html"],
   ["/method", "method/index.html"],
   ["/deliverables", "deliverables/index.html"],
+  ["/deliverables/armor", "deliverables/armor/index.html"],
   ["/deliverables/fabric-sensory-world", "deliverables/fabric-sensory-world/index.html"],
   ["/deliverables/fashion-nostalgia", "deliverables/fashion-nostalgia/index.html"],
   ["/deliverables/fashion-week-nervous-system", "deliverables/fashion-week-nervous-system/index.html"],
   ["/deliverables/runway-soundtracks", "deliverables/runway-soundtracks/index.html"],
   ["/deliverables/uniforms-and-social-perception", "deliverables/uniforms-and-social-perception/index.html"],
+  ["/media", "media/index.html"],
+  ["/production-kits", "production-kits/index.html"],
+  ["/production-kits/aan-f-001", "production-kits/aan-f-001/index.html"],
+  ["/production-kits/aan-f-002", "production-kits/aan-f-002/index.html"],
+  ["/production-kits/aan-f-003", "production-kits/aan-f-003/index.html"],
+  ["/production-kits/aan-f-004", "production-kits/aan-f-004/index.html"],
+  ["/production-kits/aan-f-005", "production-kits/aan-f-005/index.html"],
+  ["/production-kits/aan-f-006", "production-kits/aan-f-006/index.html"],
+  ["/production-kits/aan-f-007", "production-kits/aan-f-007/index.html"],
 ]);
+if (routeMap.size !== 37) throw Error(`route smoke inventory expected 37 routes (homepage plus 36 destinations); found ${routeMap.size}`);
+
+// Every generated destination must retain useful static metadata when it is
+// not registered in app.js. Every local preview or media reference must exist.
+for (const [route, file] of routeMap) {
+  const html = fs.readFileSync(file, "utf8");
+  if (!/<title>[^<]+<\/title>/i.test(html)) throw Error(`${route} lacks a static title`);
+  if (route.startsWith("/production-kits") &&
+      !/<meta[^>]+name=["']description["'][^>]+content=["'][^"']+["']/i.test(html))
+    throw Error(`${route} lacks a preserved static description`);
+  for (const match of html.matchAll(/(?:src|href|content)=["'](\/[^"'#?]+\.(?:png|jpe?g|webp|gif|svg))["']/gi)) {
+    const target = match[1].slice(1);
+    if (!fs.existsSync(target) || !fs.statSync(target).size)
+      throw Error(`${route} references missing local asset ${match[1]}`);
+  }
+}
+for (const token of ["routeMetadata[routePath]", "staticDescription", "resolvedTitle", "staticPreview", 'routeImages["/"]'])
+  if (!app.includes(token)) throw Error(`metadata fallback implementation missing ${token}`);
 const server = http.createServer((req, res) => {
   const clean = (req.url || "/").replace(/\/$/, "") || "/";
   const file = routeMap.get(clean);
