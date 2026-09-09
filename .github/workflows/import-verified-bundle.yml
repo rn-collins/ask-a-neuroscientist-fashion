@@ -12,11 +12,13 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - name: Import verified commits
-        run: |
-          set -euo pipefail
-          curl -fL -o aan.bundle "https://github.com/rn-collins/ask-a-neuroscientist-fashion/releases/download/codex-import-aan-c29da3c/aan-media-c29da3c.bundle"
-          git bundle verify aan.bundle
-          git bundle unbundle aan.bundle
-          git branch -f codex-aan-media c29da3ca9641690ca7e41495022768110698aba7
-          git push --force origin refs/heads/codex-aan-media
+      - name: Download verified bundle
+        run: curl -fL -o aan.bundle "https://github.com/rn-collins/ask-a-neuroscientist-fashion/releases/download/codex-import-aan-c29da3c/aan-media-c29da3c.bundle"
+      - name: Verify bundle
+        run: git bundle verify aan.bundle
+      - name: Unpack bundle
+        run: git bundle unbundle aan.bundle
+      - name: Create review branch
+        run: git branch -f codex-aan-media c29da3ca9641690ca7e41495022768110698aba7
+      - name: Publish review branch
+        run: git push --force origin refs/heads/codex-aan-media
