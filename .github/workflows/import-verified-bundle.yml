@@ -16,5 +16,7 @@ jobs:
         run: |
           set -euo pipefail
           curl -fL -o aan.bundle "https://github.com/rn-collins/ask-a-neuroscientist-fashion/releases/download/codex-import-aan-c29da3c/aan-media-c29da3c.bundle"
-          git fetch ./aan.bundle refs/heads/aan-next-tranche:refs/heads/codex-aan-media
+          git bundle verify aan.bundle
+          git bundle unbundle aan.bundle
+          git branch -f codex-aan-media c29da3ca9641690ca7e41495022768110698aba7
           git push --force origin refs/heads/codex-aan-media
