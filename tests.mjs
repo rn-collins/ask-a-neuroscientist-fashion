@@ -3,6 +3,7 @@ import path from "node:path";
 import vm from "node:vm";
 import os from "node:os";
 import http from "node:http";
+import crypto from "node:crypto";
 import { spawnSync } from "node:child_process";
 const must = [
   "index.html",
@@ -475,6 +476,68 @@ for (const token of ["U-M84440", "U-SI001", "Public Domain/CC0", "link only"])
 for (const file of ["package-007-video-audio-script.md","package-007-beehiiv.md","package-007-verticals.md","package-007-carousels.md"]) {
   const words = fs.readFileSync(path.join("production", file), "utf8").trim().split(/\s+/).length;
   if (words < 200) throw Error(`Package 007 output too thin: ${file}`);
+}
+const scopedLedgers = [
+  ["fashion-nostalgia", "nostalgiaClaims", "startsWith('N')"],
+  ["fashion-week-nervous-system", "fashionWeekClaims", "startsWith('F')"],
+  ["runway-soundtracks", "soundClaims", "startsWith('S')"],
+  ["uniforms-and-social-perception", "uniformClaims", "startsWith('U')"],
+];
+for (const [slug, target, filter] of scopedLedgers) {
+  const html = fs.readFileSync(`exhibitions/${slug}/index.html`, "utf8");
+  if (!html.includes(`id="${target}"`) || !html.includes(filter))
+    throw Error(`${slug} missing scoped evidence ledger`);
+}
+const fashionWeekPage = fs.readFileSync(
+  "exhibitions/fashion-week-nervous-system/index.html",
+  "utf8",
+);
+for (const token of [
+  "/production-kits/aan-f-005/media/r74.jpg",
+  "/media/p005-field-load-score.svg",
+  "CC BY 2.0",
+  "not a measurement of Fashion Week physiology",
+])
+  if (!fashionWeekPage.includes(token))
+    throw Error(`Package 005 visual evidence missing ${token}`);
+const routeImageBlock = app.match(/const routeImages = \{([\s\S]*?)\n\};/);
+if (!routeImageBlock) throw Error("route-specific preview image map missing");
+const exhibitionPreviewImages = [...routeImageBlock[1].matchAll(/"\/exhibitions\/[^\"]+\/": "([^"]+)"/g)].map((match) => match[1]);
+if (exhibitionPreviewImages.length !== 7 || new Set(exhibitionPreviewImages).size !== 7)
+  throw Error("every exhibition needs a unique route-specific preview image");
+for (const slug of [
+  "clothes-and-cognition",
+  "outfit-as-armor",
+  "fabric-sensory-world",
+  "fashion-nostalgia",
+  "fashion-week-nervous-system",
+  "runway-soundtracks",
+  "uniforms-and-social-perception",
+]) {
+  const html = fs.readFileSync(`exhibitions/${slug}/index.html`, "utf8");
+  if (!html.includes('property="og:image"') || !html.includes('name="twitter:image"'))
+    throw Error(`${slug} lacks static social preview metadata`);
+}
+for (const token of ["og:image", "twitter:image"])
+  if (!app.includes(token)) throw Error(`${token} runtime metadata missing`);
+const visualMatrix = fs.readFileSync(
+  "production/route-slide-visual-assignment-matrix.csv",
+  "utf8",
+);
+const matrixRows = visualMatrix.trim().split("\n").slice(1);
+const slideRows = matrixRows.filter((row) => row.includes('"instagram carousel"'));
+if (slideRows.length !== 112)
+  throw Error(`visual matrix expected 112 carousel slides; found ${slideRows.length}`);
+for (const id of ["001", "002", "003", "004", "005", "006", "007"])
+  if (!matrixRows.some((row) => row.startsWith(`"AAN-F-${id}"`)))
+    throw Error(`visual matrix missing AAN-F-${id}`);
+const slideHashes = slideRows.map((row) => row.match(/"([a-f0-9]{64})"$/)?.[1]);
+if (slideHashes.some((hash) => !hash) || new Set(slideHashes).size !== slideHashes.length)
+  throw Error("carousel slide images must be present and byte-unique");
+for (const file of fs.readdirSync("media").filter((name) => name.endsWith(".svg"))) {
+  const svg = fs.readFileSync(path.join("media", file), "utf8");
+  if (!svg.includes("<title") || !svg.includes("<desc"))
+    throw Error(`${file} lacks accessible title/description`);
 }
 const routeMap = new Map([
   ["/", "index.html"],

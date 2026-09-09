@@ -156,6 +156,16 @@ const routeMetadata = {
     description: "Complete editable production assets for The Role Room.",
   },
 };
+const routeImages = {
+  "/": "https://images.metmuseum.org/CRDImages/ci/original/1979.152.54a%E2%80%93cf_F.jpg",
+  "/exhibitions/clothes-and-cognition/": "https://images.metmuseum.org/CRDImages/ci/original/DT200606.jpg",
+  "/exhibitions/outfit-as-armor/": "https://images.metmuseum.org/CRDImages/aa/original/DP256970.jpg",
+  "/exhibitions/fabric-sensory-world/": "https://images.metmuseum.org/CRDImages/ci/original/DT5639.jpg",
+  "/exhibitions/fashion-nostalgia/": "https://images.metmuseum.org/CRDImages/ci/original/1980.409.1a-c.jpg",
+  "/exhibitions/fashion-week-nervous-system/": "/production-kits/aan-f-005/media/r74.jpg",
+  "/exhibitions/runway-soundtracks/": "https://images.metmuseum.org/CRDImages/mi/original/215848.jpg",
+  "/exhibitions/uniforms-and-social-perception/": "https://images.metmuseum.org/CRDImages/ci/original/1979.152.54a%E2%80%93cf_F.jpg",
+};
 const routePath = location.pathname.endsWith("/")
   ? location.pathname
   : location.pathname + "/";
@@ -227,3 +237,19 @@ if (!canonicalLink) {
   document.head.append(canonicalLink);
 }
 canonicalLink.href = canonical;
+const routeImage = routeImages[routePath];
+if (routeImage) {
+  const imageUrl = new URL(routeImage, location.origin).href;
+  for (const [property, content] of [
+    ["og:image", imageUrl],
+    ["twitter:image", imageUrl],
+  ]) {
+    let imageMeta = document.head.querySelector(`meta[property="${property}"], meta[name="${property}"]`);
+    if (!imageMeta) {
+      imageMeta = document.createElement("meta");
+      imageMeta.setAttribute(property.startsWith("og:") ? "property" : "name", property);
+      document.head.append(imageMeta);
+    }
+    imageMeta.content = content;
+  }
+}
