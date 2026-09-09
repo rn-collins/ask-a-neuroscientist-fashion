@@ -184,6 +184,29 @@ const production = [
   "pinterest-publication-kit.md",
   "human-completion-packet.md",
 ];
+
+// Every package gallery must advertise its actual editorial subject. Generic
+// numbered titles make social shares indistinguishable and are not publication
+// metadata.
+const packageGalleryTitles = {
+  "001": "Clothes and Cognition — Platform Asset Kit",
+  "002": "Outfit as Armor — Platform Asset Kit",
+  "003": "The Sensory Textile Room — Platform Asset Kit",
+  "004": "The Memory Wardrobe — Platform Asset Kit",
+  "005": "The Fashion Week Nervous System — Platform Asset Kit",
+  "006": "The Listening Room — Platform Asset Kit",
+  "007": "The Role Room — Platform Asset Kit",
+};
+for (const [number, expectedTitle] of Object.entries(packageGalleryTitles)) {
+  const html = fs.readFileSync(`production-kits/aan-f-${number}/index.html`, "utf8");
+  const documentTitle = html.match(/<title>([^<]+)<\/title>/i)?.[1];
+  const ogTitle = html.match(/property="og:title" content="([^"]+)"/i)?.[1];
+  const twitterTitle = html.match(/name="twitter:title" content="([^"]+)"/i)?.[1];
+  if (documentTitle !== expectedTitle || ogTitle !== expectedTitle || twitterTitle !== expectedTitle)
+    throw Error(`AAN-F-${number} package gallery title metadata is inconsistent or generic`);
+  if (/Package\s+\d+\s+Production Gallery/i.test(html))
+    throw Error(`AAN-F-${number} retains a generic production-gallery title`);
+}
 for (const f of production)
   if (!fs.existsSync(path.join("production", f)))
     throw Error(`missing production/${f}`);
