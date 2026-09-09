@@ -1,4 +1,4 @@
-name: Import verified publication bundle
+name: Import verified AAN media tranche
 on:
   push:
     branches: [main]
@@ -8,14 +8,13 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: Import verified commit
+      - name: Import verified commits
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           set -euo pipefail
-          curl -fL -o import.tar.gz "https://github.com/rn-collins/ask-a-neuroscientist-fashion/releases/download/codex-import-aan-60bb818/aan-import-60bb818-20260908.tar.gz"
-          tar -xzf import.tar.gz
+          curl -fL -o aan.bundle "https://github.com/rn-collins/ask-a-neuroscientist-fashion/releases/download/codex-import-aan-c29da3c/aan-media-c29da3c.bundle"
           git clone "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git" imported
           cd imported
-          git fetch ../aan-visual-audit-60bb818.bundle HEAD:refs/heads/codex-aan-import
-          git push origin refs/heads/codex-aan-import
+          git fetch ../aan.bundle HEAD:refs/heads/codex-aan-media
+          git push --force origin refs/heads/codex-aan-media
