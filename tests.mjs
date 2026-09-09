@@ -588,9 +588,20 @@ if (routeMap.size !== 37) throw Error(`route smoke inventory expected 37 routes 
 for (const [route, file] of routeMap) {
   const html = fs.readFileSync(file, "utf8");
   if (!/<title>[^<]+<\/title>/i.test(html)) throw Error(`${route} lacks a static title`);
-  if (route.startsWith("/production-kits") &&
-      !/<meta[^>]+name=["']description["'][^>]+content=["'][^"']+["']/i.test(html))
-    throw Error(`${route} lacks a preserved static description`);
+  for (const requirement of [
+    ['description', /<meta[^>]+name=["']description["'][^>]+content=["'][^"']+["']/i],
+    ['canonical', /<link[^>]+rel=["']canonical["'][^>]+href=["']https:\/\/ask-a-neuroscientist-fashion\.vercel\.app\//i],
+    ['og:title', /<meta[^>]+property=["']og:title["'][^>]+content=["'][^"']+["']/i],
+    ['og:description', /<meta[^>]+property=["']og:description["'][^>]+content=["'][^"']+["']/i],
+    ['og:url', /<meta[^>]+property=["']og:url["'][^>]+content=["']https:\/\/ask-a-neuroscientist-fashion\.vercel\.app\//i],
+    ['og:image', /<meta[^>]+property=["']og:image["'][^>]+content=["'][^"']+["']/i],
+    ['og:image:alt', /<meta[^>]+property=["']og:image:alt["'][^>]+content=["'][^"']+["']/i],
+    ['twitter:card', /<meta[^>]+name=["']twitter:card["'][^>]+content=["']summary_large_image["']/i],
+    ['twitter:title', /<meta[^>]+name=["']twitter:title["'][^>]+content=["'][^"']+["']/i],
+    ['twitter:description', /<meta[^>]+name=["']twitter:description["'][^>]+content=["'][^"']+["']/i],
+    ['twitter:image', /<meta[^>]+name=["']twitter:image["'][^>]+content=["'][^"']+["']/i],
+    ['twitter:image:alt', /<meta[^>]+name=["']twitter:image:alt["'][^>]+content=["'][^"']+["']/i],
+  ]) if (!requirement[1].test(html)) throw Error(`${route} lacks static ${requirement[0]}`);
   for (const match of html.matchAll(/(?:src|href|content)=["'](\/[^"'#?]+\.(?:png|jpe?g|webp|gif|svg))["']/gi)) {
     const target = match[1].slice(1);
     if (!fs.existsSync(target) || !fs.statSync(target).size)
