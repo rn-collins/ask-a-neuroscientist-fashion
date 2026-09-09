@@ -66,7 +66,11 @@ const routeMetadata = {
     title: "What Do Uniforms Do to Wearer and Observer? — Exhibition 007",
     description: "Role, inference and institutional power—without treating a uniform as proof of character, competence or behavior.",
   },
-  "/media/": {title:"Media & Resources — AAN × Fashion",description:"Package media libraries, resource rooms, rights decisions and dated excavation reports."},
+  "/media/": {
+    title: "Media & Resources — AAN × Fashion",
+    description:
+      "Package media libraries, resource rooms, rights decisions and dated excavation reports.",
+  },
   "/objects/": {
     title: "Object Room — AAN × Fashion",
     description:
@@ -119,3 +123,107 @@ const routeMetadata = {
   },
   "/method/": {
     title: "Editorial Method",
+    description:
+      "The experience, mechanism and evidence-limit standard behind the series.",
+  },
+  "/deliverables/": {
+    title: "Production Gallery — AAN × Fashion",
+    description:
+      "Complete editable publication systems for seven fashion-and-neuroscience exhibitions.",
+  },
+  "/deliverables/armor/": {
+    title: "Package 002 Production Gallery",
+    description: "Complete editable production assets for Outfit as Armor.",
+  },
+  "/deliverables/fabric-sensory-world/": {
+    title: "Package 003 Production Gallery",
+    description: "Finished cross-platform assets for the sensory textile exhibition.",
+  },
+  "/deliverables/fashion-nostalgia/": {
+    title: "Package 004 Production Gallery",
+    description: "Finished cross-platform assets for the fashion nostalgia exhibition.",
+  },
+  "/deliverables/fashion-week-nervous-system/": {
+    title: "Package 005 Production Gallery",
+    description: "Finished cross-platform assets for the Fashion Week nervous-system exhibition.",
+  },
+  "/deliverables/runway-soundtracks/": {
+    title: "Package 006 Production Gallery",
+    description: "Finished cross-platform assets for the runway soundtracks exhibition.",
+  },
+  "/deliverables/uniforms-and-social-perception/": {
+    title: "Uniforms and Social Perception — Production Gallery",
+    description: "Complete editable production assets for The Role Room.",
+  },
+};
+const routePath = location.pathname.endsWith("/")
+  ? location.pathname
+  : location.pathname + "/";
+const exhibitionSlugs = [
+  "clothes-and-cognition",
+  "outfit-as-armor",
+  "fabric-sensory-world",
+  "fashion-nostalgia",
+  "fashion-week-nervous-system",
+  "runway-soundtracks",
+  "uniforms-and-social-perception",
+];
+const exhibitionIndex = exhibitionSlugs.findIndex((slug) =>
+  routePath.includes(`/exhibitions/${slug}/`),
+);
+if (exhibitionIndex >= 0) {
+  document.body.classList.add("gallery-story", `story-00${exhibitionIndex + 1}`);
+  const threshold = main?.querySelector(
+    ":scope > .armor-hero, :scope > .uniform-opening, :scope > .editorial-object",
+  );
+  const storyHead = main?.querySelector(":scope > .story-head");
+  if (threshold && storyHead) {
+    threshold.classList.add("exhibition-threshold");
+    storyHead.insertAdjacentElement("afterend", threshold);
+  }
+}
+if (routePath.startsWith("/deliverables/")) document.body.classList.add("production-page");
+document
+  .querySelectorAll('a[href^="/production/"], a[href*="images.metmuseum.org"]')
+  .forEach((link) => link.setAttribute("download", ""));
+if (routePath === "/exhibitions/") {
+  const roomMedia = [82433, 24671, 81754, 107620, 436533, 503169, 84449]
+    .map((id) => A.objects.find((object) => object.id === id))
+    .filter(Boolean);
+  const lede = main?.querySelector(".lede");
+  if (lede && roomMedia.length) {
+    const strip = document.createElement("section");
+    strip.className = "room-object-strip";
+    strip.setAttribute("aria-label", "Objects from the seven exhibitions");
+    strip.innerHTML = roomMedia.map((object, index) =>
+      `<a href="/exhibitions/${exhibitionSlugs[index]}/"><figure><img src="${object.image}" alt="${object.alt}"><figcaption>${String(index + 1).padStart(2, "0")} · ${object.title}</figcaption></figure></a>`
+    ).join("");
+    lede.insertAdjacentElement("afterend", strip);
+  }
+}
+const routeMeta = routeMetadata[routePath] || routeMetadata["/"];
+const canonical = location.origin + routePath;
+document.title = routeMeta.title;
+for (const [kind, key, value] of [
+  ["name", "description", routeMeta.description],
+  ["property", "og:title", routeMeta.title],
+  ["property", "og:description", routeMeta.description],
+  ["property", "og:type", "website"],
+  ["property", "og:url", canonical],
+  ["name", "twitter:card", "summary_large_image"],
+]) {
+  let el = document.head.querySelector(`meta[${kind}="${key}"]`);
+  if (!el) {
+    el = document.createElement("meta");
+    el.setAttribute(kind, key);
+    document.head.append(el);
+  }
+  el.content = value;
+}
+let canonicalLink = document.head.querySelector('link[rel="canonical"]');
+if (!canonicalLink) {
+  canonicalLink = document.createElement("link");
+  canonicalLink.rel = "canonical";
+  document.head.append(canonicalLink);
+}
+canonicalLink.href = canonical;
