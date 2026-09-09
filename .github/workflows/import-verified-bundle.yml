@@ -1,4 +1,4 @@
-name: Import verified AAN route-integrity tranche
+name: Import verified AAN no-notes tranche
 on:
   push:
     branches: [main]
@@ -13,10 +13,10 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           set -euo pipefail
-          curl -fL -o aan.bundle "https://github.com/rn-collins/ask-a-neuroscientist-fashion/releases/download/codex-import-aan-922de31/aan-publication-smoke-rebuilt.bundle"
+          curl -fL -o aan.bundle "https://github.com/rn-collins/ask-a-neuroscientist-fashion/releases/download/codex-import-aan-377241d/aan-no-notes-377241d.bundle"
           git clone "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git" imported
           cd imported
-          git fetch ../aan.bundle HEAD:refs/heads/codex-aan-publication-922de31
-          test "$(git rev-parse codex-aan-publication-922de31)" = "922de31d27c1966379f68cd252cce939af30c607"
-          test "$(git rev-parse codex-aan-publication-922de31^)" = "1a3812e14005e4f3db00340f8ac659926f5ad5bd"
-          git push origin refs/heads/codex-aan-publication-922de31
+          git fetch ../aan.bundle refs/heads/codex/aan-no-notes-publication:refs/heads/codex-aan-no-notes-377241d
+          test "$(git rev-parse codex-aan-no-notes-377241d)" = "377241d91bf78408de2ad5362b222ba479faffe5"
+          test "$(git rev-parse codex-aan-no-notes-377241d^)" = "765a3da141579dd1086b3b42c4a4ab6aec0be754"
+          git push origin refs/heads/codex-aan-no-notes-377241d
