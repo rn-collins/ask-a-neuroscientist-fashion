@@ -2,6 +2,6 @@
   "name": "ask-a-neuroscientist-fashion",
   "private": true,
   "scripts": {
-    "test": "node tests.mjs && node media-validation.mjs"
+    "test": "node --check app.js && node --check data.js && node tests.mjs && node media-validation.mjs"
   }
 }
