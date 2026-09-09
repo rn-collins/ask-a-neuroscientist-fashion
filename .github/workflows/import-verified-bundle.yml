@@ -8,17 +8,13 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: Check out repository
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-      - name: Download verified bundle
-        run: curl -fL -o aan.bundle "https://github.com/rn-collins/ask-a-neuroscientist-fashion/releases/download/codex-import-aan-c29da3c/aan-media-c29da3c.bundle"
-      - name: Verify bundle
-        run: git bundle verify aan.bundle
-      - name: Unpack bundle
-        run: git bundle unbundle aan.bundle
-      - name: Create review branch
-        run: git branch -f codex-aan-media-c29da3c c29da3ca9641690ca7e41495022768110698aba7
-      - name: Publish review branch
-        run: git push origin refs/heads/codex-aan-media-c29da3c
+      - name: Import verified commit
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          curl -fL -o aan.bundle "https://github.com/rn-collins/ask-a-neuroscientist-fashion/releases/download/codex-import-aan-c29da3c/aan-media-c29da3c.bundle"
+          git clone "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git" imported
+          cd imported
+          git fetch ../aan.bundle refs/heads/aan-next-tranche:refs/heads/codex-aan-media-c29da3c
+          git push origin refs/heads/codex-aan-media-c29da3c
