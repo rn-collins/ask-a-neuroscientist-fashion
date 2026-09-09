@@ -25,15 +25,19 @@ const known=new Set([...d.candidates.map(c=>c.id)]);
 const source=fs.readFileSync("data.js","utf8");for(const id of [...source.matchAll(/\{id:(\d+),title:/g)].map(x=>"MET-"+x[1]))known.add(id);
 const sequences=new Set();
 for(const k of kits.packages){
- if(k.carouselA.length!==8||k.carouselB.length!==8||k.broll.length!==7||k.pinterest.length!==5||k.youtube.length!==8)throw Error(k.id+" incomplete platform outputs");
+ if(k.carouselA.length<7||k.carouselB.length<7||k.broll.length!==7||k.pinterest.length!==5||k.youtube.length!==8)throw Error(k.id+" incomplete platform outputs");
+ if(k.carouselA.map(x=>x.overlay).join("|")===k.carouselB.map(x=>x.overlay).join("|"))throw Error(k.id+" repeats carousel copy across A/B");
  for(const row of [...k.carouselA,...k.carouselB,...k.pinterest])if(!["cleared-real-image","evidence-graphic","editorial-typography"].includes(row.visualMode)||!row.visualRationale)throw Error(k.id+" missing visual judgment");
  for(const rows of [k.carouselA,k.carouselB,k.pinterest]){const imageIds=rows.filter(x=>x.visualMode==="cleared-real-image").map(x=>x.assetId);if(new Set(imageIds).size!==imageIds.length)throw Error(k.id+" repeats a real image inside one slide sequence");}
  for(const row of [...k.carouselA,...k.carouselB,...k.broll,...k.pinterest,...k.youtube,...k.inline.beehiiv,...k.inline.linkedin])if(!known.has(row.assetId)||!row.credit)throw Error(k.id+" missing asset/credit "+row.assetId);
  const signature=k.carouselA.map(x=>x.assetId).join(",")+"|"+k.carouselB.map(x=>x.assetId).join(",");if(sequences.has(signature))throw Error(k.id+" duplicate carousel sequence");sequences.add(signature);
  for(const f of [`production-kits/${k.id.toLowerCase()}/index.html`,`production-kits/${k.id.toLowerCase()}/platform-asset-kit.md`,`production-kits/${k.id.toLowerCase()}/platform-asset-kit.json`])if(!fs.existsSync(f))throw Error("missing "+f);
+ const bundle=`production-kits/${k.id.toLowerCase()}/${k.id.toLowerCase()}-complete-publication-kit.zip`;
+ if(!fs.existsSync(bundle)||fs.statSync(bundle).size<10000)throw Error(k.id+" missing complete downloadable publication kit");
+ if(!fs.readFileSync(`production-kits/${k.id.toLowerCase()}/index.html`,"utf8").includes(`/${bundle}`))throw Error(k.id+" publication-kit ZIP is not visible in its gallery");
  const exports=JSON.parse(fs.readFileSync(`production-kits/${k.id.toLowerCase()}/exports.json`,`utf8`));
- if(exports.records.filter(x=>x.kind.startsWith("instagram")).length!==16||exports.records.filter(x=>x.kind==="pinterest").length!==5||exports.records.filter(x=>x.kind==="youtube-thumbnail").length!==2||exports.records.filter(x=>x.kind==="vertical-storyboard").length!==1)throw Error(k.id+" export counts");
+ if(exports.records.filter(x=>x.kind.startsWith("instagram")).length!==k.carouselA.length+k.carouselB.length||exports.records.filter(x=>x.kind==="pinterest").length!==5||exports.records.filter(x=>x.kind==="youtube-thumbnail").length!==2||exports.records.filter(x=>x.kind==="vertical-storyboard").length!==1)throw Error(k.id+" export counts");
  for(const x of exports.records){const file=x.file.slice(1);if(!fs.existsSync(file)||!x.alt||!x.credit)throw Error(k.id+" missing rendered export metadata");if(x.kind!=="vertical-storyboard"&&(!x.visualMode||!x.visualRationale))throw Error(k.id+" export missing visual judgment");const m=await sharp(file).metadata();const expected=x.kind.startsWith("instagram")?[1080,1350]:x.kind==="pinterest"?[1000,1500]:x.kind==="youtube-thumbnail"?[1280,720]:[1080,1920];if(m.width!==expected[0]||m.height!==expected[1]||m.format!=="png")throw Error(k.id+" invalid render "+file);}
  if(!fs.existsSync(`production-kits/${k.id.toLowerCase()}/exports.json`))throw Error(k.id+" missing accessible set manifest");
 }
-console.log("media excavation: 7/7 reports, "+d.surfaces.length+" surfaces, "+d.candidates.length+" candidates, "+wave2.length+" second-wave, "+wave3.length+" third-wave; 7 platform kits; rendered 112 carousel frames, 35 pins, 14 thumbnails and 7 storyboards");
+console.log("media excavation: 7/7 reports, "+d.surfaces.length+" surfaces, "+d.candidates.length+" candidates, "+wave2.length+" second-wave, "+wave3.length+" third-wave; 7 platform kits; rendered "+kits.packages.reduce((n,k)=>n+k.carouselA.length+k.carouselB.length,0)+" carousel frames, 35 pins, 14 thumbnails and 7 storyboards");

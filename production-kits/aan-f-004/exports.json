@@ -21,7 +21,7 @@
       "assetId": "R08",
       "visualMode": "evidence-graphic",
       "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-      "alt": "Evidence diagram explaining encoding and retrieval; source named on slide.",
+      "alt": "Evidence diagram explaining clothing gathers visual, tactile, movement, smell and social cues.; source named on slide.",
       "credit": "Original evidence graphic · RN Collins · source: Library of Congress · Library of Congress",
       "source": "https://www.loc.gov/free-to-use/fashion/",
       "rights": "link-only"
@@ -33,7 +33,7 @@
       "assetId": "R09",
       "visualMode": "evidence-graphic",
       "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-      "alt": "Evidence diagram explaining emotion selects and rehearses; source named on slide.",
+      "alt": "Evidence diagram explaining a cue overlapping with an encoded event can support retrieval.; source named on slide.",
       "credit": "Original evidence graphic · RN Collins · source: The Metropolitan Museum of Art · The Met",
       "source": "https://www.metmuseum.org/-/media/files/learn/family-map-and-guides/what%20should%20i%20wear%20today.pdf",
       "rights": "link-only"
@@ -45,7 +45,7 @@
       "assetId": "R14",
       "visualMode": "evidence-graphic",
       "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-      "alt": "Evidence diagram explaining music opens another door; source named on slide.",
+      "alt": "Evidence diagram explaining autobiographical memory reconstructs; it does not replay.; source named on slide.",
       "credit": "Original evidence graphic · RN Collins · source: Article authors · PubMed Central",
       "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8659971/",
       "rights": "link-only"
@@ -57,7 +57,7 @@
       "assetId": "R33",
       "visualMode": "evidence-graphic",
       "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-      "alt": "Evidence diagram explaining odor and temporal distance; source named on slide.",
+      "alt": "Evidence diagram explaining emotion can make recall vivid without making every detail accurate.; source named on slide.",
       "credit": "Original evidence graphic · RN Collins · source: Janata · Cerebral Cortex / PMC",
       "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2758676/",
       "rights": "link-only"
@@ -69,7 +69,7 @@
       "assetId": "R34",
       "visualMode": "evidence-graphic",
       "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-      "alt": "Evidence diagram explaining memory is reconstruction; source named on slide.",
+      "alt": "Evidence diagram explaining separate remembered experience from corroborated record.; source named on slide.",
       "credit": "Original evidence graphic · RN Collins · source: Library of Congress · Library of Congress",
       "source": "https://www.loc.gov/free-to-use/fashion/",
       "rights": "link-only"
@@ -81,21 +81,9 @@
       "assetId": "R35",
       "visualMode": "evidence-graphic",
       "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-      "alt": "Evidence diagram explaining collective versus autobiographical nostalgia; source named on slide.",
+      "alt": "Evidence diagram explaining map one garment privately. nothing is stored.; source named on slide.",
       "credit": "Original evidence graphic · RN Collins · source: Smithsonian Institution · Smithsonian Open Access",
       "source": "https://www.si.edu/search/collection-images?edan_q=fashion",
-      "rights": "link-only"
-    },
-    {
-      "kind": "instagram-carousel-a",
-      "index": 8,
-      "file": "/production-kits/aan-f-004/exports/instagram/carousel-a-frame-08.png",
-      "assetId": "R36",
-      "visualMode": "editorial-typography",
-      "visualRationale": "The evidence boundary is the subject; a decisive typographic close is stronger than an unrelated photograph.",
-      "alt": "Editorial typographic slide explaining document without certifying; source named on slide.",
-      "credit": "Original editorial typography · RN Collins · source: Europeana · Europeana",
-      "source": "https://www.europeana.eu/en/collections/topic/55-fashion",
       "rights": "link-only"
     },
     {
@@ -117,7 +105,7 @@
       "assetId": "R33",
       "visualMode": "evidence-graphic",
       "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-      "alt": "Evidence diagram explaining encoding and retrieval; source named on slide.",
+      "alt": "Evidence diagram explaining autobiographical: a past you personally lived.; source named on slide.",
       "credit": "Original evidence graphic · RN Collins · source: Janata · Cerebral Cortex / PMC",
       "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2758676/",
       "rights": "link-only"
@@ -129,7 +117,7 @@
       "assetId": "R34",
       "visualMode": "evidence-graphic",
       "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-      "alt": "Evidence diagram explaining emotion selects and rehearses; source named on slide.",
+      "alt": "Evidence diagram explaining collective: a group story about a shared past.; source named on slide.",
       "credit": "Original evidence graphic · RN Collins · source: Library of Congress · Library of Congress",
       "source": "https://www.loc.gov/free-to-use/fashion/",
       "rights": "link-only"
@@ -141,7 +129,7 @@
       "assetId": "R35",
       "visualMode": "evidence-graphic",
       "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-      "alt": "Evidence diagram explaining music opens another door; source named on slide.",
+      "alt": "Evidence diagram explaining historical: knowledge of a period and its objects.; source named on slide.",
       "credit": "Original evidence graphic · RN Collins · source: Smithsonian Institution · Smithsonian Open Access",
       "source": "https://www.si.edu/search/collection-images?edan_q=fashion",
       "rights": "link-only"
@@ -153,7 +141,7 @@
       "assetId": "R36",
       "visualMode": "evidence-graphic",
       "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-      "alt": "Evidence diagram explaining odor and temporal distance; source named on slide.",
+      "alt": "Evidence diagram explaining retro marketing: familiar codes used to shape attention or desire.; source named on slide.",
       "credit": "Original evidence graphic · RN Collins · source: Europeana · Europeana",
       "source": "https://www.europeana.eu/en/collections/topic/55-fashion",
       "rights": "link-only"
@@ -165,7 +153,7 @@
       "assetId": "R37",
       "visualMode": "evidence-graphic",
       "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-      "alt": "Evidence diagram explaining memory is reconstruction; source named on slide.",
+      "alt": "Evidence diagram explaining one look can activate several—but evidence for one cannot prove another.; source named on slide.",
       "credit": "Original evidence graphic · RN Collins · source: Internet Archive · Internet Archive",
       "source": "https://archive.org/search?query=title%3A%28vogue%29+AND+mediatype%3A%28texts%29",
       "rights": "link-only"
@@ -177,21 +165,9 @@
       "assetId": "R38",
       "visualMode": "evidence-graphic",
       "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-      "alt": "Evidence diagram explaining collective versus autobiographical nostalgia; source named on slide.",
+      "alt": "Evidence diagram explaining ask: *what did i live, what did i learn, and what is being sold?*; source named on slide.",
       "credit": "Original evidence graphic · RN Collins · source: Open Science Framework contributors · OSF",
       "source": "https://osf.io/search/?q=autobiographical%20memory",
-      "rights": "link-only"
-    },
-    {
-      "kind": "instagram-carousel-b",
-      "index": 8,
-      "file": "/production-kits/aan-f-004/exports/instagram/carousel-b-frame-08.png",
-      "assetId": "R69",
-      "visualMode": "editorial-typography",
-      "visualRationale": "The evidence boundary is the subject; a decisive typographic close is stronger than an unrelated photograph.",
-      "alt": "Editorial typographic slide explaining document without certifying; source named on slide.",
-      "credit": "Original editorial typography · RN Collins · source: Alexandra Georgiou · Wellcome Collection",
-      "source": "https://wellcomecollection.org/works/c8vq78kk",
       "rights": "link-only"
     },
     {

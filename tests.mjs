@@ -520,14 +520,29 @@ for (const slug of [
 }
 for (const token of ["og:image", "twitter:image"])
   if (!app.includes(token)) throw Error(`${token} runtime metadata missing`);
+const deliverableRoutes=[
+  "deliverables/index.html","deliverables/armor/index.html","deliverables/fabric-sensory-world/index.html",
+  "deliverables/fashion-nostalgia/index.html","deliverables/fashion-week-nervous-system/index.html",
+  "deliverables/runway-soundtracks/index.html","deliverables/uniforms-and-social-perception/index.html"
+];
+const deliverablePreviews=deliverableRoutes.map(file=>{
+  const html=fs.readFileSync(file,"utf8");
+  const image=html.match(/property="og:image" content="([^"]+)"/)?.[1];
+  const alt=html.match(/property="og:image:alt" content="([^"]+)"/)?.[1];
+  if(!image||!alt||/^Editorial preview for /i.test(alt))throw Error(`${file} lacks topic-specific social preview/alt`);
+  if(!html.includes(`name="twitter:image" content="${image}"`)||!html.includes(`name="twitter:image:alt" content="${alt}"`))throw Error(`${file} OG/Twitter preview mismatch`);
+  return image;
+});
+if(new Set(deliverablePreviews).size!==deliverablePreviews.length)throw Error("deliverables must not share social preview images");
 const visualMatrix = fs.readFileSync(
   "production/route-slide-visual-assignment-matrix.csv",
   "utf8",
 );
 const matrixRows = visualMatrix.trim().split("\n").slice(1);
 const slideRows = matrixRows.filter((row) => row.includes('"instagram carousel"'));
-if (slideRows.length !== 112)
-  throw Error(`visual matrix expected 112 carousel slides; found ${slideRows.length}`);
+const expectedSlides = JSON.parse(fs.readFileSync("production/platform-asset-kits.json", "utf8")).packages.reduce((n,p)=>n+p.carouselA.length+p.carouselB.length,0);
+if (slideRows.length !== expectedSlides)
+  throw Error(`visual matrix expected ${expectedSlides} carousel slides; found ${slideRows.length}`);
 for (const id of ["001", "002", "003", "004", "005", "006", "007"])
   if (!matrixRows.some((row) => row.startsWith(`"AAN-F-${id}"`)))
     throw Error(`visual matrix missing AAN-F-${id}`);

@@ -33,7 +33,7 @@
       "assetId": "R09",
       "visualMode": "evidence-graphic",
       "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-      "alt": "Evidence diagram explaining fiber becomes construction; source named on slide.",
+      "alt": "Evidence diagram explaining it receives pressure · vibration · stretch · temperature · friction · chemical signals.; source named on slide.",
       "credit": "Original evidence graphic · RN Collins · source: The Metropolitan Museum of Art · The Met",
       "source": "https://www.metmuseum.org/-/media/files/learn/family-map-and-guides/what%20should%20i%20wear%20today.pdf",
       "rights": "link-only"
@@ -57,7 +57,7 @@
       "assetId": "R27",
       "visualMode": "evidence-graphic",
       "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-      "alt": "Evidence diagram explaining hours of wear are not a hand test; source named on slide.",
+      "alt": "Evidence diagram explaining fiber becomes yarn. yarn becomes weave or knit. construction adds seams, labels, closures, tension and layers.; source named on slide.",
       "credit": "Original evidence graphic · RN Collins · source: Article authors · Scientific Reports / PMC",
       "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11410198/",
       "rights": "CC BY"
@@ -81,7 +81,7 @@
       "assetId": "R29",
       "visualMode": "evidence-graphic",
       "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-      "alt": "Evidence diagram explaining map the encounter; source named on slide.",
+      "alt": "Evidence diagram explaining heat, moisture, movement, duration, body site and expectation can change the same garment.; source named on slide.",
       "credit": "Original evidence graphic · RN Collins · source: McGlone and Reilly · NCBI Bookshelf",
       "source": "https://www.ncbi.nlm.nih.gov/books/NBK92803/",
       "rights": "link-only"
@@ -93,9 +93,33 @@
       "assetId": "R30",
       "visualMode": "editorial-typography",
       "visualRationale": "The evidence boundary is the subject; a decisive typographic close is stronger than an unrelated photograph.",
-      "alt": "Editorial typographic slide explaining comfort is relational; source named on slide.",
+      "alt": "Editorial typographic slide explaining “natural,” “soft” and “sensory-friendly” are not standardized comfort guarantees.; source named on slide.",
       "credit": "Original editorial typography · RN Collins · source: Article authors · Frontiers / PMC",
       "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9674209/",
+      "rights": "CC BY"
+    },
+    {
+      "kind": "instagram-carousel-a",
+      "index": 9,
+      "file": "/production-kits/aan-f-003/exports/instagram/carousel-a-frame-09.png",
+      "assetId": "R31",
+      "visualMode": "evidence-graphic",
+      "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
+      "alt": "Evidence diagram explaining evidence-fitted answer: comfort is an encounter among textile, garment, body and context.; source named on slide.",
+      "credit": "Original evidence graphic · RN Collins · source: MIT News · Massachusetts Institute of Technology",
+      "source": "https://news.mit.edu/2021/tactile-textiles-sense-movement-via-touch-0331",
+      "rights": "link-only"
+    },
+    {
+      "kind": "instagram-carousel-a",
+      "index": 10,
+      "file": "/production-kits/aan-f-003/exports/instagram/carousel-a-frame-10.png",
+      "assetId": "R32",
+      "visualMode": "evidence-graphic",
+      "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
+      "alt": "Evidence diagram explaining explore every source + four downloadable met cc0 objects. [url]; source named on slide.",
+      "credit": "Original evidence graphic · RN Collins · source: Liang et al. · GitHub",
+      "source": "https://github.com/liangnjupt/VisTouch",
       "rights": "CC BY"
     },
     {
@@ -117,7 +141,7 @@
       "assetId": "R27",
       "visualMode": "evidence-graphic",
       "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-      "alt": "Evidence diagram explaining touch is several systems; source named on slide.",
+      "alt": "Evidence diagram explaining name the exact garment—not just “wool” or “cotton.”; source named on slide.",
       "credit": "Original evidence graphic · RN Collins · source: Article authors · Scientific Reports / PMC",
       "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11410198/",
       "rights": "CC BY"
@@ -141,7 +165,7 @@
       "assetId": "R29",
       "visualMode": "evidence-graphic",
       "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-      "alt": "Evidence diagram explaining sensitivity changes ratings; source named on slide.",
+      "alt": "Evidence diagram explaining observe: surface · pressure · heat/moisture · movement/repetition.; source named on slide.",
       "credit": "Original evidence graphic · RN Collins · source: McGlone and Reilly · NCBI Bookshelf",
       "source": "https://www.ncbi.nlm.nih.gov/books/NBK92803/",
       "rights": "link-only"
@@ -165,7 +189,7 @@
       "assetId": "R31",
       "visualMode": "evidence-graphic",
       "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-      "alt": "Evidence diagram explaining autistic accounts are not a fabric list; source named on slide.",
+      "alt": "Evidence diagram explaining choose words, not verdicts: settling, neutral, distracting, itchy, painful, entrapping.; source named on slide.",
       "credit": "Original evidence graphic · RN Collins · source: MIT News · Massachusetts Institute of Technology",
       "source": "https://news.mit.edu/2021/tactile-textiles-sense-movement-via-touch-0331",
       "rights": "link-only"
@@ -189,7 +213,7 @@
       "assetId": "R65",
       "visualMode": "editorial-typography",
       "visualRationale": "The evidence boundary is the subject; a decisive typographic close is stronger than an unrelated photograph.",
-      "alt": "Editorial typographic slide explaining comfort is relational; source named on slide.",
+      "alt": "Editorial typographic slide explaining this is an observation tool—not an autism, adhd, allergy or pain screen. [tool url]; source named on slide.",
       "credit": "Original editorial typography · RN Collins · source: Shahidha Bari; photographs by Maryam Wahid · Wellcome Collection",
       "source": "https://wellcomecollection.org/stories/dress-and-the-magic-of-touch",
       "rights": "link-only"
