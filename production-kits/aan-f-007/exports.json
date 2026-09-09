@@ -33,7 +33,7 @@
       "assetId": "R12",
       "visualMode": "evidence-graphic",
       "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-      "alt": "Evidence diagram explaining workwear and attribution; source named on slide.",
+      "alt": "Evidence diagram explaining inferred: role, status, competence, safety, threat, belonging.; source named on slide.",
       "credit": "Original evidence graphic · RN Collins · source: Unidentified photographer · Library of Congress",
       "source": "https://www.loc.gov/pictures/item/2018651506/",
       "rights": "link-only"
@@ -57,7 +57,7 @@
       "assetId": "R52",
       "visualMode": "evidence-graphic",
       "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-      "alt": "Evidence diagram explaining role clothing in the laboratory; source named on slide.",
+      "alt": "Evidence diagram explaining history: personal encounters, media, community memory, culture.; source named on slide.",
       "credit": "Original evidence graphic · RN Collins · source: Civile and Obhi · Frontiers in Psychology",
       "source": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2017.00062/full",
       "rights": "CC BY"
@@ -69,7 +69,7 @@
       "assetId": "R53",
       "visualMode": "evidence-graphic",
       "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-      "alt": "Evidence diagram explaining institutional identity; source named on slide.",
+      "alt": "Evidence diagram explaining the gap matters. inference is not knowledge of a person.; source named on slide.",
       "credit": "Original evidence graphic · RN Collins · source: Unidentified photographer · Library of Congress",
       "source": "https://www.loc.gov/pictures/item/2018651506/",
       "rights": "link-only"
@@ -81,21 +81,9 @@
       "assetId": "R54",
       "visualMode": "evidence-graphic",
       "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-      "alt": "Evidence diagram explaining history changes the signal; source named on slide.",
+      "alt": "Evidence diagram explaining map one encounter. uniform encounter map · no storage · no score.; source named on slide.",
       "credit": "Original evidence graphic · RN Collins · source: The Metropolitan Museum of Art · The Met",
       "source": "https://www.metmuseum.org/art/collection/search?q=military%20uniform&showOnly=openAccess",
-      "rights": "link-only"
-    },
-    {
-      "kind": "instagram-carousel-a",
-      "index": 8,
-      "file": "/production-kits/aan-f-007/exports/instagram/carousel-a-frame-08.png",
-      "assetId": "R55",
-      "visualMode": "editorial-typography",
-      "visualRationale": "The evidence boundary is the subject; a decisive typographic close is stronger than an unrelated photograph.",
-      "alt": "Editorial typographic slide explaining map cue, inference and evidence; source named on slide.",
-      "credit": "Original editorial typography · RN Collins · source: Smithsonian Institution · Smithsonian Open Access",
-      "source": "https://www.si.edu/search/collection-images?edan_q=uniform",
       "rights": "link-only"
     },
     {
@@ -117,7 +105,7 @@
       "assetId": "R52",
       "visualMode": "evidence-graphic",
       "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-      "alt": "Evidence diagram explaining inference is not knowledge; source named on slide.",
+      "alt": "Evidence diagram explaining review: dress contributes to person perception. strong enough to discuss signaling; not mind-reading.; source named on slide.",
       "credit": "Original evidence graphic · RN Collins · source: Civile and Obhi · Frontiers in Psychology",
       "source": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2017.00062/full",
       "rights": "CC BY"
@@ -141,7 +129,7 @@
       "assetId": "R54",
       "visualMode": "evidence-graphic",
       "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-      "alt": "Evidence diagram explaining the police-style uniform experiment; source named on slide.",
+      "alt": "Evidence diagram explaining experiment: military/red cross clothing shifted one moral-choice task. not real-world service.; source named on slide.",
       "credit": "Original evidence graphic · RN Collins · source: The Metropolitan Museum of Art · The Met",
       "source": "https://www.metmuseum.org/art/collection/search?q=military%20uniform&showOnly=openAccess",
       "rights": "link-only"
@@ -165,7 +153,7 @@
       "assetId": "R56",
       "visualMode": "evidence-graphic",
       "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-      "alt": "Evidence diagram explaining institutional identity; source named on slide.",
+      "alt": "Evidence diagram explaining workplace case: uniform change rearranged hospital professional boundaries. one institution, not all.; source named on slide.",
       "credit": "Original evidence graphic · RN Collins · source: Open Science Framework contributors · OSF",
       "source": "https://osf.io/search/?q=uniform%20perception",
       "rights": "link-only"
@@ -177,22 +165,10 @@
       "assetId": "R81",
       "visualMode": "evidence-graphic",
       "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-      "alt": "Evidence diagram explaining history changes the signal; source named on slide.",
+      "alt": "Evidence diagram explaining fitted claim: uniforms can organize perception and make roles salient. they do not contain a fixed psychology.; source named on slide.",
       "credit": "Original evidence graphic · RN Collins · source: Civile and Obhi · Frontiers in Psychology / PMC",
       "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5292616/",
       "rights": "CC BY"
-    },
-    {
-      "kind": "instagram-carousel-b",
-      "index": 8,
-      "file": "/production-kits/aan-f-007/exports/instagram/carousel-b-frame-08.png",
-      "assetId": "R82",
-      "visualMode": "editorial-typography",
-      "visualRationale": "The evidence boundary is the subject; a decisive typographic close is stronger than an unrelated photograph.",
-      "alt": "Editorial typographic slide explaining map cue, inference and evidence; source named on slide.",
-      "credit": "Original editorial typography · RN Collins · source: Bermondsey Borough Council · Wellcome Collection / BFI National Archive",
-      "source": "https://wellcomecollection.org/works/vxe6xptj",
-      "rights": "link-only"
     },
     {
       "kind": "pinterest",

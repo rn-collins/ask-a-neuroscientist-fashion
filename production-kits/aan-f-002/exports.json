@@ -33,7 +33,7 @@
       "assetId": "R09",
       "visualMode": "evidence-graphic",
       "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-      "alt": "Evidence diagram explaining pressure, heat and movement; source named on slide.",
+      "alt": "Evidence diagram explaining the meaning: the outfit can cue a role, memory or intention. this is interpretation—not fabric magic.; source named on slide.",
       "credit": "Original evidence graphic · RN Collins · source: The Metropolitan Museum of Art · The Met",
       "source": "https://www.metmuseum.org/-/media/files/learn/family-map-and-guides/what%20should%20i%20wear%20today.pdf",
       "rights": "link-only"
@@ -57,7 +57,7 @@
       "assetId": "R22",
       "visualMode": "evidence-graphic",
       "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-      "alt": "Evidence diagram explaining ritual as a start cue; source named on slide.",
+      "alt": "Evidence diagram explaining the ritual: repeating an outfit before difficult work can mark the transition from preparation to action.; source named on slide.",
       "credit": "Original evidence graphic · RN Collins · source: Botvinick and Cohen · Nature",
       "source": "https://doi.org/10.1038/35784",
       "rights": "link-only"
@@ -81,7 +81,7 @@
       "assetId": "R24",
       "visualMode": "evidence-graphic",
       "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-      "alt": "Evidence diagram explaining when armor becomes a cage; source named on slide.",
+      "alt": "Evidence diagram explaining the boundary: “armor” names a combined experience. science has not found one universal confidence switch.; source named on slide.",
       "credit": "Original evidence graphic · RN Collins · source: Three Johns and Shelagh / Wellcome Collection · Wellcome Collection",
       "source": "https://iiif.wellcomecollection.org/file/b21688060_where-does-it-hurt.pdf",
       "rights": "CC BY"
@@ -93,7 +93,7 @@
       "assetId": "R25",
       "visualMode": "editorial-typography",
       "visualRationale": "The evidence boundary is the subject; a decisive typographic close is stronger than an unrelated photograph.",
-      "alt": "Editorial typographic slide explaining four pathways, no magic; source named on slide.",
+      "alt": "Editorial typographic slide explaining action: map your pathway in the full aan × fashion exhibition.; source named on slide.",
       "credit": "Original editorial typography · RN Collins · source: The Metropolitan Museum of Art · The Met",
       "source": "https://www.metmuseum.org/art/collection/search?q=armor&showOnly=openAccess",
       "rights": "link-only"
@@ -117,7 +117,7 @@
       "assetId": "R22",
       "visualMode": "evidence-graphic",
       "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-      "alt": "Evidence diagram explaining literal armor and bodily boundary; source named on slide.",
+      "alt": "Evidence diagram explaining claim: “my clothes changed my nervous system.”; source named on slide.",
       "credit": "Original evidence graphic · RN Collins · source: Botvinick and Cohen · Nature",
       "source": "https://doi.org/10.1038/35784",
       "rights": "link-only"
@@ -141,7 +141,7 @@
       "assetId": "R24",
       "visualMode": "evidence-graphic",
       "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-      "alt": "Evidence diagram explaining the observer pathway; source named on slide.",
+      "alt": "Evidence diagram explaining boundary: that does not identify a confidence circuit or show reduced threat.; source named on slide.",
       "credit": "Original evidence graphic · RN Collins · source: Three Johns and Shelagh / Wellcome Collection · Wellcome Collection",
       "source": "https://iiif.wellcomecollection.org/file/b21688060_where-does-it-hurt.pdf",
       "rights": "CC BY"
@@ -165,7 +165,7 @@
       "assetId": "R26",
       "visualMode": "evidence-graphic",
       "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-      "alt": "Evidence diagram explaining authority and spectacle; source named on slide.",
+      "alt": "Evidence diagram explaining evidence: dress contributes to person perception and social inference.; source named on slide.",
       "credit": "Original evidence graphic · RN Collins · source: Library of Congress · Library of Congress",
       "source": "https://www.loc.gov/photos/?q=protective+clothing",
       "rights": "link-only"
@@ -189,10 +189,34 @@
       "assetId": "R63",
       "visualMode": "editorial-typography",
       "visualRationale": "The evidence boundary is the subject; a decisive typographic close is stronger than an unrelated photograph.",
-      "alt": "Editorial typographic slide explaining four pathways, no magic; source named on slide.",
+      "alt": "Editorial typographic slide explaining claim: “i always perform better in this outfit.”; source named on slide.",
       "credit": "Original editorial typography · RN Collins · source: Unidentified photographer · Europeana",
       "source": "https://www.europeana.eu/en/item/117/_C73F9EDD_3F02_4783_AA7A_27A8BE5C7CE9",
       "rights": "Public domain / CC0"
+    },
+    {
+      "kind": "instagram-carousel-b",
+      "index": 9,
+      "file": "/production-kits/aan-f-002/exports/instagram/carousel-b-frame-09.png",
+      "assetId": "R64",
+      "visualMode": "evidence-graphic",
+      "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
+      "alt": "Evidence diagram explaining evidence: a repeated preparation ritual can be a plausible personal pathway.; source named on slide.",
+      "credit": "Original evidence graphic · RN Collins · source: Anonymous · Wellcome Collection",
+      "source": "https://wellcomecollection.org/works/qam5vzc8",
+      "rights": "link-only"
+    },
+    {
+      "kind": "instagram-carousel-b",
+      "index": 10,
+      "file": "/production-kits/aan-f-002/exports/instagram/carousel-b-frame-10.png",
+      "assetId": "R02",
+      "visualMode": "evidence-graphic",
+      "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
+      "alt": "Evidence diagram explaining boundary: compare several occasions. one memory is not a causal experiment.; source named on slide.",
+      "credit": "Original evidence graphic · RN Collins · source: Ciaunica et al. · Frontiers in Psychology",
+      "source": "https://doi.org/10.3389/fpsyg.2021.613587",
+      "rights": "link-only"
     },
     {
       "kind": "pinterest",

@@ -16,6 +16,18 @@ const exhibitionImages = {
   "/exhibitions/runway-soundtracks/": "https://images.metmuseum.org/CRDImages/mi/original/215848.jpg",
   "/exhibitions/uniforms-and-social-perception/": HOME_IMAGE,
 };
+const packagePreviews = {
+  "/deliverables/": {image:`${ORIGIN}/production-kits/aan-f-001/exports/youtube/thumbnail-2.png`,alt:"Editorial evidence-boundary preview for the seven-package Ask a Neuroscientist × Fashion production gallery."},
+  "/deliverables/armor/": {image:`${ORIGIN}/production-kits/aan-f-002/exports/youtube/thumbnail-1.png`,alt:"Historical armor from The Met behind the title Outfit as Armor."},
+  "/deliverables/fabric-sensory-world/": {image:`${ORIGIN}/production-kits/aan-f-003/exports/youtube/thumbnail-1.png`,alt:"Nineteenth-century dress from The Met behind the title The Sensory Textile Room."},
+  "/deliverables/fashion-nostalgia/": {image:`${ORIGIN}/production-kits/aan-f-004/exports/youtube/thumbnail-1.png`,alt:"Public-domain illustrated fashions behind the title The Memory Wardrobe."},
+  "/deliverables/fashion-week-nervous-system/": {image:`${ORIGIN}/production-kits/aan-f-005/exports/youtube/thumbnail-1.png`,alt:"Runway presentation photographed by Jenny Mealing behind the title The Fashion Week Nervous System."},
+  "/deliverables/runway-soundtracks/": {image:`${ORIGIN}/production-kits/aan-f-006/exports/youtube/thumbnail-1.png`,alt:"Historical tuning apparatus from The Met behind the title The Listening Room."},
+  "/deliverables/uniforms-and-social-perception/": {image:`${ORIGIN}/production-kits/aan-f-007/exports/youtube/thumbnail-1.png`,alt:"Nineteenth-century uniform from The Met behind the title The Role Room."},
+};
+for(const [n,slug] of [["001","clothes-and-cognition"],["002","outfit-as-armor"],["003","fabric-sensory-world"],["004","fashion-nostalgia"],["005","fashion-week-nervous-system"],["006","runway-soundtracks"],["007","uniforms-and-social-perception"]]){
+  packagePreviews[`/production-kits/aan-f-${n}/`]={image:`${ORIGIN}/production-kits/aan-f-${n}/exports/youtube/thumbnail-1.png`,alt:`Topic-specific publication preview for ${slug.replaceAll('-',' ')}.`};
+}
 
 const directories = ["exhibitions", "objects", "evidence", "ask", "lab", "rights", "method", "deliverables", "media", "production-kits"];
 const files = ["index.html"];
@@ -44,9 +56,10 @@ for (const file of files) {
   const description = existingDescription || descriptions[route];
   if (!title || !description) throw new Error(`Missing title or description for ${route}`);
   const existingImage = readContent(html, /<meta[^>]+(?:property=["']og:image["']|name=["']twitter:image["'])[^>]+content=["']([^"']+)["'][^>]*>/i);
-  const image = exhibitionImages[route] || existingImage || HOME_IMAGE;
+  const preview = packagePreviews[route];
+  const image = preview?.image || exhibitionImages[route] || existingImage || HOME_IMAGE;
   const canonical = `${ORIGIN}${route}`;
-  const imageAlt = `Editorial preview for ${title}`;
+  const imageAlt = preview?.alt || `Editorial preview for ${title}`;
 
   for (const pattern of [
     /<meta[^>]+name=["']description["'][^>]*>/gi,

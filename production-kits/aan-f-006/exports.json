@@ -33,7 +33,7 @@
       "assetId": "R11",
       "visualMode": "evidence-graphic",
       "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-      "alt": "Evidence diagram explaining movement meets beat; source named on slide.",
+      "alt": "Evidence diagram explaining pulse: a beat offers a forecast for the next moment.; source named on slide.",
       "credit": "Original evidence graphic · RN Collins · source: Accra Technical University contributor · Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Fashion_runway2.jpg",
       "rights": "CC0"
@@ -57,7 +57,7 @@
       "assetId": "R46",
       "visualMode": "evidence-graphic",
       "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-      "alt": "Evidence diagram explaining memory enters through music; source named on slide.",
+      "alt": "Evidence diagram explaining movement: rhythm may invite alignment; it does not command it.; source named on slide.",
       "credit": "Original evidence graphic · RN Collins · source: Article authors · BJPsych International / PMC",
       "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5618809/",
       "rights": "CC BY"
@@ -81,22 +81,10 @@
       "assetId": "R48",
       "visualMode": "evidence-graphic",
       "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-      "alt": "Evidence diagram explaining no universal soundtrack; source named on slide.",
+      "alt": "Evidence diagram explaining the fitted claim: sound can organize a runway without controlling its people. sources and sound map in the gallery.; source named on slide.",
       "credit": "Original evidence graphic · RN Collins · source: British Fashion Council · YouTube",
       "source": "https://www.youtube.com/@BritishFashionCouncil",
       "rights": "link-only"
-    },
-    {
-      "kind": "instagram-carousel-a",
-      "index": 8,
-      "file": "/production-kits/aan-f-006/exports/instagram/carousel-a-frame-08.png",
-      "assetId": "R49",
-      "visualMode": "editorial-typography",
-      "visualRationale": "The evidence boundary is the subject; a decisive typographic close is stronger than an unrelated photograph.",
-      "alt": "Editorial typographic slide explaining map one situated response; source named on slide.",
-      "credit": "Original editorial typography · RN Collins · source: MDN contributors · GitHub / MDN",
-      "source": "https://github.com/mdn/webaudio-examples",
-      "rights": "CC0"
     },
     {
       "kind": "instagram-carousel-b",
@@ -117,7 +105,7 @@
       "assetId": "R46",
       "visualMode": "evidence-graphic",
       "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-      "alt": "Evidence diagram explaining pulse predicts time; source named on slide.",
+      "alt": "Evidence diagram explaining in music science, entrainment describes alignment with temporal structure.; source named on slide.",
       "credit": "Original evidence graphic · RN Collins · source: Article authors · BJPsych International / PMC",
       "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5618809/",
       "rights": "CC BY"
@@ -141,7 +129,7 @@
       "assetId": "R48",
       "visualMode": "evidence-graphic",
       "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-      "alt": "Evidence diagram explaining expectation and surprise; source named on slide.",
+      "alt": "Evidence diagram explaining people may tap, sway, predict—or choose not to move.; source named on slide.",
       "credit": "Original evidence graphic · RN Collins · source: British Fashion Council · YouTube",
       "source": "https://www.youtube.com/@BritishFashionCouncil",
       "rights": "link-only"
@@ -165,7 +153,7 @@
       "assetId": "R50",
       "visualMode": "evidence-graphic",
       "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-      "alt": "Evidence diagram explaining loudness is not the whole dose; source named on slide.",
+      "alt": "Evidence diagram explaining lab tapping and clinical gait studies are adjacent evidence, not proof of a fashion week mechanism.; source named on slide.",
       "credit": "Original evidence graphic · RN Collins · source: Free Music Archive · Free Music Archive",
       "source": "https://freemusicarchive.org/",
       "rights": "rejected"
@@ -180,18 +168,6 @@
       "alt": "A ceramic Nasca drum painted with a stylized figure and repeating geometric forms.",
       "credit": "Drum, Nasca artist(s), 100–400 CE. The Metropolitan Museum of Art. 1978.412.111. CC0.",
       "source": "https://www.metmuseum.org/art/collection/search/310563",
-      "rights": "CC0"
-    },
-    {
-      "kind": "instagram-carousel-b",
-      "index": 8,
-      "file": "/production-kits/aan-f-006/exports/instagram/carousel-b-frame-08.png",
-      "assetId": "R78",
-      "visualMode": "editorial-typography",
-      "visualRationale": "The evidence boundary is the subject; a decisive typographic close is stronger than an unrelated photograph.",
-      "alt": "Editorial typographic slide explaining map one situated response; source named on slide.",
-      "credit": "Original editorial typography · RN Collins · source: MDN contributors · MDN / GitHub",
-      "source": "https://mdn.github.io/webaudio-examples/step-sequencer/",
       "rights": "CC0"
     },
     {

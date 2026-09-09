@@ -33,7 +33,7 @@
       "assetId": "R09",
       "visualMode": "evidence-graphic",
       "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-      "alt": "Evidence diagram explaining the failed direct replication; source named on slide.",
+      "alt": "Evidence diagram explaining its theory required symbolic meaning + physically wearing the garment.; source named on slide.",
       "credit": "Original evidence graphic · RN Collins · source: The Metropolitan Museum of Art · The Met",
       "source": "https://www.metmuseum.org/-/media/files/learn/family-map-and-guides/what%20should%20i%20wear%20today.pdf",
       "rights": "link-only"
@@ -57,7 +57,7 @@
       "assetId": "R15",
       "visualMode": "evidence-graphic",
       "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-      "alt": "Evidence diagram explaining dress as social information; source named on slide.",
+      "alt": "Evidence diagram explaining the task was attention—not iq, creativity or brain rewiring.; source named on slide.",
       "credit": "Original evidence graphic · RN Collins · source: Hester and Hehman · Personality and Social Psychology Review",
       "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10559650/",
       "rights": "CC BY"
@@ -81,21 +81,9 @@
       "assetId": "R17",
       "visualMode": "evidence-graphic",
       "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-      "alt": "Evidence diagram explaining a better question; source named on slide.",
+      "alt": "Evidence diagram explaining continue: the replication people omit.; source named on slide.",
       "credit": "Original evidence graphic · RN Collins · source: C. Blaine Horton Jr., Hajo Adam and Adam D. Galinsky · Personality and Social Psychology Bulletin",
       "source": "https://doi.org/10.1177/01461672231182478",
-      "rights": "link-only"
-    },
-    {
-      "kind": "instagram-carousel-a",
-      "index": 8,
-      "file": "/production-kits/aan-f-001/exports/instagram/carousel-a-frame-08.png",
-      "assetId": "R18",
-      "visualMode": "editorial-typography",
-      "visualRationale": "The evidence boundary is the subject; a decisive typographic close is stronger than an unrelated photograph.",
-      "alt": "Editorial typographic slide explaining evidence boundary; source named on slide.",
-      "credit": "Original editorial typography · RN Collins · source: American Psychological Association · APA",
-      "source": "https://www.apa.org/news/podcasts/speaking-of-psychology/fashion",
       "rights": "link-only"
     },
     {
@@ -117,7 +105,7 @@
       "assetId": "R15",
       "visualMode": "evidence-graphic",
       "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-      "alt": "Evidence diagram explaining the original lab-coat experiment; source named on slide.",
+      "alt": "Evidence diagram explaining burns, fox, greenstein, olbricht and montgomery repeated the critical design under preregistration.; source named on slide.",
       "credit": "Original evidence graphic · RN Collins · source: Hester and Hehman · Personality and Social Psychology Review",
       "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10559650/",
       "rights": "CC BY"
@@ -141,7 +129,7 @@
       "assetId": "R17",
       "visualMode": "evidence-graphic",
       "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-      "alt": "Evidence diagram explaining what the meta-analysis can and cannot restore; source named on slide.",
+      "alt": "Evidence diagram explaining null does not mean clothing never matters.; source named on slide.",
       "credit": "Original evidence graphic · RN Collins · source: C. Blaine Horton Jr., Hajo Adam and Adam D. Galinsky · Personality and Social Psychology Bulletin",
       "source": "https://doi.org/10.1177/01461672231182478",
       "rights": "link-only"
@@ -165,7 +153,7 @@
       "assetId": "R19",
       "visualMode": "evidence-graphic",
       "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-      "alt": "Evidence diagram explaining material constraint and posture; source named on slide.",
+      "alt": "Evidence diagram explaining best label: disputed / qualified.; source named on slide.",
       "credit": "Original evidence graphic · RN Collins · source: Multimedia Laboratory, The Chinese University of Hong Kong · CUHK",
       "source": "https://mmlab.ie.cuhk.edu.hk/projects/DeepFashion.html",
       "rights": "link-only"
@@ -181,18 +169,6 @@
       "credit": "Corset, Royal Worcester Corset Company, ca. 1872. The Metropolitan Museum of Art. 2009.300.6638a, b. CC0.",
       "source": "https://www.metmuseum.org/art/collection/search/173652",
       "rights": "CC0"
-    },
-    {
-      "kind": "instagram-carousel-b",
-      "index": 8,
-      "file": "/production-kits/aan-f-001/exports/instagram/carousel-b-frame-08.png",
-      "assetId": "R57",
-      "visualMode": "editorial-typography",
-      "visualRationale": "The evidence boundary is the subject; a decisive typographic close is stronger than an unrelated photograph.",
-      "alt": "Editorial typographic slide explaining evidence boundary; source named on slide.",
-      "credit": "Original editorial typography · RN Collins · source: Shahidha Bari; photographs by Maryam Wahid · Wellcome Collection",
-      "source": "https://wellcomecollection.org/stories/dress-and-the-magic-of-touch",
-      "rights": "link-only"
     },
     {
       "kind": "pinterest",
