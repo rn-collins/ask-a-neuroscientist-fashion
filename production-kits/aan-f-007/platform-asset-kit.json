@@ -151,22 +151,6 @@
       "caption": "Students Wearing Police Uniforms Exhibit Biased Attention toward Individuals Wearing Hoodies"
     },
     {
-      "id": "R53",
-      "type": "image",
-      "title": "T & E dress up in their 1918 uniforms",
-      "creator": "Unidentified photographer",
-      "date": "1918",
-      "institution": "Library of Congress",
-      "rights": "link-only",
-      "disposition": "duplicate",
-      "canonicalUrl": "https://www.loc.gov/pictures/item/2018651506/",
-      "mediaUrl": null,
-      "licenseUrl": null,
-      "credit": "Unidentified photographer · Library of Congress",
-      "alt": "",
-      "caption": "T & E dress up in their 1918 uniforms"
-    },
-    {
       "id": "R54",
       "type": "collection",
       "title": "Military uniform open-access search",
@@ -261,22 +245,6 @@
       "credit": "Europeana contributors · Europeana",
       "alt": "",
       "caption": "Poplin collection topic"
-    },
-    {
-      "id": "R84",
-      "type": "image",
-      "title": "T & E dress up in their 1918 uniforms",
-      "creator": "Unidentified photographer",
-      "date": "1918",
-      "institution": "Library of Congress",
-      "rights": "link-only",
-      "disposition": "duplicate",
-      "canonicalUrl": "https://www.loc.gov/pictures/item/2018651506/",
-      "mediaUrl": null,
-      "licenseUrl": null,
-      "credit": "Unidentified photographer · Library of Congress",
-      "alt": "",
-      "caption": "T & E dress up in their 1918 uniforms"
     }
   ],
   "carouselA": [
@@ -348,26 +316,26 @@
     {
       "frame": 6,
       "beat": "THE GAP MATTERS. Inference is not knowledge of a person.",
-      "assetId": "R53",
+      "assetId": "R54",
       "visualMode": "evidence-graphic",
       "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
       "crop": "4:5 purpose-built evidence diagram with source identity and claim boundary",
       "overlay": "THE GAP MATTERS. Inference is not knowledge of a person.",
-      "caption": "THE GAP MATTERS. Inference is not knowledge of a person. T & E dress up in their 1918 uniforms",
-      "credit": "Original evidence graphic · RN Collins · source: Unidentified photographer · Library of Congress",
+      "caption": "THE GAP MATTERS. Inference is not knowledge of a person. Military uniform open-access search",
+      "credit": "Original evidence graphic · RN Collins · source: The Metropolitan Museum of Art · The Met",
       "alt": "Evidence diagram explaining the gap matters. inference is not knowledge of a person.; source named on slide.",
       "boundary": "Do not imply this object proves a neural mechanism."
     },
     {
       "frame": 7,
       "beat": "MAP ONE ENCOUNTER. Uniform Encounter Map · no storage · no score.",
-      "assetId": "R54",
+      "assetId": "R55",
       "visualMode": "evidence-graphic",
       "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
       "crop": "4:5 purpose-built evidence diagram with source identity and claim boundary",
       "overlay": "MAP ONE ENCOUNTER. Uniform Encounter Map · no storage · no score.",
-      "caption": "MAP ONE ENCOUNTER. Uniform Encounter Map · no storage · no score. Military uniform open-access search",
-      "credit": "Original evidence graphic · RN Collins · source: The Metropolitan Museum of Art · The Met",
+      "caption": "MAP ONE ENCOUNTER. Uniform Encounter Map · no storage · no score. Uniforms collection search",
+      "credit": "Original evidence graphic · RN Collins · source: Smithsonian Institution · Smithsonian Open Access",
       "alt": "Evidence diagram explaining map one encounter. uniform encounter map · no storage · no score.; source named on slide.",
       "boundary": "Do not imply this object proves a neural mechanism."
     }
@@ -415,13 +383,13 @@
     {
       "frame": 4,
       "beat": "EXPERIMENT: Military/Red Cross clothing shifted one moral-choice task. Not real-world service.",
-      "assetId": "R54",
+      "assetId": "R55",
       "visualMode": "evidence-graphic",
       "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
       "crop": "4:5 purpose-built evidence diagram with source identity and claim boundary",
       "overlay": "EXPERIMENT: Military/Red Cross clothing shifted one moral-choice task. Not real-world service.",
-      "caption": "EXPERIMENT: Military/Red Cross clothing shifted one moral-choice task. Not real-world service. Military uniform open-access search",
-      "credit": "Original evidence graphic · RN Collins · source: The Metropolitan Museum of Art · The Met",
+      "caption": "EXPERIMENT: Military/Red Cross clothing shifted one moral-choice task. Not real-world service. Uniforms collection search",
+      "credit": "Original evidence graphic · RN Collins · source: Smithsonian Institution · Smithsonian Open Access",
       "alt": "Evidence diagram explaining experiment: military/red cross clothing shifted one moral-choice task. not real-world service.; source named on slide.",
       "boundary": "Do not imply this object proves a neural mechanism."
     },
@@ -441,26 +409,26 @@
     {
       "frame": 6,
       "beat": "WORKPLACE CASE: Uniform change rearranged hospital professional boundaries. One institution, not all.",
-      "assetId": "R56",
+      "assetId": "R81",
       "visualMode": "evidence-graphic",
       "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
       "crop": "4:5 purpose-built evidence diagram with source identity and claim boundary",
       "overlay": "WORKPLACE CASE: Uniform change rearranged hospital professional boundaries. One institution, not all.",
-      "caption": "WORKPLACE CASE: Uniform change rearranged hospital professional boundaries. One institution, not all. Social perception study materials",
-      "credit": "Original evidence graphic · RN Collins · source: Open Science Framework contributors · OSF",
+      "caption": "WORKPLACE CASE: Uniform change rearranged hospital professional boundaries. One institution, not all. Students Wearing Police Uniforms Exhibit Biased Attention toward Individuals Wearing Hoodies",
+      "credit": "Original evidence graphic · RN Collins · source: Civile and Obhi · Frontiers in Psychology / PMC",
       "alt": "Evidence diagram explaining workplace case: uniform change rearranged hospital professional boundaries. one institution, not all.; source named on slide.",
       "boundary": "Do not imply this object proves a neural mechanism."
     },
     {
       "frame": 7,
       "beat": "FITTED CLAIM: Uniforms can organize perception and make roles salient. They do not contain a fixed psychology.",
-      "assetId": "R81",
+      "assetId": "R82",
       "visualMode": "evidence-graphic",
       "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
       "crop": "4:5 purpose-built evidence diagram with source identity and claim boundary",
       "overlay": "FITTED CLAIM: Uniforms can organize perception and make roles salient. They do not contain a fixed psychology.",
-      "caption": "FITTED CLAIM: Uniforms can organize perception and make roles salient. They do not contain a fixed psychology. Students Wearing Police Uniforms Exhibit Biased Attention toward Individuals Wearing Hoodies",
-      "credit": "Original evidence graphic · RN Collins · source: Civile and Obhi · Frontiers in Psychology / PMC",
+      "caption": "FITTED CLAIM: Uniforms can organize perception and make roles salient. They do not contain a fixed psychology. Health and clothing",
+      "credit": "Original evidence graphic · RN Collins · source: Bermondsey Borough Council · Wellcome Collection / BFI National Archive",
       "alt": "Evidence diagram explaining fitted claim: uniforms can organize perception and make roles salient. they do not contain a fixed psychology.; source named on slide.",
       "boundary": "Do not imply this object proves a neural mechanism."
     }

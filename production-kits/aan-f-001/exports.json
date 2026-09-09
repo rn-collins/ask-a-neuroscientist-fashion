@@ -54,13 +54,13 @@
       "kind": "instagram-carousel-a",
       "index": 5,
       "file": "/production-kits/aan-f-001/exports/instagram/carousel-a-frame-05.png",
-      "assetId": "R15",
+      "assetId": "R16",
       "visualMode": "evidence-graphic",
       "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
       "alt": "Evidence diagram explaining the task was attention—not iq, creativity or brain rewiring.; source named on slide.",
-      "credit": "Original evidence graphic · RN Collins · source: Hester and Hehman · Personality and Social Psychology Review",
-      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10559650/",
-      "rights": "CC BY"
+      "credit": "Original evidence graphic · RN Collins · source: Adam and Galinsky · Journal of Experimental Social Psychology",
+      "source": "https://doi.org/10.1016/j.jesp.2012.02.008",
+      "rights": "link-only"
     },
     {
       "kind": "instagram-carousel-a",
@@ -78,12 +78,12 @@
       "kind": "instagram-carousel-a",
       "index": 7,
       "file": "/production-kits/aan-f-001/exports/instagram/carousel-a-frame-07.png",
-      "assetId": "R17",
+      "assetId": "R18",
       "visualMode": "evidence-graphic",
       "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
       "alt": "Evidence diagram explaining continue: the replication people omit.; source named on slide.",
-      "credit": "Original evidence graphic · RN Collins · source: C. Blaine Horton Jr., Hajo Adam and Adam D. Galinsky · Personality and Social Psychology Bulletin",
-      "source": "https://doi.org/10.1177/01461672231182478",
+      "credit": "Original evidence graphic · RN Collins · source: American Psychological Association · APA",
+      "source": "https://www.apa.org/news/podcasts/speaking-of-psychology/fashion",
       "rights": "link-only"
     },
     {
@@ -102,13 +102,13 @@
       "kind": "instagram-carousel-b",
       "index": 2,
       "file": "/production-kits/aan-f-001/exports/instagram/carousel-b-frame-02.png",
-      "assetId": "R15",
+      "assetId": "R16",
       "visualMode": "evidence-graphic",
       "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
       "alt": "Evidence diagram explaining burns, fox, greenstein, olbricht and montgomery repeated the critical design under preregistration.; source named on slide.",
-      "credit": "Original evidence graphic · RN Collins · source: Hester and Hehman · Personality and Social Psychology Review",
-      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10559650/",
-      "rights": "CC BY"
+      "credit": "Original evidence graphic · RN Collins · source: Adam and Galinsky · Journal of Experimental Social Psychology",
+      "source": "https://doi.org/10.1016/j.jesp.2012.02.008",
+      "rights": "link-only"
     },
     {
       "kind": "instagram-carousel-b",
@@ -126,12 +126,12 @@
       "kind": "instagram-carousel-b",
       "index": 4,
       "file": "/production-kits/aan-f-001/exports/instagram/carousel-b-frame-04.png",
-      "assetId": "R17",
+      "assetId": "R18",
       "visualMode": "evidence-graphic",
       "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
       "alt": "Evidence diagram explaining null does not mean clothing never matters.; source named on slide.",
-      "credit": "Original evidence graphic · RN Collins · source: C. Blaine Horton Jr., Hajo Adam and Adam D. Galinsky · Personality and Social Psychology Bulletin",
-      "source": "https://doi.org/10.1177/01461672231182478",
+      "credit": "Original evidence graphic · RN Collins · source: American Psychological Association · APA",
+      "source": "https://www.apa.org/news/podcasts/speaking-of-psychology/fashion",
       "rights": "link-only"
     },
     {
@@ -150,12 +150,12 @@
       "kind": "instagram-carousel-b",
       "index": 6,
       "file": "/production-kits/aan-f-001/exports/instagram/carousel-b-frame-06.png",
-      "assetId": "R19",
+      "assetId": "R57",
       "visualMode": "evidence-graphic",
       "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
       "alt": "Evidence diagram explaining best label: disputed / qualified.; source named on slide.",
-      "credit": "Original evidence graphic · RN Collins · source: Multimedia Laboratory, The Chinese University of Hong Kong · CUHK",
-      "source": "https://mmlab.ie.cuhk.edu.hk/projects/DeepFashion.html",
+      "credit": "Original evidence graphic · RN Collins · source: Shahidha Bari; photographs by Maryam Wahid · Wellcome Collection",
+      "source": "https://wellcomecollection.org/stories/dress-and-the-magic-of-touch",
       "rights": "link-only"
     },
     {
@@ -210,13 +210,13 @@
       "kind": "pinterest",
       "index": 4,
       "file": "/production-kits/aan-f-001/exports/pinterest/pin-04.png",
-      "assetId": "R13",
+      "assetId": "R15",
       "visualMode": "evidence-graphic",
       "visualRationale": "A legible evidence graphic is stronger and more accurate than repeating the available object.",
       "alt": "Evidence graphic introducing the object lesson and naming its source.",
-      "credit": "Original evidence graphic · RN Collins · source: Commons contributor · Wikimedia Commons",
-      "source": "https://commons.wikimedia.org/wiki/File:Friston-2010-free-energy-principle.svg",
-      "rights": "link-only"
+      "credit": "Original evidence graphic · RN Collins · source: Hester and Hehman · Personality and Social Psychology Review",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10559650/",
+      "rights": "CC BY"
     },
     {
       "kind": "pinterest",

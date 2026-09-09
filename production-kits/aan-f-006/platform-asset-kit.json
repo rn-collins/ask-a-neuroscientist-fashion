@@ -119,22 +119,6 @@
       "caption": "Fashion runway2.jpg"
     },
     {
-      "id": "R45",
-      "type": "research",
-      "title": "The Action Simulation for Auditory Prediction hypothesis",
-      "creator": "Patel and Iversen",
-      "date": "2014",
-      "institution": "Frontiers in Systems Neuroscience / PMC",
-      "rights": "CC BY",
-      "disposition": "duplicate",
-      "canonicalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4026735/",
-      "mediaUrl": null,
-      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
-      "credit": "Patel and Iversen · Frontiers in Systems Neuroscience / PMC",
-      "alt": "",
-      "caption": "The Action Simulation for Auditory Prediction hypothesis"
-    },
-    {
       "id": "R46",
       "type": "research",
       "title": "Music and the brain: the neuroscience of music and musical appreciation",
@@ -167,22 +151,6 @@
       "caption": "Psychology of music"
     },
     {
-      "id": "R48",
-      "type": "video",
-      "title": "British Fashion Council official video channel",
-      "creator": "British Fashion Council",
-      "date": "ongoing",
-      "institution": "YouTube",
-      "rights": "link-only",
-      "disposition": "duplicate",
-      "canonicalUrl": "https://www.youtube.com/@BritishFashionCouncil",
-      "mediaUrl": null,
-      "licenseUrl": null,
-      "credit": "British Fashion Council · YouTube",
-      "alt": "",
-      "caption": "British Fashion Council official video channel"
-    },
-    {
       "id": "R49",
       "type": "interactive/tool",
       "title": "Web Audio API examples",
@@ -197,22 +165,6 @@
       "credit": "MDN contributors · GitHub / MDN",
       "alt": "",
       "caption": "Web Audio API examples"
-    },
-    {
-      "id": "R50",
-      "type": "audio",
-      "title": "Free Music Archive genre search",
-      "creator": "Free Music Archive",
-      "date": "ongoing",
-      "institution": "Free Music Archive",
-      "rights": "rejected",
-      "disposition": "rejected",
-      "canonicalUrl": "https://freemusicarchive.org/",
-      "mediaUrl": null,
-      "licenseUrl": null,
-      "credit": "Free Music Archive · Free Music Archive",
-      "alt": "",
-      "caption": "Free Music Archive genre search"
     },
     {
       "id": "R77",
@@ -261,22 +213,6 @@
       "credit": "Jenny Mealing · Wikimedia Commons",
       "alt": "A fashion runway with spectators gathered around it.",
       "caption": "Runway at Fashion Show Mall (2010)"
-    },
-    {
-      "id": "R80",
-      "type": "audio/video",
-      "title": "Internet Archive runway-audio traversal",
-      "creator": "Internet Archive contributors",
-      "date": "2026 search",
-      "institution": "Internet Archive",
-      "rights": "rejected",
-      "disposition": "rejected",
-      "canonicalUrl": "https://archive.org/search?query=%22fashion+show%22+AND+mediatype%3Amovies",
-      "mediaUrl": null,
-      "licenseUrl": null,
-      "credit": "Internet Archive contributors · Internet Archive",
-      "alt": "",
-      "caption": "Internet Archive runway-audio traversal"
     }
   ],
   "carouselA": [
@@ -335,13 +271,13 @@
     {
       "frame": 5,
       "beat": "Movement: rhythm may invite alignment; it does not command it.",
-      "assetId": "R46",
+      "assetId": "R47",
       "visualMode": "evidence-graphic",
       "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
       "crop": "4:5 purpose-built evidence diagram with source identity and claim boundary",
       "overlay": "Movement: rhythm may invite alignment; it does not command it.",
-      "caption": "Movement: rhythm may invite alignment; it does not command it. Music and the brain: the neuroscience of music and musical appreciation",
-      "credit": "Original evidence graphic · RN Collins · source: Article authors · BJPsych International / PMC",
+      "caption": "Movement: rhythm may invite alignment; it does not command it. Psychology of music",
+      "credit": "Original evidence graphic · RN Collins · source: American Psychological Association · APA",
       "alt": "Evidence diagram explaining movement: rhythm may invite alignment; it does not command it.; source named on slide.",
       "boundary": "Do not imply this object proves a neural mechanism."
     },
@@ -361,13 +297,13 @@
     {
       "frame": 7,
       "beat": "The fitted claim: sound can organize a runway without controlling its people. Sources and Sound Map in the gallery.",
-      "assetId": "R48",
+      "assetId": "R77",
       "visualMode": "evidence-graphic",
       "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
       "crop": "4:5 purpose-built evidence diagram with source identity and claim boundary",
       "overlay": "The fitted claim: sound can organize a runway without controlling its people. Sources and Sound Map in the gallery.",
-      "caption": "The fitted claim: sound can organize a runway without controlling its people. Sources and Sound Map in the gallery. British Fashion Council official video channel",
-      "credit": "Original evidence graphic · RN Collins · source: British Fashion Council · YouTube",
+      "caption": "The fitted claim: sound can organize a runway without controlling its people. Sources and Sound Map in the gallery. Videos of fashion shows category",
+      "credit": "Original evidence graphic · RN Collins · source: Wikimedia Commons contributors · Wikimedia Commons",
       "alt": "Evidence diagram explaining the fitted claim: sound can organize a runway without controlling its people. sources and sound map in the gallery.; source named on slide.",
       "boundary": "Do not imply this object proves a neural mechanism."
     }
@@ -389,13 +325,13 @@
     {
       "frame": 2,
       "beat": "In music science, entrainment describes alignment with temporal structure.",
-      "assetId": "R46",
+      "assetId": "R47",
       "visualMode": "evidence-graphic",
       "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
       "crop": "4:5 purpose-built evidence diagram with source identity and claim boundary",
       "overlay": "In music science, entrainment describes alignment with temporal structure.",
-      "caption": "In music science, entrainment describes alignment with temporal structure. Music and the brain: the neuroscience of music and musical appreciation",
-      "credit": "Original evidence graphic · RN Collins · source: Article authors · BJPsych International / PMC",
+      "caption": "In music science, entrainment describes alignment with temporal structure. Psychology of music",
+      "credit": "Original evidence graphic · RN Collins · source: American Psychological Association · APA",
       "alt": "Evidence diagram explaining in music science, entrainment describes alignment with temporal structure.; source named on slide.",
       "boundary": "Do not imply this object proves a neural mechanism."
     },
@@ -415,13 +351,13 @@
     {
       "frame": 4,
       "beat": "People may tap, sway, predict—or choose not to move.",
-      "assetId": "R48",
+      "assetId": "R77",
       "visualMode": "evidence-graphic",
       "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
       "crop": "4:5 purpose-built evidence diagram with source identity and claim boundary",
       "overlay": "People may tap, sway, predict—or choose not to move.",
-      "caption": "People may tap, sway, predict—or choose not to move. British Fashion Council official video channel",
-      "credit": "Original evidence graphic · RN Collins · source: British Fashion Council · YouTube",
+      "caption": "People may tap, sway, predict—or choose not to move. Videos of fashion shows category",
+      "credit": "Original evidence graphic · RN Collins · source: Wikimedia Commons contributors · Wikimedia Commons",
       "alt": "Evidence diagram explaining people may tap, sway, predict—or choose not to move.; source named on slide.",
       "boundary": "Do not imply this object proves a neural mechanism."
     },
@@ -441,15 +377,15 @@
     {
       "frame": 6,
       "beat": "Lab tapping and clinical gait studies are adjacent evidence, not proof of a Fashion Week mechanism.",
-      "assetId": "R50",
+      "assetId": "R06",
       "visualMode": "evidence-graphic",
       "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
       "crop": "4:5 purpose-built evidence diagram with source identity and claim boundary",
       "overlay": "Lab tapping and clinical gait studies are adjacent evidence, not proof of a Fashion Week mechanism.",
-      "caption": "Lab tapping and clinical gait studies are adjacent evidence, not proof of a Fashion Week mechanism. Free Music Archive genre search",
-      "credit": "Original evidence graphic · RN Collins · source: Free Music Archive · Free Music Archive",
+      "caption": "Lab tapping and clinical gait studies are adjacent evidence, not proof of a Fashion Week mechanism. The Action Simulation for Auditory Prediction hypothesis",
+      "credit": "Original evidence graphic · RN Collins · source: Patel; Iversen · PubMed Central",
       "alt": "Evidence diagram explaining lab tapping and clinical gait studies are adjacent evidence, not proof of a fashion week mechanism.; source named on slide.",
-      "boundary": "Do not imply this object proves a neural mechanism."
+      "boundary": "Source identity only; protected media is not reproduced."
     },
     {
       "frame": 7,
@@ -570,13 +506,13 @@
     {
       "pin": 4,
       "title": "Memory music",
-      "assetId": "R45",
+      "assetId": "R46",
       "visualMode": "evidence-graphic",
       "visualRationale": "A legible evidence graphic is stronger and more accurate than repeating the available object.",
       "format": "1000×1500 standard pin",
       "description": "Memory music: an evidence-bounded visual guide from The Listening Room.",
       "alt": "Evidence graphic introducing memory music and naming its source.",
-      "credit": "Original evidence graphic · RN Collins · source: Patel and Iversen · Frontiers in Systems Neuroscience / PMC",
+      "credit": "Original evidence graphic · RN Collins · source: Article authors · BJPsych International / PMC",
       "destination": "/exhibitions/runway-soundtracks/"
     },
     {

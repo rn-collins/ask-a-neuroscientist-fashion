@@ -29,7 +29,12 @@ function asset(c){return {id:c.id,type:c.type,title:c.title,creator:c.creator,da
 function objectAsset(o){return {id:`MET-${o.id}`,type:'image',title:o.title,creator:o.maker,date:o.date,institution:o.institution,rights:o.license,disposition:'installed-object',canonicalUrl:o.record,mediaUrl:o.image,licenseUrl:'https://www.metmuseum.org/about-the-met/policies-and-documents/open-access',credit:`${o.title}, ${o.maker}, ${o.date}. ${o.institution}. ${o.accession}. CC0.`,alt:o.alt,caption:o.role};}
 function visualPool(p){
  const os=objects.filter(o=>o.claimIds.some(x=>x.startsWith(p.prefix))).map(objectAsset);
- const cs=excavation.candidates.filter(c=>excavation.packages.find(x=>x.id===p.id).candidateIds.includes(c.id)).map(asset);
+ const cs=excavation.candidates
+   .filter(c=>excavation.packages.find(x=>x.id===p.id).candidateIds.includes(c.id))
+   // Rejected and duplicate discoveries remain in the excavation ledger, but
+   // they can never become a source for a rendered publication asset.
+   .filter(c=>!['rejected','duplicate'].includes(c.disposition))
+   .map(asset);
  return [...os,...cs];
 }
 function pick(pool,n,offset=0){const usable=pool.filter(a=>['installed-object','installed-media','installed-tool','resource-room','reserve','link-only'].includes(a.disposition));return usable[(n+offset)%usable.length];}

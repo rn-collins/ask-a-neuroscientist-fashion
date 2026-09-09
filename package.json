@@ -6,6 +6,6 @@
     "build:social-previews": "node scripts/install-social-previews.mjs",
     "build:metadata": "node scripts/install-static-metadata.mjs",
     "build:downloads": "node scripts/build-download-bundles.mjs",
-    "test": "node --check app.js && node --check data.js && node scripts/install-social-previews.mjs && node scripts/install-static-metadata.mjs && node scripts/build-visual-assignment-matrix.mjs && node tests.mjs && node media-validation.mjs"
+    "test": "node --check app.js && node --check data.js && node scripts/install-social-previews.mjs && node scripts/install-static-metadata.mjs && node scripts/build-visual-assignment-matrix.mjs && node scripts/build-media-provenance-inventory.mjs && node tests.mjs && node media-validation.mjs && node media-provenance-validation.mjs"
   }
 }
