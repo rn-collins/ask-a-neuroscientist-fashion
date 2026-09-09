@@ -211,13 +211,21 @@ if (routePath === "/exhibitions/") {
     lede.insertAdjacentElement("afterend", strip);
   }
 }
-const routeMeta = routeMetadata[routePath] || routeMetadata["/"];
+// Registered editorial routes receive canonical copy from the central map.
+// Generated production-kit routes intentionally keep the static title and
+// description authored in their HTML instead of being relabelled as home.
+const routeMeta = routeMetadata[routePath];
 const canonical = location.origin + routePath;
-document.title = routeMeta.title;
+if (routeMeta) document.title = routeMeta.title;
+const staticDescription = document.head
+  .querySelector('meta[name="description"]')
+  ?.getAttribute("content");
+const resolvedTitle = routeMeta?.title || document.title;
+const resolvedDescription = routeMeta?.description || staticDescription || routeMetadata["/"].description;
 for (const [kind, key, value] of [
-  ["name", "description", routeMeta.description],
-  ["property", "og:title", routeMeta.title],
-  ["property", "og:description", routeMeta.description],
+  ["name", "description", resolvedDescription],
+  ["property", "og:title", resolvedTitle],
+  ["property", "og:description", resolvedDescription],
   ["property", "og:type", "website"],
   ["property", "og:url", canonical],
   ["name", "twitter:card", "summary_large_image"],
@@ -237,7 +245,10 @@ if (!canonicalLink) {
   document.head.append(canonicalLink);
 }
 canonicalLink.href = canonical;
-const routeImage = routeImages[routePath];
+const staticPreview = document.head
+  .querySelector('meta[property="og:image"], meta[name="twitter:image"]')
+  ?.getAttribute("content");
+const routeImage = routeImages[routePath] || staticPreview || routeImages["/"];
 if (routeImage) {
   const imageUrl = new URL(routeImage, location.origin).href;
   for (const [property, content] of [
