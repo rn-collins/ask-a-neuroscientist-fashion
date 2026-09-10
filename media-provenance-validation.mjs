@@ -2,6 +2,17 @@ import fs from 'node:fs';
 import crypto from 'node:crypto';
 
 const manifest=JSON.parse(fs.readFileSync('production/media-provenance-inventory.json','utf8'));
+const excavation=JSON.parse(fs.readFileSync('production/media-excavation.json','utf8'));
+const waveFour=excavation.candidates.filter(x=>x.wave===4);
+if(waveFour.length!==9)throw Error('wave 4 must contain the nine recorded discoveries');
+const covered=new Set(waveFour.flatMap(x=>x.packages));
+for(const p of excavation.packages)if(!covered.has(p.id))throw Error(`${p.id}: missing wave-4 discovery record`);
+for(const x of waveFour){
+  for(const key of ['canonicalUrl','creator','institution','date','relevance','reason'])if(!x[key])throw Error(`${x.id}: incomplete wave-4 provenance`);
+  if(!x.canonicalUrl.startsWith('https://'))throw Error(`${x.id}: exact HTTPS canonical required`);
+  if(!x.destinations?.length)throw Error(`${x.id}: precise proposed placement required`);
+  if(x.disposition.startsWith('installed-'))throw Error(`${x.id}: no wave-4 record cleared installation`);
+}
 if(manifest.records.length!==manifest.counts.files)throw Error('provenance count mismatch');
 if(manifest.counts.videoFiles||manifest.counts.audioFiles)throw Error('unexpected locally copied audio/video');
 const seen=new Set();
