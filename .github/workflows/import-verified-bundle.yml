@@ -1,4 +1,4 @@
-name: Import verified AAN runtime metadata
+name: Import verified AAN media provenance
 on:
   push:
     branches: [main]
@@ -13,10 +13,11 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           set -euo pipefail
-          curl -fL -o aan.bundle "https://github.com/rn-collins/ask-a-neuroscientist-fashion/releases/download/codex-import-aan-runtime-43a6cf1/aan-runtime-metadata-43a6cf1.bundle"
+          curl -fL -o aan.bundle "https://github.com/rn-collins/ask-a-neuroscientist-fashion/releases/download/codex-import-aan-media-058c05f/aan-media-provenance-058c05f-verified.bundle"
+          test "$(sha256sum aan.bundle | cut -d' ' -f1)" = "79f8e82ef43058f31deac9e9c55661e4ff4fa5a1627f653f15d647dc29a8dffa"
           git clone "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git" imported
           cd imported
-          git fetch ../aan.bundle refs/heads/codex/aan-runtime-metadata:refs/heads/codex-aan-runtime-metadata-43a6cf1
-          test "$(git rev-parse codex-aan-runtime-metadata-43a6cf1)" = "43a6cf1e1a603530be3bc5068509ff48c827de5b"
-          test "$(git rev-parse codex-aan-runtime-metadata-43a6cf1^)" = "9d97de112387638895d94c944828dc2befce1b4c"
-          git push origin refs/heads/codex-aan-runtime-metadata-43a6cf1
+          git fetch ../aan.bundle HEAD:refs/heads/codex-aan-media-provenance-058c05f
+          test "$(git rev-parse codex-aan-media-provenance-058c05f)" = "058c05f231cc96e5f84c650a4a84708e1c9eefc9"
+          test "$(git rev-parse codex-aan-media-provenance-058c05f^)" = "1483ca8d8d4699042cf6f37571b9ec851b075939"
+          git push origin refs/heads/codex-aan-media-provenance-058c05f
