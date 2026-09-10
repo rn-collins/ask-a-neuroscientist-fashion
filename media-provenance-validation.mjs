@@ -13,6 +13,17 @@ for(const x of waveFour){
   if(!x.destinations?.length)throw Error(`${x.id}: precise proposed placement required`);
   if(x.disposition.startsWith('installed-'))throw Error(`${x.id}: no wave-4 record cleared installation`);
 }
+const waveFive=excavation.candidates.filter(x=>x.wave===5);
+if(waveFive.length!==4)throw Error('wave 5 must contain the four recorded discoveries');
+if(!waveFive.some(x=>x.id==='R96'&&x.packages.includes('AAN-F-003')))throw Error('wave 5 must include direct painful/restricting clothing evidence');
+if(!waveFive.some(x=>x.id==='R97'&&x.packages.includes('AAN-F-007')))throw Error('wave 5 must include the school-uniform policy boundary');
+for(const x of waveFive){
+  for(const key of ['canonicalUrl','creator','institution','date','relevance','reason','rightsStatus'])if(!x[key])throw Error(`${x.id}: incomplete wave-5 provenance`);
+  if(!x.canonicalUrl.startsWith('https://'))throw Error(`${x.id}: exact HTTPS canonical required`);
+  if(!x.destinations?.length)throw Error(`${x.id}: precise public-research placement required`);
+  if(x.disposition!=='resource-room')throw Error(`${x.id}: wave-5 discovery must remain a resource-room record`);
+  if(x.mediaUrl!==null)throw Error(`${x.id}: no wave-5 record cleared visual-media installation`);
+}
 if(manifest.records.length!==manifest.counts.files)throw Error('provenance count mismatch');
 if(manifest.counts.videoFiles||manifest.counts.audioFiles)throw Error('unexpected locally copied audio/video');
 const seen=new Set();
