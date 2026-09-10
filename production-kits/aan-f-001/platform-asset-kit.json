@@ -151,22 +151,6 @@
       "caption": "Show Your Style!"
     },
     {
-      "id": "R13",
-      "type": "diagram",
-      "title": "Free-energy principle diagram",
-      "creator": "Commons contributor",
-      "date": "file record 2026",
-      "institution": "Wikimedia Commons",
-      "rights": "link-only",
-      "disposition": "rejected",
-      "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Friston-2010-free-energy-principle.svg",
-      "mediaUrl": null,
-      "licenseUrl": null,
-      "credit": "Commons contributor · Wikimedia Commons",
-      "alt": "",
-      "caption": "Free-energy principle diagram"
-    },
-    {
       "id": "R15",
       "type": "research",
       "title": "Dress Is a Fundamental Component of Person Perception",
@@ -245,22 +229,6 @@
       "credit": "Multimedia Laboratory, The Chinese University of Hong Kong · CUHK",
       "alt": "",
       "caption": "DeepFashion"
-    },
-    {
-      "id": "R20",
-      "type": "diagram",
-      "title": "Free-energy principle diagram",
-      "creator": "Wikimedia contributor",
-      "date": "2010/2026 record",
-      "institution": "Wikimedia Commons",
-      "rights": "rejected",
-      "disposition": "rejected",
-      "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Friston-2010-free-energy-principle.svg",
-      "mediaUrl": null,
-      "licenseUrl": null,
-      "credit": "Wikimedia contributor · Wikimedia Commons",
-      "alt": "",
-      "caption": "Free-energy principle diagram"
     },
     {
       "id": "R57",
@@ -383,13 +351,13 @@
     {
       "frame": 5,
       "beat": "The task was attention—not IQ, creativity or brain rewiring.",
-      "assetId": "R15",
+      "assetId": "R16",
       "visualMode": "evidence-graphic",
       "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
       "crop": "4:5 purpose-built evidence diagram with source identity and claim boundary",
       "overlay": "The task was attention—not IQ, creativity or brain rewiring.",
-      "caption": "The task was attention—not IQ, creativity or brain rewiring. Dress Is a Fundamental Component of Person Perception",
-      "credit": "Original evidence graphic · RN Collins · source: Hester and Hehman · Personality and Social Psychology Review",
+      "caption": "The task was attention—not IQ, creativity or brain rewiring. Enclothed cognition",
+      "credit": "Original evidence graphic · RN Collins · source: Adam and Galinsky · Journal of Experimental Social Psychology",
       "alt": "Evidence diagram explaining the task was attention—not iq, creativity or brain rewiring.; source named on slide.",
       "boundary": "Do not imply this object proves a neural mechanism."
     },
@@ -409,13 +377,13 @@
     {
       "frame": 7,
       "beat": "Continue: The replication people omit.",
-      "assetId": "R17",
+      "assetId": "R18",
       "visualMode": "evidence-graphic",
       "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
       "crop": "4:5 purpose-built evidence diagram with source identity and claim boundary",
       "overlay": "Continue: The replication people omit.",
-      "caption": "Continue: The replication people omit. Evaluating the Evidence for Enclothed Cognition: Z-Curve and Meta-Analyses",
-      "credit": "Original evidence graphic · RN Collins · source: C. Blaine Horton Jr., Hajo Adam and Adam D. Galinsky · Personality and Social Psychology Bulletin",
+      "caption": "Continue: The replication people omit. Psychology of fashion, with Carolyn Mair, PhD",
+      "credit": "Original evidence graphic · RN Collins · source: American Psychological Association · APA",
       "alt": "Evidence diagram explaining continue: the replication people omit.; source named on slide.",
       "boundary": "Do not imply this object proves a neural mechanism."
     }
@@ -437,13 +405,13 @@
     {
       "frame": 2,
       "beat": "Burns, Fox, Greenstein, Olbricht and Montgomery repeated the critical design under preregistration.",
-      "assetId": "R15",
+      "assetId": "R16",
       "visualMode": "evidence-graphic",
       "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
       "crop": "4:5 purpose-built evidence diagram with source identity and claim boundary",
       "overlay": "Burns, Fox, Greenstein, Olbricht and Montgomery repeated the critical design under preregistration.",
-      "caption": "Burns, Fox, Greenstein, Olbricht and Montgomery repeated the critical design under preregistration. Dress Is a Fundamental Component of Person Perception",
-      "credit": "Original evidence graphic · RN Collins · source: Hester and Hehman · Personality and Social Psychology Review",
+      "caption": "Burns, Fox, Greenstein, Olbricht and Montgomery repeated the critical design under preregistration. Enclothed cognition",
+      "credit": "Original evidence graphic · RN Collins · source: Adam and Galinsky · Journal of Experimental Social Psychology",
       "alt": "Evidence diagram explaining burns, fox, greenstein, olbricht and montgomery repeated the critical design under preregistration.; source named on slide.",
       "boundary": "Do not imply this object proves a neural mechanism."
     },
@@ -463,13 +431,13 @@
     {
       "frame": 4,
       "beat": "Null does not mean clothing never matters.",
-      "assetId": "R17",
+      "assetId": "R18",
       "visualMode": "evidence-graphic",
       "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
       "crop": "4:5 purpose-built evidence diagram with source identity and claim boundary",
       "overlay": "Null does not mean clothing never matters.",
-      "caption": "Null does not mean clothing never matters. Evaluating the Evidence for Enclothed Cognition: Z-Curve and Meta-Analyses",
-      "credit": "Original evidence graphic · RN Collins · source: C. Blaine Horton Jr., Hajo Adam and Adam D. Galinsky · Personality and Social Psychology Bulletin",
+      "caption": "Null does not mean clothing never matters. Psychology of fashion, with Carolyn Mair, PhD",
+      "credit": "Original evidence graphic · RN Collins · source: American Psychological Association · APA",
       "alt": "Evidence diagram explaining null does not mean clothing never matters.; source named on slide.",
       "boundary": "Do not imply this object proves a neural mechanism."
     },
@@ -489,13 +457,13 @@
     {
       "frame": 6,
       "beat": "Best label: disputed / qualified.",
-      "assetId": "R19",
+      "assetId": "R57",
       "visualMode": "evidence-graphic",
       "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
       "crop": "4:5 purpose-built evidence diagram with source identity and claim boundary",
       "overlay": "Best label: disputed / qualified.",
-      "caption": "Best label: disputed / qualified. DeepFashion",
-      "credit": "Original evidence graphic · RN Collins · source: Multimedia Laboratory, The Chinese University of Hong Kong · CUHK",
+      "caption": "Best label: disputed / qualified. Dress and the magic of touch",
+      "credit": "Original evidence graphic · RN Collins · source: Shahidha Bari; photographs by Maryam Wahid · Wellcome Collection",
       "alt": "Evidence diagram explaining best label: disputed / qualified.; source named on slide.",
       "boundary": "Do not imply this object proves a neural mechanism."
     },
@@ -618,13 +586,13 @@
     {
       "pin": 4,
       "title": "The object lesson",
-      "assetId": "R13",
+      "assetId": "R15",
       "visualMode": "evidence-graphic",
       "visualRationale": "A legible evidence graphic is stronger and more accurate than repeating the available object.",
       "format": "1000×1500 standard pin",
       "description": "The object lesson: an evidence-bounded visual guide from Clothes and Cognition.",
       "alt": "Evidence graphic introducing the object lesson and naming its source.",
-      "credit": "Original evidence graphic · RN Collins · source: Commons contributor · Wikimedia Commons",
+      "credit": "Original evidence graphic · RN Collins · source: Hester and Hehman · Personality and Social Psychology Review",
       "destination": "/exhibitions/clothes-and-cognition/"
     },
     {

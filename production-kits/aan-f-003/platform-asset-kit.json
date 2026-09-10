@@ -293,22 +293,6 @@
       "credit": "Mehta, Holásková and Walker · PLOS ONE / PMC",
       "alt": "Front and back views of a textile swatch mounted between sheets for controlled tactile evaluation.",
       "caption": "Mounted textile swatch presented to study participants"
-    },
-    {
-      "id": "R68",
-      "type": "dataset/tool",
-      "title": "VisTouch vision–touch–audio dataset",
-      "creator": "Liang et al.",
-      "date": "2026",
-      "institution": "GitHub",
-      "rights": "CC BY",
-      "disposition": "duplicate",
-      "canonicalUrl": "https://github.com/liangnjupt/VisTouch",
-      "mediaUrl": null,
-      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-      "credit": "Liang et al. · GitHub",
-      "alt": "",
-      "caption": "VisTouch vision–touch–audio dataset"
     }
   ],
   "carouselA": [
