@@ -1,6 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
-import sharp from '/opt/codex/runtimes/codex-primary-runtime/dependencies/node/node_modules/sharp/dist/index.cjs';
+import sharp from 'sharp';
 
 const manifest=JSON.parse(fs.readFileSync('production/platform-asset-kits.json','utf8'));
 const palettes=[['#0a0a0b','#f5efe5','#ff4d00'],['#24060c','#fff4e8','#315cff'],['#071b1a','#e9ffd8','#ef5da8'],['#1c1026','#ffe5c7','#f0325a'],['#060f24','#eff3ff','#f6d84a'],['#0b0b0b','#f4f0e7','#ff2a68'],['#101820','#f1e9da','#d72f2f']];

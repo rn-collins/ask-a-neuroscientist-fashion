@@ -539,9 +539,9 @@ const fashionWeekPage = fs.readFileSync(
   "utf8",
 );
 for (const token of [
-  "/production-kits/aan-f-005/media/r74.jpg",
+  "/production-kits/aan-f-005/media/met-151912.jpg",
   "/media/p005-field-load-score.svg",
-  "CC BY 2.0",
+  "Metropolitan Museum of Art Open Access",
   "not a measurement of Fashion Week physiology",
 ])
   if (!fashionWeekPage.includes(token))

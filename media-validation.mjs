@@ -1,5 +1,5 @@
 import fs from"node:fs";
-import sharp from "/opt/codex/runtimes/codex-primary-runtime/dependencies/node/node_modules/sharp/dist/index.cjs";
+import sharp from "sharp";
 const d=JSON.parse(fs.readFileSync("production/media-excavation.json","utf8"));
 if(d.packages.length!==7||d.surfaces.length<22)throw Error("coverage");
 const ids=new Set(d.candidates.map(c=>c.id));if(ids.size!==d.candidates.length)throw Error("duplicate candidate id");

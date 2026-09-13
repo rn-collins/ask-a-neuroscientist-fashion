@@ -1,1 +1,3 @@
-scripts/repair-media-link.mjs
+node_modules/
+.vercel/
+
