@@ -60,7 +60,7 @@ const kits=specs.map((p,pi)=>{
  const carouselB=Array.from({length:copyB.length},(_,i)=>frame(p,pool,i,'B',copyB));
  const broll=p.beats.slice(0,7).map((beat,i)=>{const a=pick(pool,i+1,2);return {beat:i+1,duration:`${i===0?'0–3':`${i*3}–${i*3+3}`}s`,assetId:a.id,shot:`Slow ${i%2?'detail pan':'object reveal'}; cut on clause, never simulate motion in a still`,onScreen:beat,credit:a.credit,boundary:a.disposition==='link-only'?'Use a designed source card and outbound link; do not extract footage.':'Crop from cleared master; keep credit in caption and end card.'}});
  const youtube=p.beats.map((beat,i)=>{const a=pick(pool,i,1);return {time:`${String(Math.floor(i*1.5)).padStart(2,'0')}:${i%2?'30':'00'}`,chapter:beat,assetId:a.id,treatment:i%3===0?'Full-bleed object with slow editorial crop':i%3===1?'Evidence split-screen with source citation':'Object detail beside boundary sentence',credit:a.credit}});
- const pinterest=p.pins.map((title,i)=>{const images=imagePool(pool), evidence=evidencePool(pool),ordinal=Math.floor(i/2),useImage=i%2===0&&ordinal<images.length,a=useImage?images[ordinal]:(evidence[i%Math.max(1,evidence.length)]||pool[i%pool.length]),visualMode=useImage?'cleared-real-image':'evidence-graphic';return {pin:i+1,title,assetId:a.id,visualMode,visualRationale:useImage?'The cleared object is an effective discovery image for this claim.':'A legible evidence graphic is stronger and more accurate than repeating the available object.',format:'1000×1500 standard pin',description:`${title}: an evidence-bounded visual guide from ${p.title}.`,alt:useImage?(a.alt||a.title):`Evidence graphic introducing ${title.toLowerCase()} and naming its source.`,credit:useImage?a.credit:`Original evidence graphic · RN Collins · source: ${a.credit}`,destination:`/exhibitions/${p.slug}/`}});
+ const pinterest=p.pins.map((title,i)=>{const images=imagePool(pool), evidence=evidencePool(pool),ordinal=Math.floor(i/2),useImage=i%2===0&&ordinal<images.length,a=useImage?images[ordinal]:(evidence[i%Math.max(1,evidence.length)]||pool[i%pool.length]),visualMode=useImage?'cleared-real-image':'evidence-graphic';return {pin:i+1,title,assetId:a.id,visualMode,visualRationale:useImage?'The cleared object is an effective discovery image for this claim.':'A legible evidence graphic is stronger and more accurate than repeating the available object.',format:'1000×1500 standard pin',description:`A visual field guide to ${title.toLowerCase()}, from ${p.title}.`,alt:useImage?(a.alt||a.title):`Evidence graphic introducing ${title.toLowerCase()} and naming its source.`,credit:useImage?a.credit:`Original evidence graphic · RN Collins · source: ${a.credit}`,destination:`/exhibitions/${p.slug}/`}});
  const inline={beehiiv:[0,2,5].map((n,i)=>({position:['after opening','after first evidence section','before boundary'][i],assetId:pick(pool,n).id,caption:pick(pool,n).caption,credit:pick(pool,n).credit})),linkedin:[1,4].map((n,i)=>({position:i?'document slide 5':'document cover',assetId:pick(pool,n,2).id,caption:pick(pool,n,2).caption,credit:pick(pool,n,2).credit}))};
  return {...p,assets:pool,carouselA,carouselB,broll,pinterest,youtube,inline,downloads:pool.filter(a=>['installed-object','installed-media'].includes(a.disposition)&&a.mediaUrl).map(a=>({assetId:a.id,source:a.mediaUrl,canonical:a.canonicalUrl,credit:a.credit,rights:a.rights}))};
 });
@@ -103,6 +103,16 @@ for(const kit of kits){
    const source=sources.get(assetId);
    if(!source) throw Error(`${kit.id} ${field} references missing replacement ${assetId}`);
    installRealFrame(rows[index],source);
+  });
+ }
+ const pinterestAssignments=plan.disableAssignments?null:plan.pinterest;
+ if(pinterestAssignments){
+  if(pinterestAssignments.length!==kit.pinterest.length) throw Error(`${kit.id} pinterest replacement count does not match its pins`);
+  pinterestAssignments.forEach((assetId,index)=>{
+   if(!assetId) return;
+   const source=sources.get(assetId);
+   if(!source) throw Error(`${kit.id} pinterest references missing replacement ${assetId}`);
+   installRealFrame(kit.pinterest[index],source);
   });
  }
  kit.downloads=kit.assets.filter(source=>['installed-object','installed-media'].includes(source.disposition)&&source.mediaUrl).map(source=>({assetId:source.id,source:source.mediaUrl,canonical:source.canonicalUrl,credit:source.credit,rights:source.rights,sourceWidth:source.sourceWidth,sourceHeight:source.sourceHeight,cropSuitability:source.cropSuitability}));

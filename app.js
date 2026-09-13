@@ -1,5 +1,5 @@
 const A = window.AAN;
-const nav = `<a class="skip" href="#content">Skip to content</a><nav aria-label="Primary"><a href="/">AAN × FASHION</a><a href="/exhibitions/">Exhibition</a><a href="/objects/">Objects</a><a href="/media/">Media</a><a href="/evidence/">Evidence</a><details><summary>More</summary><div class="nav-more"><a href="/ask/">Ask</a><a href="/lab/">Lab</a><a href="/deliverables/">Studio</a><a href="/rights/">Rights</a><a href="/method/">Method</a></div></details></nav>`;
+const nav = `<a class="skip" href="#content">Skip to content</a><nav aria-label="Primary"><a href="/">AAN × FASHION</a><a href="/exhibitions/">Stories</a><a href="/objects/">Objects</a><a href="/ask/">Ask</a><a href="/lab/">Tools</a><details><summary>More</summary><div class="nav-more"><a href="/evidence/">Sources</a><a href="/media/">Image archive</a><a href="/deliverables/">Editions</a><a href="/rights/">Rights</a><a href="/method/">Method</a></div></details></nav>`;
 document.body.insertAdjacentHTML("afterbegin", nav);
 const main = document.querySelector("main");
 if (main && !main.id) main.id = "content";
@@ -29,7 +29,7 @@ const routeMetadata = {
   "/": {
     title: "The Dressed Nervous System",
     description:
-      "An evidence-led exhibition about clothing, cognition and the nervous system.",
+      "Seven fashion stories about clothing, sensation, memory, social perception and the nervous system.",
   },
   "/exhibitions/": {
     title: "Exhibitions — AAN × Fashion",
@@ -162,7 +162,7 @@ const routeImages = {
   "/exhibitions/outfit-as-armor/": "https://images.metmuseum.org/CRDImages/aa/original/DP256970.jpg",
   "/exhibitions/fabric-sensory-world/": "https://images.metmuseum.org/CRDImages/ci/original/DT5639.jpg",
   "/exhibitions/fashion-nostalgia/": "https://images.metmuseum.org/CRDImages/ci/original/1980.409.1a-c.jpg",
-  "/exhibitions/fashion-week-nervous-system/": "/production-kits/aan-f-005/media/r74.jpg",
+  "/exhibitions/fashion-week-nervous-system/": "/production-kits/aan-f-005/media/f-runway-pexels.jpg",
   "/exhibitions/runway-soundtracks/": "https://images.metmuseum.org/CRDImages/mi/original/215848.jpg",
   "/exhibitions/uniforms-and-social-perception/": "https://images.metmuseum.org/CRDImages/ci/original/1979.152.54a%E2%80%93cf_F.jpg",
 };

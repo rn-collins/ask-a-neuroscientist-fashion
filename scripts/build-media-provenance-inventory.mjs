@@ -10,7 +10,7 @@ const context={window:{}};vm.createContext(context);vm.runInContext(fs.readFileS
 const objects=new Map(context.window.AAN.objects.map(x=>[String(x.id),x]));
 const mediaExt=/\.(?:jpe?g|png|webp|gif|svg|mp4|webm|mp3|wav)$/i;
 const files=[];
-function walk(dir){for(const ent of fs.readdirSync(dir,{withFileTypes:true})){const p=path.join(dir,ent.name);if(ent.isDirectory())walk(p);else if(mediaExt.test(ent.name))files.push(p)}}
+function walk(dir){for(const ent of fs.readdirSync(dir,{withFileTypes:true})){if(ent.name.includes('.partial-'))continue;const p=path.join(dir,ent.name);if(ent.isDirectory())walk(p);else if(mediaExt.test(ent.name))files.push(p)}}
 walk('media');walk('production-kits');
 const exportRecords=new Map();
 const platformAssets=new Map();

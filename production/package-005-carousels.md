@@ -3,14 +3,14 @@
 ## Carousel A — The event stack (9 frames)
 
 1. **What does Fashion Week do to the nervous system?** First, stop treating it as one stimulus.
-2. **Clock:** early calls + late edits can reduce sleep opportunity. Source F01.
-3. **Light:** timing, spectrum, intensity and duration matter. A bright photo is not a dose. F02.
-4. **Sound:** arousal and task interference are plausible; a soundtrack is not a diagnosis. F03.
-5. **Crowd:** density, speed, predictability and control shape the encounter. F04.
-6. **Attention:** garments, faces, cameras and navigation compete. Selection is the task. F05.
-7. **Evaluation:** being judged can raise stress in the lab; a real fashion room is not that protocol. F06.
-8. **Movement:** standing, walking and carrying accumulate differently by role. F07.
-9. **The fitted claim:** Fashion Week can combine studied conditions. There is no proven Fashion Week circuit or universal overload response. Full evidence: AAN-F-005.
+2. **Clock:** early calls + late edits can reduce sleep opportunity.
+3. **Light:** timing, spectrum, intensity and duration matter. A bright photo is not a dose.
+4. **Sound:** arousal and task interference are plausible; a soundtrack is not a diagnosis.
+5. **Crowd:** density, speed, predictability and control shape the encounter.
+6. **Attention:** garments, faces, cameras and navigation compete. Selection is the task.
+7. **Evaluation:** being judged can raise stress in the lab; a real fashion room is not that protocol.
+8. **Movement:** standing, walking and carrying accumulate differently by role.
+9. **The fitted claim:** Fashion Week can combine studied conditions. There is no proven Fashion Week circuit or universal overload response.
 
 **Design:** bone ground; black condensed type; acid timeline; no decorative “brain” illustration. Use only the two authorized BFC players in motion versions.
 

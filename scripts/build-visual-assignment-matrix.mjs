@@ -31,7 +31,7 @@ for (const [id, slug] of packages) {
   }
 
   const exportRoot = `production-kits/aan-f-${id}/exports/instagram`;
-  for (const name of fs.readdirSync(exportRoot).filter((name) => name.endsWith(".png")).sort()) {
+  for (const name of fs.readdirSync(exportRoot).filter((name) => /^(?:carousel-a|carousel-b)-frame-\d{2}\.png$/.test(name)).sort()) {
     const asset = path.join(exportRoot, name);
     const bytes = fs.readFileSync(asset);
     rows.push([`AAN-F-${id}`, "instagram carousel", name, "finished rendered slide", `/${asset}`, "RN publication asset; underlying third-party material governed by package rights ledger", "Image-first composition where a qualified documentary object exists; otherwise evidence-led editorial typography. No synthetic imagery.", crypto.createHash("sha256").update(bytes).digest("hex")]);

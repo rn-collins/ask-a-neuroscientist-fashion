@@ -18,7 +18,10 @@ for (const id of ["003","004","005","006","007"]) written[id]=[
 for (const id of Object.keys(written)) {
   const slug=`aan-f-${id}`, root=`production-kits/${slug}`, stage=fs.mkdtempSync(path.join(os.tmpdir(),`${slug}-`));
   const kit=path.join(stage,slug); fs.mkdirSync(path.join(kit,"editable"),{recursive:true});
-  fs.cpSync(path.join(root,"exports"),path.join(kit,"rendered"),{recursive:true});
+  fs.cpSync(path.join(root,"exports"),path.join(kit,"rendered"),{
+    recursive:true,
+    filter:(source)=>!path.basename(source).includes(".partial-"),
+  });
   if(fs.existsSync(path.join(root,"media"))) fs.cpSync(path.join(root,"media"),path.join(kit,"rights-cleared-media"),{recursive:true});
   for(const name of ["platform-asset-kit.md","platform-asset-kit.json","exports.json"]) fs.copyFileSync(path.join(root,name),path.join(kit,"editable",name));
   for(const name of written[id]) fs.copyFileSync(path.join("production",name),path.join(kit,"editable",name));
@@ -36,7 +39,10 @@ for (const id of Object.keys(written)) {
     ].join("\n\n")}`)
     .join("\n\n---\n\n")}\n`;
   fs.writeFileSync(path.join(kit,"editable","companion-posts.md"),companionMarkdown);
-  const out=path.resolve(root,`${slug}-complete-publication-kit.zip`); fs.rmSync(out,{force:true});
-  execFileSync("zip",["-q","-r",out,slug],{cwd:stage}); fs.rmSync(stage,{recursive:true,force:true});
+  const out=path.resolve(root,`${slug}-complete-publication-kit.zip`);
+  const stagedZip=path.join(stage,`${slug}-complete-publication-kit.zip`);
+  execFileSync("zip",["-q","-r",stagedZip,slug],{cwd:stage});
+  fs.copyFileSync(stagedZip,out);
+  fs.rmSync(stage,{recursive:true,force:true});
   console.log(`${slug}: ${path.relative(process.cwd(),out)}`);
 }

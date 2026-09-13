@@ -1,3 +1,4 @@
 node_modules/
 .vercel/
-
+production-kits/**/zi??????
+production-kits/**/*.partial-*.png
