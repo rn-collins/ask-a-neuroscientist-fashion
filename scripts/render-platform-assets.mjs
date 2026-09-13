@@ -8,8 +8,12 @@ const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&
 const wrap=(s,max=25,maxLines=7)=>{const words=String(s).split(/\s+/), lines=[];let line='';for(const w of words){if((line+' '+w).trim().length>max&&line){lines.push(line);line=w}else line=(line+' '+w).trim()}if(line)lines.push(line);return lines.slice(0,maxLines)};
 async function fetchImage(a,dir){
  if(!a.mediaUrl||!['installed-object','installed-media'].includes(a.disposition)||!['image'].includes(a.type))return null;
- const file=path.join(dir,`${a.id.replace(/[^a-z0-9-]/gi,'-').toLowerCase()}.jpg`);if(fs.existsSync(file))return file;
- try{const r=await fetch(a.mediaUrl,{redirect:'follow'});if(!r.ok)throw Error(String(r.status));const buf=Buffer.from(await r.arrayBuffer());await sharp(buf).rotate().resize(1400,1400,{fit:'inside',withoutEnlargement:true}).jpeg({quality:86,mozjpeg:true}).toFile(file);return file}catch(e){console.warn('media unavailable',a.id,e.message);return null}
+ const file=path.join(dir,`${a.id.replace(/[^a-z0-9-]/gi,'-').toLowerCase()}.jpg`);
+ if(fs.existsSync(file)){
+  const current=await sharp(file).metadata();
+  if(current.width>=1080&&current.height>=1080) return file;
+ }
+ try{const r=await fetch(a.mediaUrl,{redirect:'follow'});if(!r.ok)throw Error(String(r.status));const buf=Buffer.from(await r.arrayBuffer());await sharp(buf).rotate().resize(3200,3200,{fit:'inside',withoutEnlargement:true}).jpeg({quality:90,mozjpeg:true}).toFile(file);const installed=await sharp(file).metadata();if(installed.width<1080||installed.height<1080)throw Error(`source remains undersized at ${installed.width}x${installed.height}`);return file}catch(e){console.warn('media unavailable',a.id,e.message);return null}
 }
 function textBlock(lines,x,y,size,color,weight=700,anchor='start',leading=1.02){return lines.map((l,i)=>`<text x="${x}" y="${y+i*size*leading}" fill="${color}" font-family="Arial,Helvetica,sans-serif" font-size="${size}" font-weight="${weight}" text-anchor="${anchor}">${esc(l)}</text>`).join('')}
 function graphicFor(headline,w,h,fg,accent,index){
@@ -40,6 +44,8 @@ async function renderCard({w,h,out,pkg,label,headline,subhead,asset,assetFile,pa
 
 for(let pi=0;pi<manifest.packages.length;pi++){
  const k=manifest.packages[pi],root=`production-kits/${k.id.toLowerCase()}`,mediaDir=`${root}/media`,igDir=`${root}/exports/instagram`,pinDir=`${root}/exports/pinterest`,thumbDir=`${root}/exports/youtube`,storyDir=`${root}/exports/storyboards`;for(const d of[mediaDir,igDir,pinDir,thumbDir,storyDir])fs.mkdirSync(d,{recursive:true});
+ const expectedMedia=new Set(k.assets.filter(a=>a.mediaUrl&&['installed-object','installed-media'].includes(a.disposition)&&a.type==='image').map(a=>`${a.id.replace(/[^a-z0-9-]/gi,'-').toLowerCase()}.jpg`));
+ for(const name of fs.readdirSync(mediaDir)) if(/\.(?:jpe?g|png|webp)$/i.test(name)&&!expectedMedia.has(name)) fs.rmSync(path.join(mediaDir,name));
  for(const d of[igDir,pinDir,thumbDir,storyDir]){fs.rmSync(d,{recursive:true,force:true});fs.mkdirSync(d,{recursive:true});}
  const assets=new Map(k.assets.map(a=>[a.id,a]));const local=new Map();for(const a of k.assets){const f=await fetchImage(a,mediaDir);if(f)local.set(a.id,f)}
  const records=[];

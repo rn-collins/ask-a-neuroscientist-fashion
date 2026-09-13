@@ -2,6 +2,7 @@ import fs from 'node:fs';
 import vm from 'node:vm';
 
 const excavation=JSON.parse(fs.readFileSync('production/media-excavation.json','utf8'));
+const visualReplacements=JSON.parse(fs.readFileSync('production/visual-replacements.json','utf8'));
 const context={window:{}}; vm.createContext(context); vm.runInContext(fs.readFileSync('data.js','utf8'),context);
 const objects=context.window.AAN.objects;
 
@@ -63,6 +64,49 @@ const kits=specs.map((p,pi)=>{
  const inline={beehiiv:[0,2,5].map((n,i)=>({position:['after opening','after first evidence section','before boundary'][i],assetId:pick(pool,n).id,caption:pick(pool,n).caption,credit:pick(pool,n).credit})),linkedin:[1,4].map((n,i)=>({position:i?'document slide 5':'document cover',assetId:pick(pool,n,2).id,caption:pick(pool,n,2).caption,credit:pick(pool,n,2).credit}))};
  return {...p,assets:pool,carouselA,carouselB,broll,pinterest,youtube,inline,downloads:pool.filter(a=>['installed-object','installed-media'].includes(a.disposition)&&a.mediaUrl).map(a=>({assetId:a.id,source:a.mediaUrl,canonical:a.canonicalUrl,credit:a.credit,rights:a.rights}))};
 });
+
+function installRealFrame(frame,source){
+ frame.assetId=source.id;
+ frame.visualMode='cleared-real-image';
+ frame.visualRationale='A rights-cleared documentary image directly grounds this part of the fashion story.';
+ frame.crop=source.cropSuitability||'4:5 editorial crop from the high-resolution source master.';
+ frame.caption=`${frame.beat}${/[.!?]$/.test(frame.beat)?' ':'. '}${source.caption||source.title}`;
+ frame.credit=source.credit;
+ frame.alt=source.alt;
+ frame.boundary='The photograph documents a material object or scene; it does not measure a neural mechanism or universal response.';
+}
+
+for(const kit of kits) kit.assets=kit.assets.map(source=>({...source,...(visualReplacements.sourceOverrides[source.id]||{})}));
+const globalSources=new Map(kits.flatMap(kit=>kit.assets.map(source=>[source.id,source])));
+for(const kit of kits){
+ const plan=visualReplacements.packages.find(item=>item.id===kit.id);
+ if(!plan) continue;
+ const retired=new Set(plan.retire||[]);
+ const borrowed=(plan.borrow||[]).map(id=>globalSources.get(id)).filter(Boolean);
+ const additions=Array.isArray(plan.activate)?(plan.assets||[]).filter(source=>plan.activate.includes(source.id)):(plan.assets||[]);
+ const replacements=[...borrowed,...additions];
+ const fallback=replacements[0];
+ kit.assets=kit.assets.filter(source=>!retired.has(source.id)).concat(replacements);
+ if(fallback) for(const collection of [kit.carouselA,kit.carouselB,kit.broll,kit.pinterest,kit.youtube,kit.inline.beehiiv,kit.inline.linkedin]) for(const item of collection) if(retired.has(item.assetId)){
+  item.assetId=fallback.id;
+  if('credit' in item) item.credit=fallback.credit;
+  if('alt' in item) item.alt=fallback.alt;
+  if('caption' in item) item.caption=fallback.caption;
+ }
+ const sources=new Map(kit.assets.map(source=>[source.id,source]));
+ for(const [field,rows] of [['carouselA',kit.carouselA],['carouselB',kit.carouselB]]){
+  const assignments=plan.disableAssignments?null:plan[field];
+  if(!assignments) continue;
+  if(assignments.length!==rows.length) throw Error(`${kit.id} ${field} replacement count does not match its frames`);
+  assignments.forEach((assetId,index)=>{
+   if(!assetId) return;
+   const source=sources.get(assetId);
+   if(!source) throw Error(`${kit.id} ${field} references missing replacement ${assetId}`);
+   installRealFrame(rows[index],source);
+  });
+ }
+ kit.downloads=kit.assets.filter(source=>['installed-object','installed-media'].includes(source.disposition)&&source.mediaUrl).map(source=>({assetId:source.id,source:source.mediaUrl,canonical:source.canonicalUrl,credit:source.credit,rights:source.rights,sourceWidth:source.sourceWidth,sourceHeight:source.sourceHeight,cropSuitability:source.cropSuitability}));
+}
 
 // Every candidate must have a transparent destination or exclusion.
 const candidatePackages=new Map();

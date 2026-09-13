@@ -40,7 +40,10 @@
           "licenseUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
           "credit": "Corset, Maison Léoty, 1891. The Metropolitan Museum of Art, Costume Institute. C.I.45.27a, b. CC0.",
           "alt": "Ivory satin Maison Léoty corset shown frontally against a neutral ground.",
-          "caption": "constraint, posture, learned silhouette"
+          "caption": "constraint, posture, learned silhouette",
+          "sourceWidth": 2978,
+          "sourceHeight": 3722,
+          "cropSuitability": "Portrait object master with enough neutral ground for full-object and 4:5 detail crops."
         },
         {
           "id": "MET-173652",
@@ -52,11 +55,14 @@
           "rights": "CC0",
           "disposition": "installed-object",
           "canonicalUrl": "https://www.metmuseum.org/art/collection/search/173652",
-          "mediaUrl": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/173652/373744/main-image",
+          "mediaUrl": "https://images.metmuseum.org/CRDImages/ci/original/50.105.17_CP2.jpg",
           "licenseUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
           "credit": "Corset, Royal Worcester Corset Company, ca. 1872. The Metropolitan Museum of Art. 2009.300.6638a, b. CC0.",
           "alt": "Structured nineteenth-century corset with front fastening and shaped panels.",
-          "caption": "industrialized containment"
+          "caption": "industrialized containment",
+          "sourceWidth": 1138,
+          "sourceHeight": 1267,
+          "cropSuitability": "Near-square object master; sufficient for a restrained 4:5 crop without enlargement."
         },
         {
           "id": "MET-158256",
@@ -68,11 +74,14 @@
           "rights": "CC0",
           "disposition": "installed-object",
           "canonicalUrl": "https://www.metmuseum.org/art/collection/search/158256",
-          "mediaUrl": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/158256/335760/main-image",
+          "mediaUrl": "https://images.metmuseum.org/CRDImages/ci/original/69.2.51_front_CP4.jpg",
           "licenseUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
           "credit": "Corset, Maker unknown, 1740–60. The Metropolitan Museum of Art. 2009.300.3330. CC0.",
           "alt": "Eighteenth-century stays with a pointed front, photographed flat.",
-          "caption": "body-shaping technology"
+          "caption": "body-shaping technology",
+          "sourceWidth": 3388,
+          "sourceHeight": 4000,
+          "cropSuitability": "Portrait master; supports full-object and 4:5 detail crops without enlargement."
         },
         {
           "id": "MET-626019",
@@ -88,7 +97,10 @@
           "licenseUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
           "credit": "Costume Armor and Sword in the Classical Style, Hallé, ca. 1788–90. The Metropolitan Museum of Art, Arms and Armor. 1988.65.1–.2; 1995.93a, b. CC0.",
           "alt": "Ornate classical-style costume armor and sword displayed vertically.",
-          "caption": "role, protection, theater, authority"
+          "caption": "role, protection, theater, authority",
+          "sourceWidth": 1488,
+          "sourceHeight": 1861,
+          "cropSuitability": "Portrait object master at the target 4:5 ratio; no enlargement required."
         },
         {
           "id": "MET-717582",
@@ -100,11 +112,14 @@
           "rights": "CC0",
           "disposition": "installed-object",
           "canonicalUrl": "https://www.metmuseum.org/art/collection/search/717582",
-          "mediaUrl": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/717582/1770354/main-image",
+          "mediaUrl": "https://images.metmuseum.org/CRDImages/ad/original/DP-14863-055.jpg",
           "licenseUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
           "credit": "Hat, Tlingit woman artist, ca. 1830. The Metropolitan Museum of Art, The American Wing. 2022.428.5. CC0.",
           "alt": "Tlingit woven spruce-root hat decorated with shell, beads, pigment and remnants of ermine.",
-          "caption": "protection, clan identity and social status"
+          "caption": "protection, clan identity and social status",
+          "sourceWidth": 4000,
+          "sourceHeight": 3199,
+          "cropSuitability": "Landscape master with ample resolution for a centered 4:5 object crop."
         },
         {
           "id": "R01",
@@ -297,6 +312,22 @@
           "credit": "Burns et al. · Open Science Framework",
           "alt": "",
           "caption": "Enclothed Cognition Replication materials"
+        },
+        {
+          "id": "R86",
+          "type": "official video",
+          "title": "The psychology of fashion, with Carolyn Mair, PhD",
+          "creator": "American Psychological Association",
+          "date": "2024",
+          "institution": "American Psychological Association / YouTube",
+          "rights": "authorized embed candidate",
+          "disposition": "reserve",
+          "canonicalUrl": "https://www.youtube.com/watch?v=H8t_jtbfJTU",
+          "mediaUrl": null,
+          "licenseUrl": null,
+          "credit": "American Psychological Association",
+          "alt": "",
+          "caption": "APA interview on the psychology of fashion"
         }
       ],
       "carouselA": [
@@ -329,15 +360,15 @@
         {
           "frame": 3,
           "beat": "Its theory required symbolic meaning + physically wearing the garment.",
-          "assetId": "R09",
-          "visualMode": "evidence-graphic",
-          "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-          "crop": "4:5 purpose-built evidence diagram with source identity and claim boundary",
+          "assetId": "MET-717582",
+          "visualMode": "cleared-real-image",
+          "visualRationale": "A rights-cleared documentary image directly grounds this part of the fashion story.",
+          "crop": "Landscape master with ample resolution for a centered 4:5 object crop.",
           "overlay": "Its theory required symbolic meaning + physically wearing the garment.",
-          "caption": "Its theory required symbolic meaning + physically wearing the garment. Show Your Style!",
-          "credit": "Original evidence graphic · RN Collins · source: The Metropolitan Museum of Art · The Met",
-          "alt": "Evidence diagram explaining its theory required symbolic meaning + physically wearing the garment.; source named on slide.",
-          "boundary": "Do not imply this object proves a neural mechanism."
+          "caption": "Its theory required symbolic meaning + physically wearing the garment. protection, clan identity and social status",
+          "credit": "Hat, Tlingit woman artist, ca. 1830. The Metropolitan Museum of Art, The American Wing. 2022.428.5. CC0.",
+          "alt": "Tlingit woven spruce-root hat decorated with shell, beads, pigment and remnants of ermine.",
+          "boundary": "The photograph documents a material object or scene; it does not measure a neural mechanism or universal response."
         },
         {
           "frame": 4,
@@ -409,15 +440,15 @@
         {
           "frame": 2,
           "beat": "Burns, Fox, Greenstein, Olbricht and Montgomery repeated the critical design under preregistration.",
-          "assetId": "R16",
-          "visualMode": "evidence-graphic",
-          "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-          "crop": "4:5 purpose-built evidence diagram with source identity and claim boundary",
+          "assetId": "MET-158256",
+          "visualMode": "cleared-real-image",
+          "visualRationale": "A rights-cleared documentary image directly grounds this part of the fashion story.",
+          "crop": "Portrait master; supports full-object and 4:5 detail crops without enlargement.",
           "overlay": "Burns, Fox, Greenstein, Olbricht and Montgomery repeated the critical design under preregistration.",
-          "caption": "Burns, Fox, Greenstein, Olbricht and Montgomery repeated the critical design under preregistration. Enclothed cognition",
-          "credit": "Original evidence graphic · RN Collins · source: Adam and Galinsky · Journal of Experimental Social Psychology",
-          "alt": "Evidence diagram explaining burns, fox, greenstein, olbricht and montgomery repeated the critical design under preregistration.; source named on slide.",
-          "boundary": "Do not imply this object proves a neural mechanism."
+          "caption": "Burns, Fox, Greenstein, Olbricht and Montgomery repeated the critical design under preregistration. body-shaping technology",
+          "credit": "Corset, Maker unknown, 1740–60. The Metropolitan Museum of Art. 2009.300.3330. CC0.",
+          "alt": "Eighteenth-century stays with a pointed front, photographed flat.",
+          "boundary": "The photograph documents a material object or scene; it does not measure a neural mechanism or universal response."
         },
         {
           "frame": 3,
@@ -712,35 +743,50 @@
           "source": "https://images.metmuseum.org/CRDImages/ci/original/DT200606.jpg",
           "canonical": "https://www.metmuseum.org/art/collection/search/82433",
           "credit": "Corset, Maison Léoty, 1891. The Metropolitan Museum of Art, Costume Institute. C.I.45.27a, b. CC0.",
-          "rights": "CC0"
+          "rights": "CC0",
+          "sourceWidth": 2978,
+          "sourceHeight": 3722,
+          "cropSuitability": "Portrait object master with enough neutral ground for full-object and 4:5 detail crops."
         },
         {
           "assetId": "MET-173652",
-          "source": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/173652/373744/main-image",
+          "source": "https://images.metmuseum.org/CRDImages/ci/original/50.105.17_CP2.jpg",
           "canonical": "https://www.metmuseum.org/art/collection/search/173652",
           "credit": "Corset, Royal Worcester Corset Company, ca. 1872. The Metropolitan Museum of Art. 2009.300.6638a, b. CC0.",
-          "rights": "CC0"
+          "rights": "CC0",
+          "sourceWidth": 1138,
+          "sourceHeight": 1267,
+          "cropSuitability": "Near-square object master; sufficient for a restrained 4:5 crop without enlargement."
         },
         {
           "assetId": "MET-158256",
-          "source": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/158256/335760/main-image",
+          "source": "https://images.metmuseum.org/CRDImages/ci/original/69.2.51_front_CP4.jpg",
           "canonical": "https://www.metmuseum.org/art/collection/search/158256",
           "credit": "Corset, Maker unknown, 1740–60. The Metropolitan Museum of Art. 2009.300.3330. CC0.",
-          "rights": "CC0"
+          "rights": "CC0",
+          "sourceWidth": 3388,
+          "sourceHeight": 4000,
+          "cropSuitability": "Portrait master; supports full-object and 4:5 detail crops without enlargement."
         },
         {
           "assetId": "MET-626019",
           "source": "https://images.metmuseum.org/CRDImages/aa/original/DT5896.jpg",
           "canonical": "https://www.metmuseum.org/art/collection/search/626019",
           "credit": "Costume Armor and Sword in the Classical Style, Hallé, ca. 1788–90. The Metropolitan Museum of Art, Arms and Armor. 1988.65.1–.2; 1995.93a, b. CC0.",
-          "rights": "CC0"
+          "rights": "CC0",
+          "sourceWidth": 1488,
+          "sourceHeight": 1861,
+          "cropSuitability": "Portrait object master at the target 4:5 ratio; no enlargement required."
         },
         {
           "assetId": "MET-717582",
-          "source": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/717582/1770354/main-image",
+          "source": "https://images.metmuseum.org/CRDImages/ad/original/DP-14863-055.jpg",
           "canonical": "https://www.metmuseum.org/art/collection/search/717582",
           "credit": "Hat, Tlingit woman artist, ca. 1830. The Metropolitan Museum of Art, The American Wing. 2022.428.5. CC0.",
-          "rights": "CC0"
+          "rights": "CC0",
+          "sourceWidth": 4000,
+          "sourceHeight": 3199,
+          "cropSuitability": "Landscape master with ample resolution for a centered 4:5 object crop."
         },
         {
           "assetId": "R58",
@@ -786,11 +832,14 @@
           "rights": "CC0",
           "disposition": "installed-object",
           "canonicalUrl": "https://www.metmuseum.org/art/collection/search/23205",
-          "mediaUrl": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/23205/2538317/main-image",
+          "mediaUrl": "https://images.metmuseum.org/CRDImages/aa/original/DP-46028-001.jpg",
           "licenseUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
           "credit": "Armor, Maker unknown; assembled and restored in the 1920s, ca. 1400–1450 and later. The Metropolitan Museum of Art, Arms and Armor. 29.154.3. CC0.",
           "alt": "Italian armor assembled from historical elements, with a dark brigandine torso and articulated steel limb defenses.",
-          "caption": "literal protection, weight, articulated boundary—and a museum reconstruction"
+          "caption": "literal protection, weight, articulated boundary—and a museum reconstruction",
+          "sourceWidth": 2567,
+          "sourceHeight": 4000,
+          "cropSuitability": "Portrait master; full armor remains legible in a 4:5 crop."
         },
         {
           "id": "MET-27790",
@@ -806,7 +855,10 @@
           "licenseUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
           "credit": "Portions of a Costume Armor, Kolman Helmschmid, ca. 1525. The Metropolitan Museum of Art, Arms and Armor. 24.179; 26.188.1, .2; 29.158.363a, b. CC0.",
           "alt": "Elaborately etched steel costume armor displayed frontally against a pale ground.",
-          "caption": "dress, spectacle, status signal"
+          "caption": "dress, spectacle, status signal",
+          "sourceWidth": 3564,
+          "sourceHeight": 4000,
+          "cropSuitability": "Large near-square object master with generous room for 4:5 detail selection."
         },
         {
           "id": "MET-22001",
@@ -822,7 +874,10 @@
           "licenseUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
           "credit": "Field Armor, Nuremberg armorer, maker unknown, ca. 1525 and later. The Metropolitan Museum of Art, Arms and Armor. 04.3.289. CC0.",
           "alt": "Fluted German field armor shown in three-quarter view with articulated joints and rounded helmet.",
-          "caption": "mobility negotiated through protection"
+          "caption": "mobility negotiated through protection",
+          "sourceWidth": 2919,
+          "sourceHeight": 3894,
+          "cropSuitability": "Portrait armor master that retains the full silhouette in 4:5."
         },
         {
           "id": "MET-24671",
@@ -838,7 +893,10 @@
           "licenseUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
           "credit": "Armor of Henry II, King of France, Decoration design by Jean Cousin the Elder; possibly Baptiste Pellerin, ca. 1555. The Metropolitan Museum of Art, Arms and Armor. 39.121a–n. CC0.",
           "alt": "Blackened and gilded French parade armor covered in dense scrolling decoration, shown frontally.",
-          "caption": "authority made visible; parade rather than proof"
+          "caption": "authority made visible; parade rather than proof",
+          "sourceWidth": 2911,
+          "sourceHeight": 3880,
+          "cropSuitability": "Portrait armor master with full-object and construction-detail crop options."
         },
         {
           "id": "MET-22020",
@@ -854,7 +912,10 @@
           "licenseUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
           "credit": "Armor (Gusoku), Maker unknown, 19th century. The Metropolitan Museum of Art, Arms and Armor. 04.4.2. CC0.",
           "alt": "Japanese gusoku armor with horned helmet, lacquered plates, silk lacing and a patterned surcoat.",
-          "caption": "layered identity, ritual and material memory"
+          "caption": "layered identity, ritual and material memory",
+          "sourceWidth": 1500,
+          "sourceHeight": 2000,
+          "cropSuitability": "Portrait armor master with adequate resolution for full-object 4:5 use."
         },
         {
           "id": "R02",
@@ -1063,6 +1124,22 @@
           "credit": "Anonymous · Wellcome Collection",
           "alt": "",
           "caption": "The importance of dress; or, female rivalry"
+        },
+        {
+          "id": "R87",
+          "type": "open-access research",
+          "title": "Styling the Self: Clothing Practices, Personality Traits, and Body Image Among Israeli Women",
+          "creator": "Stolovy et al.",
+          "date": "2021",
+          "institution": "Frontiers in Psychology / PubMed Central",
+          "rights": "link-only",
+          "disposition": "resource-room",
+          "canonicalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8455911/",
+          "mediaUrl": null,
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "credit": "Stolovy et al. · Frontiers in Psychology",
+          "alt": "",
+          "caption": "Study of clothing practices, personality traits and body image"
         }
       ],
       "carouselA": [
@@ -1095,15 +1172,15 @@
         {
           "frame": 3,
           "beat": "The meaning: The outfit can cue a role, memory or intention. This is interpretation—not fabric magic.",
-          "assetId": "R09",
-          "visualMode": "evidence-graphic",
-          "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-          "crop": "4:5 purpose-built evidence diagram with source identity and claim boundary",
+          "assetId": "MET-22020",
+          "visualMode": "cleared-real-image",
+          "visualRationale": "A rights-cleared documentary image directly grounds this part of the fashion story.",
+          "crop": "Portrait armor master with adequate resolution for full-object 4:5 use.",
           "overlay": "The meaning: The outfit can cue a role, memory or intention. This is interpretation—not fabric magic.",
-          "caption": "The meaning: The outfit can cue a role, memory or intention. This is interpretation—not fabric magic. Show Your Style!",
-          "credit": "Original evidence graphic · RN Collins · source: The Metropolitan Museum of Art · The Met",
-          "alt": "Evidence diagram explaining the meaning: the outfit can cue a role, memory or intention. this is interpretation—not fabric magic.; source named on slide.",
-          "boundary": "Do not imply this object proves a neural mechanism."
+          "caption": "The meaning: The outfit can cue a role, memory or intention. This is interpretation—not fabric magic. layered identity, ritual and material memory",
+          "credit": "Armor (Gusoku), Maker unknown, 19th century. The Metropolitan Museum of Art, Arms and Armor. 04.4.2. CC0.",
+          "alt": "Japanese gusoku armor with horned helmet, lacquered plates, silk lacing and a patterned surcoat.",
+          "boundary": "The photograph documents a material object or scene; it does not measure a neural mechanism or universal response."
         },
         {
           "frame": 4,
@@ -1188,15 +1265,15 @@
         {
           "frame": 2,
           "beat": "Claim: “My clothes changed my nervous system.”",
-          "assetId": "R22",
-          "visualMode": "evidence-graphic",
-          "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-          "crop": "4:5 purpose-built evidence diagram with source identity and claim boundary",
+          "assetId": "MET-22001",
+          "visualMode": "cleared-real-image",
+          "visualRationale": "A rights-cleared documentary image directly grounds this part of the fashion story.",
+          "crop": "Portrait armor master that retains the full silhouette in 4:5.",
           "overlay": "Claim: “My clothes changed my nervous system.”",
-          "caption": "Claim: “My clothes changed my nervous system.”. The rubber hand illusion",
-          "credit": "Original evidence graphic · RN Collins · source: Botvinick and Cohen · Nature",
-          "alt": "Evidence diagram explaining claim: “my clothes changed my nervous system.”; source named on slide.",
-          "boundary": "Do not imply this object proves a neural mechanism."
+          "caption": "Claim: “My clothes changed my nervous system.”. mobility negotiated through protection",
+          "credit": "Field Armor, Nuremberg armorer, maker unknown, ca. 1525 and later. The Metropolitan Museum of Art, Arms and Armor. 04.3.289. CC0.",
+          "alt": "Fluted German field armor shown in three-quarter view with articulated joints and rounded helmet.",
+          "boundary": "The photograph documents a material object or scene; it does not measure a neural mechanism or universal response."
         },
         {
           "frame": 3,
@@ -1292,15 +1369,15 @@
         {
           "frame": 10,
           "beat": "Boundary: Compare several occasions. One memory is not a causal experiment.",
-          "assetId": "R02",
+          "assetId": "R87",
           "visualMode": "evidence-graphic",
           "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
           "crop": "4:5 purpose-built evidence diagram with source identity and claim boundary",
           "overlay": "Boundary: Compare several occasions. One memory is not a causal experiment.",
-          "caption": "Boundary: Compare several occasions. One memory is not a causal experiment. Whatever Next and Close to My Self—The Transparent Senses and the Second Skin",
-          "credit": "Original evidence graphic · RN Collins · source: Ciaunica et al. · Frontiers in Psychology",
+          "caption": "Boundary: Compare several occasions. One memory is not a causal experiment. Study of clothing practices, personality traits and body image",
+          "credit": "Original evidence graphic · RN Collins · source: Stolovy et al. · Frontiers in Psychology",
           "alt": "Evidence diagram explaining boundary: compare several occasions. one memory is not a causal experiment.; source named on slide.",
-          "boundary": "Source identity only; protected media is not reproduced."
+          "boundary": "Do not imply this object proves a neural mechanism."
         }
       ],
       "broll": [
@@ -1527,38 +1604,53 @@
       "downloads": [
         {
           "assetId": "MET-23205",
-          "source": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/23205/2538317/main-image",
+          "source": "https://images.metmuseum.org/CRDImages/aa/original/DP-46028-001.jpg",
           "canonical": "https://www.metmuseum.org/art/collection/search/23205",
           "credit": "Armor, Maker unknown; assembled and restored in the 1920s, ca. 1400–1450 and later. The Metropolitan Museum of Art, Arms and Armor. 29.154.3. CC0.",
-          "rights": "CC0"
+          "rights": "CC0",
+          "sourceWidth": 2567,
+          "sourceHeight": 4000,
+          "cropSuitability": "Portrait master; full armor remains legible in a 4:5 crop."
         },
         {
           "assetId": "MET-27790",
           "source": "https://images.metmuseum.org/CRDImages/aa/original/DP-22969-001.jpg",
           "canonical": "https://www.metmuseum.org/art/collection/search/27790",
           "credit": "Portions of a Costume Armor, Kolman Helmschmid, ca. 1525. The Metropolitan Museum of Art, Arms and Armor. 24.179; 26.188.1, .2; 29.158.363a, b. CC0.",
-          "rights": "CC0"
+          "rights": "CC0",
+          "sourceWidth": 3564,
+          "sourceHeight": 4000,
+          "cropSuitability": "Large near-square object master with generous room for 4:5 detail selection."
         },
         {
           "assetId": "MET-22001",
           "source": "https://images.metmuseum.org/CRDImages/aa/original/DP341737.jpg",
           "canonical": "https://www.metmuseum.org/art/collection/search/22001",
           "credit": "Field Armor, Nuremberg armorer, maker unknown, ca. 1525 and later. The Metropolitan Museum of Art, Arms and Armor. 04.3.289. CC0.",
-          "rights": "CC0"
+          "rights": "CC0",
+          "sourceWidth": 2919,
+          "sourceHeight": 3894,
+          "cropSuitability": "Portrait armor master that retains the full silhouette in 4:5."
         },
         {
           "assetId": "MET-24671",
           "source": "https://images.metmuseum.org/CRDImages/aa/original/DP256970.jpg",
           "canonical": "https://www.metmuseum.org/art/collection/search/24671",
           "credit": "Armor of Henry II, King of France, Decoration design by Jean Cousin the Elder; possibly Baptiste Pellerin, ca. 1555. The Metropolitan Museum of Art, Arms and Armor. 39.121a–n. CC0.",
-          "rights": "CC0"
+          "rights": "CC0",
+          "sourceWidth": 2911,
+          "sourceHeight": 3880,
+          "cropSuitability": "Portrait armor master with full-object and construction-detail crop options."
         },
         {
           "assetId": "MET-22020",
           "source": "https://images.metmuseum.org/CRDImages/aa/original/DP264123.jpg",
           "canonical": "https://www.metmuseum.org/art/collection/search/22020",
           "credit": "Armor (Gusoku), Maker unknown, 19th century. The Metropolitan Museum of Art, Arms and Armor. 04.4.2. CC0.",
-          "rights": "CC0"
+          "rights": "CC0",
+          "sourceWidth": 1500,
+          "sourceHeight": 2000,
+          "cropSuitability": "Portrait armor master with adequate resolution for full-object 4:5 use."
         },
         {
           "assetId": "R62",
@@ -1607,7 +1699,10 @@
           "licenseUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
           "credit": "Dress, Maker unknown, ca. 1872. The Metropolitan Museum of Art, Costume Institute. 2003.426a, b. CC0.",
           "alt": "Cream cotton day dress with dense black printed pattern, fitted bodice, buttons and gathered skirt.",
-          "caption": "cotton structure, gathers, closures and skin contact"
+          "caption": "cotton structure, gathers, closures and skin contact",
+          "sourceWidth": 2978,
+          "sourceHeight": 3722,
+          "cropSuitability": "Portrait dress master with negative space and full-garment 4:5 flexibility."
         },
         {
           "id": "MET-82459",
@@ -1623,7 +1718,10 @@
           "licenseUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
           "credit": "Dress, Maker unknown, 1870s. The Metropolitan Museum of Art, Costume Institute. 1993.35.1a–c. CC0.",
           "alt": "Pale cotton dress with a fitted buttoned bodice, long sleeves and layered striped skirt.",
-          "caption": "cotton surface plus seams, layers and silhouette"
+          "caption": "cotton surface plus seams, layers and silhouette",
+          "sourceWidth": 1272,
+          "sourceHeight": 2040,
+          "cropSuitability": "Narrow portrait dress master; supports a full-object 4:5 crop without enlargement."
         },
         {
           "id": "MET-81754",
@@ -1639,23 +1737,10 @@
           "licenseUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
           "credit": "Riding coat, Maker unknown, ca. 1760. The Metropolitan Museum of Art, Costume Institute. 1976.147.1. CC0.",
           "alt": "Long eighteenth-century riding coat with fitted waist, flared skirt and rows of buttons.",
-          "caption": "silk and goat hair as named materials, not a prediction of feel"
-        },
-        {
-          "id": "MET-107620",
-          "type": "image",
-          "title": "Dress",
-          "creator": "Maker unknown",
-          "date": "ca. 1870",
-          "institution": "The Metropolitan Museum of Art, Costume Institute",
-          "rights": "CC0",
-          "disposition": "installed-object",
-          "canonicalUrl": "https://www.metmuseum.org/art/collection/search/107620",
-          "mediaUrl": "https://images.metmuseum.org/CRDImages/ci/original/1980.409.1a-c.jpg",
-          "licenseUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
-          "credit": "Dress, Maker unknown, ca. 1870. The Metropolitan Museum of Art, Costume Institute. 1980.409.1a–c. CC0.",
-          "alt": "Purple silk bustle dress with high neck, fitted bodice, fringe and draped overskirt.",
-          "caption": "silk garment whose weave, finish, fit and context remain decisive"
+          "caption": "silk and goat hair as named materials, not a prediction of feel",
+          "sourceWidth": 2400,
+          "sourceHeight": 3002,
+          "cropSuitability": "Portrait coat master close to 4:5 with ample usable resolution."
         },
         {
           "id": "R03",
@@ -1864,6 +1949,149 @@
           "credit": "Mehta, Holásková and Walker · PLOS ONE / PMC",
           "alt": "Front and back views of a textile swatch mounted between sheets for controlled tactile evaluation.",
           "caption": "Mounted textile swatch presented to study participants"
+        },
+        {
+          "id": "R88",
+          "type": "open-access research",
+          "title": "Clothes, Sensory Experiences and Autism: Is Wearing the Right Fabric Important?",
+          "creator": "Kyriacou et al.",
+          "date": "2021",
+          "institution": "Journal of Autism and Developmental Disorders / PubMed Central",
+          "rights": "link-only",
+          "disposition": "resource-room",
+          "canonicalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10066095/",
+          "mediaUrl": null,
+          "licenseUrl": null,
+          "credit": "Kyriacou et al.",
+          "alt": "",
+          "caption": "Qualitative study of autistic adults' fabric experiences"
+        },
+        {
+          "id": "R95",
+          "type": "open-access fabric-perception study and figures",
+          "title": "Tactile dimensions of fabrics expressed by Japanese onomatopoeic words and phonemic features related to fabric luxuriousness and pleasantness",
+          "creator": "Mitsuhiko Hanada",
+          "date": "2023",
+          "institution": "Frontiers in Language Sciences / Frontiers",
+          "rights": "CC BY",
+          "disposition": "resource-room",
+          "canonicalUrl": "https://www.frontiersin.org/journals/language-sciences/articles/10.3389/flang.2023.1075055/full",
+          "mediaUrl": null,
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "credit": "Hanada · Frontiers in Language Sciences · CC BY 4.0",
+          "alt": "",
+          "caption": "Participants touched, stretched and curled 23 fabrics and generated Japanese onomatopoeic descriptions of hand feel"
+        },
+        {
+          "id": "R96",
+          "type": "open-access clothing-experience study",
+          "title": "These Boots Weren’t Made for Walking: Gendered Discrepancies in Wearing Painful, Restricting, or Distracting Clothing",
+          "creator": "Renee Engeln and Anne Zola",
+          "date": "2021",
+          "institution": "Sex Roles / PubMed Central",
+          "rights": "link-only",
+          "disposition": "resource-room",
+          "canonicalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8373606/",
+          "mediaUrl": null,
+          "licenseUrl": null,
+          "credit": "Engeln and Zola · Sex Roles",
+          "alt": "",
+          "caption": "Two exploratory studies of self-reported painful, distracting or restricting clothing"
+        },
+        {
+          "id": "T-MET-159178",
+          "type": "image",
+          "title": "Shirt",
+          "creator": "Maker unknown",
+          "date": "ca. 1860",
+          "institution": "The Metropolitan Museum of Art, Costume Institute",
+          "rights": "CC0",
+          "disposition": "installed-media",
+          "canonicalUrl": "https://www.metmuseum.org/art/collection/search/159178",
+          "mediaUrl": "https://images.metmuseum.org/CRDImages/ci/original/28.220_28.218a-c_front_CP4.jpg",
+          "licenseUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
+          "credit": "Shirt, maker unknown, ca. 1860 · The Metropolitan Museum of Art · 28.220 · CC0",
+          "alt": "White cotton shirt shown frontally with gathered sleeves, collar, placket and seams visible.",
+          "caption": "A cotton garment's collar, placket, gathers and seams show why construction changes the experience beyond material alone.",
+          "sourceWidth": 3329,
+          "sourceHeight": 4000,
+          "cropSuitability": "High-resolution portrait master; the full shirt and its construction remain legible in 4:5."
+        },
+        {
+          "id": "T-MET-227647",
+          "type": "image",
+          "title": "Glove",
+          "creator": "Maker unknown",
+          "date": "ca. 1600",
+          "institution": "The Metropolitan Museum of Art, European Sculpture and Decorative Arts",
+          "rights": "CC0",
+          "disposition": "installed-media",
+          "canonicalUrl": "https://www.metmuseum.org/art/collection/search/227647",
+          "mediaUrl": "https://images.metmuseum.org/CRDImages/es/original/DP151922.jpg",
+          "licenseUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
+          "credit": "Glove, maker unknown, ca. 1600 · The Metropolitan Museum of Art · 53.134 · CC0",
+          "alt": "Single embroidered leather glove with an elaborate silk, metal-thread and lace cuff.",
+          "caption": "A close-fitting interface makes contact, pressure, friction and construction visible without pretending to show a sensory response.",
+          "sourceWidth": 3000,
+          "sourceHeight": 4000,
+          "cropSuitability": "Tall isolated object master; the glove and decorated cuff remain complete in a 4:5 crop."
+        },
+        {
+          "id": "T-MET-436533",
+          "type": "image",
+          "title": "Shoes",
+          "creator": "Vincent van Gogh",
+          "date": "1888",
+          "institution": "The Metropolitan Museum of Art, European Paintings",
+          "rights": "CC0",
+          "disposition": "installed-media",
+          "canonicalUrl": "https://www.metmuseum.org/art/collection/search/436533",
+          "mediaUrl": "https://images.metmuseum.org/CRDImages/ep/original/DT1947.jpg",
+          "licenseUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
+          "credit": "Shoes, Vincent van Gogh, 1888 · The Metropolitan Museum of Art · 1992.374 · CC0",
+          "alt": "Van Gogh painting of a worn pair of brown leather shoes on a mottled floor.",
+          "caption": "Worn footwear makes body site, movement, duration and material history concrete while leaving the wearer's experience open.",
+          "sourceWidth": 3803,
+          "sourceHeight": 3180,
+          "cropSuitability": "Large landscape painting with both shoes centered safely inside a 4:5 crop."
+        },
+        {
+          "id": "T-MET-81136",
+          "type": "image",
+          "title": "Waistcoat",
+          "creator": "Anna Maria Garthwaite",
+          "date": "1747",
+          "institution": "The Metropolitan Museum of Art, Costume Institute",
+          "rights": "CC0",
+          "disposition": "installed-media",
+          "canonicalUrl": "https://www.metmuseum.org/art/collection/search/81136",
+          "mediaUrl": "https://images.metmuseum.org/CRDImages/ci/original/DP-30816-001.jpg",
+          "licenseUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
+          "credit": "Waistcoat, Anna Maria Garthwaite, 1747 · The Metropolitan Museum of Art · C.I.66.14.2 · CC0",
+          "alt": "Embroidered silk waistcoat shown frontally with its buttons, seams, pockets and shaped hem visible.",
+          "caption": "Silk, wool, linen, metal, seams, pockets and closures demonstrate why a garment is more than its fiber label.",
+          "sourceWidth": 3092,
+          "sourceHeight": 4000,
+          "cropSuitability": "High-resolution portrait object master with construction details legible in a full-garment 4:5 crop."
+        },
+        {
+          "id": "T-MET-109887",
+          "type": "image",
+          "title": "Shoe buckles",
+          "creator": "Maker unknown",
+          "date": "ca. 1795",
+          "institution": "The Metropolitan Museum of Art, Costume Institute",
+          "rights": "CC0",
+          "disposition": "installed-media",
+          "canonicalUrl": "https://www.metmuseum.org/art/collection/search/109887",
+          "mediaUrl": "https://images.metmuseum.org/CRDImages/ci/original/DP-17308-001.jpg",
+          "licenseUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
+          "credit": "Shoe buckles, maker unknown, ca. 1795 · The Metropolitan Museum of Art · 25.25.21 · CC0",
+          "alt": "Pair of rectangular metal shoe buckles set with rows of clear paste stones.",
+          "caption": "A closure can change fit, pressure and movement; the object documents construction, not a universal comfort verdict.",
+          "sourceWidth": 4000,
+          "sourceHeight": 2631,
+          "cropSuitability": "Wide high-resolution object master with both buckles retained in a centered 4:5 crop."
         }
       ],
       "carouselA": [
@@ -1896,15 +2124,15 @@
         {
           "frame": 3,
           "beat": "It receives pressure · vibration · stretch · temperature · friction · chemical signals.",
-          "assetId": "R09",
-          "visualMode": "evidence-graphic",
-          "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-          "crop": "4:5 purpose-built evidence diagram with source identity and claim boundary",
+          "assetId": "T-MET-227647",
+          "visualMode": "cleared-real-image",
+          "visualRationale": "A rights-cleared documentary image directly grounds this part of the fashion story.",
+          "crop": "Tall isolated object master; the glove and decorated cuff remain complete in a 4:5 crop.",
           "overlay": "It receives pressure · vibration · stretch · temperature · friction · chemical signals.",
-          "caption": "It receives pressure · vibration · stretch · temperature · friction · chemical signals. Show Your Style!",
-          "credit": "Original evidence graphic · RN Collins · source: The Metropolitan Museum of Art · The Met",
-          "alt": "Evidence diagram explaining it receives pressure · vibration · stretch · temperature · friction · chemical signals.; source named on slide.",
-          "boundary": "Do not imply this object proves a neural mechanism."
+          "caption": "It receives pressure · vibration · stretch · temperature · friction · chemical signals. A close-fitting interface makes contact, pressure, friction and construction visible without pretending to show a sensory response.",
+          "credit": "Glove, maker unknown, ca. 1600 · The Metropolitan Museum of Art · 53.134 · CC0",
+          "alt": "Single embroidered leather glove with an elaborate silk, metal-thread and lace cuff.",
+          "boundary": "The photograph documents a material object or scene; it does not measure a neural mechanism or universal response."
         },
         {
           "frame": 4,
@@ -1922,41 +2150,41 @@
         {
           "frame": 5,
           "beat": "Fiber becomes yarn. Yarn becomes weave or knit. Construction adds seams, labels, closures, tension and layers.",
-          "assetId": "R27",
-          "visualMode": "evidence-graphic",
-          "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-          "crop": "4:5 purpose-built evidence diagram with source identity and claim boundary",
+          "assetId": "T-MET-81136",
+          "visualMode": "cleared-real-image",
+          "visualRationale": "A rights-cleared documentary image directly grounds this part of the fashion story.",
+          "crop": "High-resolution portrait object master with construction details legible in a full-garment 4:5 crop.",
           "overlay": "Fiber becomes yarn. Yarn becomes weave or knit. Construction adds seams, labels, closures, tension and layers.",
-          "caption": "Fiber becomes yarn. Yarn becomes weave or knit. Construction adds seams, labels, closures, tension and layers. Tactile sensitivity alters textile touch perception",
-          "credit": "Original evidence graphic · RN Collins · source: Article authors · Scientific Reports / PMC",
-          "alt": "Evidence diagram explaining fiber becomes yarn. yarn becomes weave or knit. construction adds seams, labels, closures, tension and layers.; source named on slide.",
-          "boundary": "Do not imply this object proves a neural mechanism."
+          "caption": "Fiber becomes yarn. Yarn becomes weave or knit. Construction adds seams, labels, closures, tension and layers. Silk, wool, linen, metal, seams, pockets and closures demonstrate why a garment is more than its fiber label.",
+          "credit": "Waistcoat, Anna Maria Garthwaite, 1747 · The Metropolitan Museum of Art · C.I.66.14.2 · CC0",
+          "alt": "Embroidered silk waistcoat shown frontally with its buttons, seams, pockets and shaped hem visible.",
+          "boundary": "The photograph documents a material object or scene; it does not measure a neural mechanism or universal response."
         },
         {
           "frame": 6,
           "beat": "A 2024 study: tactile sensitivity changed textile ratings. Boundary: hand-touch lab task ≠ hours of wear.",
-          "assetId": "MET-107620",
+          "assetId": "T-MET-159178",
           "visualMode": "cleared-real-image",
           "visualRationale": "A material object makes this embodied claim more legible than decoration or type alone.",
           "crop": "4:5 detail crop; preserve identifying construction",
           "overlay": "A 2024 study: tactile sensitivity changed textile ratings. Boundary: hand-touch lab task ≠ hours of wear.",
-          "caption": "A 2024 study: tactile sensitivity changed textile ratings. Boundary: hand-touch lab task ≠ hours of wear. silk garment whose weave, finish, fit and context remain decisive",
-          "credit": "Dress, Maker unknown, ca. 1870. The Metropolitan Museum of Art, Costume Institute. 1980.409.1a–c. CC0.",
-          "alt": "Purple silk bustle dress with high neck, fitted bodice, fringe and draped overskirt.",
+          "caption": "A cotton garment's collar, placket, gathers and seams show why construction changes the experience beyond material alone.",
+          "credit": "Shirt, maker unknown, ca. 1860 · The Metropolitan Museum of Art · 28.220 · CC0",
+          "alt": "White cotton shirt shown frontally with gathered sleeves, collar, placket and seams visible.",
           "boundary": "Do not imply this object proves a neural mechanism."
         },
         {
           "frame": 7,
           "beat": "Heat, moisture, movement, duration, body site and expectation can change the same garment.",
-          "assetId": "R29",
-          "visualMode": "evidence-graphic",
-          "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-          "crop": "4:5 purpose-built evidence diagram with source identity and claim boundary",
+          "assetId": "T-MET-436533",
+          "visualMode": "cleared-real-image",
+          "visualRationale": "A rights-cleared documentary image directly grounds this part of the fashion story.",
+          "crop": "Large landscape painting with both shoes centered safely inside a 4:5 crop.",
           "overlay": "Heat, moisture, movement, duration, body site and expectation can change the same garment.",
-          "caption": "Heat, moisture, movement, duration, body site and expectation can change the same garment. Touch",
-          "credit": "Original evidence graphic · RN Collins · source: McGlone and Reilly · NCBI Bookshelf",
-          "alt": "Evidence diagram explaining heat, moisture, movement, duration, body site and expectation can change the same garment.; source named on slide.",
-          "boundary": "Do not imply this object proves a neural mechanism."
+          "caption": "Heat, moisture, movement, duration, body site and expectation can change the same garment. Worn footwear makes body site, movement, duration and material history concrete while leaving the wearer's experience open.",
+          "credit": "Shoes, Vincent van Gogh, 1888 · The Metropolitan Museum of Art · 1992.374 · CC0",
+          "alt": "Van Gogh painting of a worn pair of brown leather shoes on a mottled floor.",
+          "boundary": "The photograph documents a material object or scene; it does not measure a neural mechanism or universal response."
         },
         {
           "frame": 8,
@@ -1974,15 +2202,15 @@
         {
           "frame": 9,
           "beat": "Evidence-fitted answer: comfort is an encounter among textile, garment, body and context.",
-          "assetId": "R31",
-          "visualMode": "evidence-graphic",
-          "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-          "crop": "4:5 purpose-built evidence diagram with source identity and claim boundary",
+          "assetId": "T-MET-109887",
+          "visualMode": "cleared-real-image",
+          "visualRationale": "A rights-cleared documentary image directly grounds this part of the fashion story.",
+          "crop": "Wide high-resolution object master with both buckles retained in a centered 4:5 crop.",
           "overlay": "Evidence-fitted answer: comfort is an encounter among textile, garment, body and context.",
-          "caption": "Evidence-fitted answer: comfort is an encounter among textile, garment, body and context. Tactile textiles sense movement via touch",
-          "credit": "Original evidence graphic · RN Collins · source: MIT News · Massachusetts Institute of Technology",
-          "alt": "Evidence diagram explaining evidence-fitted answer: comfort is an encounter among textile, garment, body and context.; source named on slide.",
-          "boundary": "Do not imply this object proves a neural mechanism."
+          "caption": "Evidence-fitted answer: comfort is an encounter among textile, garment, body and context. A closure can change fit, pressure and movement; the object documents construction, not a universal comfort verdict.",
+          "credit": "Shoe buckles, maker unknown, ca. 1795 · The Metropolitan Museum of Art · 25.25.21 · CC0",
+          "alt": "Pair of rectangular metal shoe buckles set with rows of clear paste stones.",
+          "boundary": "The photograph documents a material object or scene; it does not measure a neural mechanism or universal response."
         },
         {
           "frame": 10,
@@ -2015,41 +2243,41 @@
         {
           "frame": 2,
           "beat": "Name the exact garment—not just “wool” or “cotton.”",
-          "assetId": "R27",
-          "visualMode": "evidence-graphic",
-          "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-          "crop": "4:5 purpose-built evidence diagram with source identity and claim boundary",
+          "assetId": "T-MET-81136",
+          "visualMode": "cleared-real-image",
+          "visualRationale": "A rights-cleared documentary image directly grounds this part of the fashion story.",
+          "crop": "High-resolution portrait object master with construction details legible in a full-garment 4:5 crop.",
           "overlay": "Name the exact garment—not just “wool” or “cotton.”",
-          "caption": "Name the exact garment—not just “wool” or “cotton.”. Tactile sensitivity alters textile touch perception",
-          "credit": "Original evidence graphic · RN Collins · source: Article authors · Scientific Reports / PMC",
-          "alt": "Evidence diagram explaining name the exact garment—not just “wool” or “cotton.”; source named on slide.",
-          "boundary": "Do not imply this object proves a neural mechanism."
+          "caption": "Name the exact garment—not just “wool” or “cotton.”. Silk, wool, linen, metal, seams, pockets and closures demonstrate why a garment is more than its fiber label.",
+          "credit": "Waistcoat, Anna Maria Garthwaite, 1747 · The Metropolitan Museum of Art · C.I.66.14.2 · CC0",
+          "alt": "Embroidered silk waistcoat shown frontally with its buttons, seams, pockets and shaped hem visible.",
+          "boundary": "The photograph documents a material object or scene; it does not measure a neural mechanism or universal response."
         },
         {
           "frame": 3,
           "beat": "Locate the contact: neck, waist, forearm, foot, whole body?",
-          "assetId": "MET-107620",
+          "assetId": "T-MET-159178",
           "visualMode": "cleared-real-image",
           "visualRationale": "A material object makes this embodied claim more legible than decoration or type alone.",
           "crop": "4:5 full object with generous negative space",
           "overlay": "Locate the contact: neck, waist, forearm, foot, whole body?",
-          "caption": "Locate the contact: neck, waist, forearm, foot, whole body? silk garment whose weave, finish, fit and context remain decisive",
-          "credit": "Dress, Maker unknown, ca. 1870. The Metropolitan Museum of Art, Costume Institute. 1980.409.1a–c. CC0.",
-          "alt": "Purple silk bustle dress with high neck, fitted bodice, fringe and draped overskirt.",
+          "caption": "A cotton garment's collar, placket, gathers and seams show why construction changes the experience beyond material alone.",
+          "credit": "Shirt, maker unknown, ca. 1860 · The Metropolitan Museum of Art · 28.220 · CC0",
+          "alt": "White cotton shirt shown frontally with gathered sleeves, collar, placket and seams visible.",
           "boundary": "Do not imply this object proves a neural mechanism."
         },
         {
           "frame": 4,
           "beat": "Observe: surface · pressure · heat/moisture · movement/repetition.",
-          "assetId": "R29",
-          "visualMode": "evidence-graphic",
-          "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-          "crop": "4:5 purpose-built evidence diagram with source identity and claim boundary",
+          "assetId": "T-MET-227647",
+          "visualMode": "cleared-real-image",
+          "visualRationale": "A rights-cleared documentary image directly grounds this part of the fashion story.",
+          "crop": "Tall isolated object master; the glove and decorated cuff remain complete in a 4:5 crop.",
           "overlay": "Observe: surface · pressure · heat/moisture · movement/repetition.",
-          "caption": "Observe: surface · pressure · heat/moisture · movement/repetition. Touch",
-          "credit": "Original evidence graphic · RN Collins · source: McGlone and Reilly · NCBI Bookshelf",
-          "alt": "Evidence diagram explaining observe: surface · pressure · heat/moisture · movement/repetition.; source named on slide.",
-          "boundary": "Do not imply this object proves a neural mechanism."
+          "caption": "Observe: surface · pressure · heat/moisture · movement/repetition. A close-fitting interface makes contact, pressure, friction and construction visible without pretending to show a sensory response.",
+          "credit": "Glove, maker unknown, ca. 1600 · The Metropolitan Museum of Art · 53.134 · CC0",
+          "alt": "Single embroidered leather glove with an elaborate silk, metal-thread and lace cuff.",
+          "boundary": "The photograph documents a material object or scene; it does not measure a neural mechanism or universal response."
         },
         {
           "frame": 5,
@@ -2067,15 +2295,15 @@
         {
           "frame": 6,
           "beat": "Choose words, not verdicts: settling, neutral, distracting, itchy, painful, entrapping.",
-          "assetId": "R31",
-          "visualMode": "evidence-graphic",
-          "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-          "crop": "4:5 purpose-built evidence diagram with source identity and claim boundary",
+          "assetId": "T-MET-436533",
+          "visualMode": "cleared-real-image",
+          "visualRationale": "A rights-cleared documentary image directly grounds this part of the fashion story.",
+          "crop": "Large landscape painting with both shoes centered safely inside a 4:5 crop.",
           "overlay": "Choose words, not verdicts: settling, neutral, distracting, itchy, painful, entrapping.",
-          "caption": "Choose words, not verdicts: settling, neutral, distracting, itchy, painful, entrapping. Tactile textiles sense movement via touch",
-          "credit": "Original evidence graphic · RN Collins · source: MIT News · Massachusetts Institute of Technology",
-          "alt": "Evidence diagram explaining choose words, not verdicts: settling, neutral, distracting, itchy, painful, entrapping.; source named on slide.",
-          "boundary": "Do not imply this object proves a neural mechanism."
+          "caption": "Choose words, not verdicts: settling, neutral, distracting, itchy, painful, entrapping. Worn footwear makes body site, movement, duration and material history concrete while leaving the wearer's experience open.",
+          "credit": "Shoes, Vincent van Gogh, 1888 · The Metropolitan Museum of Art · 1992.374 · CC0",
+          "alt": "Van Gogh painting of a worn pair of brown leather shoes on a mottled floor.",
+          "boundary": "The photograph documents a material object or scene; it does not measure a neural mechanism or universal response."
         },
         {
           "frame": 7,
@@ -2108,10 +2336,10 @@
         {
           "beat": 1,
           "duration": "0–3s",
-          "assetId": "MET-107620",
+          "assetId": "T-MET-159178",
           "shot": "Slow object reveal; cut on clause, never simulate motion in a still",
           "onScreen": "Skin does not read labels",
-          "credit": "Dress, Maker unknown, ca. 1870. The Metropolitan Museum of Art, Costume Institute. 1980.409.1a–c. CC0.",
+          "credit": "Shirt, maker unknown, ca. 1860 · The Metropolitan Museum of Art · 28.220 · CC0",
           "boundary": "Crop from cleared master; keep credit in caption and end card."
         },
         {
@@ -2249,9 +2477,9 @@
         {
           "time": "03:00",
           "chapter": "Fiber becomes construction",
-          "assetId": "MET-107620",
+          "assetId": "T-MET-159178",
           "treatment": "Object detail beside boundary sentence",
-          "credit": "Dress, Maker unknown, ca. 1870. The Metropolitan Museum of Art, Costume Institute. 1980.409.1a–c. CC0."
+          "credit": "Shirt, maker unknown, ca. 1860 · The Metropolitan Museum of Art · 28.220 · CC0"
         },
         {
           "time": "04:30",
@@ -2313,9 +2541,9 @@
         "linkedin": [
           {
             "position": "document cover",
-            "assetId": "MET-107620",
-            "caption": "silk garment whose weave, finish, fit and context remain decisive",
-            "credit": "Dress, Maker unknown, ca. 1870. The Metropolitan Museum of Art, Costume Institute. 1980.409.1a–c. CC0."
+            "assetId": "T-MET-159178",
+            "caption": "A cotton garment's collar, placket, gathers and seams show why construction changes the experience beyond material alone.",
+            "credit": "Shirt, maker unknown, ca. 1860 · The Metropolitan Museum of Art · 28.220 · CC0"
           },
           {
             "position": "document slide 5",
@@ -2331,28 +2559,30 @@
           "source": "https://images.metmuseum.org/CRDImages/ci/original/DT5639.jpg",
           "canonical": "https://www.metmuseum.org/art/collection/search/96434",
           "credit": "Dress, Maker unknown, ca. 1872. The Metropolitan Museum of Art, Costume Institute. 2003.426a, b. CC0.",
-          "rights": "CC0"
+          "rights": "CC0",
+          "sourceWidth": 2978,
+          "sourceHeight": 3722,
+          "cropSuitability": "Portrait dress master with negative space and full-garment 4:5 flexibility."
         },
         {
           "assetId": "MET-82459",
           "source": "https://images.metmuseum.org/CRDImages/ci/original/1993.35.1a–c_F.jpg",
           "canonical": "https://www.metmuseum.org/art/collection/search/82459",
           "credit": "Dress, Maker unknown, 1870s. The Metropolitan Museum of Art, Costume Institute. 1993.35.1a–c. CC0.",
-          "rights": "CC0"
+          "rights": "CC0",
+          "sourceWidth": 1272,
+          "sourceHeight": 2040,
+          "cropSuitability": "Narrow portrait dress master; supports a full-object 4:5 crop without enlargement."
         },
         {
           "assetId": "MET-81754",
           "source": "https://images.metmuseum.org/CRDImages/ci/original/CT_11049.jpg",
           "canonical": "https://www.metmuseum.org/art/collection/search/81754",
           "credit": "Riding coat, Maker unknown, ca. 1760. The Metropolitan Museum of Art, Costume Institute. 1976.147.1. CC0.",
-          "rights": "CC0"
-        },
-        {
-          "assetId": "MET-107620",
-          "source": "https://images.metmuseum.org/CRDImages/ci/original/1980.409.1a-c.jpg",
-          "canonical": "https://www.metmuseum.org/art/collection/search/107620",
-          "credit": "Dress, Maker unknown, ca. 1870. The Metropolitan Museum of Art, Costume Institute. 1980.409.1a–c. CC0.",
-          "rights": "CC0"
+          "rights": "CC0",
+          "sourceWidth": 2400,
+          "sourceHeight": 3002,
+          "cropSuitability": "Portrait coat master close to 4:5 with ample usable resolution."
         },
         {
           "assetId": "R66",
@@ -2360,6 +2590,56 @@
           "canonical": "https://wellcomecollection.org/works/brwc6mn4",
           "credit": "Ada Sarah Ballin · Wellcome Collection",
           "rights": "Public domain / CC0"
+        },
+        {
+          "assetId": "T-MET-159178",
+          "source": "https://images.metmuseum.org/CRDImages/ci/original/28.220_28.218a-c_front_CP4.jpg",
+          "canonical": "https://www.metmuseum.org/art/collection/search/159178",
+          "credit": "Shirt, maker unknown, ca. 1860 · The Metropolitan Museum of Art · 28.220 · CC0",
+          "rights": "CC0",
+          "sourceWidth": 3329,
+          "sourceHeight": 4000,
+          "cropSuitability": "High-resolution portrait master; the full shirt and its construction remain legible in 4:5."
+        },
+        {
+          "assetId": "T-MET-227647",
+          "source": "https://images.metmuseum.org/CRDImages/es/original/DP151922.jpg",
+          "canonical": "https://www.metmuseum.org/art/collection/search/227647",
+          "credit": "Glove, maker unknown, ca. 1600 · The Metropolitan Museum of Art · 53.134 · CC0",
+          "rights": "CC0",
+          "sourceWidth": 3000,
+          "sourceHeight": 4000,
+          "cropSuitability": "Tall isolated object master; the glove and decorated cuff remain complete in a 4:5 crop."
+        },
+        {
+          "assetId": "T-MET-436533",
+          "source": "https://images.metmuseum.org/CRDImages/ep/original/DT1947.jpg",
+          "canonical": "https://www.metmuseum.org/art/collection/search/436533",
+          "credit": "Shoes, Vincent van Gogh, 1888 · The Metropolitan Museum of Art · 1992.374 · CC0",
+          "rights": "CC0",
+          "sourceWidth": 3803,
+          "sourceHeight": 3180,
+          "cropSuitability": "Large landscape painting with both shoes centered safely inside a 4:5 crop."
+        },
+        {
+          "assetId": "T-MET-81136",
+          "source": "https://images.metmuseum.org/CRDImages/ci/original/DP-30816-001.jpg",
+          "canonical": "https://www.metmuseum.org/art/collection/search/81136",
+          "credit": "Waistcoat, Anna Maria Garthwaite, 1747 · The Metropolitan Museum of Art · C.I.66.14.2 · CC0",
+          "rights": "CC0",
+          "sourceWidth": 3092,
+          "sourceHeight": 4000,
+          "cropSuitability": "High-resolution portrait object master with construction details legible in a full-garment 4:5 crop."
+        },
+        {
+          "assetId": "T-MET-109887",
+          "source": "https://images.metmuseum.org/CRDImages/ci/original/DP-17308-001.jpg",
+          "canonical": "https://www.metmuseum.org/art/collection/search/109887",
+          "credit": "Shoe buckles, maker unknown, ca. 1795 · The Metropolitan Museum of Art · 25.25.21 · CC0",
+          "rights": "CC0",
+          "sourceWidth": 4000,
+          "sourceHeight": 2631,
+          "cropSuitability": "Wide high-resolution object master with both buckles retained in a centered 4:5 crop."
         }
       ]
     },
@@ -2580,206 +2860,355 @@
           "caption": "Birth, babies and boxes of memories"
         },
         {
-          "id": "R85",
+          "id": "R89",
+          "type": "open-access review and figures",
+          "title": "Patterns of brain activity associated with nostalgia",
+          "creator": "Yang et al.",
+          "date": "2022",
+          "institution": "Scientific Reports / PubMed Central",
+          "rights": "link-only",
+          "disposition": "resource-room",
+          "canonicalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9714426/",
+          "mediaUrl": null,
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "credit": "Yang et al. · Scientific Reports",
+          "alt": "",
+          "caption": "Review of brain activity associated with nostalgia"
+        },
+        {
+          "id": "R94",
+          "type": "digitized collection catalogue",
+          "title": "Printed textiles 1760–1860 in the collection of the Cooper-Hewitt Museum",
+          "creator": "Cooper-Hewitt Museum",
+          "date": "1987",
+          "institution": "Smithsonian Libraries and Archives",
+          "rights": "CC0",
+          "disposition": "reserve",
+          "canonicalUrl": "https://library.si.edu/digital-library/book/printedtextiles100coop",
+          "mediaUrl": null,
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "credit": "Cooper-Hewitt Museum · Smithsonian Institution",
+          "alt": "",
+          "caption": "Digitized catalogue of printed textiles from 1760 to 1860"
+        },
+        {
+          "id": "MET-82433",
           "type": "image",
-          "title": "Fashions.jpg — composite historical fashion plate",
-          "creator": "Unknown author",
-          "date": "c.1900 compilation of 19th-century fashions",
-          "institution": "Wikimedia Commons",
-          "rights": "Public domain / CC0",
-          "disposition": "installed-media",
-          "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Fashions.jpg",
-          "mediaUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Fashions.jpg",
-          "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
-          "credit": "Unknown author · Wikimedia Commons",
-          "alt": "A vertical composite of illustrated women's fashions from several nineteenth-century decades.",
-          "caption": "Composite plate of nineteenth-century fashions"
+          "title": "Corset",
+          "creator": "Maison Léoty",
+          "date": "1891",
+          "institution": "The Metropolitan Museum of Art, Costume Institute",
+          "rights": "CC0",
+          "disposition": "installed-object",
+          "canonicalUrl": "https://www.metmuseum.org/art/collection/search/82433",
+          "mediaUrl": "https://images.metmuseum.org/CRDImages/ci/original/DT200606.jpg",
+          "licenseUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
+          "credit": "Corset, Maison Léoty, 1891. The Metropolitan Museum of Art, Costume Institute. C.I.45.27a, b. CC0.",
+          "alt": "Ivory satin Maison Léoty corset shown frontally against a neutral ground.",
+          "caption": "constraint, posture, learned silhouette",
+          "sourceWidth": 2978,
+          "sourceHeight": 3722,
+          "cropSuitability": "Portrait object master with enough neutral ground for full-object and 4:5 detail crops."
+        },
+        {
+          "id": "MET-158256",
+          "type": "image",
+          "title": "Corset",
+          "creator": "Maker unknown",
+          "date": "1740–60",
+          "institution": "The Metropolitan Museum of Art",
+          "rights": "CC0",
+          "disposition": "installed-object",
+          "canonicalUrl": "https://www.metmuseum.org/art/collection/search/158256",
+          "mediaUrl": "https://images.metmuseum.org/CRDImages/ci/original/69.2.51_front_CP4.jpg",
+          "licenseUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
+          "credit": "Corset, Maker unknown, 1740–60. The Metropolitan Museum of Art. 2009.300.3330. CC0.",
+          "alt": "Eighteenth-century stays with a pointed front, photographed flat.",
+          "caption": "body-shaping technology",
+          "sourceWidth": 3388,
+          "sourceHeight": 4000,
+          "cropSuitability": "Portrait master; supports full-object and 4:5 detail crops without enlargement."
+        },
+        {
+          "id": "MET-717582",
+          "type": "image",
+          "title": "Hat",
+          "creator": "Tlingit woman artist",
+          "date": "ca. 1830",
+          "institution": "The Metropolitan Museum of Art, The American Wing",
+          "rights": "CC0",
+          "disposition": "installed-object",
+          "canonicalUrl": "https://www.metmuseum.org/art/collection/search/717582",
+          "mediaUrl": "https://images.metmuseum.org/CRDImages/ad/original/DP-14863-055.jpg",
+          "licenseUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
+          "credit": "Hat, Tlingit woman artist, ca. 1830. The Metropolitan Museum of Art, The American Wing. 2022.428.5. CC0.",
+          "alt": "Tlingit woven spruce-root hat decorated with shell, beads, pigment and remnants of ermine.",
+          "caption": "protection, clan identity and social status",
+          "sourceWidth": 4000,
+          "sourceHeight": 3199,
+          "cropSuitability": "Landscape master with ample resolution for a centered 4:5 object crop."
+        },
+        {
+          "id": "MET-96434",
+          "type": "image",
+          "title": "Dress",
+          "creator": "Maker unknown",
+          "date": "ca. 1872",
+          "institution": "The Metropolitan Museum of Art, Costume Institute",
+          "rights": "CC0",
+          "disposition": "installed-object",
+          "canonicalUrl": "https://www.metmuseum.org/art/collection/search/96434",
+          "mediaUrl": "https://images.metmuseum.org/CRDImages/ci/original/DT5639.jpg",
+          "licenseUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
+          "credit": "Dress, Maker unknown, ca. 1872. The Metropolitan Museum of Art, Costume Institute. 2003.426a, b. CC0.",
+          "alt": "Cream cotton day dress with dense black printed pattern, fitted bodice, buttons and gathered skirt.",
+          "caption": "cotton structure, gathers, closures and skin contact",
+          "sourceWidth": 2978,
+          "sourceHeight": 3722,
+          "cropSuitability": "Portrait dress master with negative space and full-garment 4:5 flexibility."
+        },
+        {
+          "id": "MET-82459",
+          "type": "image",
+          "title": "Dress",
+          "creator": "Maker unknown",
+          "date": "1870s",
+          "institution": "The Metropolitan Museum of Art, Costume Institute",
+          "rights": "CC0",
+          "disposition": "installed-object",
+          "canonicalUrl": "https://www.metmuseum.org/art/collection/search/82459",
+          "mediaUrl": "https://images.metmuseum.org/CRDImages/ci/original/1993.35.1a–c_F.jpg",
+          "licenseUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
+          "credit": "Dress, Maker unknown, 1870s. The Metropolitan Museum of Art, Costume Institute. 1993.35.1a–c. CC0.",
+          "alt": "Pale cotton dress with a fitted buttoned bodice, long sleeves and layered striped skirt.",
+          "caption": "cotton surface plus seams, layers and silhouette",
+          "sourceWidth": 1272,
+          "sourceHeight": 2040,
+          "cropSuitability": "Narrow portrait dress master; supports a full-object 4:5 crop without enlargement."
+        },
+        {
+          "id": "MET-81754",
+          "type": "image",
+          "title": "Riding coat",
+          "creator": "Maker unknown",
+          "date": "ca. 1760",
+          "institution": "The Metropolitan Museum of Art, Costume Institute",
+          "rights": "CC0",
+          "disposition": "installed-object",
+          "canonicalUrl": "https://www.metmuseum.org/art/collection/search/81754",
+          "mediaUrl": "https://images.metmuseum.org/CRDImages/ci/original/CT_11049.jpg",
+          "licenseUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
+          "credit": "Riding coat, Maker unknown, ca. 1760. The Metropolitan Museum of Art, Costume Institute. 1976.147.1. CC0.",
+          "alt": "Long eighteenth-century riding coat with fitted waist, flared skirt and rows of buttons.",
+          "caption": "silk and goat hair as named materials, not a prediction of feel",
+          "sourceWidth": 2400,
+          "sourceHeight": 3002,
+          "cropSuitability": "Portrait coat master close to 4:5 with ample usable resolution."
+        },
+        {
+          "id": "MET-151912",
+          "type": "image",
+          "title": "Ensemble",
+          "creator": "Maker unknown",
+          "date": "1863–66",
+          "institution": "The Metropolitan Museum of Art, Costume Institute",
+          "rights": "CC0",
+          "disposition": "installed-object",
+          "canonicalUrl": "https://www.metmuseum.org/art/collection/search/151912",
+          "mediaUrl": "https://images.metmuseum.org/CRDImages/ci/original/DP230973.jpg",
+          "licenseUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
+          "credit": "Ensemble, Maker unknown, 1863–66. The Metropolitan Museum of Art, Costume Institute. 2009.20a–j. CC0.",
+          "alt": "American Civil War-era ensemble with short dark blue jacket, red trousers, sash and red fez displayed frontally.",
+          "caption": "military form circulating into civilian fashion and historical memory",
+          "sourceWidth": 2749,
+          "sourceHeight": 4000,
+          "cropSuitability": "Portrait ensemble master with sufficient room for full-object and detail crops."
         }
       ],
       "carouselA": [
         {
           "frame": 1,
           "beat": "The garment is not the memory. It can be the door.",
-          "assetId": "R85",
+          "assetId": "MET-82433",
           "visualMode": "cleared-real-image",
-          "visualRationale": "A material object makes this embodied claim more legible than decoration or type alone.",
-          "crop": "4:5 full object with generous negative space",
+          "visualRationale": "A rights-cleared documentary image directly grounds this part of the fashion story.",
+          "crop": "Portrait object master with enough neutral ground for full-object and 4:5 detail crops.",
           "overlay": "The garment is not the memory. It can be the door.",
-          "caption": "The garment is not the memory. It can be the door. Composite plate of nineteenth-century fashions",
-          "credit": "Unknown author · Wikimedia Commons",
-          "alt": "A vertical composite of illustrated women's fashions from several nineteenth-century decades.",
-          "boundary": "Do not imply this object proves a neural mechanism."
+          "caption": "The garment is not the memory. It can be the door. constraint, posture, learned silhouette",
+          "credit": "Corset, Maison Léoty, 1891. The Metropolitan Museum of Art, Costume Institute. C.I.45.27a, b. CC0.",
+          "alt": "Ivory satin Maison Léoty corset shown frontally against a neutral ground.",
+          "boundary": "The photograph documents a material object or scene; it does not measure a neural mechanism or universal response."
         },
         {
           "frame": 2,
           "beat": "Clothing gathers visual, tactile, movement, smell and social cues.",
-          "assetId": "R08",
-          "visualMode": "evidence-graphic",
-          "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-          "crop": "4:5 purpose-built evidence diagram with source identity and claim boundary",
+          "assetId": "MET-158256",
+          "visualMode": "cleared-real-image",
+          "visualRationale": "A rights-cleared documentary image directly grounds this part of the fashion story.",
+          "crop": "Portrait master; supports full-object and 4:5 detail crops without enlargement.",
           "overlay": "Clothing gathers visual, tactile, movement, smell and social cues.",
-          "caption": "Clothing gathers visual, tactile, movement, smell and social cues. Fashion — Free to Use and Reuse",
-          "credit": "Original evidence graphic · RN Collins · source: Library of Congress · Library of Congress",
-          "alt": "Evidence diagram explaining clothing gathers visual, tactile, movement, smell and social cues.; source named on slide.",
-          "boundary": "Do not imply this object proves a neural mechanism."
+          "caption": "Clothing gathers visual, tactile, movement, smell and social cues. body-shaping technology",
+          "credit": "Corset, Maker unknown, 1740–60. The Metropolitan Museum of Art. 2009.300.3330. CC0.",
+          "alt": "Eighteenth-century stays with a pointed front, photographed flat.",
+          "boundary": "The photograph documents a material object or scene; it does not measure a neural mechanism or universal response."
         },
         {
           "frame": 3,
           "beat": "A cue overlapping with an encoded event can support retrieval.",
-          "assetId": "R09",
-          "visualMode": "evidence-graphic",
-          "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-          "crop": "4:5 purpose-built evidence diagram with source identity and claim boundary",
+          "assetId": "MET-717582",
+          "visualMode": "cleared-real-image",
+          "visualRationale": "A rights-cleared documentary image directly grounds this part of the fashion story.",
+          "crop": "Landscape master with ample resolution for a centered 4:5 object crop.",
           "overlay": "A cue overlapping with an encoded event can support retrieval.",
-          "caption": "A cue overlapping with an encoded event can support retrieval. Show Your Style!",
-          "credit": "Original evidence graphic · RN Collins · source: The Metropolitan Museum of Art · The Met",
-          "alt": "Evidence diagram explaining a cue overlapping with an encoded event can support retrieval.; source named on slide.",
-          "boundary": "Do not imply this object proves a neural mechanism."
+          "caption": "A cue overlapping with an encoded event can support retrieval. protection, clan identity and social status",
+          "credit": "Hat, Tlingit woman artist, ca. 1830. The Metropolitan Museum of Art, The American Wing. 2022.428.5. CC0.",
+          "alt": "Tlingit woven spruce-root hat decorated with shell, beads, pigment and remnants of ermine.",
+          "boundary": "The photograph documents a material object or scene; it does not measure a neural mechanism or universal response."
         },
         {
           "frame": 4,
           "beat": "Autobiographical memory reconstructs; it does not replay.",
-          "assetId": "R14",
-          "visualMode": "evidence-graphic",
-          "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-          "crop": "4:5 purpose-built evidence diagram with source identity and claim boundary",
+          "assetId": "MET-96434",
+          "visualMode": "cleared-real-image",
+          "visualRationale": "A rights-cleared documentary image directly grounds this part of the fashion story.",
+          "crop": "Portrait dress master with negative space and full-garment 4:5 flexibility.",
           "overlay": "Autobiographical memory reconstructs; it does not replay.",
-          "caption": "Autobiographical memory reconstructs; it does not replay. Smart Textiles for Improved Quality of Life and Cognitive Assessment",
-          "credit": "Original evidence graphic · RN Collins · source: Article authors · PubMed Central",
-          "alt": "Evidence diagram explaining autobiographical memory reconstructs; it does not replay.; source named on slide.",
-          "boundary": "Do not imply this object proves a neural mechanism."
+          "caption": "Autobiographical memory reconstructs; it does not replay. cotton structure, gathers, closures and skin contact",
+          "credit": "Dress, Maker unknown, ca. 1872. The Metropolitan Museum of Art, Costume Institute. 2003.426a, b. CC0.",
+          "alt": "Cream cotton day dress with dense black printed pattern, fitted bodice, buttons and gathered skirt.",
+          "boundary": "The photograph documents a material object or scene; it does not measure a neural mechanism or universal response."
         },
         {
           "frame": 5,
           "beat": "Emotion can make recall vivid without making every detail accurate.",
-          "assetId": "R33",
-          "visualMode": "evidence-graphic",
-          "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-          "crop": "4:5 purpose-built evidence diagram with source identity and claim boundary",
+          "assetId": "MET-82459",
+          "visualMode": "cleared-real-image",
+          "visualRationale": "A rights-cleared documentary image directly grounds this part of the fashion story.",
+          "crop": "Narrow portrait dress master; supports a full-object 4:5 crop without enlargement.",
           "overlay": "Emotion can make recall vivid without making every detail accurate.",
-          "caption": "Emotion can make recall vivid without making every detail accurate. Music-evoked autobiographical memories",
-          "credit": "Original evidence graphic · RN Collins · source: Janata · Cerebral Cortex / PMC",
-          "alt": "Evidence diagram explaining emotion can make recall vivid without making every detail accurate.; source named on slide.",
-          "boundary": "Do not imply this object proves a neural mechanism."
+          "caption": "Emotion can make recall vivid without making every detail accurate. cotton surface plus seams, layers and silhouette",
+          "credit": "Dress, Maker unknown, 1870s. The Metropolitan Museum of Art, Costume Institute. 1993.35.1a–c. CC0.",
+          "alt": "Pale cotton dress with a fitted buttoned bodice, long sleeves and layered striped skirt.",
+          "boundary": "The photograph documents a material object or scene; it does not measure a neural mechanism or universal response."
         },
         {
           "frame": 6,
           "beat": "Separate remembered experience from corroborated record.",
-          "assetId": "R35",
-          "visualMode": "evidence-graphic",
-          "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-          "crop": "4:5 purpose-built evidence diagram with source identity and claim boundary",
+          "assetId": "MET-81754",
+          "visualMode": "cleared-real-image",
+          "visualRationale": "A rights-cleared documentary image directly grounds this part of the fashion story.",
+          "crop": "Portrait coat master close to 4:5 with ample usable resolution.",
           "overlay": "Separate remembered experience from corroborated record.",
-          "caption": "Separate remembered experience from corroborated record. Fashion collection",
-          "credit": "Original evidence graphic · RN Collins · source: Smithsonian Institution · Smithsonian Open Access",
-          "alt": "Evidence diagram explaining separate remembered experience from corroborated record.; source named on slide.",
-          "boundary": "Do not imply this object proves a neural mechanism."
+          "caption": "Separate remembered experience from corroborated record. silk and goat hair as named materials, not a prediction of feel",
+          "credit": "Riding coat, Maker unknown, ca. 1760. The Metropolitan Museum of Art, Costume Institute. 1976.147.1. CC0.",
+          "alt": "Long eighteenth-century riding coat with fitted waist, flared skirt and rows of buttons.",
+          "boundary": "The photograph documents a material object or scene; it does not measure a neural mechanism or universal response."
         },
         {
           "frame": 7,
           "beat": "Map one garment privately. Nothing is stored.",
-          "assetId": "R36",
-          "visualMode": "evidence-graphic",
-          "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-          "crop": "4:5 purpose-built evidence diagram with source identity and claim boundary",
+          "assetId": "MET-151912",
+          "visualMode": "cleared-real-image",
+          "visualRationale": "A rights-cleared documentary image directly grounds this part of the fashion story.",
+          "crop": "Portrait ensemble master with sufficient room for full-object and detail crops.",
           "overlay": "Map one garment privately. Nothing is stored.",
-          "caption": "Map one garment privately. Nothing is stored. Fashion collection",
-          "credit": "Original evidence graphic · RN Collins · source: Europeana · Europeana",
-          "alt": "Evidence diagram explaining map one garment privately. nothing is stored.; source named on slide.",
-          "boundary": "Do not imply this object proves a neural mechanism."
+          "caption": "Map one garment privately. Nothing is stored. military form circulating into civilian fashion and historical memory",
+          "credit": "Ensemble, Maker unknown, 1863–66. The Metropolitan Museum of Art, Costume Institute. 2009.20a–j. CC0.",
+          "alt": "American Civil War-era ensemble with short dark blue jacket, red trousers, sash and red fez displayed frontally.",
+          "boundary": "The photograph documents a material object or scene; it does not measure a neural mechanism or universal response."
         }
       ],
       "carouselB": [
         {
           "frame": 1,
           "beat": "Not every retro feeling is your memory.",
-          "assetId": "R85",
+          "assetId": "MET-151912",
           "visualMode": "cleared-real-image",
-          "visualRationale": "A material object makes this embodied claim more legible than decoration or type alone.",
-          "crop": "4:5 full object with generous negative space",
+          "visualRationale": "A rights-cleared documentary image directly grounds this part of the fashion story.",
+          "crop": "Portrait ensemble master with sufficient room for full-object and detail crops.",
           "overlay": "Not every retro feeling is your memory.",
-          "caption": "Not every retro feeling is your memory. Composite plate of nineteenth-century fashions",
-          "credit": "Unknown author · Wikimedia Commons",
-          "alt": "A vertical composite of illustrated women's fashions from several nineteenth-century decades.",
-          "boundary": "Do not imply this object proves a neural mechanism."
+          "caption": "Not every retro feeling is your memory. military form circulating into civilian fashion and historical memory",
+          "credit": "Ensemble, Maker unknown, 1863–66. The Metropolitan Museum of Art, Costume Institute. 2009.20a–j. CC0.",
+          "alt": "American Civil War-era ensemble with short dark blue jacket, red trousers, sash and red fez displayed frontally.",
+          "boundary": "The photograph documents a material object or scene; it does not measure a neural mechanism or universal response."
         },
         {
           "frame": 2,
           "beat": "Autobiographical: a past you personally lived.",
-          "assetId": "R33",
-          "visualMode": "evidence-graphic",
-          "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-          "crop": "4:5 purpose-built evidence diagram with source identity and claim boundary",
+          "assetId": "MET-81754",
+          "visualMode": "cleared-real-image",
+          "visualRationale": "A rights-cleared documentary image directly grounds this part of the fashion story.",
+          "crop": "Portrait coat master close to 4:5 with ample usable resolution.",
           "overlay": "Autobiographical: a past you personally lived.",
-          "caption": "Autobiographical: a past you personally lived. Music-evoked autobiographical memories",
-          "credit": "Original evidence graphic · RN Collins · source: Janata · Cerebral Cortex / PMC",
-          "alt": "Evidence diagram explaining autobiographical: a past you personally lived.; source named on slide.",
-          "boundary": "Do not imply this object proves a neural mechanism."
+          "caption": "Autobiographical: a past you personally lived. silk and goat hair as named materials, not a prediction of feel",
+          "credit": "Riding coat, Maker unknown, ca. 1760. The Metropolitan Museum of Art, Costume Institute. 1976.147.1. CC0.",
+          "alt": "Long eighteenth-century riding coat with fitted waist, flared skirt and rows of buttons.",
+          "boundary": "The photograph documents a material object or scene; it does not measure a neural mechanism or universal response."
         },
         {
           "frame": 3,
           "beat": "Collective: a group story about a shared past.",
-          "assetId": "R35",
-          "visualMode": "evidence-graphic",
-          "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-          "crop": "4:5 purpose-built evidence diagram with source identity and claim boundary",
+          "assetId": "MET-82459",
+          "visualMode": "cleared-real-image",
+          "visualRationale": "A rights-cleared documentary image directly grounds this part of the fashion story.",
+          "crop": "Narrow portrait dress master; supports a full-object 4:5 crop without enlargement.",
           "overlay": "Collective: a group story about a shared past.",
-          "caption": "Collective: a group story about a shared past. Fashion collection",
-          "credit": "Original evidence graphic · RN Collins · source: Smithsonian Institution · Smithsonian Open Access",
-          "alt": "Evidence diagram explaining collective: a group story about a shared past.; source named on slide.",
-          "boundary": "Do not imply this object proves a neural mechanism."
+          "caption": "Collective: a group story about a shared past. cotton surface plus seams, layers and silhouette",
+          "credit": "Dress, Maker unknown, 1870s. The Metropolitan Museum of Art, Costume Institute. 1993.35.1a–c. CC0.",
+          "alt": "Pale cotton dress with a fitted buttoned bodice, long sleeves and layered striped skirt.",
+          "boundary": "The photograph documents a material object or scene; it does not measure a neural mechanism or universal response."
         },
         {
           "frame": 4,
           "beat": "Historical: knowledge of a period and its objects.",
-          "assetId": "R36",
-          "visualMode": "evidence-graphic",
-          "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-          "crop": "4:5 purpose-built evidence diagram with source identity and claim boundary",
+          "assetId": "MET-96434",
+          "visualMode": "cleared-real-image",
+          "visualRationale": "A rights-cleared documentary image directly grounds this part of the fashion story.",
+          "crop": "Portrait dress master with negative space and full-garment 4:5 flexibility.",
           "overlay": "Historical: knowledge of a period and its objects.",
-          "caption": "Historical: knowledge of a period and its objects. Fashion collection",
-          "credit": "Original evidence graphic · RN Collins · source: Europeana · Europeana",
-          "alt": "Evidence diagram explaining historical: knowledge of a period and its objects.; source named on slide.",
-          "boundary": "Do not imply this object proves a neural mechanism."
+          "caption": "Historical: knowledge of a period and its objects. cotton structure, gathers, closures and skin contact",
+          "credit": "Dress, Maker unknown, ca. 1872. The Metropolitan Museum of Art, Costume Institute. 2003.426a, b. CC0.",
+          "alt": "Cream cotton day dress with dense black printed pattern, fitted bodice, buttons and gathered skirt.",
+          "boundary": "The photograph documents a material object or scene; it does not measure a neural mechanism or universal response."
         },
         {
           "frame": 5,
           "beat": "Retro marketing: familiar codes used to shape attention or desire.",
-          "assetId": "R37",
-          "visualMode": "evidence-graphic",
-          "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-          "crop": "4:5 purpose-built evidence diagram with source identity and claim boundary",
+          "assetId": "MET-717582",
+          "visualMode": "cleared-real-image",
+          "visualRationale": "A rights-cleared documentary image directly grounds this part of the fashion story.",
+          "crop": "Landscape master with ample resolution for a centered 4:5 object crop.",
           "overlay": "Retro marketing: familiar codes used to shape attention or desire.",
-          "caption": "Retro marketing: familiar codes used to shape attention or desire. Vogue archive search",
-          "credit": "Original evidence graphic · RN Collins · source: Internet Archive · Internet Archive",
-          "alt": "Evidence diagram explaining retro marketing: familiar codes used to shape attention or desire.; source named on slide.",
-          "boundary": "Do not imply this object proves a neural mechanism."
+          "caption": "Retro marketing: familiar codes used to shape attention or desire. protection, clan identity and social status",
+          "credit": "Hat, Tlingit woman artist, ca. 1830. The Metropolitan Museum of Art, The American Wing. 2022.428.5. CC0.",
+          "alt": "Tlingit woven spruce-root hat decorated with shell, beads, pigment and remnants of ermine.",
+          "boundary": "The photograph documents a material object or scene; it does not measure a neural mechanism or universal response."
         },
         {
           "frame": 6,
           "beat": "One look can activate several—but evidence for one cannot prove another.",
-          "assetId": "R38",
-          "visualMode": "evidence-graphic",
-          "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-          "crop": "4:5 purpose-built evidence diagram with source identity and claim boundary",
+          "assetId": "MET-158256",
+          "visualMode": "cleared-real-image",
+          "visualRationale": "A rights-cleared documentary image directly grounds this part of the fashion story.",
+          "crop": "Portrait master; supports full-object and 4:5 detail crops without enlargement.",
           "overlay": "One look can activate several—but evidence for one cannot prove another.",
-          "caption": "One look can activate several—but evidence for one cannot prove another. Autobiographical Memory Test materials",
-          "credit": "Original evidence graphic · RN Collins · source: Open Science Framework contributors · OSF",
-          "alt": "Evidence diagram explaining one look can activate several—but evidence for one cannot prove another.; source named on slide.",
-          "boundary": "Do not imply this object proves a neural mechanism."
+          "caption": "One look can activate several—but evidence for one cannot prove another. body-shaping technology",
+          "credit": "Corset, Maker unknown, 1740–60. The Metropolitan Museum of Art. 2009.300.3330. CC0.",
+          "alt": "Eighteenth-century stays with a pointed front, photographed flat.",
+          "boundary": "The photograph documents a material object or scene; it does not measure a neural mechanism or universal response."
         },
         {
           "frame": 7,
           "beat": "Ask: *What did I live, what did I learn, and what is being sold?*",
-          "assetId": "R69",
-          "visualMode": "evidence-graphic",
-          "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-          "crop": "4:5 purpose-built evidence diagram with source identity and claim boundary",
+          "assetId": "MET-82433",
+          "visualMode": "cleared-real-image",
+          "visualRationale": "A rights-cleared documentary image directly grounds this part of the fashion story.",
+          "crop": "Portrait object master with enough neutral ground for full-object and 4:5 detail crops.",
           "overlay": "Ask: *What did I live, what did I learn, and what is being sold?*",
-          "caption": "Ask: *What did I live, what did I learn, and what is being sold?*. 40598449",
-          "credit": "Original evidence graphic · RN Collins · source: Alexandra Georgiou · Wellcome Collection",
-          "alt": "Evidence diagram explaining ask: *what did i live, what did i learn, and what is being sold?*; source named on slide.",
-          "boundary": "Do not imply this object proves a neural mechanism."
+          "caption": "Ask: *What did I live, what did I learn, and what is being sold?*. constraint, posture, learned silhouette",
+          "credit": "Corset, Maison Léoty, 1891. The Metropolitan Museum of Art, Costume Institute. C.I.45.27a, b. CC0.",
+          "alt": "Ivory satin Maison Léoty corset shown frontally against a neutral ground.",
+          "boundary": "The photograph documents a material object or scene; it does not measure a neural mechanism or universal response."
         }
       ],
       "broll": [
@@ -2851,13 +3280,13 @@
         {
           "pin": 1,
           "title": "Memory garment",
-          "assetId": "R85",
+          "assetId": "MET-82433",
           "visualMode": "cleared-real-image",
           "visualRationale": "The cleared object is an effective discovery image for this claim.",
           "format": "1000×1500 standard pin",
           "description": "Memory garment: an evidence-bounded visual guide from The Memory Wardrobe.",
-          "alt": "A vertical composite of illustrated women's fashions from several nineteenth-century decades.",
-          "credit": "Unknown author · Wikimedia Commons",
+          "alt": "Ivory satin Maison Léoty corset shown frontally against a neutral ground.",
+          "credit": "Corset, Maison Léoty, 1891. The Metropolitan Museum of Art, Costume Institute. C.I.45.27a, b. CC0.",
           "destination": "/exhibitions/fashion-nostalgia/"
         },
         {
@@ -3005,11 +3434,74 @@
       },
       "downloads": [
         {
-          "assetId": "R85",
-          "source": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Fashions.jpg",
-          "canonical": "https://commons.wikimedia.org/wiki/File:Fashions.jpg",
-          "credit": "Unknown author · Wikimedia Commons",
-          "rights": "Public domain / CC0"
+          "assetId": "MET-82433",
+          "source": "https://images.metmuseum.org/CRDImages/ci/original/DT200606.jpg",
+          "canonical": "https://www.metmuseum.org/art/collection/search/82433",
+          "credit": "Corset, Maison Léoty, 1891. The Metropolitan Museum of Art, Costume Institute. C.I.45.27a, b. CC0.",
+          "rights": "CC0",
+          "sourceWidth": 2978,
+          "sourceHeight": 3722,
+          "cropSuitability": "Portrait object master with enough neutral ground for full-object and 4:5 detail crops."
+        },
+        {
+          "assetId": "MET-158256",
+          "source": "https://images.metmuseum.org/CRDImages/ci/original/69.2.51_front_CP4.jpg",
+          "canonical": "https://www.metmuseum.org/art/collection/search/158256",
+          "credit": "Corset, Maker unknown, 1740–60. The Metropolitan Museum of Art. 2009.300.3330. CC0.",
+          "rights": "CC0",
+          "sourceWidth": 3388,
+          "sourceHeight": 4000,
+          "cropSuitability": "Portrait master; supports full-object and 4:5 detail crops without enlargement."
+        },
+        {
+          "assetId": "MET-717582",
+          "source": "https://images.metmuseum.org/CRDImages/ad/original/DP-14863-055.jpg",
+          "canonical": "https://www.metmuseum.org/art/collection/search/717582",
+          "credit": "Hat, Tlingit woman artist, ca. 1830. The Metropolitan Museum of Art, The American Wing. 2022.428.5. CC0.",
+          "rights": "CC0",
+          "sourceWidth": 4000,
+          "sourceHeight": 3199,
+          "cropSuitability": "Landscape master with ample resolution for a centered 4:5 object crop."
+        },
+        {
+          "assetId": "MET-96434",
+          "source": "https://images.metmuseum.org/CRDImages/ci/original/DT5639.jpg",
+          "canonical": "https://www.metmuseum.org/art/collection/search/96434",
+          "credit": "Dress, Maker unknown, ca. 1872. The Metropolitan Museum of Art, Costume Institute. 2003.426a, b. CC0.",
+          "rights": "CC0",
+          "sourceWidth": 2978,
+          "sourceHeight": 3722,
+          "cropSuitability": "Portrait dress master with negative space and full-garment 4:5 flexibility."
+        },
+        {
+          "assetId": "MET-82459",
+          "source": "https://images.metmuseum.org/CRDImages/ci/original/1993.35.1a–c_F.jpg",
+          "canonical": "https://www.metmuseum.org/art/collection/search/82459",
+          "credit": "Dress, Maker unknown, 1870s. The Metropolitan Museum of Art, Costume Institute. 1993.35.1a–c. CC0.",
+          "rights": "CC0",
+          "sourceWidth": 1272,
+          "sourceHeight": 2040,
+          "cropSuitability": "Narrow portrait dress master; supports a full-object 4:5 crop without enlargement."
+        },
+        {
+          "assetId": "MET-81754",
+          "source": "https://images.metmuseum.org/CRDImages/ci/original/CT_11049.jpg",
+          "canonical": "https://www.metmuseum.org/art/collection/search/81754",
+          "credit": "Riding coat, Maker unknown, ca. 1760. The Metropolitan Museum of Art, Costume Institute. 1976.147.1. CC0.",
+          "rights": "CC0",
+          "sourceWidth": 2400,
+          "sourceHeight": 3002,
+          "cropSuitability": "Portrait coat master close to 4:5 with ample usable resolution."
+        },
+        {
+          "assetId": "MET-151912",
+          "source": "https://images.metmuseum.org/CRDImages/ci/original/DP230973.jpg",
+          "canonical": "https://www.metmuseum.org/art/collection/search/151912",
+          "credit": "Ensemble, Maker unknown, 1863–66. The Metropolitan Museum of Art, Costume Institute. 2009.20a–j. CC0.",
+          "rights": "CC0",
+          "sourceWidth": 2749,
+          "sourceHeight": 4000,
+          "cropSuitability": "Portrait ensemble master with sufficient room for full-object and detail crops."
         }
       ]
     },
@@ -3166,22 +3658,6 @@
           "caption": "Fashion runway13.jpg"
         },
         {
-          "id": "R74",
-          "type": "image",
-          "title": "Runway at Fashion Show Mall (2010)",
-          "creator": "Jenny Mealing",
-          "date": "2010-06-25",
-          "institution": "Wikimedia Commons",
-          "rights": "CC BY",
-          "disposition": "installed-media",
-          "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Runway_at_Fashion_Show_Mall_(2010).jpg",
-          "mediaUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Runway%20at%20Fashion%20Show%20Mall%20(2010).jpg",
-          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
-          "credit": "Jenny Mealing · Wikimedia Commons",
-          "alt": "A fashion show runway with audience seating inside Fashion Show Mall in Las Vegas.",
-          "caption": "Runway at Fashion Show Mall (2010)"
-        },
-        {
           "id": "R75",
           "type": "video",
           "title": "Health and clothing",
@@ -3196,20 +3672,55 @@
           "credit": "Bermondsey Borough Council · Wellcome Collection / BFI National Archive",
           "alt": "",
           "caption": "Health and clothing"
+        },
+        {
+          "id": "R90",
+          "type": "open-access research",
+          "title": "Audience synchronies in live concerts illustrate the embodiment of music experience",
+          "creator": "Tschacher et al.",
+          "date": "2023",
+          "institution": "Scientific Reports / PubMed Central",
+          "rights": "link-only",
+          "disposition": "resource-room",
+          "canonicalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10556000/",
+          "mediaUrl": null,
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "credit": "Tschacher et al. · Scientific Reports",
+          "alt": "",
+          "caption": "Study of physiological and movement synchrony in concert audiences"
+        },
+        {
+          "id": "MET-151912",
+          "type": "image",
+          "title": "Ensemble",
+          "creator": "Maker unknown",
+          "date": "1863–66",
+          "institution": "The Metropolitan Museum of Art, Costume Institute",
+          "rights": "CC0",
+          "disposition": "installed-object",
+          "canonicalUrl": "https://www.metmuseum.org/art/collection/search/151912",
+          "mediaUrl": "https://images.metmuseum.org/CRDImages/ci/original/DP230973.jpg",
+          "licenseUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
+          "credit": "Ensemble, Maker unknown, 1863–66. The Metropolitan Museum of Art, Costume Institute. 2009.20a–j. CC0.",
+          "alt": "American Civil War-era ensemble with short dark blue jacket, red trousers, sash and red fez displayed frontally.",
+          "caption": "military form circulating into civilian fashion and historical memory",
+          "sourceWidth": 2749,
+          "sourceHeight": 4000,
+          "cropSuitability": "Portrait ensemble master with sufficient room for full-object and detail crops."
         }
       ],
       "carouselA": [
         {
           "frame": 1,
           "beat": "What does Fashion Week do to the nervous system? First, stop treating it as one stimulus.",
-          "assetId": "R74",
+          "assetId": "MET-151912",
           "visualMode": "cleared-real-image",
           "visualRationale": "A material object makes this embodied claim more legible than decoration or type alone.",
           "crop": "4:5 full object with generous negative space",
           "overlay": "What does Fashion Week do to the nervous system? First, stop treating it as one stimulus.",
-          "caption": "What does Fashion Week do to the nervous system? First, stop treating it as one stimulus. Runway at Fashion Show Mall (2010)",
-          "credit": "Jenny Mealing · Wikimedia Commons",
-          "alt": "A fashion show runway with audience seating inside Fashion Show Mall in Las Vegas.",
+          "caption": "military form circulating into civilian fashion and historical memory",
+          "credit": "Ensemble, Maker unknown, 1863–66. The Metropolitan Museum of Art, Costume Institute. 2009.20a–j. CC0.",
+          "alt": "American Civil War-era ensemble with short dark blue jacket, red trousers, sash and red fez displayed frontally.",
           "boundary": "Do not imply this object proves a neural mechanism."
         },
         {
@@ -3321,14 +3832,14 @@
         {
           "frame": 1,
           "beat": "A Fashion Week claim fitting. Before citing a study, ask what actually transfers.",
-          "assetId": "R74",
+          "assetId": "MET-151912",
           "visualMode": "cleared-real-image",
           "visualRationale": "A material object makes this embodied claim more legible than decoration or type alone.",
           "crop": "4:5 full object with generous negative space",
           "overlay": "A Fashion Week claim fitting. Before citing a study, ask what actually transfers.",
-          "caption": "A Fashion Week claim fitting. Before citing a study, ask what actually transfers. Runway at Fashion Show Mall (2010)",
-          "credit": "Jenny Mealing · Wikimedia Commons",
-          "alt": "A fashion show runway with audience seating inside Fashion Show Mall in Las Vegas.",
+          "caption": "military form circulating into civilian fashion and historical memory",
+          "credit": "Ensemble, Maker unknown, 1863–66. The Metropolitan Museum of Art, Costume Institute. 2009.20a–j. CC0.",
+          "alt": "American Civil War-era ensemble with short dark blue jacket, red trousers, sash and red fez displayed frontally.",
           "boundary": "Do not imply this object proves a neural mechanism."
         },
         {
@@ -3399,28 +3910,28 @@
         {
           "frame": 7,
           "beat": "Language: “may contribute” often fits; “causes overload” usually does not.",
-          "assetId": "R05",
+          "assetId": "R90",
           "visualMode": "evidence-graphic",
           "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
           "crop": "4:5 purpose-built evidence diagram with source identity and claim boundary",
           "overlay": "Language: “may contribute” often fits; “causes overload” usually does not.",
-          "caption": "Language: “may contribute” often fits; “causes overload” usually does not. NIOSH Training for Nurses on Shift Work and Long Work Hours",
-          "credit": "Original evidence graphic · RN Collins · source: CDC/NIOSH · CDC",
+          "caption": "Language: “may contribute” often fits; “causes overload” usually does not. Study of physiological and movement synchrony in concert audiences",
+          "credit": "Original evidence graphic · RN Collins · source: Tschacher et al. · Scientific Reports",
           "alt": "Evidence diagram explaining language: “may contribute” often fits; “causes overload” usually does not.; source named on slide.",
-          "boundary": "Source identity only; protected media is not reproduced."
+          "boundary": "Do not imply this object proves a neural mechanism."
         },
         {
           "frame": 8,
           "beat": "Keep the experience; narrow the mechanism. A person can be genuinely exhausted without becoming a clinical case study.",
-          "assetId": "R10",
+          "assetId": "R05",
           "visualMode": "editorial-typography",
           "visualRationale": "The evidence boundary is the subject; a decisive typographic close is stronger than an unrelated photograph.",
           "crop": "4:5 editorial typography; no decorative substitute",
           "overlay": "Keep the experience; narrow the mechanism. A person can be genuinely exhausted without becoming a clinical case study.",
-          "caption": "Keep the experience; narrow the mechanism. A person can be genuinely exhausted without becoming a clinical case study. Fashion runway1.jpg",
-          "credit": "Original editorial typography · RN Collins · source: Accra Technical University contributor · Wikimedia Commons",
+          "caption": "Keep the experience; narrow the mechanism. A person can be genuinely exhausted without becoming a clinical case study. NIOSH Training for Nurses on Shift Work and Long Work Hours",
+          "credit": "Original editorial typography · RN Collins · source: CDC/NIOSH · CDC",
           "alt": "Editorial typographic slide explaining keep the experience; narrow the mechanism. a person can be genuinely exhausted without becoming a clinical case study.; source named on slide.",
-          "boundary": "Do not imply this object proves a neural mechanism."
+          "boundary": "Source identity only; protected media is not reproduced."
         }
       ],
       "broll": [
@@ -3472,10 +3983,10 @@
         {
           "beat": 6,
           "duration": "15–18s",
-          "assetId": "R74",
+          "assetId": "MET-151912",
           "shot": "Slow detail pan; cut on clause, never simulate motion in a still",
           "onScreen": "Evaluation and vigilance",
-          "credit": "Jenny Mealing · Wikimedia Commons",
+          "credit": "Ensemble, Maker unknown, 1863–66. The Metropolitan Museum of Art, Costume Institute. 2009.20a–j. CC0.",
           "boundary": "Crop from cleared master; keep credit in caption and end card."
         },
         {
@@ -3492,13 +4003,13 @@
         {
           "pin": 1,
           "title": "Fashion Week load",
-          "assetId": "R74",
+          "assetId": "MET-151912",
           "visualMode": "cleared-real-image",
           "visualRationale": "The cleared object is an effective discovery image for this claim.",
           "format": "1000×1500 standard pin",
           "description": "Fashion Week load: an evidence-bounded visual guide from The Fashion Week Nervous System.",
-          "alt": "A fashion show runway with audience seating inside Fashion Show Mall in Las Vegas.",
-          "credit": "Jenny Mealing · Wikimedia Commons",
+          "alt": "American Civil War-era ensemble with short dark blue jacket, red trousers, sash and red fez displayed frontally.",
+          "credit": "Ensemble, Maker unknown, 1863–66. The Metropolitan Museum of Art, Costume Institute. 2009.20a–j. CC0.",
           "destination": "/exhibitions/fashion-week-nervous-system/"
         },
         {
@@ -3603,9 +4114,9 @@
         {
           "time": "10:30",
           "chapter": "Recovery without diagnosis",
-          "assetId": "R74",
+          "assetId": "MET-151912",
           "treatment": "Evidence split-screen with source citation",
-          "credit": "Jenny Mealing · Wikimedia Commons"
+          "credit": "Ensemble, Maker unknown, 1863–66. The Metropolitan Museum of Art, Costume Institute. 2009.20a–j. CC0."
         }
       ],
       "inline": {
@@ -3646,11 +4157,14 @@
       },
       "downloads": [
         {
-          "assetId": "R74",
-          "source": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Runway%20at%20Fashion%20Show%20Mall%20(2010).jpg",
-          "canonical": "https://commons.wikimedia.org/wiki/File:Runway_at_Fashion_Show_Mall_(2010).jpg",
-          "credit": "Jenny Mealing · Wikimedia Commons",
-          "rights": "CC BY"
+          "assetId": "MET-151912",
+          "source": "https://images.metmuseum.org/CRDImages/ci/original/DP230973.jpg",
+          "canonical": "https://www.metmuseum.org/art/collection/search/151912",
+          "credit": "Ensemble, Maker unknown, 1863–66. The Metropolitan Museum of Art, Costume Institute. 2009.20a–j. CC0.",
+          "rights": "CC0",
+          "sourceWidth": 2749,
+          "sourceHeight": 4000,
+          "cropSuitability": "Portrait ensemble master with sufficient room for full-object and detail crops."
         }
       ]
     },
@@ -3692,7 +4206,10 @@
           "licenseUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
           "credit": "Metronome, Johann Nepomuk Maelzel, ca. 1821. The Metropolitan Museum of Art, Musical Instruments. 1979.1.2. CC0.",
           "alt": "A pyramidal wooden Maelzel metronome with a numbered tempo scale and visible pendulum.",
-          "caption": "external pulse, timing and the limits of analogy"
+          "caption": "external pulse, timing and the limits of analogy",
+          "sourceWidth": 2489,
+          "sourceHeight": 4000,
+          "cropSuitability": "Tall metronome master suited to full-object and mechanism-detail 4:5 crops."
         },
         {
           "id": "MET-310563",
@@ -3708,23 +4225,10 @@
           "licenseUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
           "credit": "Drum, Nasca artist(s), 100–400 CE. The Metropolitan Museum of Art. 1978.412.111. CC0.",
           "alt": "A ceramic Nasca drum painted with a stylized figure and repeating geometric forms.",
-          "caption": "rhythmic sound as material culture"
-        },
-        {
-          "id": "MET-505646",
-          "type": "image",
-          "title": "Music Box",
-          "creator": "Maker unknown",
-          "date": "ca. 1810",
-          "institution": "The Metropolitan Museum of Art, Musical Instruments",
-          "rights": "CC0",
-          "disposition": "installed-object",
-          "canonicalUrl": "https://www.metmuseum.org/art/collection/search/505646",
-          "mediaUrl": "https://images.metmuseum.org/CRDImages/mi/original/210883.jpg",
-          "licenseUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
-          "credit": "Music Box, Maker unknown, ca. 1810. The Metropolitan Museum of Art, Musical Instruments. 1976.285.5. CC0.",
-          "alt": "A small rectangular early nineteenth-century music box with exposed metal mechanism.",
-          "caption": "stored sequence, repetition and memory"
+          "caption": "rhythmic sound as material culture",
+          "sourceWidth": 2978,
+          "sourceHeight": 3722,
+          "cropSuitability": "Portrait instrument master with sufficient negative space for editorial text."
         },
         {
           "id": "R06",
@@ -3855,20 +4359,96 @@
           "caption": "MDN Step Sequencer"
         },
         {
-          "id": "R79",
+          "id": "R91",
+          "type": "open-access research",
+          "title": "Live music stimulates the affective brain and emotionally entrains listeners in real time",
+          "creator": "Trost et al.",
+          "date": "2024",
+          "institution": "PNAS / PubMed Central",
+          "rights": "link-only",
+          "disposition": "resource-room",
+          "canonicalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10927510/",
+          "mediaUrl": null,
+          "licenseUrl": null,
+          "credit": "Trost et al. · PNAS",
+          "alt": "",
+          "caption": "Study comparing affective responses to live and recorded music"
+        },
+        {
+          "id": "S-MET-505644",
           "type": "image",
-          "title": "Runway at Fashion Show Mall (2010)",
-          "creator": "Jenny Mealing",
-          "date": "2010-06-25",
-          "institution": "Wikimedia Commons",
-          "rights": "CC BY",
+          "title": "Music Box",
+          "creator": "Maker unknown",
+          "date": "ca. 1820",
+          "institution": "The Metropolitan Museum of Art, Musical Instruments",
+          "rights": "CC0",
           "disposition": "installed-media",
-          "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Runway_at_Fashion_Show_Mall_(2010).jpg",
-          "mediaUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Runway%20at%20Fashion%20Show%20Mall%20(2010).jpg",
-          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
-          "credit": "Jenny Mealing · Wikimedia Commons",
-          "alt": "A fashion runway with spectators gathered around it.",
-          "caption": "Runway at Fashion Show Mall (2010)"
+          "canonicalUrl": "https://www.metmuseum.org/art/collection/search/505644",
+          "mediaUrl": "https://images.metmuseum.org/CRDImages/mi/original/DP170002.jpg",
+          "licenseUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
+          "credit": "Music Box, ca. 1820 · The Metropolitan Museum of Art · 1976.285.3a–c · CC0",
+          "alt": "A mechanical music box photographed against a neutral museum background.",
+          "caption": "A physical timing mechanism makes musical sequence possible without determining a listener's response.",
+          "sourceWidth": 3000,
+          "sourceHeight": 4000,
+          "cropSuitability": "Portrait museum master with the full mechanism visible in 4:5."
+        },
+        {
+          "id": "S-MET-505642",
+          "type": "image",
+          "title": "Music Box",
+          "creator": "Maker unknown",
+          "date": "ca. 1810",
+          "institution": "The Metropolitan Museum of Art, Musical Instruments",
+          "rights": "CC0",
+          "disposition": "installed-media",
+          "canonicalUrl": "https://www.metmuseum.org/art/collection/search/505642",
+          "mediaUrl": "https://images.metmuseum.org/CRDImages/mi/original/DP169433.jpg",
+          "licenseUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
+          "credit": "Music Box, ca. 1810 · The Metropolitan Museum of Art · 1976.285.1a, b · CC0",
+          "alt": "An early nineteenth-century mechanical music box shown open against a neutral background.",
+          "caption": "Music reaches a scene through built mechanisms, timing and material vibration.",
+          "sourceWidth": 3000,
+          "sourceHeight": 4000,
+          "cropSuitability": "Portrait museum master with clean margins and mechanical details suitable for 4:5."
+        },
+        {
+          "id": "S-MET-505652",
+          "type": "image",
+          "title": "Music Box",
+          "creator": "Maker unknown",
+          "date": "ca. 1820",
+          "institution": "The Metropolitan Museum of Art, Musical Instruments",
+          "rights": "CC0",
+          "disposition": "installed-media",
+          "canonicalUrl": "https://www.metmuseum.org/art/collection/search/505652",
+          "mediaUrl": "https://images.metmuseum.org/CRDImages/mi/original/DP170006.jpg",
+          "licenseUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
+          "credit": "Music Box, ca. 1820 · The Metropolitan Museum of Art · 1976.285.11 · CC0",
+          "alt": "A compact nineteenth-century music box and its mechanical components displayed on a neutral ground.",
+          "caption": "A sound-producing object can organize a sequence while leaving perception and meaning to the situated listener.",
+          "sourceWidth": 4000,
+          "sourceHeight": 3000,
+          "cropSuitability": "Large landscape museum master with several clear 4:5 detail crops."
+        },
+        {
+          "id": "S-MET-505648",
+          "type": "image",
+          "title": "Music Box",
+          "creator": "Maker unknown",
+          "date": "early 19th century",
+          "institution": "The Metropolitan Museum of Art, Musical Instruments",
+          "rights": "CC0",
+          "disposition": "installed-media",
+          "canonicalUrl": "https://www.metmuseum.org/art/collection/search/505648",
+          "mediaUrl": "https://images.metmuseum.org/CRDImages/mi/original/DP169438.jpg",
+          "licenseUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
+          "credit": "Music Box, early 19th century · The Metropolitan Museum of Art · 1976.285.7 · CC0",
+          "alt": "An early nineteenth-century music box shown with its case open and mechanism visible.",
+          "caption": "The object makes a timed sound sequence possible while the surrounding scene shapes how it is heard.",
+          "sourceWidth": 3000,
+          "sourceHeight": 4000,
+          "cropSuitability": "Portrait museum master with mechanism and case both preserved in 4:5."
         }
       ],
       "carouselA": [
@@ -3901,54 +4481,54 @@
         {
           "frame": 3,
           "beat": "Pulse: a beat offers a forecast for the next moment.",
-          "assetId": "R11",
-          "visualMode": "evidence-graphic",
-          "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-          "crop": "4:5 purpose-built evidence diagram with source identity and claim boundary",
+          "assetId": "S-MET-505642",
+          "visualMode": "cleared-real-image",
+          "visualRationale": "A rights-cleared documentary image directly grounds this part of the fashion story.",
+          "crop": "Portrait museum master with clean margins and mechanical details suitable for 4:5.",
           "overlay": "Pulse: a beat offers a forecast for the next moment.",
-          "caption": "Pulse: a beat offers a forecast for the next moment. Fashion runway2.jpg",
-          "credit": "Original evidence graphic · RN Collins · source: Accra Technical University contributor · Wikimedia Commons",
-          "alt": "Evidence diagram explaining pulse: a beat offers a forecast for the next moment.; source named on slide.",
-          "boundary": "Do not imply this object proves a neural mechanism."
+          "caption": "Pulse: a beat offers a forecast for the next moment. Music reaches a scene through built mechanisms, timing and material vibration.",
+          "credit": "Music Box, ca. 1810 · The Metropolitan Museum of Art · 1976.285.1a, b · CC0",
+          "alt": "An early nineteenth-century mechanical music box shown open against a neutral background.",
+          "boundary": "The photograph documents a material object or scene; it does not measure a neural mechanism or universal response."
         },
         {
           "frame": 4,
           "beat": "Expectation: repetition and surprise shape attention.",
-          "assetId": "MET-505646",
+          "assetId": "S-MET-505644",
           "visualMode": "cleared-real-image",
           "visualRationale": "A material object makes this embodied claim more legible than decoration or type alone.",
           "crop": "4:5 detail crop; preserve identifying construction",
           "overlay": "Expectation: repetition and surprise shape attention.",
-          "caption": "Expectation: repetition and surprise shape attention. stored sequence, repetition and memory",
-          "credit": "Music Box, Maker unknown, ca. 1810. The Metropolitan Museum of Art, Musical Instruments. 1976.285.5. CC0.",
-          "alt": "A small rectangular early nineteenth-century music box with exposed metal mechanism.",
+          "caption": "A physical timing mechanism makes musical sequence possible without determining a listener's response.",
+          "credit": "Music Box, ca. 1820 · The Metropolitan Museum of Art · 1976.285.3a–c · CC0",
+          "alt": "A mechanical music box photographed against a neutral museum background.",
           "boundary": "Do not imply this object proves a neural mechanism."
         },
         {
           "frame": 5,
           "beat": "Movement: rhythm may invite alignment; it does not command it.",
-          "assetId": "R47",
-          "visualMode": "evidence-graphic",
-          "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-          "crop": "4:5 purpose-built evidence diagram with source identity and claim boundary",
+          "assetId": "S-MET-505652",
+          "visualMode": "cleared-real-image",
+          "visualRationale": "A rights-cleared documentary image directly grounds this part of the fashion story.",
+          "crop": "Large landscape museum master with several clear 4:5 detail crops.",
           "overlay": "Movement: rhythm may invite alignment; it does not command it.",
-          "caption": "Movement: rhythm may invite alignment; it does not command it. Psychology of music",
-          "credit": "Original evidence graphic · RN Collins · source: American Psychological Association · APA",
-          "alt": "Evidence diagram explaining movement: rhythm may invite alignment; it does not command it.; source named on slide.",
-          "boundary": "Do not imply this object proves a neural mechanism."
+          "caption": "Movement: rhythm may invite alignment; it does not command it. A sound-producing object can organize a sequence while leaving perception and meaning to the situated listener.",
+          "credit": "Music Box, ca. 1820 · The Metropolitan Museum of Art · 1976.285.11 · CC0",
+          "alt": "A compact nineteenth-century music box and its mechanical components displayed on a neutral ground.",
+          "boundary": "The photograph documents a material object or scene; it does not measure a neural mechanism or universal response."
         },
         {
           "frame": 6,
           "beat": "Image + memory: sound frames what you see and may cue your history.",
-          "assetId": "R79",
+          "assetId": "S-MET-505648",
           "visualMode": "cleared-real-image",
-          "visualRationale": "A material object makes this embodied claim more legible than decoration or type alone.",
-          "crop": "4:5 detail crop; preserve identifying construction",
+          "visualRationale": "A rights-cleared documentary image directly grounds this part of the fashion story.",
+          "crop": "Portrait museum master with mechanism and case both preserved in 4:5.",
           "overlay": "Image + memory: sound frames what you see and may cue your history.",
-          "caption": "Image + memory: sound frames what you see and may cue your history. Runway at Fashion Show Mall (2010)",
-          "credit": "Jenny Mealing · Wikimedia Commons",
-          "alt": "A fashion runway with spectators gathered around it.",
-          "boundary": "Do not imply this object proves a neural mechanism."
+          "caption": "Image + memory: sound frames what you see and may cue your history. The object makes a timed sound sequence possible while the surrounding scene shapes how it is heard.",
+          "credit": "Music Box, early 19th century · The Metropolitan Museum of Art · 1976.285.7 · CC0",
+          "alt": "An early nineteenth-century music box shown with its case open and mechanism visible.",
+          "boundary": "The photograph documents a material object or scene; it does not measure a neural mechanism or universal response."
         },
         {
           "frame": 7,
@@ -3968,54 +4548,54 @@
         {
           "frame": 1,
           "beat": "No: a runway beat does not take over a brain.",
-          "assetId": "MET-505646",
+          "assetId": "S-MET-505644",
           "visualMode": "cleared-real-image",
           "visualRationale": "A material object makes this embodied claim more legible than decoration or type alone.",
           "crop": "4:5 full object with generous negative space",
           "overlay": "No: a runway beat does not take over a brain.",
-          "caption": "No: a runway beat does not take over a brain. stored sequence, repetition and memory",
-          "credit": "Music Box, Maker unknown, ca. 1810. The Metropolitan Museum of Art, Musical Instruments. 1976.285.5. CC0.",
-          "alt": "A small rectangular early nineteenth-century music box with exposed metal mechanism.",
+          "caption": "A physical timing mechanism makes musical sequence possible without determining a listener's response.",
+          "credit": "Music Box, ca. 1820 · The Metropolitan Museum of Art · 1976.285.3a–c · CC0",
+          "alt": "A mechanical music box photographed against a neutral museum background.",
           "boundary": "Do not imply this object proves a neural mechanism."
         },
         {
           "frame": 2,
           "beat": "In music science, entrainment describes alignment with temporal structure.",
-          "assetId": "R47",
-          "visualMode": "evidence-graphic",
-          "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-          "crop": "4:5 purpose-built evidence diagram with source identity and claim boundary",
+          "assetId": "S-MET-505642",
+          "visualMode": "cleared-real-image",
+          "visualRationale": "A rights-cleared documentary image directly grounds this part of the fashion story.",
+          "crop": "Portrait museum master with clean margins and mechanical details suitable for 4:5.",
           "overlay": "In music science, entrainment describes alignment with temporal structure.",
-          "caption": "In music science, entrainment describes alignment with temporal structure. Psychology of music",
-          "credit": "Original evidence graphic · RN Collins · source: American Psychological Association · APA",
-          "alt": "Evidence diagram explaining in music science, entrainment describes alignment with temporal structure.; source named on slide.",
-          "boundary": "Do not imply this object proves a neural mechanism."
+          "caption": "In music science, entrainment describes alignment with temporal structure. Music reaches a scene through built mechanisms, timing and material vibration.",
+          "credit": "Music Box, ca. 1810 · The Metropolitan Museum of Art · 1976.285.1a, b · CC0",
+          "alt": "An early nineteenth-century mechanical music box shown open against a neutral background.",
+          "boundary": "The photograph documents a material object or scene; it does not measure a neural mechanism or universal response."
         },
         {
           "frame": 3,
           "beat": "Beat perception involves distributed auditory and motor systems.",
-          "assetId": "R79",
+          "assetId": "S-MET-505648",
           "visualMode": "cleared-real-image",
-          "visualRationale": "A material object makes this embodied claim more legible than decoration or type alone.",
-          "crop": "4:5 full object with generous negative space",
+          "visualRationale": "A rights-cleared documentary image directly grounds this part of the fashion story.",
+          "crop": "Portrait museum master with mechanism and case both preserved in 4:5.",
           "overlay": "Beat perception involves distributed auditory and motor systems.",
-          "caption": "Beat perception involves distributed auditory and motor systems. Runway at Fashion Show Mall (2010)",
-          "credit": "Jenny Mealing · Wikimedia Commons",
-          "alt": "A fashion runway with spectators gathered around it.",
-          "boundary": "Do not imply this object proves a neural mechanism."
+          "caption": "Beat perception involves distributed auditory and motor systems. The object makes a timed sound sequence possible while the surrounding scene shapes how it is heard.",
+          "credit": "Music Box, early 19th century · The Metropolitan Museum of Art · 1976.285.7 · CC0",
+          "alt": "An early nineteenth-century music box shown with its case open and mechanism visible.",
+          "boundary": "The photograph documents a material object or scene; it does not measure a neural mechanism or universal response."
         },
         {
           "frame": 4,
           "beat": "People may tap, sway, predict—or choose not to move.",
-          "assetId": "R77",
-          "visualMode": "evidence-graphic",
-          "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-          "crop": "4:5 purpose-built evidence diagram with source identity and claim boundary",
+          "assetId": "S-MET-505652",
+          "visualMode": "cleared-real-image",
+          "visualRationale": "A rights-cleared documentary image directly grounds this part of the fashion story.",
+          "crop": "Large landscape museum master with several clear 4:5 detail crops.",
           "overlay": "People may tap, sway, predict—or choose not to move.",
-          "caption": "People may tap, sway, predict—or choose not to move. Videos of fashion shows category",
-          "credit": "Original evidence graphic · RN Collins · source: Wikimedia Commons contributors · Wikimedia Commons",
-          "alt": "Evidence diagram explaining people may tap, sway, predict—or choose not to move.; source named on slide.",
-          "boundary": "Do not imply this object proves a neural mechanism."
+          "caption": "People may tap, sway, predict—or choose not to move. A sound-producing object can organize a sequence while leaving perception and meaning to the situated listener.",
+          "credit": "Music Box, ca. 1820 · The Metropolitan Museum of Art · 1976.285.11 · CC0",
+          "alt": "A compact nineteenth-century music box and its mechanical components displayed on a neutral ground.",
+          "boundary": "The photograph documents a material object or scene; it does not measure a neural mechanism or universal response."
         },
         {
           "frame": 5,
@@ -4033,15 +4613,15 @@
         {
           "frame": 6,
           "beat": "Lab tapping and clinical gait studies are adjacent evidence, not proof of a Fashion Week mechanism.",
-          "assetId": "R06",
+          "assetId": "R91",
           "visualMode": "evidence-graphic",
           "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
           "crop": "4:5 purpose-built evidence diagram with source identity and claim boundary",
           "overlay": "Lab tapping and clinical gait studies are adjacent evidence, not proof of a Fashion Week mechanism.",
-          "caption": "Lab tapping and clinical gait studies are adjacent evidence, not proof of a Fashion Week mechanism. The Action Simulation for Auditory Prediction hypothesis",
-          "credit": "Original evidence graphic · RN Collins · source: Patel; Iversen · PubMed Central",
+          "caption": "Lab tapping and clinical gait studies are adjacent evidence, not proof of a Fashion Week mechanism. Study comparing affective responses to live and recorded music",
+          "credit": "Original evidence graphic · RN Collins · source: Trost et al. · PNAS",
           "alt": "Evidence diagram explaining lab tapping and clinical gait studies are adjacent evidence, not proof of a fashion week mechanism.; source named on slide.",
-          "boundary": "Source identity only; protected media is not reproduced."
+          "boundary": "Do not imply this object proves a neural mechanism."
         },
         {
           "frame": 7,
@@ -4174,13 +4754,13 @@
         {
           "pin": 5,
           "title": "Listening map",
-          "assetId": "MET-505646",
+          "assetId": "S-MET-505644",
           "visualMode": "cleared-real-image",
           "visualRationale": "The cleared object is an effective discovery image for this claim.",
           "format": "1000×1500 standard pin",
           "description": "Listening map: an evidence-bounded visual guide from The Listening Room.",
-          "alt": "A small rectangular early nineteenth-century music box with exposed metal mechanism.",
-          "credit": "Music Box, Maker unknown, ca. 1810. The Metropolitan Museum of Art, Musical Instruments. 1976.285.5. CC0.",
+          "alt": "A mechanical music box photographed against a neutral museum background.",
+          "credit": "Music Box, ca. 1820 · The Metropolitan Museum of Art · 1976.285.3a–c · CC0",
           "destination": "/exhibitions/runway-soundtracks/"
         }
       ],
@@ -4195,9 +4775,9 @@
         {
           "time": "01:30",
           "chapter": "Pulse predicts time",
-          "assetId": "MET-505646",
+          "assetId": "S-MET-505644",
           "treatment": "Evidence split-screen with source citation",
-          "credit": "Music Box, Maker unknown, ca. 1810. The Metropolitan Museum of Art, Musical Instruments. 1976.285.5. CC0."
+          "credit": "Music Box, ca. 1820 · The Metropolitan Museum of Art · 1976.285.3a–c · CC0"
         },
         {
           "time": "03:00",
@@ -4252,9 +4832,9 @@
           },
           {
             "position": "after first evidence section",
-            "assetId": "MET-505646",
-            "caption": "stored sequence, repetition and memory",
-            "credit": "Music Box, Maker unknown, ca. 1810. The Metropolitan Museum of Art, Musical Instruments. 1976.285.5. CC0."
+            "assetId": "S-MET-505644",
+            "caption": "A physical timing mechanism makes musical sequence possible without determining a listener's response.",
+            "credit": "Music Box, ca. 1820 · The Metropolitan Museum of Art · 1976.285.3a–c · CC0"
           },
           {
             "position": "before boundary",
@@ -4284,28 +4864,60 @@
           "source": "https://images.metmuseum.org/CRDImages/mi/original/215848.jpg",
           "canonical": "https://www.metmuseum.org/art/collection/search/503169",
           "credit": "Metronome, Johann Nepomuk Maelzel, ca. 1821. The Metropolitan Museum of Art, Musical Instruments. 1979.1.2. CC0.",
-          "rights": "CC0"
+          "rights": "CC0",
+          "sourceWidth": 2489,
+          "sourceHeight": 4000,
+          "cropSuitability": "Tall metronome master suited to full-object and mechanism-detail 4:5 crops."
         },
         {
           "assetId": "MET-310563",
           "source": "https://images.metmuseum.org/CRDImages/ao/original/DT1271.jpg",
           "canonical": "https://www.metmuseum.org/art/collection/search/310563",
           "credit": "Drum, Nasca artist(s), 100–400 CE. The Metropolitan Museum of Art. 1978.412.111. CC0.",
-          "rights": "CC0"
+          "rights": "CC0",
+          "sourceWidth": 2978,
+          "sourceHeight": 3722,
+          "cropSuitability": "Portrait instrument master with sufficient negative space for editorial text."
         },
         {
-          "assetId": "MET-505646",
-          "source": "https://images.metmuseum.org/CRDImages/mi/original/210883.jpg",
-          "canonical": "https://www.metmuseum.org/art/collection/search/505646",
-          "credit": "Music Box, Maker unknown, ca. 1810. The Metropolitan Museum of Art, Musical Instruments. 1976.285.5. CC0.",
-          "rights": "CC0"
+          "assetId": "S-MET-505644",
+          "source": "https://images.metmuseum.org/CRDImages/mi/original/DP170002.jpg",
+          "canonical": "https://www.metmuseum.org/art/collection/search/505644",
+          "credit": "Music Box, ca. 1820 · The Metropolitan Museum of Art · 1976.285.3a–c · CC0",
+          "rights": "CC0",
+          "sourceWidth": 3000,
+          "sourceHeight": 4000,
+          "cropSuitability": "Portrait museum master with the full mechanism visible in 4:5."
         },
         {
-          "assetId": "R79",
-          "source": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Runway%20at%20Fashion%20Show%20Mall%20(2010).jpg",
-          "canonical": "https://commons.wikimedia.org/wiki/File:Runway_at_Fashion_Show_Mall_(2010).jpg",
-          "credit": "Jenny Mealing · Wikimedia Commons",
-          "rights": "CC BY"
+          "assetId": "S-MET-505642",
+          "source": "https://images.metmuseum.org/CRDImages/mi/original/DP169433.jpg",
+          "canonical": "https://www.metmuseum.org/art/collection/search/505642",
+          "credit": "Music Box, ca. 1810 · The Metropolitan Museum of Art · 1976.285.1a, b · CC0",
+          "rights": "CC0",
+          "sourceWidth": 3000,
+          "sourceHeight": 4000,
+          "cropSuitability": "Portrait museum master with clean margins and mechanical details suitable for 4:5."
+        },
+        {
+          "assetId": "S-MET-505652",
+          "source": "https://images.metmuseum.org/CRDImages/mi/original/DP170006.jpg",
+          "canonical": "https://www.metmuseum.org/art/collection/search/505652",
+          "credit": "Music Box, ca. 1820 · The Metropolitan Museum of Art · 1976.285.11 · CC0",
+          "rights": "CC0",
+          "sourceWidth": 4000,
+          "sourceHeight": 3000,
+          "cropSuitability": "Large landscape museum master with several clear 4:5 detail crops."
+        },
+        {
+          "assetId": "S-MET-505648",
+          "source": "https://images.metmuseum.org/CRDImages/mi/original/DP169438.jpg",
+          "canonical": "https://www.metmuseum.org/art/collection/search/505648",
+          "credit": "Music Box, early 19th century · The Metropolitan Museum of Art · 1976.285.7 · CC0",
+          "rights": "CC0",
+          "sourceWidth": 3000,
+          "sourceHeight": 4000,
+          "cropSuitability": "Portrait museum master with mechanism and case both preserved in 4:5."
         }
       ]
     },
@@ -4347,7 +4959,10 @@
           "licenseUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
           "credit": "Military uniform, Maker unknown, 1880–84. The Metropolitan Museum of Art, Costume Institute. C.I.47.76.1a, b. CC0.",
           "alt": "Dark nineteenth-century American military coat and light trousers displayed frontally on an invisible mannequin.",
-          "caption": "rank, occupation and authority made legible through silhouette and insignia"
+          "caption": "rank, occupation and authority made legible through silhouette and insignia",
+          "sourceWidth": 1162,
+          "sourceHeight": 3021,
+          "cropSuitability": "Tall uniform master; the full garment remains legible in a restrained 4:5 crop."
         },
         {
           "id": "MET-84449",
@@ -4363,7 +4978,10 @@
           "licenseUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
           "credit": "Uniform, Maker unknown, late 19th century. The Metropolitan Museum of Art, Costume Institute. 1979.152.54a–h. CC0.",
           "alt": "Dark nineteenth-century American uniform coat shown with white waistcoat, shirt, blue sash and peaked hat.",
-          "caption": "a coordinated system of coat, waistcoat, shirt, hat and insignia"
+          "caption": "a coordinated system of coat, waistcoat, shirt, hat and insignia",
+          "sourceWidth": 1168,
+          "sourceHeight": 2976,
+          "cropSuitability": "Tall uniform master with sufficient width for a full-object 4:5 crop without enlargement."
         },
         {
           "id": "MET-151912",
@@ -4379,7 +4997,10 @@
           "licenseUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
           "credit": "Ensemble, Maker unknown, 1863–66. The Metropolitan Museum of Art, Costume Institute. 2009.20a–j. CC0.",
           "alt": "American Civil War-era ensemble with short dark blue jacket, red trousers, sash and red fez displayed frontally.",
-          "caption": "military form circulating into civilian fashion and historical memory"
+          "caption": "military form circulating into civilian fashion and historical memory",
+          "sourceWidth": 2749,
+          "sourceHeight": 4000,
+          "cropSuitability": "Portrait ensemble master with sufficient room for full-object and detail crops."
         },
         {
           "id": "R07",
@@ -4556,6 +5177,54 @@
           "credit": "Europeana contributors · Europeana",
           "alt": "",
           "caption": "Poplin collection topic"
+        },
+        {
+          "id": "R92",
+          "type": "open-access review and conceptual model",
+          "title": "Dress is a Fundamental Component of Person Perception",
+          "creator": "Hester and Hehman",
+          "date": "2023",
+          "institution": "Personality and Social Psychology Review / PubMed Central",
+          "rights": "link-only",
+          "disposition": "resource-room",
+          "canonicalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10559650/",
+          "mediaUrl": null,
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "credit": "Hester and Hehman",
+          "alt": "",
+          "caption": "Review and working model of dress in person perception"
+        },
+        {
+          "id": "R97",
+          "type": "open-access longitudinal policy study",
+          "title": "School Uniforms and Student Behavior: Is There a Link?",
+          "creator": "Arya Ansari, Michael Shepard and Michael A. Gottfried",
+          "date": "2022",
+          "institution": "Early Childhood Research Quarterly / PubMed Central",
+          "rights": "link-only",
+          "disposition": "resource-room",
+          "canonicalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8775910/",
+          "mediaUrl": null,
+          "licenseUrl": null,
+          "credit": "Ansari, Shepard and Gottfried · Early Childhood Research Quarterly",
+          "alt": "",
+          "caption": "Nationally representative US data comparing elementary-school outcomes with and without uniform policies"
+        },
+        {
+          "id": "R98",
+          "type": "open-access systematic review",
+          "title": "Patient perception of physician attire: a systematic review update",
+          "creator": "Jiwon Kim et al.",
+          "date": "2025",
+          "institution": "BMJ Open / PubMed Central",
+          "rights": "CC BY-NC",
+          "disposition": "resource-room",
+          "canonicalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12352141/",
+          "mediaUrl": null,
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+          "credit": "Kim et al. · BMJ Open · CC BY-NC 4.0",
+          "alt": "",
+          "caption": "Systematic review of 28 studies on patient perceptions of physician attire across settings and specialties"
         }
       ],
       "carouselA": [

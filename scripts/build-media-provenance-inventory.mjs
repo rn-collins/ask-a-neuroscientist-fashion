@@ -13,6 +13,12 @@ const files=[];
 function walk(dir){for(const ent of fs.readdirSync(dir,{withFileTypes:true})){const p=path.join(dir,ent.name);if(ent.isDirectory())walk(p);else if(mediaExt.test(ent.name))files.push(p)}}
 walk('media');walk('production-kits');
 const exportRecords=new Map();
+const platformAssets=new Map();
+const platformManifest=JSON.parse(fs.readFileSync('production/platform-asset-kits.json','utf8'));
+for(const pkg of platformManifest.packages)for(const asset of pkg.assets){
+  const filename=`${asset.id.replace(/[^a-z0-9-]/gi,'-').toLowerCase()}.jpg`;
+  platformAssets.set(`${pkg.id.toLowerCase()}/${filename}`,asset);
+}
 for(const dir of fs.readdirSync('production-kits').filter(x=>/^aan-f-\d+$/.test(x))){
   const file=`production-kits/${dir}/exports.json`;
   if(!fs.existsSync(file))continue;
@@ -24,6 +30,7 @@ for(const file of files.sort()){
   const bytes=fs.readFileSync(file),sha256=crypto.createHash('sha256').update(bytes).digest('hex');
   const base={file:`/${file}`,sha256,bytes:bytes.length};
   const met=file.match(/\/media\/met-(\d+)\.jpg$/);
+  const platformMedia=file.match(/^production-kits\/(aan-f-\d+)\/media\/([^/]+)$/i);
   const cand=file.match(/\/media\/(r\d+)\.jpg$/i);
   if(met){
     const o=objects.get(met[1]);if(!o)throw Error(`${file}: missing Met object record`);
@@ -32,6 +39,9 @@ for(const file of files.sort()){
     const c=candidates.get(cand[1].toUpperCase());if(!c)throw Error(`${file}: missing excavation candidate`);
     if(!['installed-media'].includes(c.disposition)||!allowedRights.test(c.rightsStatus))throw Error(`${file}: candidate is not cleared installed media`);
     out.push({...base,assetClass:'documentary-source-image',sourceAssetId:c.id,title:c.title,creator:c.creator,date:c.date,institution:c.institution,canonicalUrl:c.canonicalUrl,mediaUrl:c.mediaUrl,rightsStatus:c.rightsStatus,licenseUrl:c.licenseUrl,credit:c.credit,alt:c.alt,relevance:c.relevance,nonAiBasis:'The exact Wikimedia work page identifies the creator/date and license for a documentary or historical image uploaded before the current generative-image era; the local file is a source download from that work-level media endpoint.',transformation:'Unmodified source download; display crops occur in CSS or deterministic platform rendering.'});
+  }else if(platformMedia&&platformAssets.has(`${platformMedia[1].toLowerCase()}/${platformMedia[2].toLowerCase()}`)){
+    const asset=platformAssets.get(`${platformMedia[1].toLowerCase()}/${platformMedia[2].toLowerCase()}`);
+    out.push({...base,assetClass:'documentary-source-image',sourceAssetId:asset.id,title:asset.title,creator:asset.creator,date:asset.date,institution:asset.institution,canonicalUrl:asset.canonicalUrl,mediaUrl:asset.mediaUrl,rightsStatus:asset.rights,licenseUrl:asset.licenseUrl,credit:asset.credit,alt:asset.alt,relevance:asset.caption,nonAiBasis:'The canonical institutional collection record identifies a catalogued historical object and its reusable rights status; the local file is a source download, not a generated image.',transformation:'Source download reduced only when needed for efficient delivery; display crops occur in deterministic platform rendering.'});
   }else if(file==='media/p005-field-load-score.svg'){
     out.push({...base,assetClass:'original-evidence-graphic',sourceAssetId:'AAN-P005-FIELD-LOAD',title:'Field Load Score explainer',creator:'Rayven-Nikkita Collins',date:'2026-09-08',institution:'Ask a Neuroscientist × Fashion',canonicalUrl:'https://ask-a-neuroscientist-fashion.vercel.app/exhibitions/fashion-week-nervous-system/',mediaUrl:'/media/p005-field-load-score.svg',rightsStatus:'Original publication asset',licenseUrl:null,credit:'Original evidence graphic · Rayven-Nikkita Collins',alt:'A transparent four-part evidence graphic separating sleep pressure, sensory load, social evaluation and physical demand.',relevance:'Explains the package’s four-part field-load model without pretending a photograph can visualize an unmeasured nervous-system state.',nonAiBasis:'Hand-authored repository SVG made from text and geometric primitives; its inspectable XML contains no embedded raster image or generative-model artifact.',transformation:'Original vector evidence design; not documentary photography.'});
   }else{

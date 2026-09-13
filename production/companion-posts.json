@@ -1,0 +1,188 @@
+{
+  "version": "1.0",
+  "updated": "2026-09-13",
+  "packages": [
+    {
+      "id": "AAN-F-001",
+      "title": "Clothes and Cognition",
+      "carousels": [
+        {
+          "id": "carousel-a",
+          "label": "Can clothes change cognition?",
+          "hook": "Can clothes change cognition? Yes is the tempting answer. The evidence asks for a much smaller sentence.",
+          "context": "The phrase “enclothed cognition” came from a 2012 lab-coat experiment. Participants wearing a coat described as a doctor’s coat made fewer errors on one attention task than comparison groups.",
+          "story": "That result became a much bigger cultural promise: dress for the person you want to become and your brain will follow. But the experiment measured a narrow task, not intelligence, creativity, confidence or permanent “rewiring.” Its own theory depended on both wearing the garment and the meaning attached to it. Then a preregistered direct replication did not recover the key effect. Clothing still changes pressure, posture, movement, temperature and the way other people respond to us. What it does not give us is a universal cognitive upgrade.",
+          "seriesRelevance": "This is exactly why Ask a Neuroscientist exists: to keep a genuinely interesting question while making the mechanism fit the measure.",
+          "ending": "The useful question is not “Do clothes change the brain?” It is “What changed here: the body, the task, the meaning, the room—or some combination?”",
+          "cta": "Save the carousel for the next time “dress for success” is presented as neuroscience, then open the next carousel for the replication people usually leave out."
+        },
+        {
+          "id": "carousel-b",
+          "label": "The replication people omit",
+          "hook": "The most famous study about clothes changing cognition came with a sequel most people never mention.",
+          "context": "In 2019, Devin Burns, Elizabeth Fox, Michael Greenstein, Gayla Olbricht and DeMaris Montgomery preregistered a direct replication of the lab-coat experiment.",
+          "story": "They repeated the critical design and did not recover the original Stroop effect. That null result does not prove clothing never matters. It tells us something more disciplined: the viral sentence is stronger than the repeatable evidence. A garment can alter sensory input, restrict or enable movement, cue a role and change how other people read its wearer. Those are several pathways, not one magic switch. “Disputed” or “qualified” is therefore more accurate than either “proven” or “debunked.”",
+          "seriesRelevance": "Ask a Neuroscientist is not here to flatten a complicated finding into a gotcha. It is here to show where the claim ends and the better questions begin.",
+          "ending": "Replication did not make clothing uninteresting. It made the story more honest.",
+          "cta": "Share this with someone who has heard the lab-coat claim, and keep the source slide with the post so the missing half of the story travels too."
+        }
+      ]
+    },
+    {
+      "id": "AAN-F-002",
+      "title": "Outfit as Armor",
+      "carousels": [
+        {
+          "id": "carousel-a",
+          "label": "Why can an outfit feel like armor?",
+          "hook": "Sometimes an outfit does not feel decorative. It feels like the thing that lets you enter the room.",
+          "context": "“Armor” is a real description of experience, but it is not a single brain mechanism.",
+          "story": "The feeling can be assembled through several pathways at once. Pressure, weight, temperature and movement change the body’s sensory conditions. A familiar silhouette can cue a role, memory or intention. Other people read dress and may respond differently, changing the social conditions around the wearer. Repeating the outfit before difficult work can also become a transition ritual. Protection can still carry a cost: pain, restriction, masking or unwanted visibility. That is why no garment deserves automatic credit for confidence and no wearer should have to tolerate harm to look “powerful.”",
+          "seriesRelevance": "In Ask a Neuroscientist, lived language is the beginning of the question—not evidence of a universal circuit.",
+          "ending": "The outfit may be armor. The science belongs in the seams: body, meaning, room, ritual and cost.",
+          "cta": "Save this framework and use the Armor Pathway Mapper after three real occasions. Compare what changed instead of forcing one explanation."
+        },
+        {
+          "id": "carousel-b",
+          "label": "What does a powerful outfit prove?",
+          "hook": "Your outfit felt powerful. That experience is real. It still does not prove the first explanation that comes to mind.",
+          "context": "A feeling, a social response and a performance outcome are three different observations.",
+          "story": "Clothing changes ongoing tactile, thermal and movement-related input, so “my body felt different” can be a plausible sensory observation. Dress also contributes to person perception, so “the room treated me differently” may describe a social pathway. A repeated getting-ready ritual may help mark a shift into action. None of those observations identifies a confidence circuit, proves competence changed or shows that the garment caused better performance. Bias, setting, memory and selection can all shape the result.",
+          "seriesRelevance": "This is the work of Ask a Neuroscientist: preserve the experience, separate the pathways and refuse the claim the evidence cannot carry.",
+          "ending": "A better explanation does not make the outfit less powerful. It shows where the power may actually live.",
+          "cta": "Try the questions on the final slide across several occasions, then comment with the pathway you would test first: body, meaning, room or ritual."
+        }
+      ]
+    },
+    {
+      "id": "AAN-F-003",
+      "title": "The Sensory Textile Room",
+      "carousels": [
+        {
+          "id": "carousel-a",
+          "label": "Your skin does not read the fiber label",
+          "hook": "Your skin does not read the fiber label.",
+          "context": "It encounters pressure, vibration, stretch, temperature, friction and chemical signals—through a garment built from far more than its listed fiber.",
+          "story": "Fiber becomes yarn. Yarn becomes weave or knit. Construction adds seams, labels, closures, tension and layers. Then heat, moisture, movement, duration, body site and expectation change the encounter again. A 2024 laboratory study found that measured tactile sensitivity affected how participants rated textile samples. But participants touched samples by hand; they did not wear a seam at the neck for eight hours. The result supports individual difference, not a promise that silk will soothe or wool will irritate everyone. “Natural,” “soft” and “sensory-friendly” are not standardized comfort guarantees.",
+          "seriesRelevance": "Ask a Neuroscientist turns the vague claim “my nervous system hates this fabric” into variables a wearer or designer can actually observe.",
+          "ending": "Comfort is not stored in a fiber. It emerges in the encounter among textile, garment, body and day.",
+          "cta": "Save the carousel before your next fitting and send it to a designer who wants a more useful sensory-inclusion brief."
+        },
+        {
+          "id": "carousel-b",
+          "label": "This garment. This body. This day.",
+          "hook": "“I cannot wear wool” may be true—and still be too broad to tell you what to change.",
+          "context": "A usable sensory record starts with the exact garment and the exact contact, not a material category alone.",
+          "story": "Name the piece. Locate the contact: neck, waist, forearm, foot or whole body. Observe surface, pressure, heat, moisture, movement and repetition. Add the situation: quiet or crowded, resting or exercising, five minutes or a full workday. Then choose descriptive words—settling, neutral, distracting, itchy, painful, entrapping—instead of turning one encounter into a verdict about every garment or every nervous system. Test one safe change at a time. Never force exposure to pain, allergy or harm.",
+          "seriesRelevance": "This is Ask a Neuroscientist as a field practice: specific observation without diagnosis by infographic.",
+          "ending": "The point is not to talk yourself out of discomfort. It is to describe it precisely enough to design around it.",
+          "cta": "Open the private Sensory Textile Field Map, record one garment, and save this carousel for the next comparison."
+        }
+      ]
+    },
+    {
+      "id": "AAN-F-004",
+      "title": "The Memory Wardrobe",
+      "carousels": [
+        {
+          "id": "carousel-a",
+          "label": "The garment is not the memory",
+          "hook": "The garment is not the memory. It can be the door.",
+          "context": "Clothes gather visual, tactile, movement, smell and social cues. When part of that pattern returns, it can help bring an autobiographical moment within reach.",
+          "story": "Memory is cue-dependent, but it is reconstructive—not a recording played back from storage. A jacket can reopen the scene of who wore it, where you went or how your body moved inside it. Emotion can make that recollection vivid without guaranteeing every detail is accurate. The object also has a documented history that may not match the remembered one. Both matter, but they answer different questions.",
+          "seriesRelevance": "Ask a Neuroscientist keeps the poetry of a memory wardrobe while distinguishing retrieval cues, remembered experience and corroborated record.",
+          "ending": "A dress can carry evidence of a life without literally containing the past.",
+          "cta": "Choose one garment, map the sensory cues it brings back, and save the final slide before you compare memory with photographs, dates or another person’s account."
+        },
+        {
+          "id": "carousel-b",
+          "label": "Not every retro feeling is your memory",
+          "hook": "You can feel nostalgic for an era you never lived.",
+          "context": "That does not make the feeling fake. It means “nostalgia” may be covering several different relationships to the past.",
+          "story": "Autobiographical nostalgia concerns events you personally experienced. Collective nostalgia draws on a group story about a shared past. Historical knowledge can make a period legible through its objects and silhouettes. Retro marketing then uses familiar codes to capture attention or desire. A Y2K look on someone born in 2010 may involve learning, aspiration, community, play or commerce—not a recovered personal memory. One outfit can activate several of these at once, but evidence for one cannot prove another.",
+          "seriesRelevance": "Ask a Neuroscientist is interested in the category error: when a powerful feeling is treated as proof of a specific memory mechanism.",
+          "ending": "The sharper question is not “Is this nostalgia real?” It is “Whose past is present here—and how did I learn it?”",
+          "cta": "Share this with your most historically obsessed friend, then use the final three questions on the next revival that finds you."
+        }
+      ]
+    },
+    {
+      "id": "AAN-F-005",
+      "title": "The Fashion Week Nervous System",
+      "carousels": [
+        {
+          "id": "carousel-a",
+          "label": "Fashion Week is not one stimulus",
+          "hook": "The invitation says one event. Your nervous system gets six.",
+          "context": "Fashion Week is usually documented as spectacle. The body encounters a stack: time, light, sound, crowd, attention, evaluation and movement.",
+          "story": "Early calls and late edits can reduce sleep opportunity. Light matters through timing, spectrum, intensity and duration—not how bright a photograph looks. Sound may affect arousal or interfere with a task, while density, speed, predictability and control shape a crowd encounter. Garments, faces, cameras and navigation compete for attention. Being evaluated can raise stress in laboratory protocols, but a real show is not that protocol. Standing, walking and carrying also accumulate differently for a guest, model, dresser, photographer or producer.",
+          "seriesRelevance": "Ask a Neuroscientist treats the event as conditions and roles, not as a mythical “Fashion Week brain.”",
+          "ending": "Fashion Week can be meaningful, pleasurable, exhausting—or all three. The nervous system responds to conditions, not the logo on the invitation.",
+          "cta": "Save the exposure stack for your next event day, then watch the sensory-textile story because the room is only part of the encounter; the garment is touching you too."
+        },
+        {
+          "id": "carousel-b",
+          "label": "Before a Fashion Week brain claim",
+          "hook": "Before a study becomes a Fashion Week brain claim, check whether anything in the study actually matches the room.",
+          "context": "Transfer requires more than finding research about sleep, light, sound, crowds or stress.",
+          "story": "Ask who was studied: workers, volunteers or pedestrians are not a single population called “Fashion Week people.” Ask whether exposure was measured: spectrum, sound level, hours awake and crowd density cannot be inferred from event imagery. Name the outcome: vigilance, cortisol, discomfort or a rating is not “the entire nervous system.” Check control: could people leave, pause, predict or choose? Then name the role, because the guest and the dresser inhabit different events. This is why “may contribute” often fits where “causes overload” does not.",
+          "seriesRelevance": "Ask a Neuroscientist shows how to move from adjacent research to a claim that does not pretend the real event was the experiment.",
+          "ending": "Keep the experience. Narrow the mechanism. A person does not need to become a clinical case study for their exhaustion to count.",
+          "cta": "Use this fitting before your next event recap, and share it with the person on your team who writes wellness claims."
+        }
+      ]
+    },
+    {
+      "id": "AAN-F-006",
+      "title": "The Listening Room",
+      "carousels": [
+        {
+          "id": "carousel-a",
+          "label": "The clothes arrive inside a sound world",
+          "hook": "Mute a runway. What disappeared if the clothes are still there?",
+          "context": "The clothes never arrive alone. They enter a sound world made from music, steps, voices, room noise and the listener’s own history.",
+          "story": "The auditory system groups that scene. A pulse offers a forecast for the next moment; repetition and surprise shape expectation and attention. Rhythm may invite movement or temporal alignment without commanding either. Sound also changes the frame around an image and can cue personal memories that no designer placed in the room. That helps explain why the same walk can feel severe, tender, urgent or euphoric under different tracks without requiring a universal soundtrack formula.",
+          "seriesRelevance": "Ask a Neuroscientist separates a powerful audiovisual experience from the claim that music takes control of a brain.",
+          "ending": "A runway soundtrack is not decoration. It is infrastructure for time, attention, movement and memory.",
+          "cta": "Watch one runway once with sound and once muted. Save the carousel, then write down what changed before reading anyone else’s interpretation."
+        },
+        {
+          "id": "carousel-b",
+          "label": "A beat does not take over a brain",
+          "hook": "Neuroscience uses a word that sounds far more sinister than it is: entrainment.",
+          "context": "In music research, entrainment describes alignment with temporal structure. It does not mean a beat has seized control of a person.",
+          "story": "Beat perception draws on distributed auditory and motor systems. A listener may tap, sway, predict the next moment—or choose not to move. A model is also negotiating shoes, garments, choreography, floor conditions and rehearsal. Laboratory tapping tasks and clinical gait research can illuminate neighboring mechanisms, but they do not prove what happened in a particular show. Language matters here: rhythm may invite, support or cue movement. “Controls” erases both the evidence boundary and the person.",
+          "seriesRelevance": "Ask a Neuroscientist takes the dramatic brain word apart and returns agency to the actual scene.",
+          "ending": "The beat can organize time without owning the body moving through it.",
+          "cta": "Share this the next time “brain hacking” appears in a music headline, then open the Sound Map to compare one situated listen."
+        }
+      ]
+    },
+    {
+      "id": "AAN-F-007",
+      "title": "The Role Room",
+      "carousels": [
+        {
+          "id": "carousel-a",
+          "label": "A uniform is read before its wearer speaks",
+          "hook": "A uniform is read before its wearer speaks.",
+          "context": "Color, cut, insignia, equipment and repetition make a role visible. The observer’s next move is often inference.",
+          "story": "We may infer status, competence, safety, threat or belonging from a uniform. But visible cues are not verified credentials, conduct, policy or relationship. Personal encounters, media, community memory and culture also shape what the uniform means before any present interaction occurs. That gap matters because a signal can organize attention without revealing a person’s character or intentions. Institutions give uniforms authority, assign who may wear them and enforce the consequences of getting the signal wrong.",
+          "seriesRelevance": "Ask a Neuroscientist separates what entered the eyes from what the mind supplied—and what the record can actually verify.",
+          "ending": "The uniform may be immediately legible. The person inside it is not.",
+          "cta": "Save the visible/inferred/known/history framework and use the private Uniform Encounter Map before turning one signal into a verdict."
+        },
+        {
+          "id": "carousel-b",
+          "label": "Do uniforms change behavior?",
+          "hook": "Do uniforms change behavior? The honest answer needs a fitting.",
+          "context": "Different studies test different garments, people, tasks and institutions. They cannot be stacked into one universal “uniform effect.”",
+          "story": "A broad review supports dress as part of person perception, not mind-reading. One experiment found a status-attention bias among students wearing police-style clothing; it did not study police conduct. Another shifted a moral-choice task using military and Red Cross clothing; it did not measure real service. An fMRI task using uniform self-images engaged distributed networks, not a “uniform center.” A hospital case study showed how a uniform change rearranged professional boundaries in one institution, not every workplace. The evidence supports role salience and social signaling under specific conditions.",
+          "seriesRelevance": "Ask a Neuroscientist refuses to turn an interesting collection of narrow studies into a fixed psychology sewn into cloth.",
+          "ending": "Uniforms can organize perception and institutions. They do not contain obedience, competence, aggression or belonging.",
+          "cta": "Keep the final claim with the study-by-study carousel, and share it with anyone designing a uniform policy rather than merely styling one."
+        }
+      ]
+    }
+  ]
+}

@@ -23,6 +23,7 @@ const kits=JSON.parse(fs.readFileSync("production/platform-asset-kits.json","utf
 if(kits.packages.length!==7)throw Error("asset kit package coverage");
 const known=new Set([...d.candidates.map(c=>c.id)]);
 const source=fs.readFileSync("data.js","utf8");for(const id of [...source.matchAll(/\{id:(\d+),title:/g)].map(x=>"MET-"+x[1]))known.add(id);
+for(const kit of kits.packages)for(const asset of kit.assets)known.add(asset.id);
 const sequences=new Set();
 for(const k of kits.packages){
  if(k.carouselA.length<7||k.carouselB.length<7||k.broll.length!==7||k.pinterest.length!==5||k.youtube.length!==8)throw Error(k.id+" incomplete platform outputs");

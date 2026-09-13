@@ -21,7 +21,7 @@ const exhibitionImages = {
   "/exhibitions/outfit-as-armor/": "https://images.metmuseum.org/CRDImages/aa/original/DP256970.jpg",
   "/exhibitions/fabric-sensory-world/": "https://images.metmuseum.org/CRDImages/ci/original/DT5639.jpg",
   "/exhibitions/fashion-nostalgia/": "https://images.metmuseum.org/CRDImages/ci/original/1980.409.1a-c.jpg",
-  "/exhibitions/fashion-week-nervous-system/": `${ORIGIN}/production-kits/aan-f-005/media/r74.jpg`,
+  "/exhibitions/fashion-week-nervous-system/": `${ORIGIN}/production-kits/aan-f-005/exports/youtube/thumbnail-1.png`,
   "/exhibitions/runway-soundtracks/": "https://images.metmuseum.org/CRDImages/mi/original/215848.jpg",
   "/exhibitions/uniforms-and-social-perception/": HOME_IMAGE,
 };
@@ -78,6 +78,9 @@ for (const file of files) {
     /<meta[^>]+property=["']og:(?:title|description|type|url|image|image:alt)["'][^>]*>/gi,
     /<meta[^>]+name=["']twitter:(?:card|title|description|image|image:alt)["'][^>]*>/gi,
   ]) html = remove(html, pattern);
+  html = html.replace(/<head>[\s\S]*?<\/head>/i, (head) =>
+    head.replace(/(?:\r?\n[ \t]*){3,}/g, "\n\n"),
+  );
 
   const metadata = [
     `<meta name="description" content="${escapeAttribute(description)}">`,

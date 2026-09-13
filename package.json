@@ -2,6 +2,7 @@
   "name": "ask-a-neuroscientist-fashion",
   "private": true,
   "scripts": {
+    "build": "node scripts/build-platform-asset-kits.mjs && node scripts/render-platform-assets.mjs && node scripts/build-download-bundles.mjs && npm test",
     "build:visual-matrix": "node scripts/build-visual-assignment-matrix.mjs",
     "build:social-previews": "node scripts/install-social-previews.mjs",
     "build:metadata": "node scripts/install-static-metadata.mjs",

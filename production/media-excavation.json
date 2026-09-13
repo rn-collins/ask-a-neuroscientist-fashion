@@ -3262,7 +3262,9 @@
     },
     {
       "id": "R86",
-      "packages": ["AAN-F-001"],
+      "packages": [
+        "AAN-F-001"
+      ],
       "title": "The psychology of fashion, with Carolyn Mair, PhD",
       "creator": "American Psychological Association",
       "date": "2024",
@@ -3280,12 +3282,17 @@
       "reason": "Official APA-hosted video is directly relevant, but embed availability and third-party audiovisual rights require a live player check before installation.",
       "accessed": "2026-09-10",
       "wave": 4,
-      "destinations": ["AAN-F-001: reserve shelf — expert context"],
+      "destinations": [
+        "AAN-F-001: reserve shelf",
+        " AAN-F-001: platform asset kit where editorially distinct"
+      ],
       "exclusionReason": null
     },
     {
       "id": "R87",
-      "packages": ["AAN-F-002"],
+      "packages": [
+        "AAN-F-002"
+      ],
       "title": "Styling the Self: Clothing Practices, Personality Traits, and Body Image Among Israeli Women",
       "creator": "Stolovy et al.",
       "date": "2021",
@@ -3303,12 +3310,17 @@
       "reason": "The article is additive reading; its figures are not visually or evidentially superior to the installed exhibition sequence.",
       "accessed": "2026-09-10",
       "wave": 4,
-      "destinations": ["AAN-F-002: resources room"],
+      "destinations": [
+        "AAN-F-002: resources room",
+        "AAN-F-002: platform asset kit as source card only"
+      ],
       "exclusionReason": null
     },
     {
       "id": "R88",
-      "packages": ["AAN-F-003"],
+      "packages": [
+        "AAN-F-003"
+      ],
       "title": "Clothes, Sensory Experiences and Autism: Is Wearing the Right Fabric Important?",
       "creator": "Kyriacou et al.",
       "date": "2021",
@@ -3326,12 +3338,17 @@
       "reason": "The study is already represented in the package bibliography; this exact accessible record improves reader access but provides no superior reusable visual.",
       "accessed": "2026-09-10",
       "wave": 4,
-      "destinations": ["AAN-F-003: resources room — exact accessible record"],
+      "destinations": [
+        "AAN-F-003: resources room",
+        "AAN-F-003: platform asset kit as source card only"
+      ],
       "exclusionReason": null
     },
     {
       "id": "R89",
-      "packages": ["AAN-F-004"],
+      "packages": [
+        "AAN-F-004"
+      ],
       "title": "Patterns of brain activity associated with nostalgia",
       "creator": "Yang et al.",
       "date": "2022",
@@ -3349,12 +3366,17 @@
       "reason": "Exact full-text record adds scientific depth; no figure was installed because the article's neural summaries would overstate specificity when used as fashion imagery.",
       "accessed": "2026-09-10",
       "wave": 4,
-      "destinations": ["AAN-F-004: resources room — neuroscience boundary"],
+      "destinations": [
+        "AAN-F-004: resources room",
+        "AAN-F-004: platform asset kit as source card only"
+      ],
       "exclusionReason": null
     },
     {
       "id": "R90",
-      "packages": ["AAN-F-005"],
+      "packages": [
+        "AAN-F-005"
+      ],
       "title": "Audience synchronies in live concerts illustrate the embodiment of music experience",
       "creator": "Tschacher et al.",
       "date": "2023",
@@ -3372,12 +3394,17 @@
       "reason": "Useful transfer-limited evidence, but installation as a Fashion Week visual would imply unsupported event-specific measurement.",
       "accessed": "2026-09-10",
       "wave": 4,
-      "destinations": ["AAN-F-005: resources room — transfer-limited analogue"],
+      "destinations": [
+        "AAN-F-005: resources room",
+        "AAN-F-005: platform asset kit as source card only"
+      ],
       "exclusionReason": null
     },
     {
       "id": "R91",
-      "packages": ["AAN-F-006"],
+      "packages": [
+        "AAN-F-006"
+      ],
       "title": "Live music stimulates the affective brain and emotionally entrains listeners in real time",
       "creator": "Trost et al.",
       "date": "2024",
@@ -3395,12 +3422,17 @@
       "reason": "High-value reading, but the experimental stimuli and figures are not runway-specific and were not repurposed as documentary fashion media.",
       "accessed": "2026-09-10",
       "wave": 4,
-      "destinations": ["AAN-F-006: resources room — live music mechanism"],
+      "destinations": [
+        "AAN-F-006: resources room",
+        "AAN-F-006: platform asset kit as source card only"
+      ],
       "exclusionReason": null
     },
     {
       "id": "R92",
-      "packages": ["AAN-F-007"],
+      "packages": [
+        "AAN-F-007"
+      ],
       "title": "Dress is a Fundamental Component of Person Perception",
       "creator": "Hester and Hehman",
       "date": "2023",
@@ -3418,12 +3450,17 @@
       "reason": "The conceptual model is highly relevant, but is retained at source rather than extracted until figure-level attribution and adaptation treatment are reviewed.",
       "accessed": "2026-09-10",
       "wave": 4,
-      "destinations": ["AAN-F-007: resources room — observer-perception model"],
+      "destinations": [
+        "AAN-F-007: resources room",
+        "AAN-F-007: platform asset kit as source card only"
+      ],
       "exclusionReason": null
     },
     {
       "id": "R93",
-      "packages": ["AAN-F-003"],
+      "packages": [
+        "AAN-F-003"
+      ],
       "title": "Textile with full moon and pine-tree design",
       "creator": "Unidentified designer or manufacturer",
       "date": "date listed on institutional record",
@@ -3441,12 +3478,16 @@
       "reason": "Although the indexed record declares the media public domain, its current canonical page returned unavailable during verification and the object is less probative than the installed construction-focused garments.",
       "accessed": "2026-09-10",
       "wave": 4,
-      "destinations": ["AAN-F-003: exclusion log — unstable record and weaker tactile relevance"],
-      "exclusionReason": "Canonical record unavailable during verification; no direct file retained."
+      "destinations": [
+        "AAN-F-003: exclusion log — rejected"
+      ],
+      "exclusionReason": "Although the indexed record declares the media public domain, its current canonical page returned unavailable during verification and the object is less probative than the installed construction-focused garments."
     },
     {
       "id": "R94",
-      "packages": ["AAN-F-004"],
+      "packages": [
+        "AAN-F-004"
+      ],
       "title": "Printed textiles 1760–1860 in the collection of the Cooper-Hewitt Museum",
       "creator": "Cooper-Hewitt Museum",
       "date": "1987",
@@ -3464,12 +3505,17 @@
       "reason": "The catalogue and downloads are clearly CC0, but no individual page was selected because the existing installed composite fashion plate provides clearer temporal comparison at exhibition scale.",
       "accessed": "2026-09-10",
       "wave": 4,
-      "destinations": ["AAN-F-004: reserve shelf — future period-design sequence"],
+      "destinations": [
+        "AAN-F-004: reserve shelf",
+        " AAN-F-004: platform asset kit where editorially distinct"
+      ],
       "exclusionReason": null
     },
     {
       "id": "R95",
-      "packages": ["AAN-F-003"],
+      "packages": [
+        "AAN-F-003"
+      ],
       "title": "Tactile dimensions of fabrics expressed by Japanese onomatopoeic words and phonemic features related to fabric luxuriousness and pleasantness",
       "creator": "Mitsuhiko Hanada",
       "date": "2023",
@@ -3487,12 +3533,17 @@
       "reason": "The study directly deepens the sensory-textile room, but its apparatus and plots are retained at source because they are experiment evidence rather than fashion imagery and require careful cultural context.",
       "accessed": "2026-09-10",
       "wave": 5,
-      "destinations": ["AAN-F-003: resources room — fabric-language and cultural-specificity boundary"],
+      "destinations": [
+        "AAN-F-003: resources room",
+        "AAN-F-003: platform asset kit as cleared media"
+      ],
       "exclusionReason": null
     },
     {
       "id": "R96",
-      "packages": ["AAN-F-003"],
+      "packages": [
+        "AAN-F-003"
+      ],
       "title": "These Boots Weren’t Made for Walking: Gendered Discrepancies in Wearing Painful, Restricting, or Distracting Clothing",
       "creator": "Renee Engeln and Anne Zola",
       "date": "2021",
@@ -3510,12 +3561,17 @@
       "reason": "This is stronger as a full-text evidence resource than as an extracted table: the descriptive findings do not establish causality and the package should not turn gendered averages into individual predictions.",
       "accessed": "2026-09-10",
       "wave": 5,
-      "destinations": ["AAN-F-003: resources room — painful, distracting and restricting clothing"],
+      "destinations": [
+        "AAN-F-003: resources room",
+        "AAN-F-003: platform asset kit as source card only"
+      ],
       "exclusionReason": null
     },
     {
       "id": "R97",
-      "packages": ["AAN-F-007"],
+      "packages": [
+        "AAN-F-007"
+      ],
       "title": "School Uniforms and Student Behavior: Is There a Link?",
       "creator": "Arya Ansari, Michael Shepard and Michael A. Gottfried",
       "date": "2022",
@@ -3533,12 +3589,17 @@
       "reason": "This directly counters deterministic claims about uniforms, but it evaluates school policies rather than the acute neural or perceptual effect of wearing a garment.",
       "accessed": "2026-09-10",
       "wave": 5,
-      "destinations": ["AAN-F-007: resources room — school-uniform policy boundary"],
+      "destinations": [
+        "AAN-F-007: resources room",
+        "AAN-F-007: platform asset kit as source card only"
+      ],
       "exclusionReason": null
     },
     {
       "id": "R98",
-      "packages": ["AAN-F-007"],
+      "packages": [
+        "AAN-F-007"
+      ],
       "title": "Patient perception of physician attire: a systematic review update",
       "creator": "Jiwon Kim et al.",
       "date": "2025",
@@ -3556,7 +3617,10 @@
       "reason": "The review is installed as a reading, not reproduced as media: its CC BY-NC terms require a noncommercial-use analysis and its findings are heterogeneous and context dependent.",
       "accessed": "2026-09-10",
       "wave": 5,
-      "destinations": ["AAN-F-007: resources room — updated physician-attire review"],
+      "destinations": [
+        "AAN-F-007: resources room",
+        "AAN-F-007: platform asset kit as cleared media"
+      ],
       "exclusionReason": null
     }
   ]

@@ -1,11 +1,11 @@
 const A = window.AAN;
-const nav = `<a class="skip" href="#content">Skip to content</a><nav aria-label="Primary"><a href="/">AAN × FASHION</a><a href="/exhibitions/">Exhibition</a><a href="/objects/">Objects</a><a href="/media/">Media</a><a href="/evidence/">Evidence</a><details><summary>More</summary><div class="nav-more"><a href="/ask/">Ask</a><a href="/lab/">Lab</a><a href="/deliverables/">Production</a><a href="/rights/">Rights</a><a href="/method/">Method</a></div></details></nav>`;
+const nav = `<a class="skip" href="#content">Skip to content</a><nav aria-label="Primary"><a href="/">AAN × FASHION</a><a href="/exhibitions/">Exhibition</a><a href="/objects/">Objects</a><a href="/media/">Media</a><a href="/evidence/">Evidence</a><details><summary>More</summary><div class="nav-more"><a href="/ask/">Ask</a><a href="/lab/">Lab</a><a href="/deliverables/">Studio</a><a href="/rights/">Rights</a><a href="/method/">Method</a></div></details></nav>`;
 document.body.insertAdjacentHTML("afterbegin", nav);
 const main = document.querySelector("main");
 if (main && !main.id) main.id = "content";
 document.body.insertAdjacentHTML(
   "beforeend",
-  '<footer>Ask a Neuroscientist × Fashion · Experience → mechanism → evidence boundary · <a href="/rights/">Rights & corrections</a></footer>',
+  '<footer>Ask a Neuroscientist × Fashion · Clothing, sensation, memory and social perception · <a href="/rights/">Rights & corrections</a></footer>',
 );
 document.head.insertAdjacentHTML(
   "beforeend",
@@ -193,6 +193,130 @@ if (exhibitionIndex >= 0) {
   }
 }
 if (routePath.startsWith("/deliverables/")) document.body.classList.add("production-page");
+
+const packageMatch = routePath.match(/^\/production-kits\/(aan-f-\d{3})\/$/);
+if (packageMatch) {
+  document.body.classList.add("publication-workspace");
+  const packageId = packageMatch[1].toUpperCase();
+  const escapeHtml = (value = "") =>
+    String(value)
+      .replaceAll("&", "&amp;")
+      .replaceAll("<", "&lt;")
+      .replaceAll(">", "&gt;")
+      .replaceAll('"', "&quot;");
+  const postText = (post) =>
+    [post.hook, post.context, post.story, post.seriesRelevance, post.ending, post.cta]
+      .filter(Boolean)
+      .join("\n\n");
+
+  fetch("/production/companion-posts.json")
+    .then((response) => {
+      if (!response.ok) throw new Error("Companion posts could not be loaded.");
+      return response.json();
+    })
+    .then((data) => {
+      const packagePosts = data.packages.find((item) => item.id === packageId);
+      if (!packagePosts || !main) return;
+
+      const intro = main.querySelector(":scope > .lede");
+      if (intro) {
+        intro.textContent =
+          "Two complete carousel stories with their own ready-to-post captions. Read the sequence, edit the post in place, then copy or download the version you want to publish.";
+      }
+      const masterSection = main.querySelector(":scope > .plate");
+      const workspace = document.createElement("section");
+      workspace.className = "companion-workspace";
+      workspace.setAttribute("aria-labelledby", "companion-title");
+      workspace.innerHTML = `
+        <div class="companion-heading">
+          <p class="kicker">THE WORDS THAT TRAVEL WITH THE CAROUSEL</p>
+          <h2 id="companion-title">Two carousels. Two complete posts.</h2>
+          <p>These are not slide captions pasted together. Each post carries the reader from the opening question through the evidence, the place this story holds in Ask a Neuroscientist, and an ending with somewhere to go.</p>
+        </div>
+        <div class="companion-grid">
+          ${packagePosts.carousels
+            .map((post, index) => {
+              const storageKey = `aan-companion-${packageId}-${post.id}`;
+              const value = postText(post);
+              return `<article class="companion-editor">
+                <p class="kicker">CAROUSEL ${String.fromCharCode(65 + index)}</p>
+                <h3>${escapeHtml(post.label)}</h3>
+                <label for="${post.id}-post">Editable companion post</label>
+                <textarea id="${post.id}-post" data-storage-key="${storageKey}" rows="22">${escapeHtml(value)}</textarea>
+                <div class="editor-actions">
+                  <button type="button" data-copy="${post.id}-post">Copy post</button>
+                  <button type="button" data-download="${post.id}-post" data-filename="${packageMatch[1]}-${post.id}-companion-post.txt">Download .txt</button>
+                  <button type="button" data-reset="${post.id}-post">Restore draft</button>
+                </div>
+                <p class="editor-status" id="${post.id}-status" aria-live="polite"></p>
+                <details class="post-anatomy">
+                  <summary>Why this post works</summary>
+                  <dl>
+                    <div><dt>Hook</dt><dd>${escapeHtml(post.hook)}</dd></div>
+                    <div><dt>Context</dt><dd>${escapeHtml(post.context)}</dd></div>
+                    <div><dt>Story</dt><dd>${escapeHtml(post.story)}</dd></div>
+                    <div><dt>Why it belongs here</dt><dd>${escapeHtml(post.seriesRelevance)}</dd></div>
+                    <div><dt>Ending</dt><dd>${escapeHtml(post.ending)}</dd></div>
+                    <div><dt>Reader invitation</dt><dd>${escapeHtml(post.cta)}</dd></div>
+                  </dl>
+                </details>
+              </article>`;
+            })
+            .join("")}
+        </div>`;
+      (masterSection || intro)?.insertAdjacentElement("afterend", workspace);
+
+      for (const post of packagePosts.carousels) {
+        const textarea = document.getElementById(`${post.id}-post`);
+        if (!textarea) continue;
+        textarea.dataset.original = postText(post);
+        const saved = localStorage.getItem(textarea.dataset.storageKey);
+        if (saved) textarea.value = saved;
+        textarea.addEventListener("input", () =>
+          localStorage.setItem(textarea.dataset.storageKey, textarea.value),
+        );
+      }
+
+      for (const section of main.querySelectorAll(":scope > section")) {
+        const kicker = section.querySelector(":scope > .section-head .kicker")?.textContent || "";
+        if (!/^(INSTAGRAM|SHORT VIDEO)/.test(kicker)) continue;
+        const heading = section.querySelector(":scope > .section-head h2")?.textContent || "Details";
+        const details = document.createElement("details");
+        details.className = "frame-notes";
+        details.innerHTML = `<summary>Open the slide-by-slide context for ${escapeHtml(heading)}</summary>`;
+        while (section.firstChild) details.append(section.firstChild);
+        section.append(details);
+      }
+    })
+    .catch(() => {
+      document.body.classList.add("companion-load-error");
+    });
+
+  document.addEventListener("click", async (event) => {
+    const button = event.target.closest("button[data-copy], button[data-download], button[data-reset]");
+    if (!button) return;
+    const targetId = button.dataset.copy || button.dataset.download || button.dataset.reset;
+    const textarea = document.getElementById(targetId);
+    if (!textarea) return;
+    const status = document.getElementById(`${targetId.replace("-post", "")}-status`);
+    if (button.dataset.copy) {
+      await navigator.clipboard.writeText(textarea.value);
+      if (status) status.textContent = "Copied to clipboard.";
+    } else if (button.dataset.download) {
+      const url = URL.createObjectURL(new Blob([textarea.value + "\n"], { type: "text/plain" }));
+      const link = document.createElement("a");
+      link.href = url;
+      link.download = button.dataset.filename;
+      link.click();
+      URL.revokeObjectURL(url);
+      if (status) status.textContent = "Downloaded as editable text.";
+    } else {
+      textarea.value = textarea.dataset.original || "";
+      localStorage.removeItem(textarea.dataset.storageKey);
+      if (status) status.textContent = "Original draft restored.";
+    }
+  });
+}
 document
   .querySelectorAll('a[href^="/production/"], a[href*="images.metmuseum.org"]')
   .forEach((link) => link.setAttribute("download", ""));

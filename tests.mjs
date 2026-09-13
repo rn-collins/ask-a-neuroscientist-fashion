@@ -580,6 +580,83 @@ const deliverablePreviews=deliverableRoutes.map(file=>{
   return image;
 });
 if(new Set(deliverablePreviews).size!==deliverablePreviews.length)throw Error("deliverables must not share social preview images");
+const companionPosts = JSON.parse(
+  fs.readFileSync("production/companion-posts.json", "utf8"),
+);
+if (companionPosts.packages.length !== 7)
+  throw Error(`companion post master expected 7 packages; found ${companionPosts.packages.length}`);
+const allCompanionPosts = companionPosts.packages.flatMap((pkg) =>
+  pkg.carousels.map((post) => ({ ...post, packageId: pkg.id })),
+);
+if (allCompanionPosts.length !== 14)
+  throw Error(`companion post master expected 14 carousel posts; found ${allCompanionPosts.length}`);
+const companionFields = ["hook", "context", "story", "seriesRelevance", "ending", "cta"];
+for (const post of allCompanionPosts) {
+  for (const field of companionFields)
+    if (!post[field] || post[field].trim().split(/\s+/).length < 5)
+      throw Error(`${post.packageId} ${post.id} has an incomplete ${field}`);
+  const completePost = companionFields.map((field) => post[field]).join(" ");
+  if (completePost.trim().split(/\s+/).length < 120)
+    throw Error(`${post.packageId} ${post.id} companion post is not a complete narrative`);
+  if (!/Ask a Neuroscientist/i.test(post.seriesRelevance))
+    throw Error(`${post.packageId} ${post.id} does not explain its series relevance`);
+}
+if (new Set(allCompanionPosts.map((post) => post.hook)).size !== 14)
+  throw Error("each carousel requires a distinct companion-post hook");
+for (const token of [
+  "companion-workspace",
+  "data-copy",
+  "data-download",
+  "data-reset",
+  "localStorage",
+  "Why this post works",
+])
+  if (!app.includes(token)) throw Error(`editable companion-post workspace missing ${token}`);
+if (!fs.readFileSync("scripts/build-download-bundles.mjs", "utf8").includes("companion-posts.md"))
+  throw Error("download bundles do not include editable companion posts");
+
+const platformKits = JSON.parse(
+  fs.readFileSync("production/platform-asset-kits.json", "utf8"),
+).packages;
+const visualModeCounts = {};
+for (const pkg of platformKits) {
+  for (const [carouselName, frames] of [
+    ["A", pkg.carouselA],
+    ["B", pkg.carouselB],
+  ]) {
+    const usedAssets = new Set();
+    for (const frame of frames) {
+      visualModeCounts[frame.visualMode] =
+        (visualModeCounts[frame.visualMode] || 0) + 1;
+      if (usedAssets.has(frame.assetId))
+        throw Error(`${pkg.id} carousel ${carouselName} repeats ${frame.assetId}`);
+      usedAssets.add(frame.assetId);
+      if (frame.visualMode !== "cleared-real-image") continue;
+      const asset = pkg.assets.find((candidate) => candidate.id === frame.assetId);
+      if (!asset) throw Error(`${pkg.id} frame ${frame.frame} references missing ${frame.assetId}`);
+      for (const field of [
+        "canonicalUrl",
+        "mediaUrl",
+        "creator",
+        "institution",
+        "rights",
+        "cropSuitability",
+      ])
+        if (!asset[field]) throw Error(`${pkg.id} ${asset.id} lacks ${field}`);
+      if (asset.sourceWidth < 1080 || asset.sourceHeight < 1080)
+        throw Error(
+          `${pkg.id} ${asset.id} source is only ${asset.sourceWidth}×${asset.sourceHeight}`,
+        );
+    }
+  }
+}
+if (
+  visualModeCounts["cleared-real-image"] !== 69 ||
+  visualModeCounts["evidence-graphic"] !== 34 ||
+  visualModeCounts["editorial-typography"] !== 6
+)
+  throw Error(`unexpected carousel visual mix: ${JSON.stringify(visualModeCounts)}`);
+
 const visualMatrix = fs.readFileSync(
   "production/route-slide-visual-assignment-matrix.csv",
   "utf8",
