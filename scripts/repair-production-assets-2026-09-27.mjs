@@ -41,12 +41,35 @@ const images = {
   "f-bridal-09.jpg": "https://upload.wikimedia.org/wikipedia/commons/b/b6/01123jfRefined_Bridal_Exhibit_Fashion_Show_Robinsons_Place_Malolosfvf_09.jpg",
 };
 fs.mkdirSync("production-kits/aan-f-005/media", { recursive: true });
+const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+async function downloadWithRetry(name, url) {
+  let lastStatus = 0;
+  for (let attempt = 1; attempt <= 8; attempt += 1) {
+    const response = await fetch(url, {
+      headers: {
+        "User-Agent": "RN-Cultural-Activation/1.0 (asset provenance repair; contact: rayven.nikkita.collins@gmail.com)",
+        "Accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+      },
+    });
+    lastStatus = response.status;
+    if (response.ok) {
+      const bytes = Buffer.from(await response.arrayBuffer());
+      if (bytes.length < 100_000) throw new Error(`${name}: incomplete download (${bytes.length} bytes)`);
+      return bytes;
+    }
+    if (response.status !== 429 && response.status < 500) {
+      throw new Error(`${name}: HTTP ${response.status}`);
+    }
+    const retryAfter = Number(response.headers.get("retry-after") || 0);
+    const waitMs = Math.max(retryAfter * 1000, Math.min(45000, 3000 * (2 ** (attempt - 1))));
+    await delay(waitMs);
+  }
+  throw new Error(`${name}: HTTP ${lastStatus} after retries`);
+}
 for (const [name, url] of Object.entries(images)) {
-  const response = await fetch(url);
-  if (!response.ok) throw new Error(`${name}: HTTP ${response.status}`);
-  const bytes = Buffer.from(await response.arrayBuffer());
-  if (bytes.length < 100_000) throw new Error(`${name}: incomplete download (${bytes.length} bytes)`);
+  const bytes = await downloadWithRetry(name, url);
   fs.writeFileSync(path.join("production-kits/aan-f-005/media", name), bytes);
+  await delay(2500);
 }
 
 const config = JSON.parse(fs.readFileSync("production/visual-replacements.json", "utf8"));
