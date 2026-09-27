@@ -36,7 +36,10 @@
       "licenseUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
       "credit": "Corset, Maison Léoty, 1891. The Metropolitan Museum of Art, Costume Institute. C.I.45.27a, b. CC0.",
       "alt": "Ivory satin Maison Léoty corset shown frontally against a neutral ground.",
-      "caption": "constraint, posture, learned silhouette"
+      "caption": "constraint, posture, learned silhouette",
+      "sourceWidth": 2978,
+      "sourceHeight": 3722,
+      "cropSuitability": "Portrait object master with enough neutral ground for full-object and 4:5 detail crops."
     },
     {
       "id": "MET-173652",
@@ -48,11 +51,14 @@
       "rights": "CC0",
       "disposition": "installed-object",
       "canonicalUrl": "https://www.metmuseum.org/art/collection/search/173652",
-      "mediaUrl": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/173652/373744/main-image",
+      "mediaUrl": "https://images.metmuseum.org/CRDImages/ci/original/50.105.17_CP2.jpg",
       "licenseUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
       "credit": "Corset, Royal Worcester Corset Company, ca. 1872. The Metropolitan Museum of Art. 2009.300.6638a, b. CC0.",
       "alt": "Structured nineteenth-century corset with front fastening and shaped panels.",
-      "caption": "industrialized containment"
+      "caption": "industrialized containment",
+      "sourceWidth": 1138,
+      "sourceHeight": 1267,
+      "cropSuitability": "Near-square object master; sufficient for a restrained 4:5 crop without enlargement."
     },
     {
       "id": "MET-158256",
@@ -64,11 +70,14 @@
       "rights": "CC0",
       "disposition": "installed-object",
       "canonicalUrl": "https://www.metmuseum.org/art/collection/search/158256",
-      "mediaUrl": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/158256/335760/main-image",
+      "mediaUrl": "https://images.metmuseum.org/CRDImages/ci/original/69.2.51_front_CP4.jpg",
       "licenseUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
       "credit": "Corset, Maker unknown, 1740–60. The Metropolitan Museum of Art. 2009.300.3330. CC0.",
       "alt": "Eighteenth-century stays with a pointed front, photographed flat.",
-      "caption": "body-shaping technology"
+      "caption": "body-shaping technology",
+      "sourceWidth": 3388,
+      "sourceHeight": 4000,
+      "cropSuitability": "Portrait master; supports full-object and 4:5 detail crops without enlargement."
     },
     {
       "id": "MET-626019",
@@ -84,7 +93,10 @@
       "licenseUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
       "credit": "Costume Armor and Sword in the Classical Style, Hallé, ca. 1788–90. The Metropolitan Museum of Art, Arms and Armor. 1988.65.1–.2; 1995.93a, b. CC0.",
       "alt": "Ornate classical-style costume armor and sword displayed vertically.",
-      "caption": "role, protection, theater, authority"
+      "caption": "role, protection, theater, authority",
+      "sourceWidth": 1488,
+      "sourceHeight": 1861,
+      "cropSuitability": "Portrait object master at the target 4:5 ratio; no enlargement required."
     },
     {
       "id": "MET-717582",
@@ -96,11 +108,14 @@
       "rights": "CC0",
       "disposition": "installed-object",
       "canonicalUrl": "https://www.metmuseum.org/art/collection/search/717582",
-      "mediaUrl": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/717582/1770354/main-image",
+      "mediaUrl": "https://images.metmuseum.org/CRDImages/ad/original/DP-14863-055.jpg",
       "licenseUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
       "credit": "Hat, Tlingit woman artist, ca. 1830. The Metropolitan Museum of Art, The American Wing. 2022.428.5. CC0.",
       "alt": "Tlingit woven spruce-root hat decorated with shell, beads, pigment and remnants of ermine.",
-      "caption": "protection, clan identity and social status"
+      "caption": "protection, clan identity and social status",
+      "sourceWidth": 4000,
+      "sourceHeight": 3199,
+      "cropSuitability": "Landscape master with ample resolution for a centered 4:5 object crop."
     },
     {
       "id": "R01",
@@ -293,6 +308,22 @@
       "credit": "Burns et al. · Open Science Framework",
       "alt": "",
       "caption": "Enclothed Cognition Replication materials"
+    },
+    {
+      "id": "R86",
+      "type": "official video",
+      "title": "The psychology of fashion, with Carolyn Mair, PhD",
+      "creator": "American Psychological Association",
+      "date": "2024",
+      "institution": "American Psychological Association / YouTube",
+      "rights": "authorized embed candidate",
+      "disposition": "reserve",
+      "canonicalUrl": "https://www.youtube.com/watch?v=H8t_jtbfJTU",
+      "mediaUrl": null,
+      "licenseUrl": null,
+      "credit": "American Psychological Association",
+      "alt": "",
+      "caption": "APA interview on the psychology of fashion"
     }
   ],
   "carouselA": [
@@ -325,15 +356,15 @@
     {
       "frame": 3,
       "beat": "Its theory required symbolic meaning + physically wearing the garment.",
-      "assetId": "R09",
-      "visualMode": "evidence-graphic",
-      "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-      "crop": "4:5 purpose-built evidence diagram with source identity and claim boundary",
+      "assetId": "MET-717582",
+      "visualMode": "cleared-real-image",
+      "visualRationale": "A rights-cleared documentary image directly grounds this part of the fashion story.",
+      "crop": "Landscape master with ample resolution for a centered 4:5 object crop.",
       "overlay": "Its theory required symbolic meaning + physically wearing the garment.",
-      "caption": "Its theory required symbolic meaning + physically wearing the garment. Show Your Style!",
-      "credit": "Original evidence graphic · RN Collins · source: The Metropolitan Museum of Art · The Met",
-      "alt": "Evidence diagram explaining its theory required symbolic meaning + physically wearing the garment.; source named on slide.",
-      "boundary": "Do not imply this object proves a neural mechanism."
+      "caption": "Its theory required symbolic meaning + physically wearing the garment. protection, clan identity and social status",
+      "credit": "Hat, Tlingit woman artist, ca. 1830. The Metropolitan Museum of Art, The American Wing. 2022.428.5. CC0.",
+      "alt": "Tlingit woven spruce-root hat decorated with shell, beads, pigment and remnants of ermine.",
+      "boundary": "The photograph documents a material object or scene; it does not measure a neural mechanism or universal response."
     },
     {
       "frame": 4,
@@ -405,15 +436,15 @@
     {
       "frame": 2,
       "beat": "Burns, Fox, Greenstein, Olbricht and Montgomery repeated the critical design under preregistration.",
-      "assetId": "R16",
-      "visualMode": "evidence-graphic",
-      "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-      "crop": "4:5 purpose-built evidence diagram with source identity and claim boundary",
+      "assetId": "MET-158256",
+      "visualMode": "cleared-real-image",
+      "visualRationale": "A rights-cleared documentary image directly grounds this part of the fashion story.",
+      "crop": "Portrait master; supports full-object and 4:5 detail crops without enlargement.",
       "overlay": "Burns, Fox, Greenstein, Olbricht and Montgomery repeated the critical design under preregistration.",
-      "caption": "Burns, Fox, Greenstein, Olbricht and Montgomery repeated the critical design under preregistration. Enclothed cognition",
-      "credit": "Original evidence graphic · RN Collins · source: Adam and Galinsky · Journal of Experimental Social Psychology",
-      "alt": "Evidence diagram explaining burns, fox, greenstein, olbricht and montgomery repeated the critical design under preregistration.; source named on slide.",
-      "boundary": "Do not imply this object proves a neural mechanism."
+      "caption": "Burns, Fox, Greenstein, Olbricht and Montgomery repeated the critical design under preregistration. body-shaping technology",
+      "credit": "Corset, Maker unknown, 1740–60. The Metropolitan Museum of Art. 2009.300.3330. CC0.",
+      "alt": "Eighteenth-century stays with a pointed front, photographed flat.",
+      "boundary": "The photograph documents a material object or scene; it does not measure a neural mechanism or universal response."
     },
     {
       "frame": 3,
@@ -554,7 +585,7 @@
       "visualMode": "cleared-real-image",
       "visualRationale": "The cleared object is an effective discovery image for this claim.",
       "format": "1000×1500 standard pin",
-      "description": "The claim: an evidence-bounded visual guide from Clothes and Cognition.",
+      "description": "A visual field guide to the claim, from Clothes and Cognition.",
       "alt": "Ivory satin Maison Léoty corset shown frontally against a neutral ground.",
       "credit": "Corset, Maison Léoty, 1891. The Metropolitan Museum of Art, Costume Institute. C.I.45.27a, b. CC0.",
       "destination": "/exhibitions/clothes-and-cognition/"
@@ -566,7 +597,7 @@
       "visualMode": "evidence-graphic",
       "visualRationale": "A legible evidence graphic is stronger and more accurate than repeating the available object.",
       "format": "1000×1500 standard pin",
-      "description": "The replication: an evidence-bounded visual guide from Clothes and Cognition.",
+      "description": "A visual field guide to the replication, from Clothes and Cognition.",
       "alt": "Evidence graphic introducing the replication and naming its source.",
       "credit": "Original evidence graphic · RN Collins · source: Library of Congress · Library of Congress",
       "destination": "/exhibitions/clothes-and-cognition/"
@@ -578,7 +609,7 @@
       "visualMode": "cleared-real-image",
       "visualRationale": "The cleared object is an effective discovery image for this claim.",
       "format": "1000×1500 standard pin",
-      "description": "The evidence ladder: an evidence-bounded visual guide from Clothes and Cognition.",
+      "description": "A visual field guide to the evidence ladder, from Clothes and Cognition.",
       "alt": "Structured nineteenth-century corset with front fastening and shaped panels.",
       "credit": "Corset, Royal Worcester Corset Company, ca. 1872. The Metropolitan Museum of Art. 2009.300.6638a, b. CC0.",
       "destination": "/exhibitions/clothes-and-cognition/"
@@ -590,7 +621,7 @@
       "visualMode": "evidence-graphic",
       "visualRationale": "A legible evidence graphic is stronger and more accurate than repeating the available object.",
       "format": "1000×1500 standard pin",
-      "description": "The object lesson: an evidence-bounded visual guide from Clothes and Cognition.",
+      "description": "A visual field guide to the object lesson, from Clothes and Cognition.",
       "alt": "Evidence graphic introducing the object lesson and naming its source.",
       "credit": "Original evidence graphic · RN Collins · source: Hester and Hehman · Personality and Social Psychology Review",
       "destination": "/exhibitions/clothes-and-cognition/"
@@ -602,7 +633,7 @@
       "visualMode": "cleared-real-image",
       "visualRationale": "The cleared object is an effective discovery image for this claim.",
       "format": "1000×1500 standard pin",
-      "description": "The practical question: an evidence-bounded visual guide from Clothes and Cognition.",
+      "description": "A visual field guide to the practical question, from Clothes and Cognition.",
       "alt": "Eighteenth-century stays with a pointed front, photographed flat.",
       "credit": "Corset, Maker unknown, 1740–60. The Metropolitan Museum of Art. 2009.300.3330. CC0.",
       "destination": "/exhibitions/clothes-and-cognition/"
@@ -708,35 +739,50 @@
       "source": "https://images.metmuseum.org/CRDImages/ci/original/DT200606.jpg",
       "canonical": "https://www.metmuseum.org/art/collection/search/82433",
       "credit": "Corset, Maison Léoty, 1891. The Metropolitan Museum of Art, Costume Institute. C.I.45.27a, b. CC0.",
-      "rights": "CC0"
+      "rights": "CC0",
+      "sourceWidth": 2978,
+      "sourceHeight": 3722,
+      "cropSuitability": "Portrait object master with enough neutral ground for full-object and 4:5 detail crops."
     },
     {
       "assetId": "MET-173652",
-      "source": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/173652/373744/main-image",
+      "source": "https://images.metmuseum.org/CRDImages/ci/original/50.105.17_CP2.jpg",
       "canonical": "https://www.metmuseum.org/art/collection/search/173652",
       "credit": "Corset, Royal Worcester Corset Company, ca. 1872. The Metropolitan Museum of Art. 2009.300.6638a, b. CC0.",
-      "rights": "CC0"
+      "rights": "CC0",
+      "sourceWidth": 1138,
+      "sourceHeight": 1267,
+      "cropSuitability": "Near-square object master; sufficient for a restrained 4:5 crop without enlargement."
     },
     {
       "assetId": "MET-158256",
-      "source": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/158256/335760/main-image",
+      "source": "https://images.metmuseum.org/CRDImages/ci/original/69.2.51_front_CP4.jpg",
       "canonical": "https://www.metmuseum.org/art/collection/search/158256",
       "credit": "Corset, Maker unknown, 1740–60. The Metropolitan Museum of Art. 2009.300.3330. CC0.",
-      "rights": "CC0"
+      "rights": "CC0",
+      "sourceWidth": 3388,
+      "sourceHeight": 4000,
+      "cropSuitability": "Portrait master; supports full-object and 4:5 detail crops without enlargement."
     },
     {
       "assetId": "MET-626019",
       "source": "https://images.metmuseum.org/CRDImages/aa/original/DT5896.jpg",
       "canonical": "https://www.metmuseum.org/art/collection/search/626019",
       "credit": "Costume Armor and Sword in the Classical Style, Hallé, ca. 1788–90. The Metropolitan Museum of Art, Arms and Armor. 1988.65.1–.2; 1995.93a, b. CC0.",
-      "rights": "CC0"
+      "rights": "CC0",
+      "sourceWidth": 1488,
+      "sourceHeight": 1861,
+      "cropSuitability": "Portrait object master at the target 4:5 ratio; no enlargement required."
     },
     {
       "assetId": "MET-717582",
-      "source": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/717582/1770354/main-image",
+      "source": "https://images.metmuseum.org/CRDImages/ad/original/DP-14863-055.jpg",
       "canonical": "https://www.metmuseum.org/art/collection/search/717582",
       "credit": "Hat, Tlingit woman artist, ca. 1830. The Metropolitan Museum of Art, The American Wing. 2022.428.5. CC0.",
-      "rights": "CC0"
+      "rights": "CC0",
+      "sourceWidth": 4000,
+      "sourceHeight": 3199,
+      "cropSuitability": "Landscape master with ample resolution for a centered 4:5 object crop."
     },
     {
       "assetId": "R58",

@@ -30,13 +30,13 @@
       "kind": "instagram-carousel-a",
       "index": 3,
       "file": "/production-kits/aan-f-001/exports/instagram/carousel-a-frame-03.png",
-      "assetId": "R09",
-      "visualMode": "evidence-graphic",
-      "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-      "alt": "Evidence diagram explaining its theory required symbolic meaning + physically wearing the garment.; source named on slide.",
-      "credit": "Original evidence graphic · RN Collins · source: The Metropolitan Museum of Art · The Met",
-      "source": "https://www.metmuseum.org/-/media/files/learn/family-map-and-guides/what%20should%20i%20wear%20today.pdf",
-      "rights": "link-only"
+      "assetId": "MET-717582",
+      "visualMode": "cleared-real-image",
+      "visualRationale": "A rights-cleared documentary image directly grounds this part of the fashion story.",
+      "alt": "Tlingit woven spruce-root hat decorated with shell, beads, pigment and remnants of ermine.",
+      "credit": "Hat, Tlingit woman artist, ca. 1830. The Metropolitan Museum of Art, The American Wing. 2022.428.5. CC0.",
+      "source": "https://www.metmuseum.org/art/collection/search/717582",
+      "rights": "CC0"
     },
     {
       "kind": "instagram-carousel-a",
@@ -102,13 +102,13 @@
       "kind": "instagram-carousel-b",
       "index": 2,
       "file": "/production-kits/aan-f-001/exports/instagram/carousel-b-frame-02.png",
-      "assetId": "R16",
-      "visualMode": "evidence-graphic",
-      "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-      "alt": "Evidence diagram explaining burns, fox, greenstein, olbricht and montgomery repeated the critical design under preregistration.; source named on slide.",
-      "credit": "Original evidence graphic · RN Collins · source: Adam and Galinsky · Journal of Experimental Social Psychology",
-      "source": "https://doi.org/10.1016/j.jesp.2012.02.008",
-      "rights": "link-only"
+      "assetId": "MET-158256",
+      "visualMode": "cleared-real-image",
+      "visualRationale": "A rights-cleared documentary image directly grounds this part of the fashion story.",
+      "alt": "Eighteenth-century stays with a pointed front, photographed flat.",
+      "credit": "Corset, Maker unknown, 1740–60. The Metropolitan Museum of Art. 2009.300.3330. CC0.",
+      "source": "https://www.metmuseum.org/art/collection/search/158256",
+      "rights": "CC0"
     },
     {
       "kind": "instagram-carousel-b",
@@ -248,7 +248,7 @@
       "file": "/production-kits/aan-f-001/exports/youtube/thumbnail-2.png",
       "assetId": "MET-173652",
       "visualMode": "editorial-typography",
-      "visualRationale": "The alternate is intentionally typographic so the evidence boundary, not a repeated object, is the hook.",
+      "visualRationale": "The alternate is intentionally typographic so the research question, not a repeated object, is the hook.",
       "alt": "YouTube thumbnail option 2: Clothes and Cognition",
       "credit": "Original editorial typography · RN Collins · source: Corset, Royal Worcester Corset Company, ca. 1872. The Metropolitan Museum of Art. 2009.300.6638a, b. CC0.",
       "source": "https://www.metmuseum.org/art/collection/search/173652",
@@ -260,7 +260,7 @@
       "file": "/production-kits/aan-f-001/exports/storyboards/vertical-storyboard.png",
       "assetId": null,
       "alt": "Seven-beat vertical-video storyboard for Clothes and Cognition",
-      "credit": "Original production graphic · RN Collins",
+      "credit": "Original editorial graphic · RN Collins",
       "source": "/production-kits/aan-f-001/platform-asset-kit.json",
       "rights": "Original publication asset"
     }

@@ -33,7 +33,7 @@
       "assetId": "R12",
       "visualMode": "evidence-graphic",
       "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-      "alt": "Evidence diagram explaining inferred: role, status, competence, safety, threat, belonging.; source named on slide.",
+      "alt": "Evidence diagram explaining what gets inferred: role, status, competence, safety, threat, belonging.; source named on slide.",
       "credit": "Original evidence graphic · RN Collins · source: Unidentified photographer · Library of Congress",
       "source": "https://www.loc.gov/pictures/item/2018651506/",
       "rights": "link-only"
@@ -57,7 +57,7 @@
       "assetId": "R52",
       "visualMode": "evidence-graphic",
       "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-      "alt": "Evidence diagram explaining history: personal encounters, media, community memory, culture.; source named on slide.",
+      "alt": "Evidence diagram explaining what arrives with us: personal encounters, media, community memory and culture.; source named on slide.",
       "credit": "Original evidence graphic · RN Collins · source: Civile and Obhi · Frontiers in Psychology",
       "source": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2017.00062/full",
       "rights": "CC BY"
@@ -81,7 +81,7 @@
       "assetId": "R55",
       "visualMode": "evidence-graphic",
       "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-      "alt": "Evidence diagram explaining map one encounter. uniform encounter map · no storage · no score.; source named on slide.",
+      "alt": "Evidence diagram explaining before one signal becomes a verdict, map one encounter. the uniform may be immediately legible. the person inside it is not.; source named on slide.",
       "credit": "Original evidence graphic · RN Collins · source: Smithsonian Institution · Smithsonian Open Access",
       "source": "https://www.si.edu/search/collection-images?edan_q=uniform",
       "rights": "link-only"
@@ -105,7 +105,7 @@
       "assetId": "R52",
       "visualMode": "evidence-graphic",
       "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-      "alt": "Evidence diagram explaining review: dress contributes to person perception. strong enough to discuss signaling; not mind-reading.; source named on slide.",
+      "alt": "Evidence diagram explaining clothing shapes first impressions. that is not mind-reading.; source named on slide.",
       "credit": "Original evidence graphic · RN Collins · source: Civile and Obhi · Frontiers in Psychology",
       "source": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2017.00062/full",
       "rights": "CC BY"
@@ -129,7 +129,7 @@
       "assetId": "R55",
       "visualMode": "evidence-graphic",
       "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-      "alt": "Evidence diagram explaining experiment: military/red cross clothing shifted one moral-choice task. not real-world service.; source named on slide.",
+      "alt": "Evidence diagram explaining military and red cross clothing shifted one moral-choice task. it did not measure real-world service.; source named on slide.",
       "credit": "Original evidence graphic · RN Collins · source: Smithsonian Institution · Smithsonian Open Access",
       "source": "https://www.si.edu/search/collection-images?edan_q=uniform",
       "rights": "link-only"
@@ -153,7 +153,7 @@
       "assetId": "R81",
       "visualMode": "evidence-graphic",
       "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-      "alt": "Evidence diagram explaining workplace case: uniform change rearranged hospital professional boundaries. one institution, not all.; source named on slide.",
+      "alt": "Evidence diagram explaining in one hospital, changing uniforms rearranged professional boundaries. one institution is not every workplace.; source named on slide.",
       "credit": "Original evidence graphic · RN Collins · source: Civile and Obhi · Frontiers in Psychology / PMC",
       "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5292616/",
       "rights": "CC BY"
@@ -165,7 +165,7 @@
       "assetId": "R82",
       "visualMode": "evidence-graphic",
       "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-      "alt": "Evidence diagram explaining fitted claim: uniforms can organize perception and make roles salient. they do not contain a fixed psychology.; source named on slide.",
+      "alt": "Evidence diagram explaining the honest conclusion: uniforms can organize perception and make roles salient. they do not contain a fixed psychology.; source named on slide.",
       "credit": "Original evidence graphic · RN Collins · source: Bermondsey Borough Council · Wellcome Collection / BFI National Archive",
       "source": "https://wellcomecollection.org/works/vxe6xptj",
       "rights": "link-only"
@@ -248,7 +248,7 @@
       "file": "/production-kits/aan-f-007/exports/youtube/thumbnail-2.png",
       "assetId": "MET-84449",
       "visualMode": "editorial-typography",
-      "visualRationale": "The alternate is intentionally typographic so the evidence boundary, not a repeated object, is the hook.",
+      "visualRationale": "The alternate is intentionally typographic so the research question, not a repeated object, is the hook.",
       "alt": "YouTube thumbnail option 2: The Role Room",
       "credit": "Original editorial typography · RN Collins · source: Uniform, Maker unknown, late 19th century. The Metropolitan Museum of Art, Costume Institute. 1979.152.54a–h. CC0.",
       "source": "https://www.metmuseum.org/art/collection/search/84449",
@@ -260,7 +260,7 @@
       "file": "/production-kits/aan-f-007/exports/storyboards/vertical-storyboard.png",
       "assetId": null,
       "alt": "Seven-beat vertical-video storyboard for The Role Room",
-      "credit": "Original production graphic · RN Collins",
+      "credit": "Original editorial graphic · RN Collins",
       "source": "/production-kits/aan-f-007/platform-asset-kit.json",
       "rights": "Original publication asset"
     }

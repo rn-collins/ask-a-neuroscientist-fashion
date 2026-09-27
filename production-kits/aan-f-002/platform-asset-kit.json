@@ -33,11 +33,14 @@
       "rights": "CC0",
       "disposition": "installed-object",
       "canonicalUrl": "https://www.metmuseum.org/art/collection/search/23205",
-      "mediaUrl": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/23205/2538317/main-image",
+      "mediaUrl": "https://images.metmuseum.org/CRDImages/aa/original/DP-46028-001.jpg",
       "licenseUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
       "credit": "Armor, Maker unknown; assembled and restored in the 1920s, ca. 1400–1450 and later. The Metropolitan Museum of Art, Arms and Armor. 29.154.3. CC0.",
       "alt": "Italian armor assembled from historical elements, with a dark brigandine torso and articulated steel limb defenses.",
-      "caption": "literal protection, weight, articulated boundary—and a museum reconstruction"
+      "caption": "literal protection, weight, articulated boundary—and a museum reconstruction",
+      "sourceWidth": 2567,
+      "sourceHeight": 4000,
+      "cropSuitability": "Portrait master; full armor remains legible in a 4:5 crop."
     },
     {
       "id": "MET-27790",
@@ -53,7 +56,10 @@
       "licenseUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
       "credit": "Portions of a Costume Armor, Kolman Helmschmid, ca. 1525. The Metropolitan Museum of Art, Arms and Armor. 24.179; 26.188.1, .2; 29.158.363a, b. CC0.",
       "alt": "Elaborately etched steel costume armor displayed frontally against a pale ground.",
-      "caption": "dress, spectacle, status signal"
+      "caption": "dress, spectacle, status signal",
+      "sourceWidth": 3564,
+      "sourceHeight": 4000,
+      "cropSuitability": "Large near-square object master with generous room for 4:5 detail selection."
     },
     {
       "id": "MET-22001",
@@ -69,7 +75,10 @@
       "licenseUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
       "credit": "Field Armor, Nuremberg armorer, maker unknown, ca. 1525 and later. The Metropolitan Museum of Art, Arms and Armor. 04.3.289. CC0.",
       "alt": "Fluted German field armor shown in three-quarter view with articulated joints and rounded helmet.",
-      "caption": "mobility negotiated through protection"
+      "caption": "mobility negotiated through protection",
+      "sourceWidth": 2919,
+      "sourceHeight": 3894,
+      "cropSuitability": "Portrait armor master that retains the full silhouette in 4:5."
     },
     {
       "id": "MET-24671",
@@ -85,7 +94,10 @@
       "licenseUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
       "credit": "Armor of Henry II, King of France, Decoration design by Jean Cousin the Elder; possibly Baptiste Pellerin, ca. 1555. The Metropolitan Museum of Art, Arms and Armor. 39.121a–n. CC0.",
       "alt": "Blackened and gilded French parade armor covered in dense scrolling decoration, shown frontally.",
-      "caption": "authority made visible; parade rather than proof"
+      "caption": "authority made visible; parade rather than proof",
+      "sourceWidth": 2911,
+      "sourceHeight": 3880,
+      "cropSuitability": "Portrait armor master with full-object and construction-detail crop options."
     },
     {
       "id": "MET-22020",
@@ -101,7 +113,10 @@
       "licenseUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
       "credit": "Armor (Gusoku), Maker unknown, 19th century. The Metropolitan Museum of Art, Arms and Armor. 04.4.2. CC0.",
       "alt": "Japanese gusoku armor with horned helmet, lacquered plates, silk lacing and a patterned surcoat.",
-      "caption": "layered identity, ritual and material memory"
+      "caption": "layered identity, ritual and material memory",
+      "sourceWidth": 1500,
+      "sourceHeight": 2000,
+      "cropSuitability": "Portrait armor master with adequate resolution for full-object 4:5 use."
     },
     {
       "id": "R02",
@@ -310,6 +325,22 @@
       "credit": "Anonymous · Wellcome Collection",
       "alt": "",
       "caption": "The importance of dress; or, female rivalry"
+    },
+    {
+      "id": "R87",
+      "type": "open-access research",
+      "title": "Styling the Self: Clothing Practices, Personality Traits, and Body Image Among Israeli Women",
+      "creator": "Stolovy et al.",
+      "date": "2021",
+      "institution": "Frontiers in Psychology / PubMed Central",
+      "rights": "link-only",
+      "disposition": "resource-room",
+      "canonicalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8455911/",
+      "mediaUrl": null,
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "credit": "Stolovy et al. · Frontiers in Psychology",
+      "alt": "",
+      "caption": "Study of clothing practices, personality traits and body image"
     }
   ],
   "carouselA": [
@@ -342,15 +373,15 @@
     {
       "frame": 3,
       "beat": "The meaning: The outfit can cue a role, memory or intention. This is interpretation—not fabric magic.",
-      "assetId": "R09",
-      "visualMode": "evidence-graphic",
-      "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-      "crop": "4:5 purpose-built evidence diagram with source identity and claim boundary",
+      "assetId": "MET-22020",
+      "visualMode": "cleared-real-image",
+      "visualRationale": "A rights-cleared documentary image directly grounds this part of the fashion story.",
+      "crop": "Portrait armor master with adequate resolution for full-object 4:5 use.",
       "overlay": "The meaning: The outfit can cue a role, memory or intention. This is interpretation—not fabric magic.",
-      "caption": "The meaning: The outfit can cue a role, memory or intention. This is interpretation—not fabric magic. Show Your Style!",
-      "credit": "Original evidence graphic · RN Collins · source: The Metropolitan Museum of Art · The Met",
-      "alt": "Evidence diagram explaining the meaning: the outfit can cue a role, memory or intention. this is interpretation—not fabric magic.; source named on slide.",
-      "boundary": "Do not imply this object proves a neural mechanism."
+      "caption": "The meaning: The outfit can cue a role, memory or intention. This is interpretation—not fabric magic. layered identity, ritual and material memory",
+      "credit": "Armor (Gusoku), Maker unknown, 19th century. The Metropolitan Museum of Art, Arms and Armor. 04.4.2. CC0.",
+      "alt": "Japanese gusoku armor with horned helmet, lacquered plates, silk lacing and a patterned surcoat.",
+      "boundary": "The photograph documents a material object or scene; it does not measure a neural mechanism or universal response."
     },
     {
       "frame": 4,
@@ -435,15 +466,15 @@
     {
       "frame": 2,
       "beat": "Claim: “My clothes changed my nervous system.”",
-      "assetId": "R22",
-      "visualMode": "evidence-graphic",
-      "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-      "crop": "4:5 purpose-built evidence diagram with source identity and claim boundary",
+      "assetId": "MET-22001",
+      "visualMode": "cleared-real-image",
+      "visualRationale": "A rights-cleared documentary image directly grounds this part of the fashion story.",
+      "crop": "Portrait armor master that retains the full silhouette in 4:5.",
       "overlay": "Claim: “My clothes changed my nervous system.”",
-      "caption": "Claim: “My clothes changed my nervous system.”. The rubber hand illusion",
-      "credit": "Original evidence graphic · RN Collins · source: Botvinick and Cohen · Nature",
-      "alt": "Evidence diagram explaining claim: “my clothes changed my nervous system.”; source named on slide.",
-      "boundary": "Do not imply this object proves a neural mechanism."
+      "caption": "Claim: “My clothes changed my nervous system.”. mobility negotiated through protection",
+      "credit": "Field Armor, Nuremberg armorer, maker unknown, ca. 1525 and later. The Metropolitan Museum of Art, Arms and Armor. 04.3.289. CC0.",
+      "alt": "Fluted German field armor shown in three-quarter view with articulated joints and rounded helmet.",
+      "boundary": "The photograph documents a material object or scene; it does not measure a neural mechanism or universal response."
     },
     {
       "frame": 3,
@@ -539,15 +570,15 @@
     {
       "frame": 10,
       "beat": "Boundary: Compare several occasions. One memory is not a causal experiment.",
-      "assetId": "R02",
+      "assetId": "R87",
       "visualMode": "evidence-graphic",
       "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
       "crop": "4:5 purpose-built evidence diagram with source identity and claim boundary",
       "overlay": "Boundary: Compare several occasions. One memory is not a causal experiment.",
-      "caption": "Boundary: Compare several occasions. One memory is not a causal experiment. Whatever Next and Close to My Self—The Transparent Senses and the Second Skin",
-      "credit": "Original evidence graphic · RN Collins · source: Ciaunica et al. · Frontiers in Psychology",
+      "caption": "Boundary: Compare several occasions. One memory is not a causal experiment. Study of clothing practices, personality traits and body image",
+      "credit": "Original evidence graphic · RN Collins · source: Stolovy et al. · Frontiers in Psychology",
       "alt": "Evidence diagram explaining boundary: compare several occasions. one memory is not a causal experiment.; source named on slide.",
-      "boundary": "Source identity only; protected media is not reproduced."
+      "boundary": "Do not imply this object proves a neural mechanism."
     }
   ],
   "broll": [
@@ -623,7 +654,7 @@
       "visualMode": "cleared-real-image",
       "visualRationale": "The cleared object is an effective discovery image for this claim.",
       "format": "1000×1500 standard pin",
-      "description": "Four armor pathways: an evidence-bounded visual guide from Outfit as Armor.",
+      "description": "A visual field guide to four armor pathways, from Outfit as Armor.",
       "alt": "Italian armor assembled from historical elements, with a dark brigandine torso and articulated steel limb defenses.",
       "credit": "Armor, Maker unknown; assembled and restored in the 1920s, ca. 1400–1450 and later. The Metropolitan Museum of Art, Arms and Armor. 29.154.3. CC0.",
       "destination": "/exhibitions/outfit-as-armor/"
@@ -635,7 +666,7 @@
       "visualMode": "evidence-graphic",
       "visualRationale": "A legible evidence graphic is stronger and more accurate than repeating the available object.",
       "format": "1000×1500 standard pin",
-      "description": "Body boundary: an evidence-bounded visual guide from Outfit as Armor.",
+      "description": "A visual field guide to body boundary, from Outfit as Armor.",
       "alt": "Evidence graphic introducing body boundary and naming its source.",
       "credit": "Original evidence graphic · RN Collins · source: Library of Congress · Library of Congress",
       "destination": "/exhibitions/outfit-as-armor/"
@@ -647,7 +678,7 @@
       "visualMode": "cleared-real-image",
       "visualRationale": "The cleared object is an effective discovery image for this claim.",
       "format": "1000×1500 standard pin",
-      "description": "Observer response: an evidence-bounded visual guide from Outfit as Armor.",
+      "description": "A visual field guide to observer response, from Outfit as Armor.",
       "alt": "Elaborately etched steel costume armor displayed frontally against a pale ground.",
       "credit": "Portions of a Costume Armor, Kolman Helmschmid, ca. 1525. The Metropolitan Museum of Art, Arms and Armor. 24.179; 26.188.1, .2; 29.158.363a, b. CC0.",
       "destination": "/exhibitions/outfit-as-armor/"
@@ -659,7 +690,7 @@
       "visualMode": "evidence-graphic",
       "visualRationale": "A legible evidence graphic is stronger and more accurate than repeating the available object.",
       "format": "1000×1500 standard pin",
-      "description": "Ritual cue: an evidence-bounded visual guide from Outfit as Armor.",
+      "description": "A visual field guide to ritual cue, from Outfit as Armor.",
       "alt": "Evidence graphic introducing ritual cue and naming its source.",
       "credit": "Original evidence graphic · RN Collins · source: Ciaunica et al. · Frontiers in Psychology",
       "destination": "/exhibitions/outfit-as-armor/"
@@ -671,7 +702,7 @@
       "visualMode": "cleared-real-image",
       "visualRationale": "The cleared object is an effective discovery image for this claim.",
       "format": "1000×1500 standard pin",
-      "description": "When protection costs: an evidence-bounded visual guide from Outfit as Armor.",
+      "description": "A visual field guide to when protection costs, from Outfit as Armor.",
       "alt": "Fluted German field armor shown in three-quarter view with articulated joints and rounded helmet.",
       "credit": "Field Armor, Nuremberg armorer, maker unknown, ca. 1525 and later. The Metropolitan Museum of Art, Arms and Armor. 04.3.289. CC0.",
       "destination": "/exhibitions/outfit-as-armor/"
@@ -774,38 +805,53 @@
   "downloads": [
     {
       "assetId": "MET-23205",
-      "source": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/23205/2538317/main-image",
+      "source": "https://images.metmuseum.org/CRDImages/aa/original/DP-46028-001.jpg",
       "canonical": "https://www.metmuseum.org/art/collection/search/23205",
       "credit": "Armor, Maker unknown; assembled and restored in the 1920s, ca. 1400–1450 and later. The Metropolitan Museum of Art, Arms and Armor. 29.154.3. CC0.",
-      "rights": "CC0"
+      "rights": "CC0",
+      "sourceWidth": 2567,
+      "sourceHeight": 4000,
+      "cropSuitability": "Portrait master; full armor remains legible in a 4:5 crop."
     },
     {
       "assetId": "MET-27790",
       "source": "https://images.metmuseum.org/CRDImages/aa/original/DP-22969-001.jpg",
       "canonical": "https://www.metmuseum.org/art/collection/search/27790",
       "credit": "Portions of a Costume Armor, Kolman Helmschmid, ca. 1525. The Metropolitan Museum of Art, Arms and Armor. 24.179; 26.188.1, .2; 29.158.363a, b. CC0.",
-      "rights": "CC0"
+      "rights": "CC0",
+      "sourceWidth": 3564,
+      "sourceHeight": 4000,
+      "cropSuitability": "Large near-square object master with generous room for 4:5 detail selection."
     },
     {
       "assetId": "MET-22001",
       "source": "https://images.metmuseum.org/CRDImages/aa/original/DP341737.jpg",
       "canonical": "https://www.metmuseum.org/art/collection/search/22001",
       "credit": "Field Armor, Nuremberg armorer, maker unknown, ca. 1525 and later. The Metropolitan Museum of Art, Arms and Armor. 04.3.289. CC0.",
-      "rights": "CC0"
+      "rights": "CC0",
+      "sourceWidth": 2919,
+      "sourceHeight": 3894,
+      "cropSuitability": "Portrait armor master that retains the full silhouette in 4:5."
     },
     {
       "assetId": "MET-24671",
       "source": "https://images.metmuseum.org/CRDImages/aa/original/DP256970.jpg",
       "canonical": "https://www.metmuseum.org/art/collection/search/24671",
       "credit": "Armor of Henry II, King of France, Decoration design by Jean Cousin the Elder; possibly Baptiste Pellerin, ca. 1555. The Metropolitan Museum of Art, Arms and Armor. 39.121a–n. CC0.",
-      "rights": "CC0"
+      "rights": "CC0",
+      "sourceWidth": 2911,
+      "sourceHeight": 3880,
+      "cropSuitability": "Portrait armor master with full-object and construction-detail crop options."
     },
     {
       "assetId": "MET-22020",
       "source": "https://images.metmuseum.org/CRDImages/aa/original/DP264123.jpg",
       "canonical": "https://www.metmuseum.org/art/collection/search/22020",
       "credit": "Armor (Gusoku), Maker unknown, 19th century. The Metropolitan Museum of Art, Arms and Armor. 04.4.2. CC0.",
-      "rights": "CC0"
+      "rights": "CC0",
+      "sourceWidth": 1500,
+      "sourceHeight": 2000,
+      "cropSuitability": "Portrait armor master with adequate resolution for full-object 4:5 use."
     },
     {
       "assetId": "R62",

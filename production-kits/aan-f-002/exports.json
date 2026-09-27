@@ -30,13 +30,13 @@
       "kind": "instagram-carousel-a",
       "index": 3,
       "file": "/production-kits/aan-f-002/exports/instagram/carousel-a-frame-03.png",
-      "assetId": "R09",
-      "visualMode": "evidence-graphic",
-      "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-      "alt": "Evidence diagram explaining the meaning: the outfit can cue a role, memory or intention. this is interpretation—not fabric magic.; source named on slide.",
-      "credit": "Original evidence graphic · RN Collins · source: The Metropolitan Museum of Art · The Met",
-      "source": "https://www.metmuseum.org/-/media/files/learn/family-map-and-guides/what%20should%20i%20wear%20today.pdf",
-      "rights": "link-only"
+      "assetId": "MET-22020",
+      "visualMode": "cleared-real-image",
+      "visualRationale": "A rights-cleared documentary image directly grounds this part of the fashion story.",
+      "alt": "Japanese gusoku armor with horned helmet, lacquered plates, silk lacing and a patterned surcoat.",
+      "credit": "Armor (Gusoku), Maker unknown, 19th century. The Metropolitan Museum of Art, Arms and Armor. 04.4.2. CC0.",
+      "source": "https://www.metmuseum.org/art/collection/search/22020",
+      "rights": "CC0"
     },
     {
       "kind": "instagram-carousel-a",
@@ -114,13 +114,13 @@
       "kind": "instagram-carousel-b",
       "index": 2,
       "file": "/production-kits/aan-f-002/exports/instagram/carousel-b-frame-02.png",
-      "assetId": "R22",
-      "visualMode": "evidence-graphic",
-      "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-      "alt": "Evidence diagram explaining claim: “my clothes changed my nervous system.”; source named on slide.",
-      "credit": "Original evidence graphic · RN Collins · source: Botvinick and Cohen · Nature",
-      "source": "https://doi.org/10.1038/35784",
-      "rights": "link-only"
+      "assetId": "MET-22001",
+      "visualMode": "cleared-real-image",
+      "visualRationale": "A rights-cleared documentary image directly grounds this part of the fashion story.",
+      "alt": "Fluted German field armor shown in three-quarter view with articulated joints and rounded helmet.",
+      "credit": "Field Armor, Nuremberg armorer, maker unknown, ca. 1525 and later. The Metropolitan Museum of Art, Arms and Armor. 04.3.289. CC0.",
+      "source": "https://www.metmuseum.org/art/collection/search/22001",
+      "rights": "CC0"
     },
     {
       "kind": "instagram-carousel-b",
@@ -210,12 +210,12 @@
       "kind": "instagram-carousel-b",
       "index": 10,
       "file": "/production-kits/aan-f-002/exports/instagram/carousel-b-frame-10.png",
-      "assetId": "R02",
+      "assetId": "R87",
       "visualMode": "evidence-graphic",
       "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
       "alt": "Evidence diagram explaining boundary: compare several occasions. one memory is not a causal experiment.; source named on slide.",
-      "credit": "Original evidence graphic · RN Collins · source: Ciaunica et al. · Frontiers in Psychology",
-      "source": "https://doi.org/10.3389/fpsyg.2021.613587",
+      "credit": "Original evidence graphic · RN Collins · source: Stolovy et al. · Frontiers in Psychology",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8455911/",
       "rights": "link-only"
     },
     {
@@ -296,7 +296,7 @@
       "file": "/production-kits/aan-f-002/exports/youtube/thumbnail-2.png",
       "assetId": "MET-27790",
       "visualMode": "editorial-typography",
-      "visualRationale": "The alternate is intentionally typographic so the evidence boundary, not a repeated object, is the hook.",
+      "visualRationale": "The alternate is intentionally typographic so the research question, not a repeated object, is the hook.",
       "alt": "YouTube thumbnail option 2: Outfit as Armor",
       "credit": "Original editorial typography · RN Collins · source: Portions of a Costume Armor, Kolman Helmschmid, ca. 1525. The Metropolitan Museum of Art, Arms and Armor. 24.179; 26.188.1, .2; 29.158.363a, b. CC0.",
       "source": "https://www.metmuseum.org/art/collection/search/27790",
@@ -308,7 +308,7 @@
       "file": "/production-kits/aan-f-002/exports/storyboards/vertical-storyboard.png",
       "assetId": null,
       "alt": "Seven-beat vertical-video storyboard for Outfit as Armor",
-      "credit": "Original production graphic · RN Collins",
+      "credit": "Original editorial graphic · RN Collins",
       "source": "/production-kits/aan-f-002/platform-asset-kit.json",
       "rights": "Original publication asset"
     }

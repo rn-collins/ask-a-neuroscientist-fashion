@@ -36,7 +36,10 @@
       "licenseUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
       "credit": "Metronome, Johann Nepomuk Maelzel, ca. 1821. The Metropolitan Museum of Art, Musical Instruments. 1979.1.2. CC0.",
       "alt": "A pyramidal wooden Maelzel metronome with a numbered tempo scale and visible pendulum.",
-      "caption": "external pulse, timing and the limits of analogy"
+      "caption": "external pulse, timing and the limits of analogy",
+      "sourceWidth": 2489,
+      "sourceHeight": 4000,
+      "cropSuitability": "Tall metronome master suited to full-object and mechanism-detail 4:5 crops."
     },
     {
       "id": "MET-310563",
@@ -52,23 +55,10 @@
       "licenseUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
       "credit": "Drum, Nasca artist(s), 100–400 CE. The Metropolitan Museum of Art. 1978.412.111. CC0.",
       "alt": "A ceramic Nasca drum painted with a stylized figure and repeating geometric forms.",
-      "caption": "rhythmic sound as material culture"
-    },
-    {
-      "id": "MET-505646",
-      "type": "image",
-      "title": "Music Box",
-      "creator": "Maker unknown",
-      "date": "ca. 1810",
-      "institution": "The Metropolitan Museum of Art, Musical Instruments",
-      "rights": "CC0",
-      "disposition": "installed-object",
-      "canonicalUrl": "https://www.metmuseum.org/art/collection/search/505646",
-      "mediaUrl": "https://images.metmuseum.org/CRDImages/mi/original/210883.jpg",
-      "licenseUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
-      "credit": "Music Box, Maker unknown, ca. 1810. The Metropolitan Museum of Art, Musical Instruments. 1976.285.5. CC0.",
-      "alt": "A small rectangular early nineteenth-century music box with exposed metal mechanism.",
-      "caption": "stored sequence, repetition and memory"
+      "caption": "rhythmic sound as material culture",
+      "sourceWidth": 2978,
+      "sourceHeight": 3722,
+      "cropSuitability": "Portrait instrument master with sufficient negative space for editorial text."
     },
     {
       "id": "R06",
@@ -199,20 +189,96 @@
       "caption": "MDN Step Sequencer"
     },
     {
-      "id": "R79",
+      "id": "R91",
+      "type": "open-access research",
+      "title": "Live music stimulates the affective brain and emotionally entrains listeners in real time",
+      "creator": "Trost et al.",
+      "date": "2024",
+      "institution": "PNAS / PubMed Central",
+      "rights": "link-only",
+      "disposition": "resource-room",
+      "canonicalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10927510/",
+      "mediaUrl": null,
+      "licenseUrl": null,
+      "credit": "Trost et al. · PNAS",
+      "alt": "",
+      "caption": "Study comparing affective responses to live and recorded music"
+    },
+    {
+      "id": "S-MET-505644",
       "type": "image",
-      "title": "Runway at Fashion Show Mall (2010)",
-      "creator": "Jenny Mealing",
-      "date": "2010-06-25",
-      "institution": "Wikimedia Commons",
-      "rights": "CC BY",
+      "title": "Music Box",
+      "creator": "Maker unknown",
+      "date": "ca. 1820",
+      "institution": "The Metropolitan Museum of Art, Musical Instruments",
+      "rights": "CC0",
       "disposition": "installed-media",
-      "canonicalUrl": "https://commons.wikimedia.org/wiki/File:Runway_at_Fashion_Show_Mall_(2010).jpg",
-      "mediaUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Runway%20at%20Fashion%20Show%20Mall%20(2010).jpg",
-      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
-      "credit": "Jenny Mealing · Wikimedia Commons",
-      "alt": "A fashion runway with spectators gathered around it.",
-      "caption": "Runway at Fashion Show Mall (2010)"
+      "canonicalUrl": "https://www.metmuseum.org/art/collection/search/505644",
+      "mediaUrl": "https://images.metmuseum.org/CRDImages/mi/original/DP170002.jpg",
+      "licenseUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
+      "credit": "Music Box, ca. 1820 · The Metropolitan Museum of Art · 1976.285.3a–c · CC0",
+      "alt": "A mechanical music box photographed against a neutral museum background.",
+      "caption": "A physical timing mechanism makes musical sequence possible without determining a listener's response.",
+      "sourceWidth": 3000,
+      "sourceHeight": 4000,
+      "cropSuitability": "Portrait museum master with the full mechanism visible in 4:5."
+    },
+    {
+      "id": "S-MET-505642",
+      "type": "image",
+      "title": "Music Box",
+      "creator": "Maker unknown",
+      "date": "ca. 1810",
+      "institution": "The Metropolitan Museum of Art, Musical Instruments",
+      "rights": "CC0",
+      "disposition": "installed-media",
+      "canonicalUrl": "https://www.metmuseum.org/art/collection/search/505642",
+      "mediaUrl": "https://images.metmuseum.org/CRDImages/mi/original/DP169433.jpg",
+      "licenseUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
+      "credit": "Music Box, ca. 1810 · The Metropolitan Museum of Art · 1976.285.1a, b · CC0",
+      "alt": "An early nineteenth-century mechanical music box shown open against a neutral background.",
+      "caption": "Music reaches a scene through built mechanisms, timing and material vibration.",
+      "sourceWidth": 3000,
+      "sourceHeight": 4000,
+      "cropSuitability": "Portrait museum master with clean margins and mechanical details suitable for 4:5."
+    },
+    {
+      "id": "S-MET-505652",
+      "type": "image",
+      "title": "Music Box",
+      "creator": "Maker unknown",
+      "date": "ca. 1820",
+      "institution": "The Metropolitan Museum of Art, Musical Instruments",
+      "rights": "CC0",
+      "disposition": "installed-media",
+      "canonicalUrl": "https://www.metmuseum.org/art/collection/search/505652",
+      "mediaUrl": "https://images.metmuseum.org/CRDImages/mi/original/DP170006.jpg",
+      "licenseUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
+      "credit": "Music Box, ca. 1820 · The Metropolitan Museum of Art · 1976.285.11 · CC0",
+      "alt": "A compact nineteenth-century music box and its mechanical components displayed on a neutral ground.",
+      "caption": "A sound-producing object can organize a sequence while leaving perception and meaning to the situated listener.",
+      "sourceWidth": 4000,
+      "sourceHeight": 3000,
+      "cropSuitability": "Large landscape museum master with several clear 4:5 detail crops."
+    },
+    {
+      "id": "S-MET-505648",
+      "type": "image",
+      "title": "Music Box",
+      "creator": "Maker unknown",
+      "date": "early 19th century",
+      "institution": "The Metropolitan Museum of Art, Musical Instruments",
+      "rights": "CC0",
+      "disposition": "installed-media",
+      "canonicalUrl": "https://www.metmuseum.org/art/collection/search/505648",
+      "mediaUrl": "https://images.metmuseum.org/CRDImages/mi/original/DP169438.jpg",
+      "licenseUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
+      "credit": "Music Box, early 19th century · The Metropolitan Museum of Art · 1976.285.7 · CC0",
+      "alt": "An early nineteenth-century music box shown with its case open and mechanism visible.",
+      "caption": "The object makes a timed sound sequence possible while the surrounding scene shapes how it is heard.",
+      "sourceWidth": 3000,
+      "sourceHeight": 4000,
+      "cropSuitability": "Portrait museum master with mechanism and case both preserved in 4:5."
     }
   ],
   "carouselA": [
@@ -245,54 +311,54 @@
     {
       "frame": 3,
       "beat": "Pulse: a beat offers a forecast for the next moment.",
-      "assetId": "R11",
-      "visualMode": "evidence-graphic",
-      "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-      "crop": "4:5 purpose-built evidence diagram with source identity and claim boundary",
+      "assetId": "S-MET-505642",
+      "visualMode": "cleared-real-image",
+      "visualRationale": "A rights-cleared documentary image directly grounds this part of the fashion story.",
+      "crop": "Portrait museum master with clean margins and mechanical details suitable for 4:5.",
       "overlay": "Pulse: a beat offers a forecast for the next moment.",
-      "caption": "Pulse: a beat offers a forecast for the next moment. Fashion runway2.jpg",
-      "credit": "Original evidence graphic · RN Collins · source: Accra Technical University contributor · Wikimedia Commons",
-      "alt": "Evidence diagram explaining pulse: a beat offers a forecast for the next moment.; source named on slide.",
-      "boundary": "Do not imply this object proves a neural mechanism."
+      "caption": "Pulse: a beat offers a forecast for the next moment. Music reaches a scene through built mechanisms, timing and material vibration.",
+      "credit": "Music Box, ca. 1810 · The Metropolitan Museum of Art · 1976.285.1a, b · CC0",
+      "alt": "An early nineteenth-century mechanical music box shown open against a neutral background.",
+      "boundary": "The photograph documents a material object or scene; it does not measure a neural mechanism or universal response."
     },
     {
       "frame": 4,
       "beat": "Expectation: repetition and surprise shape attention.",
-      "assetId": "MET-505646",
+      "assetId": "S-MET-505644",
       "visualMode": "cleared-real-image",
       "visualRationale": "A material object makes this embodied claim more legible than decoration or type alone.",
       "crop": "4:5 detail crop; preserve identifying construction",
       "overlay": "Expectation: repetition and surprise shape attention.",
-      "caption": "Expectation: repetition and surprise shape attention. stored sequence, repetition and memory",
-      "credit": "Music Box, Maker unknown, ca. 1810. The Metropolitan Museum of Art, Musical Instruments. 1976.285.5. CC0.",
-      "alt": "A small rectangular early nineteenth-century music box with exposed metal mechanism.",
+      "caption": "A physical timing mechanism makes musical sequence possible without determining a listener's response.",
+      "credit": "Music Box, ca. 1820 · The Metropolitan Museum of Art · 1976.285.3a–c · CC0",
+      "alt": "A mechanical music box photographed against a neutral museum background.",
       "boundary": "Do not imply this object proves a neural mechanism."
     },
     {
       "frame": 5,
       "beat": "Movement: rhythm may invite alignment; it does not command it.",
-      "assetId": "R47",
-      "visualMode": "evidence-graphic",
-      "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-      "crop": "4:5 purpose-built evidence diagram with source identity and claim boundary",
+      "assetId": "S-MET-505652",
+      "visualMode": "cleared-real-image",
+      "visualRationale": "A rights-cleared documentary image directly grounds this part of the fashion story.",
+      "crop": "Large landscape museum master with several clear 4:5 detail crops.",
       "overlay": "Movement: rhythm may invite alignment; it does not command it.",
-      "caption": "Movement: rhythm may invite alignment; it does not command it. Psychology of music",
-      "credit": "Original evidence graphic · RN Collins · source: American Psychological Association · APA",
-      "alt": "Evidence diagram explaining movement: rhythm may invite alignment; it does not command it.; source named on slide.",
-      "boundary": "Do not imply this object proves a neural mechanism."
+      "caption": "Movement: rhythm may invite alignment; it does not command it. A sound-producing object can organize a sequence while leaving perception and meaning to the situated listener.",
+      "credit": "Music Box, ca. 1820 · The Metropolitan Museum of Art · 1976.285.11 · CC0",
+      "alt": "A compact nineteenth-century music box and its mechanical components displayed on a neutral ground.",
+      "boundary": "The photograph documents a material object or scene; it does not measure a neural mechanism or universal response."
     },
     {
       "frame": 6,
       "beat": "Image + memory: sound frames what you see and may cue your history.",
-      "assetId": "R79",
+      "assetId": "S-MET-505648",
       "visualMode": "cleared-real-image",
-      "visualRationale": "A material object makes this embodied claim more legible than decoration or type alone.",
-      "crop": "4:5 detail crop; preserve identifying construction",
+      "visualRationale": "A rights-cleared documentary image directly grounds this part of the fashion story.",
+      "crop": "Portrait museum master with mechanism and case both preserved in 4:5.",
       "overlay": "Image + memory: sound frames what you see and may cue your history.",
-      "caption": "Image + memory: sound frames what you see and may cue your history. Runway at Fashion Show Mall (2010)",
-      "credit": "Jenny Mealing · Wikimedia Commons",
-      "alt": "A fashion runway with spectators gathered around it.",
-      "boundary": "Do not imply this object proves a neural mechanism."
+      "caption": "Image + memory: sound frames what you see and may cue your history. The object makes a timed sound sequence possible while the surrounding scene shapes how it is heard.",
+      "credit": "Music Box, early 19th century · The Metropolitan Museum of Art · 1976.285.7 · CC0",
+      "alt": "An early nineteenth-century music box shown with its case open and mechanism visible.",
+      "boundary": "The photograph documents a material object or scene; it does not measure a neural mechanism or universal response."
     },
     {
       "frame": 7,
@@ -312,54 +378,54 @@
     {
       "frame": 1,
       "beat": "No: a runway beat does not take over a brain.",
-      "assetId": "MET-505646",
+      "assetId": "S-MET-505644",
       "visualMode": "cleared-real-image",
       "visualRationale": "A material object makes this embodied claim more legible than decoration or type alone.",
       "crop": "4:5 full object with generous negative space",
       "overlay": "No: a runway beat does not take over a brain.",
-      "caption": "No: a runway beat does not take over a brain. stored sequence, repetition and memory",
-      "credit": "Music Box, Maker unknown, ca. 1810. The Metropolitan Museum of Art, Musical Instruments. 1976.285.5. CC0.",
-      "alt": "A small rectangular early nineteenth-century music box with exposed metal mechanism.",
+      "caption": "A physical timing mechanism makes musical sequence possible without determining a listener's response.",
+      "credit": "Music Box, ca. 1820 · The Metropolitan Museum of Art · 1976.285.3a–c · CC0",
+      "alt": "A mechanical music box photographed against a neutral museum background.",
       "boundary": "Do not imply this object proves a neural mechanism."
     },
     {
       "frame": 2,
       "beat": "In music science, entrainment describes alignment with temporal structure.",
-      "assetId": "R47",
-      "visualMode": "evidence-graphic",
-      "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-      "crop": "4:5 purpose-built evidence diagram with source identity and claim boundary",
+      "assetId": "S-MET-505642",
+      "visualMode": "cleared-real-image",
+      "visualRationale": "A rights-cleared documentary image directly grounds this part of the fashion story.",
+      "crop": "Portrait museum master with clean margins and mechanical details suitable for 4:5.",
       "overlay": "In music science, entrainment describes alignment with temporal structure.",
-      "caption": "In music science, entrainment describes alignment with temporal structure. Psychology of music",
-      "credit": "Original evidence graphic · RN Collins · source: American Psychological Association · APA",
-      "alt": "Evidence diagram explaining in music science, entrainment describes alignment with temporal structure.; source named on slide.",
-      "boundary": "Do not imply this object proves a neural mechanism."
+      "caption": "In music science, entrainment describes alignment with temporal structure. Music reaches a scene through built mechanisms, timing and material vibration.",
+      "credit": "Music Box, ca. 1810 · The Metropolitan Museum of Art · 1976.285.1a, b · CC0",
+      "alt": "An early nineteenth-century mechanical music box shown open against a neutral background.",
+      "boundary": "The photograph documents a material object or scene; it does not measure a neural mechanism or universal response."
     },
     {
       "frame": 3,
       "beat": "Beat perception involves distributed auditory and motor systems.",
-      "assetId": "R79",
+      "assetId": "S-MET-505648",
       "visualMode": "cleared-real-image",
-      "visualRationale": "A material object makes this embodied claim more legible than decoration or type alone.",
-      "crop": "4:5 full object with generous negative space",
+      "visualRationale": "A rights-cleared documentary image directly grounds this part of the fashion story.",
+      "crop": "Portrait museum master with mechanism and case both preserved in 4:5.",
       "overlay": "Beat perception involves distributed auditory and motor systems.",
-      "caption": "Beat perception involves distributed auditory and motor systems. Runway at Fashion Show Mall (2010)",
-      "credit": "Jenny Mealing · Wikimedia Commons",
-      "alt": "A fashion runway with spectators gathered around it.",
-      "boundary": "Do not imply this object proves a neural mechanism."
+      "caption": "Beat perception involves distributed auditory and motor systems. The object makes a timed sound sequence possible while the surrounding scene shapes how it is heard.",
+      "credit": "Music Box, early 19th century · The Metropolitan Museum of Art · 1976.285.7 · CC0",
+      "alt": "An early nineteenth-century music box shown with its case open and mechanism visible.",
+      "boundary": "The photograph documents a material object or scene; it does not measure a neural mechanism or universal response."
     },
     {
       "frame": 4,
       "beat": "People may tap, sway, predict—or choose not to move.",
-      "assetId": "R77",
-      "visualMode": "evidence-graphic",
-      "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
-      "crop": "4:5 purpose-built evidence diagram with source identity and claim boundary",
+      "assetId": "S-MET-505652",
+      "visualMode": "cleared-real-image",
+      "visualRationale": "A rights-cleared documentary image directly grounds this part of the fashion story.",
+      "crop": "Large landscape museum master with several clear 4:5 detail crops.",
       "overlay": "People may tap, sway, predict—or choose not to move.",
-      "caption": "People may tap, sway, predict—or choose not to move. Videos of fashion shows category",
-      "credit": "Original evidence graphic · RN Collins · source: Wikimedia Commons contributors · Wikimedia Commons",
-      "alt": "Evidence diagram explaining people may tap, sway, predict—or choose not to move.; source named on slide.",
-      "boundary": "Do not imply this object proves a neural mechanism."
+      "caption": "People may tap, sway, predict—or choose not to move. A sound-producing object can organize a sequence while leaving perception and meaning to the situated listener.",
+      "credit": "Music Box, ca. 1820 · The Metropolitan Museum of Art · 1976.285.11 · CC0",
+      "alt": "A compact nineteenth-century music box and its mechanical components displayed on a neutral ground.",
+      "boundary": "The photograph documents a material object or scene; it does not measure a neural mechanism or universal response."
     },
     {
       "frame": 5,
@@ -377,15 +443,15 @@
     {
       "frame": 6,
       "beat": "Lab tapping and clinical gait studies are adjacent evidence, not proof of a Fashion Week mechanism.",
-      "assetId": "R06",
+      "assetId": "R91",
       "visualMode": "evidence-graphic",
       "visualRationale": "A sourced evidence plate communicates this claim more precisely than an atmospheric photograph.",
       "crop": "4:5 purpose-built evidence diagram with source identity and claim boundary",
       "overlay": "Lab tapping and clinical gait studies are adjacent evidence, not proof of a Fashion Week mechanism.",
-      "caption": "Lab tapping and clinical gait studies are adjacent evidence, not proof of a Fashion Week mechanism. The Action Simulation for Auditory Prediction hypothesis",
-      "credit": "Original evidence graphic · RN Collins · source: Patel; Iversen · PubMed Central",
+      "caption": "Lab tapping and clinical gait studies are adjacent evidence, not proof of a Fashion Week mechanism. Study comparing affective responses to live and recorded music",
+      "credit": "Original evidence graphic · RN Collins · source: Trost et al. · PNAS",
       "alt": "Evidence diagram explaining lab tapping and clinical gait studies are adjacent evidence, not proof of a fashion week mechanism.; source named on slide.",
-      "boundary": "Source identity only; protected media is not reproduced."
+      "boundary": "Do not imply this object proves a neural mechanism."
     },
     {
       "frame": 7,
@@ -474,7 +540,7 @@
       "visualMode": "cleared-real-image",
       "visualRationale": "The cleared object is an effective discovery image for this claim.",
       "format": "1000×1500 standard pin",
-      "description": "Runway as sound scene: an evidence-bounded visual guide from The Listening Room.",
+      "description": "A visual field guide to runway as sound scene, from The Listening Room.",
       "alt": "A pyramidal wooden Maelzel metronome with a numbered tempo scale and visible pendulum.",
       "credit": "Metronome, Johann Nepomuk Maelzel, ca. 1821. The Metropolitan Museum of Art, Musical Instruments. 1979.1.2. CC0.",
       "destination": "/exhibitions/runway-soundtracks/"
@@ -486,7 +552,7 @@
       "visualMode": "evidence-graphic",
       "visualRationale": "A legible evidence graphic is stronger and more accurate than repeating the available object.",
       "format": "1000×1500 standard pin",
-      "description": "Beat and prediction: an evidence-bounded visual guide from The Listening Room.",
+      "description": "A visual field guide to beat and prediction, from The Listening Room.",
       "alt": "Evidence graphic introducing beat and prediction and naming its source.",
       "credit": "Original evidence graphic · RN Collins · source: Accra Technical University contributor · Wikimedia Commons",
       "destination": "/exhibitions/runway-soundtracks/"
@@ -498,7 +564,7 @@
       "visualMode": "cleared-real-image",
       "visualRationale": "The cleared object is an effective discovery image for this claim.",
       "format": "1000×1500 standard pin",
-      "description": "Expectation: an evidence-bounded visual guide from The Listening Room.",
+      "description": "A visual field guide to expectation, from The Listening Room.",
       "alt": "A ceramic Nasca drum painted with a stylized figure and repeating geometric forms.",
       "credit": "Drum, Nasca artist(s), 100–400 CE. The Metropolitan Museum of Art. 1978.412.111. CC0.",
       "destination": "/exhibitions/runway-soundtracks/"
@@ -510,7 +576,7 @@
       "visualMode": "evidence-graphic",
       "visualRationale": "A legible evidence graphic is stronger and more accurate than repeating the available object.",
       "format": "1000×1500 standard pin",
-      "description": "Memory music: an evidence-bounded visual guide from The Listening Room.",
+      "description": "A visual field guide to memory music, from The Listening Room.",
       "alt": "Evidence graphic introducing memory music and naming its source.",
       "credit": "Original evidence graphic · RN Collins · source: Article authors · BJPsych International / PMC",
       "destination": "/exhibitions/runway-soundtracks/"
@@ -518,13 +584,13 @@
     {
       "pin": 5,
       "title": "Listening map",
-      "assetId": "MET-505646",
+      "assetId": "S-MET-505644",
       "visualMode": "cleared-real-image",
       "visualRationale": "The cleared object is an effective discovery image for this claim.",
       "format": "1000×1500 standard pin",
-      "description": "Listening map: an evidence-bounded visual guide from The Listening Room.",
-      "alt": "A small rectangular early nineteenth-century music box with exposed metal mechanism.",
-      "credit": "Music Box, Maker unknown, ca. 1810. The Metropolitan Museum of Art, Musical Instruments. 1976.285.5. CC0.",
+      "description": "A visual field guide to listening map, from The Listening Room.",
+      "alt": "A mechanical music box photographed against a neutral museum background.",
+      "credit": "Music Box, ca. 1820 · The Metropolitan Museum of Art · 1976.285.3a–c · CC0",
       "destination": "/exhibitions/runway-soundtracks/"
     }
   ],
@@ -539,9 +605,9 @@
     {
       "time": "01:30",
       "chapter": "Pulse predicts time",
-      "assetId": "MET-505646",
+      "assetId": "S-MET-505644",
       "treatment": "Evidence split-screen with source citation",
-      "credit": "Music Box, Maker unknown, ca. 1810. The Metropolitan Museum of Art, Musical Instruments. 1976.285.5. CC0."
+      "credit": "Music Box, ca. 1820 · The Metropolitan Museum of Art · 1976.285.3a–c · CC0"
     },
     {
       "time": "03:00",
@@ -596,9 +662,9 @@
       },
       {
         "position": "after first evidence section",
-        "assetId": "MET-505646",
-        "caption": "stored sequence, repetition and memory",
-        "credit": "Music Box, Maker unknown, ca. 1810. The Metropolitan Museum of Art, Musical Instruments. 1976.285.5. CC0."
+        "assetId": "S-MET-505644",
+        "caption": "A physical timing mechanism makes musical sequence possible without determining a listener's response.",
+        "credit": "Music Box, ca. 1820 · The Metropolitan Museum of Art · 1976.285.3a–c · CC0"
       },
       {
         "position": "before boundary",
@@ -628,28 +694,60 @@
       "source": "https://images.metmuseum.org/CRDImages/mi/original/215848.jpg",
       "canonical": "https://www.metmuseum.org/art/collection/search/503169",
       "credit": "Metronome, Johann Nepomuk Maelzel, ca. 1821. The Metropolitan Museum of Art, Musical Instruments. 1979.1.2. CC0.",
-      "rights": "CC0"
+      "rights": "CC0",
+      "sourceWidth": 2489,
+      "sourceHeight": 4000,
+      "cropSuitability": "Tall metronome master suited to full-object and mechanism-detail 4:5 crops."
     },
     {
       "assetId": "MET-310563",
       "source": "https://images.metmuseum.org/CRDImages/ao/original/DT1271.jpg",
       "canonical": "https://www.metmuseum.org/art/collection/search/310563",
       "credit": "Drum, Nasca artist(s), 100–400 CE. The Metropolitan Museum of Art. 1978.412.111. CC0.",
-      "rights": "CC0"
+      "rights": "CC0",
+      "sourceWidth": 2978,
+      "sourceHeight": 3722,
+      "cropSuitability": "Portrait instrument master with sufficient negative space for editorial text."
     },
     {
-      "assetId": "MET-505646",
-      "source": "https://images.metmuseum.org/CRDImages/mi/original/210883.jpg",
-      "canonical": "https://www.metmuseum.org/art/collection/search/505646",
-      "credit": "Music Box, Maker unknown, ca. 1810. The Metropolitan Museum of Art, Musical Instruments. 1976.285.5. CC0.",
-      "rights": "CC0"
+      "assetId": "S-MET-505644",
+      "source": "https://images.metmuseum.org/CRDImages/mi/original/DP170002.jpg",
+      "canonical": "https://www.metmuseum.org/art/collection/search/505644",
+      "credit": "Music Box, ca. 1820 · The Metropolitan Museum of Art · 1976.285.3a–c · CC0",
+      "rights": "CC0",
+      "sourceWidth": 3000,
+      "sourceHeight": 4000,
+      "cropSuitability": "Portrait museum master with the full mechanism visible in 4:5."
     },
     {
-      "assetId": "R79",
-      "source": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Runway%20at%20Fashion%20Show%20Mall%20(2010).jpg",
-      "canonical": "https://commons.wikimedia.org/wiki/File:Runway_at_Fashion_Show_Mall_(2010).jpg",
-      "credit": "Jenny Mealing · Wikimedia Commons",
-      "rights": "CC BY"
+      "assetId": "S-MET-505642",
+      "source": "https://images.metmuseum.org/CRDImages/mi/original/DP169433.jpg",
+      "canonical": "https://www.metmuseum.org/art/collection/search/505642",
+      "credit": "Music Box, ca. 1810 · The Metropolitan Museum of Art · 1976.285.1a, b · CC0",
+      "rights": "CC0",
+      "sourceWidth": 3000,
+      "sourceHeight": 4000,
+      "cropSuitability": "Portrait museum master with clean margins and mechanical details suitable for 4:5."
+    },
+    {
+      "assetId": "S-MET-505652",
+      "source": "https://images.metmuseum.org/CRDImages/mi/original/DP170006.jpg",
+      "canonical": "https://www.metmuseum.org/art/collection/search/505652",
+      "credit": "Music Box, ca. 1820 · The Metropolitan Museum of Art · 1976.285.11 · CC0",
+      "rights": "CC0",
+      "sourceWidth": 4000,
+      "sourceHeight": 3000,
+      "cropSuitability": "Large landscape museum master with several clear 4:5 detail crops."
+    },
+    {
+      "assetId": "S-MET-505648",
+      "source": "https://images.metmuseum.org/CRDImages/mi/original/DP169438.jpg",
+      "canonical": "https://www.metmuseum.org/art/collection/search/505648",
+      "credit": "Music Box, early 19th century · The Metropolitan Museum of Art · 1976.285.7 · CC0",
+      "rights": "CC0",
+      "sourceWidth": 3000,
+      "sourceHeight": 4000,
+      "cropSuitability": "Portrait museum master with mechanism and case both preserved in 4:5."
     }
   ]
 }
